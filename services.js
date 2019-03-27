@@ -1,128 +1,175 @@
-getAllStops: function() {
-    console.log('getting stops');
-    var q = $q.defer();
+var ApiEndpoint = 'https://www.metlink.org.nz/api/v1';
+var ApiEndpointRouteMap = 'https://www.metlink.org.nz/timetables';
 
-    $ionicPlatform.ready(function() {
-      // First see if we need to clear out our data
-      console.log('preferences start');
-      Preferences.get('StopDataLastUpdated')
-        .then(function(val) {
-          console.log(val);
-          updateStopData(q, val);
-        }, function(error) {
-          console.log('no lastupdated found');
-          updateStopData(q, false);
-        });
+function allServiceUpdates() {
+  console.log('ServiceUpdates.all');
+  var deferred = $q.defer();
+
+  $http.get(ApiEndpoint + '/ServiceNotices/')
+    .success(function(data, status) {
+
+      // Merge Disruptions and Delays into one array
+      if (data.Disruptions && data.Disruptions.length > 0) {
+        for (var i = 0; i < data.Disruptions.length; i++) {
+          if (data.Disruptions[i].AffectedLines) {
+            data.Disruptions[i].AffectedLinesArray = data.Disruptions[i].AffectedLines.split(',');
+          }
+
+          data.Disruptions[i].Blurb = data.Disruptions[i].Content_Plaintext.substring(0, 100) + '...';
+
+          updates.push(data.Disruptions[i]);
+        }
+      }
+
+      if (data.Delays && data.Delays.length > 0) {
+        for (var i = 0; i < data.Delays.length; i++) {
+          if (data.Delays[i].AffectedLines) {
+            data.Delays[i].AffectedLinesArray = data.Delays[i].AffectedLines.split(',');
+          }
+
+          // Note, Delays have no blurb
+          updates.push(data.Delays[i]);
+        }
+      }
+
+      deferred.resolve(updates);
+    })
+    .error(function(data, status) {
+
+      deferred.reject(data);
     });
-    console.log('preferences end');
 
-    return q.promise;
-  },
-  getStopDepartures: function(sms) {
-    console.log('getting departures');
+  return deferred.promise;
+}
 
-    var deferred = $q.defer();
+function getAllStops() {
+  console.log('getting stops');
+  var q = $q.defer();
 
-    $http.get(ApiEndpoint + '/StopDepartures/' + sms)
-      .success(function(data, status) {
+  $ionicPlatform.ready(function() {
+    // First see if we need to clear out our data
+    console.log('preferences start');
+    Preferences.get('StopDataLastUpdated')
+      .then(function(val) {
+        console.log(val);
+        updateStopData(q, val);
+      }, function(error) {
+        console.log('no lastupdated found');
+        updateStopData(q, false);
+      });
+  });
+  console.log('preferences end');
 
-        // To-Do:
-        // Turn favourite services into their own factory?
+  return q.promise;
+}
 
-        // Now get the favourite services for below
-        $ionicPlatform.ready(function() {
-          db.transaction(function(tx) {
-            //tx.executeSql('DELETE FROM Services');
-            tx.executeSql('SELECT Code FROM FavouriteServices', [], function(tx, rs) {
-              var favServices = [];
-              if (rs.rows.length > 0) {
-                for (var i = 0; i < rs.rows.length; i++) {
-                  favServices.push(rs.rows.item(i)
-                    .Code);
+function getStopDepartures(sms) {
+  console.log('getting departures');
+
+  var deferred = $q.defer();
+
+  $http.get(ApiEndpoint + '/StopDepartures/' + sms)
+    .success(function(data, status) {
+
+      // To-Do:
+      // Turn favourite services into their own factory?
+
+      // Now get the favourite services for below
+      $ionicPlatform.ready(function() {
+        db.transaction(function(tx) {
+          //tx.executeSql('DELETE FROM Services');
+          tx.executeSql('SELECT Code FROM FavouriteServices', [], function(tx, rs) {
+            var favServices = [];
+            if (rs.rows.length > 0) {
+              for (var i = 0; i < rs.rows.length; i++) {
+                favServices.push(rs.rows.item(i)
+                  .Code);
+              }
+            }
+
+            // To-Do: move this out of the sql transaction and chain it?
+            data.Stop['StopName'] = 'Stop ' + data.Stop.Sms;
+
+            // Loop through, add extra values
+            if (data.Services) {
+              for (var i in data.Services) {
+                var service = data.Services[i];
+
+                service.MinsAway = moment(service.DisplayDeparture)
+                  .diff(moment(data.LastModified), 'minutes');
+                service.DisplayDepartureFormatted = moment(service.DisplayDeparture)
+                  .format('h:mma');
+                if (service.MinsAway <= 2) {
+                  service.IsDue = true;
+                } else {
+                  service.IsDue = false;
+                }
+
+                if (favServices.indexOf(service.Service.TrimmedCode) != -1) {
+                  service.IsFavourite = true;
                 }
               }
+            }
 
-              // To-Do: move this out of the sql transaction and chain it?
-              data.Stop['StopName'] = 'Stop ' + data.Stop.Sms;
-
-              // Loop through, add extra values
-              if (data.Services) {
-                for (var i in data.Services) {
-                  var service = data.Services[i];
-
-                  service.MinsAway = moment(service.DisplayDeparture)
-                    .diff(moment(data.LastModified), 'minutes');
-                  service.DisplayDepartureFormatted = moment(service.DisplayDeparture)
-                    .format('h:mma');
-                  if (service.MinsAway <= 2) {
-                    service.IsDue = true;
-                  } else {
-                    service.IsDue = false;
-                  }
-
-                  if (favServices.indexOf(service.Service.TrimmedCode) != -1) {
-                    service.IsFavourite = true;
-                  }
-                }
-              }
-
-              deferred.resolve(data);
-            });
+            deferred.resolve(data);
           });
         });
-      })
-      .error(function(data, status) {
-        deferred.reject(data);
       });
-
-    return deferred.promise;
-  },
-  getRouteMap: function(mode, code, direction) {
-    var deferred = $q.defer();
-
-    $http.get(ApiEndpointRouteMap + '/' + mode.toLowerCase() + '/' + code.toUpperCase() + '/' + direction.toLowerCase() + '/mapdatajson')
-      .success(function(data, status) {
-
-        return deferred.resolve(data);
-      })
-      .error(function(data, status) {
-
-        deferred.reject(data);
-      });
-
-    return deferred.promise;
-  },
-  getServiceLocations: function(code, direction) {
-    var deferred = $q.defer();
-
-    $http.get(ApiEndpoint + '/ServiceLocation/' + code.toUpperCase())
-      .success(function(data, status) {
-
-        return deferred.resolve(data);
-      })
-      .error(function(data, status) {
-
-        deferred.reject(data);
-      });
-
-    return deferred.promise;
-  },
-  getAllServices: function() {
-    console.log('getting services');
-    var q = $q.defer();
-
-    $ionicPlatform.ready(function() {
-      // First see if we need to clear out our data
-      Preferences.get('ServicesDataLastUpdated')
-        .then(function(val) {
-          updateServiceData(q, val);
-        }, function(error) {
-          updateServiceData(q, false);
-        });
+    })
+    .error(function(data, status) {
+      deferred.reject(data);
     });
 
-    return q.promise;
-  }
+  return deferred.promise;
+}
+
+function getRouteMap(mode, code, direction) {
+  var deferred = $q.defer();
+
+  $http.get(ApiEndpointRouteMap + '/' + mode.toLowerCase() + '/' + code.toUpperCase() + '/' + direction.toLowerCase() + '/mapdatajson')
+    .success(function(data, status) {
+
+      return deferred.resolve(data);
+    })
+    .error(function(data, status) {
+
+      deferred.reject(data);
+    });
+
+  return deferred.promise;
+}
+
+function getServiceLocations(code, direction) {
+  var deferred = $q.defer();
+
+  $http.get(ApiEndpoint + '/ServiceLocation/' + code.toUpperCase())
+    .success(function(data, status) {
+
+      return deferred.resolve(data);
+    })
+    .error(function(data, status) {
+
+      deferred.reject(data);
+    });
+
+  return deferred.promise;
+}
+
+function getAllServices() {
+  console.log('getting services');
+  var q = $q.defer();
+
+  $ionicPlatform.ready(function() {
+    // First see if we need to clear out our data
+    Preferences.get('ServicesDataLastUpdated')
+      .then(function(val) {
+        updateServiceData(q, val);
+      }, function(error) {
+        updateServiceData(q, false);
+      });
+  });
+
+  return q.promise;
 }
 
 function updateServiceData(q, val) {
