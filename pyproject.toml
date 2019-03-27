@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "metlink-api"
+version = "0.1.0"
+description = ""
+authors = ["Lee Symes <leesdolphin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+alembic = "^1.0"
+SqlAlchemy = "^1.3"
+requests = "^2.21"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
