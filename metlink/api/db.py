@@ -24,7 +24,7 @@ class Stops(Base):
     @property
     def position(self):
         with decimal.localcontext() as ctx:
-            ctx.precision = 7
+            ctx.prec = 7
             # MetLink returns lat/long with 7 decimals, which is ~11mm at the equator.
             return (decimal.Decimal(self.lat), decimal.Decimal(self.long))
 
@@ -32,7 +32,7 @@ class Stops(Base):
     def position(self, value):
         raw_lat, raw_long = value
         with decimal.localcontext() as ctx:
-            ctx.precision = 7
+            ctx.prec = 7
             (self.lat, self.long) = (
                 str(decimal.Decimal(raw_lat)),
                 str(decimal.Decimal(raw_long)),
@@ -44,7 +44,19 @@ class Services(Base):
     name = Column(String)
     code = Column(String, primary_key=True)
     mode = Column(String)
+    link = Column(String)
     last_modified = Column(String)
+    schools_str = Column(String)
+
+    @property
+    def schools(self):
+        return [school.trim() for school in self.school_str.split(",") if school.trim()]
+
+    @schools.setter
+    def schools(self, value):
+        for v in value:
+            assert "," not in v
+        self.schools_str = ", ".join(v.strip() for v in value)
 
 
 def create_db():
