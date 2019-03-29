@@ -1,7 +1,6 @@
-from .session import get_session
 from . import API_V1_BASE
-from .db import Session, create_db, Services
-import datetime as dt
+from .db import Service, create_db, db_session
+from .session import get_session
 
 
 # The caps come from the JSON, don't change them <3
@@ -16,9 +15,9 @@ def load_service(
     if kwargs:
         print(f"Warning(Svc {Code}): extra stop arguments recieved: {list(kwargs)}")
 
-    return Services(
-        name=Code,
-        code=Name,
+    return Service(
+        code=Code,
+        name=Name,
         mode=Mode,
         link=Link,
         last_modified=LastModified,
@@ -26,14 +25,16 @@ def load_service(
     )
 
 
-def main():
-    create_db()
+def import_services():
     with get_session().get(f"{API_V1_BASE}/ServiceList/") as resp:
         resp.raise_for_status()
         data = resp.json()
-    session = Session()
-    session.add_all(list(filter(None, (load_service(**stop) for stop in data))))
-    session.commit()
+    with db_session() as session:
+        session.add_all(list(filter(None, (load_service(**stop) for stop in data))))
+
+
+def main():
+    create_db()
 
 
 if __name__ == "__main__":

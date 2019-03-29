@@ -1,9 +1,10 @@
+import contextlib
+import decimal
 import pathlib
 
-from sqlalchemy import Column, String, create_engine, Numeric
+from sqlalchemy import Column, ForeignKey, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import decimal
 
 ROOT = (pathlib.Path(__file__).parent / "../..").resolve()
 DB = ROOT / "db.sqlite3"
@@ -12,7 +13,7 @@ Base = declarative_base()
 Session = sessionmaker()
 
 
-class Stops(Base):
+class Stop(Base):
     __tablename__ = "stops"
     name = Column(String)
     sms = Column(String, primary_key=True)
@@ -39,7 +40,7 @@ class Stops(Base):
             )
 
 
-class Services(Base):
+class Service(Base):
     __tablename__ = "services"
     name = Column(String)
     code = Column(String, primary_key=True)
@@ -57,6 +58,27 @@ class Services(Base):
         for v in value:
             assert "," not in v
         self.schools_str = ", ".join(v.strip() for v in value)
+
+
+class ServiceRoute(Base):
+    __tablename__ = "service_routes"
+
+    code = Column(String, ForeignKey("services.name"), primary_key=True)
+    direction = Column(String, primary_key=True)
+    points_str = Column(String)
+    lines_str = Column(String)
+
+
+@contextlib.contextmanager
+def db_session():
+    session = Session()
+    try:
+        yield session
+    except:
+        session.rollback()
+        raise
+    else:
+        session.commit()
 
 
 def create_db():

@@ -1,8 +1,9 @@
-from .session import get_session
-from . import API_V1_BASE
-from .db import Session, create_db, Stops
-import decimal
 import datetime as dt
+import decimal
+
+from . import API_V1_BASE
+from .db import Stop, create_db, db_session
+from .session import get_session
 
 
 # The caps come from the JSON, don't change them <3
@@ -20,7 +21,7 @@ def load_stop(*, Name, Sms, Farezone, Lat, Long, LastModified, **kwargs):
         return None
     del Lat, Long  # Save me some pain debugging
 
-    return Stops(
+    return Stop(
         name=Name,
         sms=Sms,
         fare_zone=Farezone,
@@ -30,14 +31,19 @@ def load_stop(*, Name, Sms, Farezone, Lat, Long, LastModified, **kwargs):
     )
 
 
-def main():
-    create_db()
+def import_stops():
     with get_session().get(f"{API_V1_BASE}/StopList/") as resp:
         resp.raise_for_status()
         data = resp.json()
-    session = Session()
-    session.add_all(list(filter(None, (load_stop(**stop) for stop in data["Stops"]))))
-    session.commit()
+    with db_session() as session:
+        session.add_all(
+            list(filter(None, (load_stop(**stop) for stop in data["Stops"])))
+        )
+
+
+def main():
+    create_db()
+    import_stops()
 
 
 if __name__ == "__main__":
