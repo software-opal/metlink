@@ -40,8 +40,9 @@ def download_service_route(req, service, direction):
             url, params={"date": None if weekday is None else next_dow[weekday]}
         ) as resp:
             if resp.status_code == 404:
-                # The bus does not run today, so we can't see it's route
+                # The bus does not run today, so we can't see it's route.
                 # Why? *shrug*
+                # Ex: https://www.metlink.org.nz/timetables/bus/264/inbound
                 continue
             resp.raise_for_status()
             return resp.json()
@@ -62,6 +63,7 @@ def import_service_routes():
 
     with db_session() as db, get_session() as req:
         services = session.query(Service).all()
+        routes = []
         for service in services:
             for direction in ["inbound", "outbound"]:
                 print(f"Service: {service.code}/{direction}")
@@ -69,7 +71,8 @@ def import_service_routes():
                 if data:
                     route = load_service_routes(service, direction, **data)
                     if route:
-                        db.add(route)
+                        routes.append(route)
+        db.add_all(routes)
 
 
 def main():

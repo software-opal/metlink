@@ -10,7 +10,6 @@ SqlAlchemy = "^1.3"
 requests = "^2.21"
 cachecontrol = {version = "^0.12.5",extras = ["filecache"]}
 geojson = "^2.4"
-cartopy = "^0.17.0"
 
 [tool.poetry.dev-dependencies]
 

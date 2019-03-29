@@ -1,6 +1,7 @@
 import contextlib
 import decimal
 import pathlib
+import json
 
 from sqlalchemy import Column, ForeignKey, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
@@ -67,6 +68,22 @@ class ServiceRoute(Base):
     direction = Column(String, primary_key=True)
     points_str = Column(String)
     lines_str = Column(String)
+
+    @property
+    def points(self):
+        return json.loads(self.points_str)
+
+    @points.setter
+    def points(self, data):
+        self.points_str = json.dumps(data, sort_keys=True, separators=(",", ":"))
+
+    @property
+    def lines(self):
+        return json.loads(self.lines_str)
+
+    @lines.setter
+    def lines(self, data):
+        self.lines_str = json.dumps(data, sort_keys=True, separators=(",", ":"))
 
 
 @contextlib.contextmanager
