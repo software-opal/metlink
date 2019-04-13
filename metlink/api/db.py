@@ -1,15 +1,14 @@
 import contextlib
-import decimal
 import pathlib
-import json
 
-from sqlalchemy import Column, ForeignKey, String, create_engine
+from sqlalchemy import Column, ForeignKey, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
+from ..utils import decimal_parse, json_dumps, json_loads
+
 ROOT = (pathlib.Path(__file__).parent / "../..").resolve()
 DB = ROOT / "db.sqlite3"
-
 Base = declarative_base()
 Session = sessionmaker()
 
@@ -25,20 +24,15 @@ class Stop(Base):
 
     @property
     def position(self):
-        with decimal.localcontext() as ctx:
-            ctx.prec = 7
-            # MetLink returns lat/long with 7 decimals, which is ~11mm at the equator.
-            return (decimal.Decimal(self.lat), decimal.Decimal(self.long))
+        return (decimal_parse(self.lat), decimal_parse(self.long))
 
     @position.setter
     def position(self, value):
         raw_lat, raw_long = value
-        with decimal.localcontext() as ctx:
-            ctx.prec = 7
-            (self.lat, self.long) = (
-                str(decimal.Decimal(raw_lat)),
-                str(decimal.Decimal(raw_long)),
-            )
+        (self.lat, self.long) = (
+            str(decimal_parse(raw_lat)),
+            str(decimal_parse(raw_long)),
+        )
 
 
 class Service(Base):
@@ -52,38 +46,54 @@ class Service(Base):
 
     @property
     def schools(self):
-        return [school.trim() for school in self.school_str.split(",") if school.trim()]
+        if self.schools_str:
+            return list(filter(None, map(str.strip, self.schools_str.split(","))))
+        else:
+            return []
 
     @schools.setter
     def schools(self, value):
+        if not value:
+            self.schools_str = None
         for v in value:
             assert "," not in v
         self.schools_str = ", ".join(v.strip() for v in value)
 
 
-class ServiceRoute(Base):
-    __tablename__ = "service_routes"
+class ServiceRouteMap(Base):
+    __tablename__ = "service_route_map"
 
-    code = Column(String, ForeignKey("services.name"), primary_key=True)
-    direction = Column(String, primary_key=True)
-    points_str = Column(String)
-    lines_str = Column(String)
-
-    @property
-    def points(self):
-        return json.loads(self.points_str)
-
-    @points.setter
-    def points(self, data):
-        self.points_str = json.dumps(data, sort_keys=True, separators=(",", ":"))
+    id = Column(Integer, primary_key=True)
+    code = Column(String, ForeignKey("services.code"))
+    stops_str = Column(String)
+    route_str = Column(String)
 
     @property
-    def lines(self):
-        return json.loads(self.lines_str)
+    def stops(self):
+        route_stops = []
+        for stop_id in json_loads(self.stops_str):
+            if len(route_stops) == 0 or route_stops[-1] != stop_id:
+                route_stops.append(stop_id)
+        return route_stops
 
-    @lines.setter
-    def lines(self, data):
-        self.lines_str = json.dumps(data, sort_keys=True, separators=(",", ":"))
+    @stops.setter
+    def stops(self, data):
+        self.stops_str = json_dumps(data)
+
+    @property
+    def route(self):
+        return json_loads(self.route_str)
+
+    @route.setter
+    def route(self, data):
+        self.route_str = json_dumps(data)
+
+
+class ServiceTimetable(Base):
+    __tablename__ = "service_timetable"
+
+    service = Column(String, ForeignKey("services.code"), primary_key=True)
+    date = Column(String, primary_key=True)
 
 
 @contextlib.contextmanager
@@ -91,9 +101,9 @@ def db_session():
     session = Session()
     try:
         yield session
-    except:
+    except Exception as e:
         session.rollback()
-        raise
+        raise e
     else:
         session.commit()
 
@@ -110,3 +120,10 @@ def get_connection():
 
 def get_engine():
     return create_engine(f"sqlite:///{DB}")
+
+
+def check_or_make(model, maker):
+    with db_session() as session:
+        count = session.query(model).count()
+    if count == 0:
+        maker()

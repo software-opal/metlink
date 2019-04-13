@@ -1,6 +1,5 @@
 from geojson import Polygon
 
-
 METLINK_REGION_COORDS = Polygon(
     [
         [

@@ -1,6 +1,6 @@
+from ..session import get_session
 from . import API_V1_BASE
 from .db import Service, create_db, db_session
-from .session import get_session
 
 
 # The caps come from the JSON, don't change them <3
