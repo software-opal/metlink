@@ -1,0 +1,11 @@
+[package]
+name = "metlink-api"
+version = "0.1.0"
+authors = ["Lee Symes <leesdolphin@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+graphics_buffer = "0.6.0"
+geo = "0.12.1"
+geo-types = "0.4.2"
+piston2d-graphics = "0.30.0"

@@ -81,7 +81,7 @@ def output_timetable(data_dir, svc_code, direction, date, timetable):
 
     timetable_remapped = [tuple(zip(*tbl)) for tbl in timetable]
 
-    with (timetable_folder / f"{direction}-{date:%Y-%m-%d}.json").open("w") as f:
+    with (timetable_folder / f"{date:%Y-%m-%d}-{direction}.json").open("w") as f:
         pass
         f.write(
             pretty_json_dumps(
