@@ -1,8 +1,9 @@
 .web_cache
 metlink-app
 
-./data/
-./responses/
+data/
+responses/
+gis/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
