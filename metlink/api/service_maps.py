@@ -2,6 +2,7 @@ import decimal
 import typing as typ
 from time import sleep
 
+from ..utils import save_response
 from ..session import get_session
 from ..utils import LAT_LON_EXPONENT, decimal_parse, json_dumps
 from . import API_V1_BASE
@@ -90,8 +91,6 @@ def load_service_routes(
             svc_routes.append(
                 ServiceRouteMap(
                     code=service_code,
-                    start_stop=route_stops[0],
-                    finish_stop=route_stops[-1],
                     stops_str=json_dumps(route_stops),
                     route_str=json_dumps(route_path),
                 )
@@ -111,6 +110,7 @@ def import_service_routes():
             print(f"Service: {svc_code}")
             url = f"{API_V1_BASE}/ServiceMap/{svc_code.upper()}"
             with req.get(url) as resp:
+                save_response(resp)
                 resp.raise_for_status()
                 data = resp.json()
             with db_session() as db:

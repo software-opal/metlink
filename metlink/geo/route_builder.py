@@ -61,8 +61,8 @@ def output_service(data_dir, service, service_routes, all_stops):
         "mode": service.mode,
         "schools": service.schools,
         "last_modified": service.last_modified,
-        "stops": {},
-        "routes": {},
+        "stops": [],
+        "routes": [],
     }
     serviced_stops = set()
     service_route_start_end_stops = {}
@@ -78,12 +78,15 @@ def output_service(data_dir, service, service_routes, all_stops):
             route_name = base_route_name
         else:
             route_name = f"{base_route_name}-{len(start_stop_routes)}"
-        data["routes"][route_name] = {
-            "start_id": start,
-            "end_id": end,
-            "stops": stops,
-            "route": route.route,
-        }
+        data["routes"].append(
+            {
+                "id": route_name,
+                "start_id": start,
+                "end_id": end,
+                "stops": stops,
+                "route": route.route,
+            }
+        )
         route_feature = geojson_route(service, route_name, route)
         service_route_features.append(route_feature)
         with (service_folder / f"{route_name}.geojson").open("w") as f:
@@ -96,16 +99,16 @@ def output_service(data_dir, service, service_routes, all_stops):
                     }
                 )
             )
-    data["stops"] = {
-        all_stops[stop_id].sms: {
+    data["stops"] = [
+        {
             "name": all_stops[stop_id].name,
             "sms": all_stops[stop_id].sms,
             "farezone": all_stops[stop_id].fare_zone,
-            "lat": all_stops[stop_id].lat,
-            "long": all_stops[stop_id].long,
+            "lat": decimal_parse(all_stops[stop_id].lat),
+            "lon": decimal_parse(all_stops[stop_id].long),
         }
         for stop_id in serviced_stops
-    }
+    ]
 
     with (service_folder / f"service.geojson").open("w") as f:
         f.write(

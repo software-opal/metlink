@@ -1,4 +1,5 @@
 from ..session import get_session
+from ..utils import save_response
 from . import API_V1_BASE
 from .db import Service, create_db, db_session
 
@@ -27,14 +28,17 @@ def load_service(
 
 def import_services():
     with get_session().get(f"{API_V1_BASE}/ServiceList/") as resp:
+        save_response(resp)
         resp.raise_for_status()
         data = resp.json()
-    with db_session() as session:
-        session.add_all(list(filter(None, (load_service(**stop) for stop in data))))
+    with db_session() as db:
+        db.query(Service).delete()
+        db.add_all(list(filter(None, (load_service(**stop) for stop in data))))
 
 
 def main():
     create_db()
+    import_services()
 
 
 if __name__ == "__main__":

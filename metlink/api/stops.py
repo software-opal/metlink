@@ -3,6 +3,7 @@ import decimal
 
 from ..session import get_session
 from . import API_V1_BASE
+from ..utils import save_response
 from .db import Stop, create_db, db_session, decimal_parse
 
 
@@ -32,6 +33,7 @@ def load_stop(*, Name, Sms, Farezone, Lat, Long, LastModified, **kwargs):
 
 def import_stops():
     with get_session().get(f"{API_V1_BASE}/StopList/") as resp:
+        save_response(resp)
         resp.raise_for_status()
         data = resp.json()
     with db_session() as db:
