@@ -1,133 +1,62 @@
 mod api;
+mod import;
 mod internal;
 mod py_data;
 mod route_resolver;
-use crate::route_resolver::stops::generate_routes_for;
+mod utils;
+
 use crate::api::service::Service;
+use crate::api::service_map::MapStop;
+use crate::api::service_map::RouteMap;
 use crate::api::service_map::ServiceMap;
-use crate::api::stop::StopListResponse;
+use crate::import::{load_service_list, load_service_map, load_service_timetables};
 use crate::internal::ServiceTimetable;
 use crate::internal::ServiceTimetableEntry;
-use crate::py_data::timetables::Timetable;
-use geo::algorithm::euclidean_distance::EuclideanDistance;
-use geo::CoordinateType;
+use crate::py_data::timetables::Direction;
+use crate::route_resolver::stops::generate_routes_for;
+use crate::utils::closest_point;
 use geo::Point;
-use num_traits::Float;
 use rayon::prelude::*;
-use serde_json::from_reader;
 use std::collections::BTreeMap;
 use std::collections::BTreeSet;
-
 use std::error::Error;
-use std::fs::read_dir;
-use std::fs::File;
-use std::io;
-use std::io::Read;
-use std::path::Path;
 
-const CACHED_RESPONSES_FOLDER: &'static str = "../responses";
-const SERVICE_DATA_FOLDER: &'static str = "../data";
+type BoxResult<T> = Result<T, Box<Error>>;
+type StopId = String;
+type StartEndRouteMap = BTreeMap<StopId, BTreeMap<StopId, Vec<usize>>>;
+type StopList = Vec<StopId>;
+type PointList<PT> = Vec<Point<PT>>;
 
-fn service_list_data() -> io::Result<impl Read> {
-    let p = Path::new(CACHED_RESPONSES_FOLDER)
-        .join("https___www.metlink.org.nz_api_v1_ServiceList_.json");
-    File::open(p)
-}
-fn stop_list_data() -> io::Result<impl Read> {
-    let p =
-        Path::new(CACHED_RESPONSES_FOLDER).join("https___www.metlink.org.nz_api_v1_StopList_.json");
-    File::open(p)
-}
-fn service_map_data(code: &str) -> io::Result<impl Read> {
-    let p = Path::new(CACHED_RESPONSES_FOLDER).join(format!(
-        "https___www.metlink.org.nz_api_v1_ServiceMap_{}.json",
-        code.to_uppercase()
-    ));
-    File::open(p)
-}
-
-fn load_service_map(svc: &Service) -> Result<ServiceMap, Box<Error>> {
-    Ok(from_reader(service_map_data(&svc.code)?)?)
-}
-
-fn load_service_timetable(timetable_json: &Path) -> Result<Option<Timetable>, Box<Error>> {
-    if timetable_json.is_file() {
-        Ok(Some(from_reader(File::open(timetable_json)?)?))
-    } else {
-        Ok(None)
-    }
-}
-
-fn load_service_timetables(svc: &Service) -> Result<Vec<Timetable>, Box<Error>> {
-    let timetable_folder = Path::new(SERVICE_DATA_FOLDER)
-        .join(format!("service-{}/timetables/", svc.code.to_uppercase()));
-    if timetable_folder.is_dir() {
-        let dir_items = read_dir(timetable_folder)?
-            .into_iter()
-            .filter_map(|f| f.ok().map(|f| f.path().to_path_buf()))
-            .collect::<Vec<_>>();
-
-        Ok(dir_items
-            .par_iter()
-            .map(|f| load_service_timetable(f).map_err(|e| format!("{}: {:?}", svc.code, e)))
-            .collect::<Vec<_>>()
-            .into_iter()
-            .collect::<Result<Vec<Option<_>>, _>>()?
-            .into_iter()
-            .flatten()
-            .collect::<Vec<_>>())
-    } else {
-        Ok(vec![])
-    }
-}
-
-fn closest_point<'a, PT, S>(
-    target: &Point<PT>,
-    points: &'a [(Point<PT>, S)],
-) -> Option<((&'a Point<PT>, PT, &'a S))>
-where
-    PT: Float + CoordinateType,
-    S: Sized,
-{
-    let mut r = Option::None;
-    for (p, v) in points {
-        let dist = target.euclidean_distance(p);
-        r = match r {
-            None => Some((p, dist, v)),
-            Some((op, odist, ov)) => {
-                if odist < dist {
-                    Some((p, dist, v))
-                } else {
-                    Some((op, odist, ov))
-                }
-            }
-        };
-    }
-
-    return r;
-}
-
-fn process_service(svc: &Service) -> Result<(), Box<Error>> {
-    let timetables = ServiceTimetable::from_py_timetables(load_service_timetables(svc)?);
+fn get_timetable(service: &Service) -> BoxResult<ServiceTimetable> {
+    let timetables = ServiceTimetable::from_py_timetables(load_service_timetables(service)?);
     assert_eq!(timetables.len(), 1);
-    let timetable = timetables.into_iter().next().unwrap();
-    let mut map_start_to_ends: BTreeMap<&str, BTreeMap<&str, Vec<usize>>> = BTreeMap::new();
-    let ServiceMap {
-        stop_locations,
-        route_maps,
-        ..
-    } = load_service_map(svc)?;
+    Ok(timetables.into_iter().next().unwrap())
+}
+
+fn build_start_end_map<'a>(
+    stop_locations: Vec<MapStop>,
+    route_maps: &Vec<RouteMap>,
+) -> BoxResult<StartEndRouteMap> {
+    let mut map_start_to_ends: StartEndRouteMap = BTreeMap::new();
+
     let stops = stop_locations
         .into_iter()
         .map(|s| (s.location.into(), s.sms))
         .collect::<Vec<(Point<_>, _)>>();
-    for (i, route) in route_maps.iter().enumerate() {
-        let start = closest_point(&route.path.first().unwrap().clone().into(), &stops)
-            .unwrap()
-            .2;
-        let end = closest_point(&route.path.last().unwrap().clone().into(), &stops)
-            .unwrap()
-            .2;
+
+    let route_start_ends = route_maps
+        .iter()
+        .map(|route| {
+            (
+                route.path.first().unwrap().clone().into(),
+                route.path.last().unwrap().clone().into(),
+            )
+        })
+        .collect::<Vec<(Point<_>, Point<_>)>>();
+
+    for (i, (start, end)) in route_start_ends.iter().enumerate() {
+        let start = closest_point(&start, &stops).unwrap().2.to_owned();
+        let end = closest_point(&end, &stops).unwrap().2.to_owned();
         map_start_to_ends
             .entry(start)
             .or_default()
@@ -135,7 +64,20 @@ fn process_service(svc: &Service) -> Result<(), Box<Error>> {
             .or_default()
             .push(i);
     }
-    println!("{:?}", map_start_to_ends);
+    Ok(map_start_to_ends)
+}
+
+fn process_service(
+    service: &Service,
+) -> Result<Vec<(Direction, StopList, PointList<f64>)>, Box<Error>> {
+    let timetable = get_timetable(service)?;
+
+    let ServiceMap {
+        stop_locations,
+        route_maps,
+        ..
+    } = load_service_map(service)?;
+    let map_start_to_ends = build_start_end_map(stop_locations, &route_maps)?;
     let routes = timetable
         .entries
         .into_iter()
@@ -153,32 +95,62 @@ fn process_service(svc: &Service) -> Result<(), Box<Error>> {
     let out = routes
         .par_iter()
         .map(|(dir, route)| {
-            (dir, route, generate_routes_for(&route[..], &map_start_to_ends))
+            (
+                dir,
+                route,
+                generate_routes_for(&route[..], &map_start_to_ends),
+            )
         })
         .collect::<Vec<_>>();
 
-
+    let mut full_routes = Vec::new();
     for (dir, route, route_segments) in out {
-        println!("{:?} {:?} -> {:?}", dir, route, route_segments);
+        if route_segments.len() == 0 {
+            println!("Cannot determine route segments! {:?} {:?}", dir, route);
+        } else if route_segments.len() == 1 {
+            let mut route_path = Vec::new();
+            for i in route_segments[0].iter() {
+                let mut segment_path = route_maps[*i].clone_to_point_list();
+                route_path.append(&mut segment_path)
+            }
+            full_routes.push((dir.clone(), route.clone(), route_path));
+        } else {
+            // TODO
+            println!("Cannot determine route segments! {:?} {:?}", dir, route);
+            println!("  - {:?}", route_segments);
+        }
     }
 
-    Ok(())
+    Ok(full_routes)
 }
 
 fn main() -> Result<(), Box<Error>> {
-    let svcs: Vec<Service> = from_reader(service_list_data()?)?;
-    let stops: StopListResponse = from_reader(stop_list_data()?)?;
-    println!("Stops: {:?}", stops.stops.len());
-    println!("Services: {:?}", svcs.len());
+    let services: Vec<Service> = load_service_list()?;
 
-    let service_results = svcs
-        .par_iter()
-        .map(|svc| process_service(&svc).map_err(|e| format!("{}: {:?}", svc.code, e)))
-        .collect::<Vec<_>>();
-
-    for r in service_results {
-        r?;
+    for service in services {
+        println!(" --- {:?}", service);
+        let service =
+            process_service(&service).map_err(|e| format!("{}: {:?}", service.code, e))?;
+        for (dir, stops, path) in service {
+            println!(
+                "{:?} [{:?}, ..., {:?}] - {:?}",
+                dir,
+                stops[0],
+                stops.last().unwrap(),
+                path.len()
+            );
+        }
+        return Ok(());
     }
+
+    // let service_results = svcs
+    //     .par_iter()
+    //     .map(|svc| )
+    //     .collect::<Vec<_>>();
+    //
+    // for r in service_results {
+    //     r?;
+    // }
 
     // let services = svcs
     //     .into_iter()

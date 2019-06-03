@@ -37,6 +37,11 @@ impl From<StringedLatLong> for Point<f64> {
         Point::new(point.lat.to_f64().unwrap(), point.long.to_f64().unwrap())
     }
 }
+impl From<&StringedLatLong> for Point<f64> {
+    fn from(point: &StringedLatLong) -> Point<f64> {
+        Point::new(point.lat.to_f64().unwrap(), point.long.to_f64().unwrap())
+    }
+}
 
 impl FromStr for StringedLatLong {
     type Err = ParseStringedLatLongError;

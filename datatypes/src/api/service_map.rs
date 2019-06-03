@@ -1,5 +1,6 @@
 use super::types::{ServiceMode, StringedLatLong};
 use chrono::{DateTime, FixedOffset};
+use geo::Point;
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
@@ -42,4 +43,10 @@ pub struct MapStop {
 pub struct RouteMap {
     #[serde(rename = "Path")]
     pub path: Vec<StringedLatLong>,
+}
+
+impl RouteMap {
+    pub fn clone_to_point_list(&self) -> Vec<Point<f64>> {
+        self.path.iter().map(|p| p.into()).collect::<Vec<_>>()
+    }
 }

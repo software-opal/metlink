@@ -2,7 +2,7 @@ use std::collections::BTreeMap;
 
 pub fn generate_routes_for(
     route: &[String],
-    map_start_to_ends: &BTreeMap<&str, BTreeMap<&str, Vec<usize>>>,
+    map_start_to_ends: &BTreeMap<String, BTreeMap<String, Vec<usize>>>,
 ) -> Vec<Vec<usize>> {
     let start = match route.first() {
         Some(s) => s,
@@ -15,9 +15,7 @@ pub fn generate_routes_for(
     let mut current_routes = vec![];
     for (end, route_segments) in ends {
         match route.iter().position(|v| v == end) {
-            Some(0) => {
-                continue
-            }
+            Some(0) => continue,
             Some(pos) => {
                 let partial_routes = if pos == (route.len() - 1) {
                     vec![vec![]]
@@ -48,13 +46,24 @@ mod tests {
     fn test_simples() {
         let mut map_start_to_ends = BTreeMap::new();
         map_start_to_ends.insert(
-            "123",
-            vec![("124", vec![0usize, 2]), ("126", vec![1usize])]
-                .into_iter()
-                .collect(),
+            "123".to_string(),
+            vec![
+                ("124".to_string(), vec![0usize, 2]),
+                ("126".to_string(), vec![1usize]),
+            ]
+            .into_iter()
+            .collect(),
         );
 
-        let routes = generate_routes_for(&["123".to_string(), "124".to_string(), "125".to_string(), "126".to_string()], &map_start_to_ends);
+        let routes = generate_routes_for(
+            &[
+                "123".to_string(),
+                "124".to_string(),
+                "125".to_string(),
+                "126".to_string(),
+            ],
+            &map_start_to_ends,
+        );
         assert_eq!(routes, vec![vec![1]])
     }
 }
