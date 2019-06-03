@@ -12,20 +12,12 @@ use crate::api::service_map::ServiceMap;
 use crate::import::{load_service_list, load_service_map, load_service_timetables};
 use crate::internal::ServiceTimetable;
 use crate::internal::ServiceTimetableEntry;
-use crate::py_data::timetables::Direction;
+use crate::route_resolver::best_route::find_best_route;
 use crate::route_resolver::stops::generate_routes_for;
-use crate::utils::closest_point;
 use geo::Point;
-use rayon::prelude::*;
-use std::collections::BTreeMap;
-use std::collections::BTreeSet;
-use std::error::Error;
-
-type BoxResult<T> = Result<T, Box<Error>>;
-type StopId = String;
-type StartEndRouteMap = BTreeMap<StopId, BTreeMap<StopId, Vec<usize>>>;
-type StopList = Vec<StopId>;
-type PointList<PT> = Vec<Point<PT>>;
+use crate::utils::{closest_point, BoxResult, RouteInformation, StartEndRouteMap};
+use std::collections::{BTreeMap, BTreeSet};
+// use rayon::prelude::*;
 
 fn get_timetable(service: &Service) -> BoxResult<ServiceTimetable> {
     let timetables = ServiceTimetable::from_py_timetables(load_service_timetables(service)?);
@@ -33,9 +25,9 @@ fn get_timetable(service: &Service) -> BoxResult<ServiceTimetable> {
     Ok(timetables.into_iter().next().unwrap())
 }
 
-fn build_start_end_map<'a>(
+fn build_start_end_map(
     stop_locations: Vec<MapStop>,
-    route_maps: &Vec<RouteMap>,
+    route_maps: &[RouteMap],
 ) -> BoxResult<StartEndRouteMap> {
     let mut map_start_to_ends: StartEndRouteMap = BTreeMap::new();
 
@@ -67,9 +59,8 @@ fn build_start_end_map<'a>(
     Ok(map_start_to_ends)
 }
 
-fn process_service(
-    service: &Service,
-) -> Result<Vec<(Direction, StopList, PointList<f64>)>, Box<Error>> {
+
+fn process_service(service: &Service) -> BoxResult<Vec<RouteInformation>> {
     let timetable = get_timetable(service)?;
 
     let ServiceMap {
@@ -83,17 +74,13 @@ fn process_service(
         .into_iter()
         .map(
             |ServiceTimetableEntry {
-                 direction,
-                 stops,
-                 times: _,
+                 direction, stops, ..
              }| (direction, stops),
         )
         .collect::<BTreeSet<_>>();
 
-    println!("Routes: {:?}", routes);
-
     let out = routes
-        .par_iter()
+        .iter()
         .map(|(dir, route)| {
             (
                 dir,
@@ -105,33 +92,61 @@ fn process_service(
 
     let mut full_routes = Vec::new();
     for (dir, route, route_segments) in out {
-        if route_segments.len() == 0 {
-            println!("Cannot determine route segments! {:?} {:?}", dir, route);
-        } else if route_segments.len() == 1 {
-            let mut route_path = Vec::new();
-            for i in route_segments[0].iter() {
-                let mut segment_path = route_maps[*i].clone_to_point_list();
-                route_path.append(&mut segment_path)
-            }
-            full_routes.push((dir.clone(), route.clone(), route_path));
+        if route_segments.is_empty() {
+            println!(
+                "Cannot determine route segments for {:?}! {:?} {:?} -- {}",
+                service.code,
+                dir,
+                route,
+                route_segments.len()
+            );
+            println!("{:?}", map_start_to_ends);
+
         } else {
-            // TODO
-            println!("Cannot determine route segments! {:?} {:?}", dir, route);
-            println!("  - {:?}", route_segments);
+            let best_route_idx =
+                find_best_route(route, &route_segments, &map_start_to_ends, &route_maps);
+            match best_route_idx {
+                None => {
+                    println!(
+                        "Cannot determine route segments for {:?}! {:?} {:?}",
+                        service.code, dir, route
+                    );
+                    println!("  - {:?}", route_segments);
+                    println!("{:?}", map_start_to_ends);
+                }
+                Some(idx) => {
+                    let mut route_path = Vec::new();
+                    for i in route_segments[idx].iter() {
+                        let mut segment_path = route_maps[*i].clone_to_point_list();
+                        route_path.append(&mut segment_path)
+                    }
+                    full_routes.push((dir.clone(), route.clone(), route_path));
+                }
+            }
         }
     }
 
     Ok(full_routes)
 }
 
-fn main() -> Result<(), Box<Error>> {
+fn main() -> BoxResult<()> {
     let services: Vec<Service> = load_service_list()?;
 
-    for service in services {
+    let service_results = {
+        let results = services
+            // .par_iter()
+            .iter()
+            .map(|svc| process_service(&svc).map_err(|e| format!("{}: {:?}", svc.code, e)))
+            .collect::<Vec<_>>();
+        let mut sr = Vec::with_capacity(services.len());
+        for (service, result) in services.iter().zip(results) {
+            sr.push((service, result?));
+        }
+        sr
+    };
+    for (service, results) in service_results {
         println!(" --- {:?}", service);
-        let service =
-            process_service(&service).map_err(|e| format!("{}: {:?}", service.code, e))?;
-        for (dir, stops, path) in service {
+        for (dir, stops, path) in results {
             println!(
                 "{:?} [{:?}, ..., {:?}] - {:?}",
                 dir,
@@ -140,7 +155,6 @@ fn main() -> Result<(), Box<Error>> {
                 path.len()
             );
         }
-        return Ok(());
     }
 
     // let service_results = svcs

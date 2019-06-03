@@ -3,9 +3,9 @@ use geo::prelude::*;
 use geo_types::Rect;
 use graphics::polygon;
 use graphics::types::Color;
-use graphics::{ellipse, line};
+use graphics::{line};
 use graphics_buffer::*;
-use std::time::{Duration, Instant};
+use std::time::{Instant};
 mod nz_map;
 mod sample;
 mod try_bounding_rect;
@@ -86,7 +86,7 @@ fn main() {
     buffer.clear(WATER_COLOR);
 
     for poly in nz_map::nz_shapes() {
-        let (exterior_line, interior_lines) = poly.into_inner();
+        let (exterior_line, _interior_lines) = poly.into_inner();
         let exterior_line = exterior_line
             .map_coords(&mapper)
             .points_iter()

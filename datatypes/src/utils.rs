@@ -2,6 +2,17 @@ use geo::algorithm::euclidean_distance::EuclideanDistance;
 use geo::CoordinateType;
 use geo::Point;
 use num_traits::Float;
+use crate::py_data::timetables::Direction;
+use std::collections::BTreeMap;
+use std::error::Error;
+
+pub type BoxResult<T> = Result<T, Box<Error>>;
+pub type StopId = String;
+pub type StartEndRouteMap = BTreeMap<StopId, BTreeMap<StopId, Vec<usize>>>;
+pub type StopList = Vec<StopId>;
+pub type PointList<PT> = Vec<Point<PT>>;
+pub type RouteInformation = (Direction, StopList, PointList<f64>);
+
 
 pub fn closest_point<'a, PT, S>(
     target: &Point<PT>,
@@ -25,7 +36,7 @@ where
             }
         };
     }
-    return r;
+    r
 }
 
 #[cfg(test)]

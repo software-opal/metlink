@@ -27,7 +27,7 @@ pub struct Service {
 
 impl PartialEq for Service {
     fn eq(&self, rhs: &Service) -> bool {
-        return self.code == rhs.code;
+        self.code == rhs.code
     }
 }
 

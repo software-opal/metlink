@@ -27,7 +27,7 @@ pub fn generate_routes_for(
                     for partial_route in partial_routes.iter() {
                         let mut new_route = Vec::with_capacity(partial_route.len() + 1);
                         new_route.push(segment);
-                        new_route.extend(partial_route.iter().map(|&v| v));
+                        new_route.extend(partial_route.iter().cloned());
                         current_routes.push(new_route);
                     }
                 }
@@ -35,7 +35,7 @@ pub fn generate_routes_for(
             None => continue,
         }
     }
-    return current_routes;
+    current_routes
 }
 
 #[cfg(test)]
