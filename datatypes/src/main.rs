@@ -15,7 +15,7 @@ use crate::internal::ServiceTimetableEntry;
 use crate::route_resolver::best_route::find_best_route;
 use crate::route_resolver::stops::generate_routes_for;
 use geo::Point;
-use crate::utils::{closest_point, BoxResult, RouteInformation, StartEndRouteMap};
+use crate::utils::{closest_point, BoxResult, RouteInformation, StartEndRouteMap, StopId};
 use std::collections::{BTreeMap, BTreeSet};
 // use rayon::prelude::*;
 
@@ -26,14 +26,14 @@ fn get_timetable(service: &Service) -> BoxResult<ServiceTimetable> {
 }
 
 fn build_start_end_map(
-    stop_locations: Vec<MapStop>,
+    stop_locations: &BTreeMap<StopId, Point<f64>>,
     route_maps: &[RouteMap],
 ) -> BoxResult<StartEndRouteMap> {
     let mut map_start_to_ends: StartEndRouteMap = BTreeMap::new();
 
     let stops = stop_locations
         .into_iter()
-        .map(|s| (s.location.into(), s.sms))
+        .map(|(sms, loc)| (*loc, sms.clone()))
         .collect::<Vec<(Point<_>, _)>>();
 
     let route_start_ends = route_maps
@@ -68,7 +68,11 @@ fn process_service(service: &Service) -> BoxResult<Vec<RouteInformation>> {
         route_maps,
         ..
     } = load_service_map(service)?;
-    let map_start_to_ends = build_start_end_map(stop_locations, &route_maps)?;
+
+
+    let stop_id_to_loc = stop_locations.into_iter().map(|s| (s.sms, s.location.into())).collect::<BTreeMap<StopId, Point<_>>>();
+
+    let map_start_to_ends = build_start_end_map(&stop_id_to_loc, &route_maps)?;
     let routes = timetable
         .entries
         .into_iter()
@@ -104,7 +108,7 @@ fn process_service(service: &Service) -> BoxResult<Vec<RouteInformation>> {
 
         } else {
             let best_route_idx =
-                find_best_route(route, &route_segments, &map_start_to_ends, &route_maps);
+                find_best_route(route, &route_segments, &map_start_to_ends, &stop_id_to_loc, &route_maps);
             match best_route_idx {
                 None => {
                     println!(
