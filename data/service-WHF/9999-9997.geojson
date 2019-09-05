@@ -1,0 +1,64 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.90541,
+            -41.28062
+          ],
+          [
+            174.85964,
+            -41.26971
+          ],
+          [
+            174.77916,
+            -41.28340
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "WHF",
+        "mode": "Ferry",
+        "name": "Wellington Harbour Ferry (Days Bay - Queens Wharf)",
+        "route_id": "9999-9997",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90541,
+          -41.28062
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Days Bay Wharf",
+        "sms": "9999"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77916,
+          -41.28340
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Queens Wharf",
+        "sms": "9997"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

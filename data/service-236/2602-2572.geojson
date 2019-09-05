@@ -1,0 +1,80 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.87848,
+            -41.10317
+          ],
+          [
+            174.87838,
+            -41.10328
+          ],
+          [
+            174.87845,
+            -41.10333
+          ],
+          [
+            174.87856,
+            -41.10344
+          ],
+          [
+            174.87838,
+            -41.10372
+          ],
+          [
+            174.87830,
+            -41.10395
+          ],
+          [
+            174.87838,
+            -41.10398
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "236",
+        "mode": "Bus",
+        "name": "Whitby (Navigation Drive) - Paremata - Papakowhai - Porirua",
+        "route_id": "2602-2572",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.87848,
+          -41.10317
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Paremata Road (near 79)",
+        "sms": "2602"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.87838,
+          -41.10398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Oak Avenue (opposite 10)",
+        "sms": "2572"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

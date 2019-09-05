@@ -1,0 +1,184 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.90039,
+            -41.28881
+          ],
+          [
+            174.90043,
+            -41.28876
+          ],
+          [
+            174.90032,
+            -41.28868
+          ],
+          [
+            174.89896,
+            -41.28970
+          ],
+          [
+            174.89873,
+            -41.28987
+          ],
+          [
+            174.89863,
+            -41.28996
+          ],
+          [
+            174.89846,
+            -41.29018
+          ],
+          [
+            174.89837,
+            -41.29030
+          ],
+          [
+            174.89827,
+            -41.29046
+          ],
+          [
+            174.89819,
+            -41.29058
+          ],
+          [
+            174.89830,
+            -41.29064
+          ],
+          [
+            174.89819,
+            -41.29058
+          ],
+          [
+            174.89769,
+            -41.29139
+          ],
+          [
+            174.89752,
+            -41.29165
+          ],
+          [
+            174.89723,
+            -41.29209
+          ],
+          [
+            174.89729,
+            -41.29213
+          ],
+          [
+            174.89723,
+            -41.29209
+          ],
+          [
+            174.89705,
+            -41.29236
+          ],
+          [
+            174.89657,
+            -41.29315
+          ],
+          [
+            174.89596,
+            -41.29404
+          ],
+          [
+            174.89581,
+            -41.29438
+          ],
+          [
+            174.89579,
+            -41.29456
+          ],
+          [
+            174.89583,
+            -41.29480
+          ],
+          [
+            174.89590,
+            -41.29512
+          ],
+          [
+            174.89604,
+            -41.29509
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "83",
+        "mode": "Bus",
+        "name": "Eastbourne - Lower Hutt - Petone - Wellington",
+        "route_id": "9848-9851-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90039,
+          -41.28881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Muritai Road at Houhere Terrace (near 107)",
+        "sms": "9848"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.89830,
+          -41.29064
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Eastbourne Village - Muritai Road",
+        "sms": "9849"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.89729,
+          -41.29213
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Muritai Road near Makaro Street",
+        "sms": "8862"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.89604,
+          -41.29509
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Muritai Road (near 247)",
+        "sms": "9851"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

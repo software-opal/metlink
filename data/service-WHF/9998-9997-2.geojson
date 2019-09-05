@@ -1,0 +1,76 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.86719,
+            -41.25556
+          ],
+          [
+            174.86952,
+            -41.25739
+          ],
+          [
+            174.87034,
+            -41.26060
+          ],
+          [
+            174.86748,
+            -41.26458
+          ],
+          [
+            174.85964,
+            -41.26971
+          ],
+          [
+            174.77916,
+            -41.28340
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "WHF",
+        "mode": "Ferry",
+        "name": "Wellington Harbour Ferry (Days Bay - Queens Wharf)",
+        "route_id": "9998-9997-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86719,
+          -41.25556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Matiu/Somes Island Wharf",
+        "sms": "9998"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77916,
+          -41.28340
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Queens Wharf",
+        "sms": "9997"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

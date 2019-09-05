@@ -1,0 +1,124 @@
+{
+  "code": "CCL",
+  "last_modified": "2016-06-10T17:33:11+12:00",
+  "mode": "Cable Car",
+  "name": "Cable Car (Kelburn - Wellington)",
+  "routes": [
+    {
+      "end_id": "KELB",
+      "id": "LAMB-KELB",
+      "route": [
+        {
+          "lat": -41.28421,
+          "lon": 174.77509,
+          "stop": "LAMB"
+        },
+        {
+          "lat": -41.28451,
+          "lon": 174.77308,
+          "stop": "CLIF"
+        },
+        {
+          "lat": -41.28479,
+          "lon": 174.77129,
+          "stop": "TALA"
+        },
+        {
+          "lat": -41.28505,
+          "lon": 174.76956,
+          "stop": "SALA"
+        },
+        {
+          "lat": -41.28536,
+          "lon": 174.76765,
+          "stop": "KELB"
+        }
+      ],
+      "start_id": "LAMB",
+      "stops": [
+        "LAMB",
+        "CLIF",
+        "TALA",
+        "SALA",
+        "KELB"
+      ]
+    },
+    {
+      "end_id": "LAMB",
+      "id": "KELB-LAMB",
+      "route": [
+        {
+          "lat": -41.28536,
+          "lon": 174.76765,
+          "stop": "KELB"
+        },
+        {
+          "lat": -41.28505,
+          "lon": 174.76956,
+          "stop": "SALA"
+        },
+        {
+          "lat": -41.28479,
+          "lon": 174.77129,
+          "stop": "TALA"
+        },
+        {
+          "lat": -41.28451,
+          "lon": 174.77308,
+          "stop": "CLIF"
+        },
+        {
+          "lat": -41.28421,
+          "lon": 174.77509,
+          "stop": "LAMB"
+        }
+      ],
+      "start_id": "KELB",
+      "stops": [
+        "KELB",
+        "SALA",
+        "TALA",
+        "CLIF",
+        "LAMB"
+      ]
+    }
+  ],
+  "schools": [],
+  "stops": [
+    {
+      "farezone": "1",
+      "lat": -41.28421,
+      "lon": 174.77509,
+      "name": "Lambton Quay - Cable Car Station",
+      "sms": "LAMB"
+    },
+    {
+      "farezone": "1",
+      "lat": -41.28451,
+      "lon": 174.77308,
+      "name": "Clifton - Cable Car Station",
+      "sms": "CLIF"
+    },
+    {
+      "farezone": "1",
+      "lat": -41.28479,
+      "lon": 174.77129,
+      "name": "Talavera - Cable Car Station",
+      "sms": "TALA"
+    },
+    {
+      "farezone": "1",
+      "lat": -41.28505,
+      "lon": 174.76956,
+      "name": "Salamanca - Cable Car Station",
+      "sms": "SALA"
+    },
+    {
+      "farezone": "1/2",
+      "lat": -41.28536,
+      "lon": 174.76765,
+      "name": "Kelburn - Cable Car Station",
+      "sms": "KELB"
+    }
+  ]
+}

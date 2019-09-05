@@ -1,0 +1,108 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.86824,
+            -41.09528
+          ],
+          [
+            174.86898,
+            -41.10216
+          ],
+          [
+            174.86819,
+            -41.10449
+          ],
+          [
+            174.86627,
+            -41.10632
+          ],
+          [
+            174.86346,
+            -41.10811
+          ],
+          [
+            174.86137,
+            -41.11026
+          ],
+          [
+            174.85898,
+            -41.11551
+          ],
+          [
+            174.84498,
+            -41.12779
+          ],
+          [
+            174.84346,
+            -41.13057
+          ],
+          [
+            174.84348,
+            -41.13757
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "KPL",
+        "mode": "Train",
+        "name": "Kapiti Line (Waikanae - Wellington)",
+        "route_id": "MANA-PORI",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86821,
+          -41.09528
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Mana Station",
+        "sms": "MANA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86627,
+          -41.10632
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5/6",
+        "marker-size": "small",
+        "name": "Paremata Station",
+        "sms": "PARE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.84338,
+          -41.13757
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Porirua Station",
+        "sms": "PORI"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

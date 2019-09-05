@@ -1,0 +1,220 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.86946,
+            -41.22200
+          ],
+          [
+            174.87361,
+            -41.22000
+          ],
+          [
+            174.87797,
+            -41.21837
+          ],
+          [
+            174.88147,
+            -41.21773
+          ],
+          [
+            174.88491,
+            -41.21804
+          ],
+          [
+            174.89201,
+            -41.21955
+          ],
+          [
+            174.90337,
+            -41.22353
+          ],
+          [
+            174.90589,
+            -41.22377
+          ],
+          [
+            174.90854,
+            -41.22286
+          ],
+          [
+            174.91119,
+            -41.22083
+          ],
+          [
+            174.92110,
+            -41.21390
+          ],
+          [
+            174.93031,
+            -41.20751
+          ],
+          [
+            174.93244,
+            -41.20605
+          ],
+          [
+            174.94616,
+            -41.19783
+          ],
+          [
+            174.94828,
+            -41.19657
+          ],
+          [
+            174.95082,
+            -41.19447
+          ],
+          [
+            174.95470,
+            -41.18878
+          ],
+          [
+            174.96067,
+            -41.18032
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "HVL",
+        "mode": "Train",
+        "name": "Hutt Valley Line (Upper Hutt - Wellington)",
+        "route_id": "PETO-TAIT",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86949,
+          -41.22201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Petone Station",
+        "sms": "PETO"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.89201,
+          -41.21955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Ava Station",
+        "sms": "AVA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.91126,
+          -41.22088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Woburn Station",
+        "sms": "WOBU"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.92113,
+          -41.21392
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Waterloo Station",
+        "sms": "WATE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93031,
+          -41.20751
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Epuni Station",
+        "sms": "EPUN"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94616,
+          -41.19783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Naenae Station",
+        "sms": "NAEN"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.95470,
+          -41.18878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wingate Station",
+        "sms": "WING"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.96075,
+          -41.18035
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Taita Station",
+        "sms": "TAIT"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

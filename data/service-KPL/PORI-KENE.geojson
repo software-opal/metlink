@@ -1,0 +1,72 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.84348,
+            -41.13757
+          ],
+          [
+            174.84329,
+            -41.14646
+          ],
+          [
+            174.84211,
+            -41.14808
+          ],
+          [
+            174.84029,
+            -41.14917
+          ],
+          [
+            174.83811,
+            -41.14963
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "KPL",
+        "mode": "Train",
+        "name": "Kapiti Line (Waikanae - Wellington)",
+        "route_id": "PORI-KENE",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.84338,
+          -41.13757
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Porirua Station",
+        "sms": "PORI"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.83811,
+          -41.14963
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Kenepuru Station",
+        "sms": "KENE"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

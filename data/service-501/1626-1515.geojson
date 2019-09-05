@@ -1,0 +1,100 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.07086,
+            -40.87849
+          ],
+          [
+            175.07089,
+            -40.87850
+          ],
+          [
+            175.07129,
+            -40.87757
+          ],
+          [
+            175.07164,
+            -40.87672
+          ],
+          [
+            175.07186,
+            -40.87620
+          ],
+          [
+            175.07078,
+            -40.87586
+          ],
+          [
+            175.06964,
+            -40.87550
+          ],
+          [
+            175.06931,
+            -40.87615
+          ],
+          [
+            175.06924,
+            -40.87627
+          ],
+          [
+            175.06919,
+            -40.87638
+          ],
+          [
+            175.06897,
+            -40.87679
+          ],
+          [
+            175.06898,
+            -40.87679
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "501",
+        "mode": "School",
+        "name": "Waikanae Beach South - Waikanae - Kapanui & Waikanae Schools",
+        "route_id": "1626-1515",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.07086,
+          -40.87849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "10",
+        "marker-size": "small",
+        "name": "Winara Avenue (near 8)",
+        "sms": "1626"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.06898,
+          -40.87680
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "10",
+        "marker-size": "small",
+        "name": "Waikanae School (school stop)",
+        "sms": "1515"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

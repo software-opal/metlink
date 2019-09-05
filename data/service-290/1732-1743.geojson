@@ -1,0 +1,264 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.14056,
+            -40.75325
+          ],
+          [
+            175.14051,
+            -40.75309
+          ],
+          [
+            175.14046,
+            -40.75309
+          ],
+          [
+            175.14042,
+            -40.75308
+          ],
+          [
+            175.14001,
+            -40.75379
+          ],
+          [
+            175.13954,
+            -40.75457
+          ],
+          [
+            175.13898,
+            -40.75558
+          ],
+          [
+            175.13881,
+            -40.75574
+          ],
+          [
+            175.13886,
+            -40.75580
+          ],
+          [
+            175.13881,
+            -40.75574
+          ],
+          [
+            175.13844,
+            -40.75608
+          ],
+          [
+            175.13768,
+            -40.75677
+          ],
+          [
+            175.13755,
+            -40.75689
+          ],
+          [
+            175.13737,
+            -40.75706
+          ],
+          [
+            175.13748,
+            -40.75718
+          ],
+          [
+            175.13737,
+            -40.75706
+          ],
+          [
+            175.13709,
+            -40.75732
+          ],
+          [
+            175.13962,
+            -40.75868
+          ],
+          [
+            175.13966,
+            -40.75864
+          ],
+          [
+            175.13969,
+            -40.75866
+          ],
+          [
+            175.13966,
+            -40.75864
+          ],
+          [
+            175.13962,
+            -40.75868
+          ],
+          [
+            175.14074,
+            -40.75927
+          ],
+          [
+            175.14090,
+            -40.75941
+          ],
+          [
+            175.14236,
+            -40.75851
+          ],
+          [
+            175.14273,
+            -40.75826
+          ],
+          [
+            175.14338,
+            -40.75750
+          ],
+          [
+            175.14395,
+            -40.75777
+          ],
+          [
+            175.14402,
+            -40.75764
+          ],
+          [
+            175.14395,
+            -40.75777
+          ],
+          [
+            175.14404,
+            -40.75781
+          ],
+          [
+            175.14426,
+            -40.75793
+          ],
+          [
+            175.14508,
+            -40.75848
+          ],
+          [
+            175.14522,
+            -40.75864
+          ],
+          [
+            175.14654,
+            -40.76003
+          ],
+          [
+            175.14741,
+            -40.75854
+          ],
+          [
+            175.14737,
+            -40.75852
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "290",
+        "mode": "Bus",
+        "name": "Waikanae - Otaki - Waikanae",
+        "route_id": "1732-1743",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14056,
+          -40.75325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Otaki Town - Aotaki Street at Mill Road",
+        "sms": "1732"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.13886,
+          -40.75580
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Aotaki Street at Warenga Road",
+        "sms": "1734"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.13748,
+          -40.75718
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Aotaki Street at Kirk Street",
+        "sms": "1736"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.13969,
+          -40.75866
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Kirk Street (near 42)",
+        "sms": "1737"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14402,
+          -40.75764
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Waerenga Road (near 70)",
+        "sms": "1741"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14737,
+          -40.75852
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Domain Road (near 25)",
+        "sms": "1743"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,112 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.76362,
+            -41.30531
+          ],
+          [
+            174.76362,
+            -41.30531
+          ],
+          [
+            174.76362,
+            -41.30528
+          ],
+          [
+            174.76333,
+            -41.30536
+          ],
+          [
+            174.76328,
+            -41.30524
+          ],
+          [
+            174.76329,
+            -41.30510
+          ],
+          [
+            174.76335,
+            -41.30488
+          ],
+          [
+            174.76345,
+            -41.30453
+          ],
+          [
+            174.76349,
+            -41.30442
+          ],
+          [
+            174.76354,
+            -41.30427
+          ],
+          [
+            174.76364,
+            -41.30391
+          ],
+          [
+            174.76365,
+            -41.30389
+          ],
+          [
+            174.76369,
+            -41.30377
+          ],
+          [
+            174.76370,
+            -41.30372
+          ],
+          [
+            174.76368,
+            -41.30371
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "17e",
+        "mode": "Bus",
+        "name": "Kowhai Park - Brooklyn - Wellington",
+        "route_id": "7719-7718",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76362,
+          -41.30531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "2",
+        "marker-size": "small",
+        "name": "Brooklyn Village - Cleveland Street",
+        "sms": "7719"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76368,
+          -41.30371
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "2",
+        "marker-size": "small",
+        "name": "Ohiro Road at Tanera Crescent",
+        "sms": "7718"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

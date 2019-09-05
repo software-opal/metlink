@@ -1,0 +1,76 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.94711,
+            -41.26155
+          ],
+          [
+            174.94718,
+            -41.26155
+          ],
+          [
+            174.94720,
+            -41.26139
+          ],
+          [
+            174.94725,
+            -41.26091
+          ],
+          [
+            174.94725,
+            -41.26075
+          ],
+          [
+            174.94731,
+            -41.26001
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "874",
+        "mode": "School",
+        "name": "Wainuiomata - Wainuiomata High, Intermediate & St Claudine Thevenet Schools",
+        "route_id": "8985-8984",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94711,
+          -41.26155
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata Shopping Centre - Fitzherbert Road",
+        "sms": "8985"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94730,
+          -41.26001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Fitzherbert Road (near 5)",
+        "sms": "8984"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

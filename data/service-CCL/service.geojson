@@ -1,0 +1,155 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.77509,
+            -41.28421
+          ],
+          [
+            174.77308,
+            -41.28451
+          ],
+          [
+            174.77129,
+            -41.28479
+          ],
+          [
+            174.76956,
+            -41.28505
+          ],
+          [
+            174.76765,
+            -41.28536
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "CCL",
+        "mode": "Cable Car",
+        "name": "Cable Car (Kelburn - Wellington)",
+        "route_id": "LAMB-KELB",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.76765,
+            -41.28536
+          ],
+          [
+            174.76956,
+            -41.28505
+          ],
+          [
+            174.77129,
+            -41.28479
+          ],
+          [
+            174.77308,
+            -41.28451
+          ],
+          [
+            174.77509,
+            -41.28421
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "CCL",
+        "mode": "Cable Car",
+        "name": "Cable Car (Kelburn - Wellington)",
+        "route_id": "KELB-LAMB",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77308,
+          -41.28451
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Clifton - Cable Car Station",
+        "sms": "CLIF"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76765,
+          -41.28536
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1/2",
+        "marker-size": "small",
+        "name": "Kelburn - Cable Car Station",
+        "sms": "KELB"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77509,
+          -41.28421
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Lambton Quay - Cable Car Station",
+        "sms": "LAMB"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76956,
+          -41.28505
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Salamanca - Cable Car Station",
+        "sms": "SALA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77129,
+          -41.28479
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Talavera - Cable Car Station",
+        "sms": "TALA"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

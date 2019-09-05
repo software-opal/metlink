@@ -1,0 +1,408 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.94494,
+            -41.24078
+          ],
+          [
+            174.94498,
+            -41.24080
+          ],
+          [
+            174.94513,
+            -41.24056
+          ],
+          [
+            174.94525,
+            -41.24039
+          ],
+          [
+            174.94557,
+            -41.23990
+          ],
+          [
+            174.94567,
+            -41.23953
+          ],
+          [
+            174.94610,
+            -41.23768
+          ],
+          [
+            174.94617,
+            -41.23734
+          ],
+          [
+            174.94615,
+            -41.23733
+          ],
+          [
+            174.94617,
+            -41.23734
+          ],
+          [
+            174.94620,
+            -41.23722
+          ],
+          [
+            174.94628,
+            -41.23689
+          ],
+          [
+            174.94640,
+            -41.23628
+          ],
+          [
+            174.94652,
+            -41.23601
+          ],
+          [
+            174.94673,
+            -41.23572
+          ],
+          [
+            174.94711,
+            -41.23541
+          ],
+          [
+            174.94705,
+            -41.23534
+          ],
+          [
+            174.94711,
+            -41.23541
+          ],
+          [
+            174.94726,
+            -41.23528
+          ],
+          [
+            174.94744,
+            -41.23514
+          ],
+          [
+            174.94766,
+            -41.23489
+          ],
+          [
+            174.94784,
+            -41.23457
+          ],
+          [
+            174.94791,
+            -41.23428
+          ],
+          [
+            174.94792,
+            -41.23352
+          ],
+          [
+            174.94783,
+            -41.23352
+          ],
+          [
+            174.94792,
+            -41.23352
+          ],
+          [
+            174.94792,
+            -41.23338
+          ],
+          [
+            174.94792,
+            -41.23330
+          ],
+          [
+            174.94798,
+            -41.23204
+          ],
+          [
+            174.94799,
+            -41.23135
+          ],
+          [
+            174.94812,
+            -41.23135
+          ],
+          [
+            174.94812,
+            -41.23135
+          ],
+          [
+            174.94799,
+            -41.23135
+          ],
+          [
+            174.94798,
+            -41.23204
+          ],
+          [
+            174.94792,
+            -41.23330
+          ],
+          [
+            174.94792,
+            -41.23338
+          ],
+          [
+            174.94792,
+            -41.23343
+          ],
+          [
+            174.94806,
+            -41.23343
+          ],
+          [
+            174.94806,
+            -41.23343
+          ],
+          [
+            174.94792,
+            -41.23343
+          ],
+          [
+            174.94791,
+            -41.23428
+          ],
+          [
+            174.94784,
+            -41.23457
+          ],
+          [
+            174.94766,
+            -41.23489
+          ],
+          [
+            174.94744,
+            -41.23514
+          ],
+          [
+            174.94726,
+            -41.23528
+          ],
+          [
+            174.94714,
+            -41.23538
+          ],
+          [
+            174.94717,
+            -41.23542
+          ],
+          [
+            174.94714,
+            -41.23538
+          ],
+          [
+            174.94673,
+            -41.23572
+          ],
+          [
+            174.94652,
+            -41.23601
+          ],
+          [
+            174.94640,
+            -41.23628
+          ],
+          [
+            174.94628,
+            -41.23689
+          ],
+          [
+            174.94620,
+            -41.23722
+          ],
+          [
+            174.94610,
+            -41.23768
+          ],
+          [
+            174.94608,
+            -41.23776
+          ],
+          [
+            174.94617,
+            -41.23778
+          ],
+          [
+            174.94608,
+            -41.23776
+          ],
+          [
+            174.94567,
+            -41.23953
+          ],
+          [
+            174.94557,
+            -41.23990
+          ],
+          [
+            174.94541,
+            -41.24015
+          ],
+          [
+            174.94552,
+            -41.24023
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "160",
+        "mode": "Bus",
+        "name": "Wainuiomata North - Waterloo - Lower Hutt",
+        "route_id": "9967-8967",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94494,
+          -41.24078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wellington Road at Hamstead Street",
+        "sms": "9967"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94615,
+          -41.23733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wellington Road at Arakura Park (near 273)",
+        "sms": "9968"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94705,
+          -41.23534
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wellington Road at Bexley Grove",
+        "sms": "9969"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94783,
+          -41.23352
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wellington Road at Stockdale Street (near 325)",
+        "sms": "9970"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94812,
+          -41.23135
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata North - Ipswich Grove",
+        "sms": "8971"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94806,
+          -41.23343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wellington Road at Stockdale Street (near 310)",
+        "sms": "8970"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94717,
+          -41.23542
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wellington Road at Kew Grove",
+        "sms": "8969"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94617,
+          -41.23778
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wellington Road at Arakura Park (near 242)",
+        "sms": "8968"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94552,
+          -41.24023
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wellington Road at Whitehall Street",
+        "sms": "8967"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

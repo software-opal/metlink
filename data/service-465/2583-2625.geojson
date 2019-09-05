@@ -1,0 +1,120 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.87809,
+            -41.09191
+          ],
+          [
+            174.87809,
+            -41.09191
+          ],
+          [
+            174.87809,
+            -41.09191
+          ],
+          [
+            174.87810,
+            -41.09191
+          ],
+          [
+            174.87800,
+            -41.09174
+          ],
+          [
+            174.87790,
+            -41.09164
+          ],
+          [
+            174.87772,
+            -41.09151
+          ],
+          [
+            174.87758,
+            -41.09138
+          ],
+          [
+            174.87749,
+            -41.09120
+          ],
+          [
+            174.87749,
+            -41.09104
+          ],
+          [
+            174.87752,
+            -41.09090
+          ],
+          [
+            174.87764,
+            -41.09077
+          ],
+          [
+            174.87777,
+            -41.09067
+          ],
+          [
+            174.87790,
+            -41.09058
+          ],
+          [
+            174.87798,
+            -41.09049
+          ],
+          [
+            174.87805,
+            -41.09038
+          ],
+          [
+            174.87829,
+            -41.09052
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "465",
+        "mode": "School",
+        "name": "Whitby - Paremata - Papakowhai - Mana - Camborne - Paremata, St Theresa's & Plimmerton Schools",
+        "route_id": "2583-2625",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.87809,
+          -41.09191
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Penryn Drive near St Ives Drive (hail and ride) (school stop)",
+        "sms": "2583"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.87829,
+          -41.09052
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Pendennis Point near St Ives Drive (hail and ride) (school stop)",
+        "sms": "2625"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

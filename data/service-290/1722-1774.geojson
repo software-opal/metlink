@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.16207,
+            -40.76285
+          ],
+          [
+            175.16211,
+            -40.76277
+          ],
+          [
+            175.16120,
+            -40.76233
+          ],
+          [
+            175.16007,
+            -40.76178
+          ],
+          [
+            175.15962,
+            -40.76156
+          ],
+          [
+            175.15890,
+            -40.76122
+          ],
+          [
+            175.15781,
+            -40.76064
+          ],
+          [
+            175.15755,
+            -40.76053
+          ],
+          [
+            175.15751,
+            -40.76053
+          ],
+          [
+            175.15738,
+            -40.76063
+          ],
+          [
+            175.15699,
+            -40.76098
+          ],
+          [
+            175.15671,
+            -40.76133
+          ],
+          [
+            175.15681,
+            -40.76141
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "290",
+        "mode": "Bus",
+        "name": "Waikanae - Otaki - Waikanae",
+        "route_id": "1722-1774",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.16207,
+          -40.76285
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Rahui Road at Te Roto Road",
+        "sms": "1722"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.15681,
+          -40.76141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "State Highway 1 - Otaki (near 226)",
+        "sms": "1774"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

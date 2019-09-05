@@ -1,0 +1,76 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.86726,
+            -41.08389
+          ],
+          [
+            174.86780,
+            -41.08666
+          ],
+          [
+            174.86656,
+            -41.08956
+          ],
+          [
+            174.86668,
+            -41.09111
+          ],
+          [
+            174.86804,
+            -41.09342
+          ],
+          [
+            174.86824,
+            -41.09528
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "KPL",
+        "mode": "Train",
+        "name": "Kapiti Line (Waikanae - Wellington)",
+        "route_id": "PLIM-MANA",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86716,
+          -41.08390
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Plimmerton Station",
+        "sms": "PLIM"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86821,
+          -41.09528
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Mana Station",
+        "sms": "MANA"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

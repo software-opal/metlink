@@ -1,0 +1,264 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.14919,
+            -40.75642
+          ],
+          [
+            175.14919,
+            -40.75641
+          ],
+          [
+            175.14872,
+            -40.75622
+          ],
+          [
+            175.14860,
+            -40.75617
+          ],
+          [
+            175.14791,
+            -40.75758
+          ],
+          [
+            175.14798,
+            -40.75761
+          ],
+          [
+            175.14791,
+            -40.75758
+          ],
+          [
+            175.14763,
+            -40.75814
+          ],
+          [
+            175.14744,
+            -40.75849
+          ],
+          [
+            175.14654,
+            -40.76003
+          ],
+          [
+            175.14522,
+            -40.75864
+          ],
+          [
+            175.14508,
+            -40.75848
+          ],
+          [
+            175.14426,
+            -40.75793
+          ],
+          [
+            175.14404,
+            -40.75781
+          ],
+          [
+            175.14383,
+            -40.75771
+          ],
+          [
+            175.14376,
+            -40.75785
+          ],
+          [
+            175.14383,
+            -40.75771
+          ],
+          [
+            175.14338,
+            -40.75750
+          ],
+          [
+            175.14273,
+            -40.75826
+          ],
+          [
+            175.14236,
+            -40.75851
+          ],
+          [
+            175.14090,
+            -40.75941
+          ],
+          [
+            175.14074,
+            -40.75927
+          ],
+          [
+            175.13964,
+            -40.75868
+          ],
+          [
+            175.13961,
+            -40.75873
+          ],
+          [
+            175.13964,
+            -40.75868
+          ],
+          [
+            175.13962,
+            -40.75868
+          ],
+          [
+            175.13709,
+            -40.75732
+          ],
+          [
+            175.13755,
+            -40.75689
+          ],
+          [
+            175.13768,
+            -40.75677
+          ],
+          [
+            175.13795,
+            -40.75652
+          ],
+          [
+            175.13792,
+            -40.75648
+          ],
+          [
+            175.13795,
+            -40.75652
+          ],
+          [
+            175.13844,
+            -40.75608
+          ],
+          [
+            175.13898,
+            -40.75558
+          ],
+          [
+            175.13954,
+            -40.75457
+          ],
+          [
+            175.14001,
+            -40.75379
+          ],
+          [
+            175.14032,
+            -40.75326
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "290",
+        "mode": "Bus",
+        "name": "Waikanae - Otaki - Waikanae",
+        "route_id": "1728-1765",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14919,
+          -40.75642
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Otaki Community Health Centre (opposite)",
+        "sms": "1728"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14798,
+          -40.75761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Domain Road (near 16)",
+        "sms": "1729"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14376,
+          -40.75785
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Waerenga Road (near 57)",
+        "sms": "1731"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.13961,
+          -40.75873
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Kirk Street (near 25)",
+        "sms": "1733"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.13792,
+          -40.75648
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Aotaki Street (near 55)",
+        "sms": "1735"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14032,
+          -40.75325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Otaki Library - Aotaki Street",
+        "sms": "1765"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

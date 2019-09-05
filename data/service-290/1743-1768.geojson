@@ -1,0 +1,84 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.14737,
+            -40.75852
+          ],
+          [
+            175.14741,
+            -40.75854
+          ],
+          [
+            175.14744,
+            -40.75849
+          ],
+          [
+            175.14763,
+            -40.75814
+          ],
+          [
+            175.14860,
+            -40.75617
+          ],
+          [
+            175.14872,
+            -40.75622
+          ],
+          [
+            175.14916,
+            -40.75640
+          ],
+          [
+            175.14918,
+            -40.75633
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "290",
+        "mode": "Bus",
+        "name": "Waikanae - Otaki - Waikanae",
+        "route_id": "1743-1768",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14737,
+          -40.75852
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Domain Road (near 25)",
+        "sms": "1743"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14918,
+          -40.75633
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Otaki Community Health Centre",
+        "sms": "1768"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

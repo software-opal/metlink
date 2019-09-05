@@ -1,0 +1,80 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.02566,
+            -40.86639
+          ],
+          [
+            175.02565,
+            -40.86636
+          ],
+          [
+            175.02356,
+            -40.86753
+          ],
+          [
+            175.02342,
+            -40.86757
+          ],
+          [
+            175.02341,
+            -40.86847
+          ],
+          [
+            175.02241,
+            -40.86845
+          ],
+          [
+            175.02240,
+            -40.86852
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "510",
+        "mode": "School",
+        "name": "Waikanae Beach - Waikanae - Waikanae School & Paraparaumu College",
+        "route_id": "1536-1538",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.02566,
+          -40.86639
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "10",
+        "marker-size": "small",
+        "name": "Waimea Road (near 68)",
+        "sms": "1536"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.02240,
+          -40.86852
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "10",
+        "marker-size": "small",
+        "name": "Queens Road (near 6)",
+        "sms": "1538"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

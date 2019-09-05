@@ -1,0 +1,152 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.98293,
+            -41.18699
+          ],
+          [
+            174.98294,
+            -41.18707
+          ],
+          [
+            174.98284,
+            -41.18708
+          ],
+          [
+            174.98292,
+            -41.18824
+          ],
+          [
+            174.98308,
+            -41.19050
+          ],
+          [
+            174.98316,
+            -41.19050
+          ],
+          [
+            174.98316,
+            -41.19049
+          ],
+          [
+            174.98308,
+            -41.19050
+          ],
+          [
+            174.98310,
+            -41.19071
+          ],
+          [
+            174.98311,
+            -41.19083
+          ],
+          [
+            174.98314,
+            -41.19092
+          ],
+          [
+            174.98317,
+            -41.19100
+          ],
+          [
+            174.98344,
+            -41.19147
+          ],
+          [
+            174.98402,
+            -41.19240
+          ],
+          [
+            174.98460,
+            -41.19330
+          ],
+          [
+            174.98467,
+            -41.19340
+          ],
+          [
+            174.98470,
+            -41.19348
+          ],
+          [
+            174.98472,
+            -41.19356
+          ],
+          [
+            174.98472,
+            -41.19364
+          ],
+          [
+            174.98471,
+            -41.19371
+          ],
+          [
+            174.98469,
+            -41.19371
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "953",
+        "mode": "School",
+        "name": "Stokes Valley - St Patrick\u2019s College & Fergusson Intermediate School",
+        "route_id": "9375-8377",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98293,
+          -41.18699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Road at Kamahi Street",
+        "sms": "9375"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98316,
+          -41.19049
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Road (near 479)",
+        "sms": "9376"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98469,
+          -41.19371
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Terminus - Rakau Grove",
+        "sms": "8377"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

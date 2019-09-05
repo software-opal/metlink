@@ -1,0 +1,96 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.93533,
+            -41.25058
+          ],
+          [
+            174.93519,
+            -41.25055
+          ],
+          [
+            174.93510,
+            -41.25097
+          ],
+          [
+            174.93529,
+            -41.25101
+          ],
+          [
+            174.93576,
+            -41.25109
+          ],
+          [
+            174.93629,
+            -41.25121
+          ],
+          [
+            174.93671,
+            -41.25133
+          ],
+          [
+            174.93707,
+            -41.25145
+          ],
+          [
+            174.93725,
+            -41.25153
+          ],
+          [
+            174.93736,
+            -41.25158
+          ],
+          [
+            174.93738,
+            -41.25153
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "160",
+        "mode": "Bus",
+        "name": "Wainuiomata North - Waterloo - Lower Hutt",
+        "route_id": "9958-9959",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93533,
+          -41.25058
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Meremere Street (near 2)",
+        "sms": "9958"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93738,
+          -41.25153
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata High School - Parkway (opposite)",
+        "sms": "9959"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

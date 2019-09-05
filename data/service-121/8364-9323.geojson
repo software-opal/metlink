@@ -1,0 +1,148 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.98336,
+            -41.16941
+          ],
+          [
+            174.98341,
+            -41.16943
+          ],
+          [
+            174.98356,
+            -41.16888
+          ],
+          [
+            174.98360,
+            -41.16873
+          ],
+          [
+            174.98362,
+            -41.16863
+          ],
+          [
+            174.98370,
+            -41.16864
+          ],
+          [
+            174.98377,
+            -41.16868
+          ],
+          [
+            174.98384,
+            -41.16874
+          ],
+          [
+            174.98392,
+            -41.16886
+          ],
+          [
+            174.98408,
+            -41.16904
+          ],
+          [
+            174.98407,
+            -41.16905
+          ],
+          [
+            174.98408,
+            -41.16904
+          ],
+          [
+            174.98518,
+            -41.17027
+          ],
+          [
+            174.98584,
+            -41.17101
+          ],
+          [
+            174.98610,
+            -41.17134
+          ],
+          [
+            174.98712,
+            -41.17242
+          ],
+          [
+            174.98757,
+            -41.17290
+          ],
+          [
+            174.98758,
+            -41.17292
+          ],
+          [
+            174.98810,
+            -41.17350
+          ],
+          [
+            174.98813,
+            -41.17348
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "121",
+        "mode": "Bus",
+        "name": "Stokes Valley Heights - Naenae - Lower Hutt - Seaview",
+        "route_id": "8364-9323",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98336,
+          -41.16941
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Tui Glen School (near 128)",
+        "sms": "8364"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98407,
+          -41.16905
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Glen Road at Takanini Grove",
+        "sms": "8329"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98813,
+          -41.17348
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Tawhai School - Glen Road",
+        "sms": "9323"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

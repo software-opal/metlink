@@ -1,0 +1,256 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.98205,
+            -41.17358
+          ],
+          [
+            174.98207,
+            -41.17358
+          ],
+          [
+            174.98210,
+            -41.17346
+          ],
+          [
+            174.98226,
+            -41.17348
+          ],
+          [
+            174.98256,
+            -41.17241
+          ],
+          [
+            174.98263,
+            -41.17216
+          ],
+          [
+            174.98308,
+            -41.17225
+          ],
+          [
+            174.98308,
+            -41.17221
+          ],
+          [
+            174.98308,
+            -41.17221
+          ],
+          [
+            174.98308,
+            -41.17225
+          ],
+          [
+            174.98323,
+            -41.17228
+          ],
+          [
+            174.98338,
+            -41.17229
+          ],
+          [
+            174.98354,
+            -41.17231
+          ],
+          [
+            174.98378,
+            -41.17229
+          ],
+          [
+            174.98442,
+            -41.17226
+          ],
+          [
+            174.98463,
+            -41.17223
+          ],
+          [
+            174.98480,
+            -41.17219
+          ],
+          [
+            174.98493,
+            -41.17213
+          ],
+          [
+            174.98503,
+            -41.17206
+          ],
+          [
+            174.98536,
+            -41.17184
+          ],
+          [
+            174.98583,
+            -41.17152
+          ],
+          [
+            174.98582,
+            -41.17150
+          ],
+          [
+            174.98583,
+            -41.17152
+          ],
+          [
+            174.98610,
+            -41.17134
+          ],
+          [
+            174.98584,
+            -41.17101
+          ],
+          [
+            174.98518,
+            -41.17027
+          ],
+          [
+            174.98402,
+            -41.16898
+          ],
+          [
+            174.98394,
+            -41.16904
+          ],
+          [
+            174.98402,
+            -41.16898
+          ],
+          [
+            174.98392,
+            -41.16886
+          ],
+          [
+            174.98373,
+            -41.16877
+          ],
+          [
+            174.98366,
+            -41.16875
+          ],
+          [
+            174.98360,
+            -41.16873
+          ],
+          [
+            174.98362,
+            -41.16863
+          ],
+          [
+            174.98363,
+            -41.16763
+          ],
+          [
+            174.98364,
+            -41.16751
+          ],
+          [
+            174.98371,
+            -41.16740
+          ],
+          [
+            174.98450,
+            -41.16627
+          ],
+          [
+            174.98445,
+            -41.16624
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "953",
+        "mode": "School",
+        "name": "Stokes Valley - St Patrick\u2019s College & Fergusson Intermediate School",
+        "route_id": "8366-8363",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98205,
+          -41.17358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Shops - Stokes Valley Road",
+        "sms": "8366"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98308,
+          -41.17221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Hawthorn Crescent at Stokes Valley Road",
+        "sms": "9321"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98582,
+          -41.17150
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Hawthorn Crescent at Glen Road (near 25)",
+        "sms": "9322"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98394,
+          -41.16904
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Glen Road at Stokes Valley Road",
+        "sms": "9329"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98445,
+          -41.16624
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Road (near 78)",
+        "sms": "8363"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

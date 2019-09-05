@@ -1,0 +1,60 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.96084,
+            -41.18038
+          ],
+          [
+            174.95470,
+            -41.18878
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "HVL",
+        "mode": "Train",
+        "name": "Hutt Valley Line (Upper Hutt - Wellington)",
+        "route_id": "TAIT-WING",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.96075,
+          -41.18035
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Taita Station",
+        "sms": "TAIT"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.95470,
+          -41.18878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wingate Station",
+        "sms": "WING"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

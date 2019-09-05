@@ -1,0 +1,100 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.90042,
+            -41.21144
+          ],
+          [
+            174.90046,
+            -41.21153
+          ],
+          [
+            174.90050,
+            -41.21151
+          ],
+          [
+            174.90078,
+            -41.21137
+          ],
+          [
+            174.90095,
+            -41.21130
+          ],
+          [
+            174.90101,
+            -41.21127
+          ],
+          [
+            174.90125,
+            -41.21119
+          ],
+          [
+            174.90158,
+            -41.21110
+          ],
+          [
+            174.90188,
+            -41.21102
+          ],
+          [
+            174.90293,
+            -41.21043
+          ],
+          [
+            174.90304,
+            -41.21037
+          ],
+          [
+            174.90301,
+            -41.21031
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "83",
+        "mode": "Bus",
+        "name": "Eastbourne - Lower Hutt - Petone - Wellington",
+        "route_id": "9113-9114",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90042,
+          -41.21144
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Queens Drive opposite Riddiford Gardens",
+        "sms": "9113"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90301,
+          -41.21031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Lower Hutt - Centre City Plaza",
+        "sms": "9114"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

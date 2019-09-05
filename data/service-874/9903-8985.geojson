@@ -1,0 +1,180 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.93750,
+            -41.25937
+          ],
+          [
+            174.93746,
+            -41.25946
+          ],
+          [
+            174.93795,
+            -41.25962
+          ],
+          [
+            174.94018,
+            -41.26038
+          ],
+          [
+            174.94108,
+            -41.26068
+          ],
+          [
+            174.94146,
+            -41.26082
+          ],
+          [
+            174.94156,
+            -41.26085
+          ],
+          [
+            174.94159,
+            -41.26074
+          ],
+          [
+            174.94156,
+            -41.26085
+          ],
+          [
+            174.94381,
+            -41.26160
+          ],
+          [
+            174.94500,
+            -41.26198
+          ],
+          [
+            174.94542,
+            -41.26212
+          ],
+          [
+            174.94545,
+            -41.26202
+          ],
+          [
+            174.94542,
+            -41.26212
+          ],
+          [
+            174.94598,
+            -41.26231
+          ],
+          [
+            174.94636,
+            -41.26244
+          ],
+          [
+            174.94651,
+            -41.26244
+          ],
+          [
+            174.94669,
+            -41.26240
+          ],
+          [
+            174.94676,
+            -41.26235
+          ],
+          [
+            174.94684,
+            -41.26232
+          ],
+          [
+            174.94693,
+            -41.26231
+          ],
+          [
+            174.94712,
+            -41.26207
+          ],
+          [
+            174.94718,
+            -41.26155
+          ],
+          [
+            174.94711,
+            -41.26155
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "874",
+        "mode": "School",
+        "name": "Wainuiomata - Wainuiomata High, Intermediate & St Claudine Thevenet Schools",
+        "route_id": "9903-8985",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93750,
+          -41.25937
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata Road at Davis Grove (near 76)",
+        "sms": "9903"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94159,
+          -41.26074
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata Road at The Strand",
+        "sms": "9904"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94545,
+          -41.26202
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata Shopping Centre at Library",
+        "sms": "9905"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.94711,
+          -41.26155
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata Shopping Centre - Fitzherbert Road",
+        "sms": "8985"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,196 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.96972,
+            -41.16946
+          ],
+          [
+            174.97082,
+            -41.16736
+          ],
+          [
+            174.97162,
+            -41.16268
+          ],
+          [
+            174.97288,
+            -41.16066
+          ],
+          [
+            174.97893,
+            -41.15632
+          ],
+          [
+            174.98343,
+            -41.15317
+          ],
+          [
+            174.98562,
+            -41.15057
+          ],
+          [
+            174.98890,
+            -41.14803
+          ],
+          [
+            174.99355,
+            -41.14603
+          ],
+          [
+            174.99649,
+            -41.14576
+          ],
+          [
+            175.01029,
+            -41.14730
+          ],
+          [
+            175.01331,
+            -41.14694
+          ],
+          [
+            175.02591,
+            -41.14234
+          ],
+          [
+            175.03823,
+            -41.13793
+          ],
+          [
+            175.05882,
+            -41.13052
+          ],
+          [
+            175.07032,
+            -41.12623
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "HVL",
+        "mode": "Train",
+        "name": "Hutt Valley Line (Upper Hutt - Wellington)",
+        "route_id": "POMA-UPPE",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.96972,
+          -41.16946
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Pomare Station",
+        "sms": "POMA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.97893,
+          -41.15632
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Manor Park Station",
+        "sms": "MANO"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.01029,
+          -41.14730
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Silverstream Station",
+        "sms": "SILV"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.02591,
+          -41.14234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Heretaunga Station",
+        "sms": "HERE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.03823,
+          -41.13793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6/7",
+        "marker-size": "small",
+        "name": "Trentham Station",
+        "sms": "TREN"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.05882,
+          -41.13052
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "7",
+        "marker-size": "small",
+        "name": "Wallaceville Station",
+        "sms": "WALL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.07032,
+          -41.12623
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "7",
+        "marker-size": "small",
+        "name": "Upper Hutt Station",
+        "sms": "UPPE"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

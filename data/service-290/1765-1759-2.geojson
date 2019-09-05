@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.14032,
+            -40.75326
+          ],
+          [
+            175.14032,
+            -40.75325
+          ],
+          [
+            175.14032,
+            -40.75326
+          ],
+          [
+            175.14042,
+            -40.75308
+          ],
+          [
+            175.14040,
+            -40.75307
+          ],
+          [
+            175.14038,
+            -40.75304
+          ],
+          [
+            175.14037,
+            -40.75302
+          ],
+          [
+            175.14038,
+            -40.75299
+          ],
+          [
+            175.13919,
+            -40.75259
+          ],
+          [
+            175.13843,
+            -40.75234
+          ],
+          [
+            175.13714,
+            -40.75193
+          ],
+          [
+            175.13697,
+            -40.75222
+          ],
+          [
+            175.13705,
+            -40.75226
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "290",
+        "mode": "Bus",
+        "name": "Waikanae - Otaki - Waikanae",
+        "route_id": "1765-1759-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14032,
+          -40.75325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Otaki Library - Aotaki Street",
+        "sms": "1765"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.13705,
+          -40.75226
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Rangiuru Road (near 281)",
+        "sms": "1759"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

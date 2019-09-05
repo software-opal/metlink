@@ -1,0 +1,132 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.74453,
+            -41.28803
+          ],
+          [
+            174.74454,
+            -41.28808
+          ],
+          [
+            174.74505,
+            -41.28794
+          ],
+          [
+            174.74525,
+            -41.28788
+          ],
+          [
+            174.74612,
+            -41.28764
+          ],
+          [
+            174.74645,
+            -41.28755
+          ],
+          [
+            174.74643,
+            -41.28746
+          ],
+          [
+            174.74645,
+            -41.28755
+          ],
+          [
+            174.74701,
+            -41.28740
+          ],
+          [
+            174.74746,
+            -41.28728
+          ],
+          [
+            174.74751,
+            -41.28735
+          ],
+          [
+            174.74756,
+            -41.28734
+          ],
+          [
+            174.74776,
+            -41.28732
+          ],
+          [
+            174.74792,
+            -41.28730
+          ],
+          [
+            174.75013,
+            -41.28668
+          ],
+          [
+            174.75010,
+            -41.28660
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "736",
+        "mode": "School",
+        "name": "Karori (Wrights Hill) - Kelburn - Wellington College, St Mark's & Wellington High Schools",
+        "route_id": "4306-4384",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.74453,
+          -41.28803
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Gipps Street at Cooper Street (school stop)",
+        "sms": "4306"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.74643,
+          -41.28746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Gipps Street at Shirley Street (school stop)",
+        "sms": "4305"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.75010,
+          -41.28660
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Plymouth Street at Messines Road",
+        "sms": "4384"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

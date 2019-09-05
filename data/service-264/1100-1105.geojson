@@ -1,0 +1,152 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.00400,
+            -40.91541
+          ],
+          [
+            175.00402,
+            -40.91543
+          ],
+          [
+            175.00456,
+            -40.91501
+          ],
+          [
+            175.00499,
+            -40.91466
+          ],
+          [
+            175.00524,
+            -40.91449
+          ],
+          [
+            175.00544,
+            -40.91439
+          ],
+          [
+            175.00462,
+            -40.91340
+          ],
+          [
+            175.00425,
+            -40.91299
+          ],
+          [
+            175.00417,
+            -40.91306
+          ],
+          [
+            175.00425,
+            -40.91299
+          ],
+          [
+            175.00403,
+            -40.91276
+          ],
+          [
+            175.00369,
+            -40.91240
+          ],
+          [
+            175.00590,
+            -40.91110
+          ],
+          [
+            175.00654,
+            -40.91076
+          ],
+          [
+            175.00660,
+            -40.91071
+          ],
+          [
+            175.00705,
+            -40.91051
+          ],
+          [
+            175.00719,
+            -40.91046
+          ],
+          [
+            175.00738,
+            -40.91042
+          ],
+          [
+            175.00755,
+            -40.91041
+          ],
+          [
+            175.00747,
+            -40.91034
+          ],
+          [
+            175.00741,
+            -40.91032
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "264",
+        "mode": "Bus",
+        "name": "Paraparaumu East - Paraparaumu - Kapiti Health Centre",
+        "route_id": "1100-1105",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.00400,
+          -40.91541
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "9",
+        "marker-size": "small",
+        "name": "Rimu Road at Civic Centre",
+        "sms": "1100"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.00417,
+          -40.91306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "9",
+        "marker-size": "small",
+        "name": "Kapiti Road at Ngahina Street",
+        "sms": "1102"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.00741,
+          -40.91032
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "9",
+        "marker-size": "small",
+        "name": "Kapiti Health Centre",
+        "sms": "1105"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

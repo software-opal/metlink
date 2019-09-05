@@ -1,0 +1,96 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.77930,
+            -41.27845
+          ],
+          [
+            174.77930,
+            -41.27843
+          ],
+          [
+            174.77922,
+            -41.27842
+          ],
+          [
+            174.77914,
+            -41.27846
+          ],
+          [
+            174.77888,
+            -41.27861
+          ],
+          [
+            174.77873,
+            -41.27866
+          ],
+          [
+            174.77842,
+            -41.27884
+          ],
+          [
+            174.77707,
+            -41.27960
+          ],
+          [
+            174.77689,
+            -41.27967
+          ],
+          [
+            174.77651,
+            -41.27985
+          ],
+          [
+            174.77654,
+            -41.27990
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "29e",
+        "mode": "Bus",
+        "name": "Newtown - Southgate - Owhiro Bay - Brooklyn (Wellington extension)",
+        "route_id": "6000-5502",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77930,
+          -41.27845
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Wellington Station - Stop B",
+        "sms": "6000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77654,
+          -41.27990
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Lambton Quay North - Stop D",
+        "sms": "5502"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

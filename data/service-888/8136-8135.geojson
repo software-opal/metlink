@@ -1,0 +1,80 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.91697,
+            -41.21071
+          ],
+          [
+            174.91699,
+            -41.21063
+          ],
+          [
+            174.91598,
+            -41.21044
+          ],
+          [
+            174.91585,
+            -41.21042
+          ],
+          [
+            174.91453,
+            -41.21017
+          ],
+          [
+            174.91362,
+            -41.21000
+          ],
+          [
+            174.91362,
+            -41.21005
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "888",
+        "mode": "School",
+        "name": "Eastbourne - Hutt Central Schools",
+        "route_id": "8136-8135",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.91697,
+          -41.21071
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Waterloo Road opposite St Bernard's College",
+        "sms": "8136"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.91362,
+          -41.21005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Waterloo Road at Chilton St James",
+        "sms": "8135"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

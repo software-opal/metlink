@@ -1,0 +1,136 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.87226,
+            -41.22361
+          ],
+          [
+            174.87228,
+            -41.22355
+          ],
+          [
+            174.87205,
+            -41.22347
+          ],
+          [
+            174.87163,
+            -41.22333
+          ],
+          [
+            174.87016,
+            -41.22283
+          ],
+          [
+            174.86975,
+            -41.22269
+          ],
+          [
+            174.86973,
+            -41.22275
+          ],
+          [
+            174.86975,
+            -41.22269
+          ],
+          [
+            174.86973,
+            -41.22269
+          ],
+          [
+            174.86968,
+            -41.22267
+          ],
+          [
+            174.86949,
+            -41.22262
+          ],
+          [
+            174.86941,
+            -41.22258
+          ],
+          [
+            174.86936,
+            -41.22253
+          ],
+          [
+            174.86931,
+            -41.22247
+          ],
+          [
+            174.86933,
+            -41.22240
+          ],
+          [
+            174.86934,
+            -41.22237
+          ],
+          [
+            174.86924,
+            -41.22230
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "854",
+        "mode": "School",
+        "name": "Petone - Hutt Central Schools",
+        "route_id": "8003-9001",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.87226,
+          -41.22361
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Jackson Street near Gear Street",
+        "sms": "8003"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86973,
+          -41.22275
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Jackson Street at Te Puni Street (westbound)",
+        "sms": "8002"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86924,
+          -41.22230
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Petone Station - Stop A",
+        "sms": "9001"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

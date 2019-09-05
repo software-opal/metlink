@@ -1,0 +1,108 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.93321,
+            -41.25160
+          ],
+          [
+            174.93322,
+            -41.25162
+          ],
+          [
+            174.93324,
+            -41.25160
+          ],
+          [
+            174.93349,
+            -41.25142
+          ],
+          [
+            174.93364,
+            -41.25133
+          ],
+          [
+            174.93365,
+            -41.25129
+          ],
+          [
+            174.93368,
+            -41.25127
+          ],
+          [
+            174.93347,
+            -41.25109
+          ],
+          [
+            174.93332,
+            -41.25096
+          ],
+          [
+            174.93317,
+            -41.25073
+          ],
+          [
+            174.93305,
+            -41.25044
+          ],
+          [
+            174.93301,
+            -41.25032
+          ],
+          [
+            174.93302,
+            -41.25011
+          ],
+          [
+            174.93304,
+            -41.24998
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "160",
+        "mode": "Bus",
+        "name": "Wainuiomata North - Waterloo - Lower Hutt",
+        "route_id": "9953-9954",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93321,
+          -41.25160
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Parkway at Mohaka Street",
+        "sms": "9953"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93304,
+          -41.24998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Mohaka Street (near 17)",
+        "sms": "9954"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

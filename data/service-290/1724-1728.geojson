@@ -1,0 +1,124 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.15652,
+            -40.75980
+          ],
+          [
+            175.15657,
+            -40.75973
+          ],
+          [
+            175.15554,
+            -40.75897
+          ],
+          [
+            175.15538,
+            -40.75888
+          ],
+          [
+            175.15496,
+            -40.75873
+          ],
+          [
+            175.15492,
+            -40.75872
+          ],
+          [
+            175.15350,
+            -40.75820
+          ],
+          [
+            175.15293,
+            -40.75799
+          ],
+          [
+            175.15257,
+            -40.75784
+          ],
+          [
+            175.15255,
+            -40.75789
+          ],
+          [
+            175.15257,
+            -40.75784
+          ],
+          [
+            175.15082,
+            -40.75708
+          ],
+          [
+            175.14919,
+            -40.75641
+          ],
+          [
+            175.14919,
+            -40.75642
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "290",
+        "mode": "Bus",
+        "name": "Waikanae - Otaki - Waikanae",
+        "route_id": "1724-1728",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.15652,
+          -40.75980
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Mill Road at Dunstan Street",
+        "sms": "1724"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.15255,
+          -40.75789
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Otaki College - Mill Road",
+        "sms": "1726"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.14919,
+          -40.75642
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Otaki Community Health Centre (opposite)",
+        "sms": "1728"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

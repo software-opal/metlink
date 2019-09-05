@@ -1,0 +1,128 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.93678,
+            -41.25145
+          ],
+          [
+            174.93677,
+            -41.25149
+          ],
+          [
+            174.93664,
+            -41.25144
+          ],
+          [
+            174.93616,
+            -41.25133
+          ],
+          [
+            174.93550,
+            -41.25120
+          ],
+          [
+            174.93506,
+            -41.25115
+          ],
+          [
+            174.93472,
+            -41.25114
+          ],
+          [
+            174.93454,
+            -41.25116
+          ],
+          [
+            174.93422,
+            -41.25122
+          ],
+          [
+            174.93405,
+            -41.25128
+          ],
+          [
+            174.93390,
+            -41.25136
+          ],
+          [
+            174.93386,
+            -41.25139
+          ],
+          [
+            174.93384,
+            -41.25141
+          ],
+          [
+            174.93379,
+            -41.25143
+          ],
+          [
+            174.93356,
+            -41.25156
+          ],
+          [
+            174.93281,
+            -41.25214
+          ],
+          [
+            174.93238,
+            -41.25247
+          ],
+          [
+            174.93164,
+            -41.25309
+          ],
+          [
+            174.93170,
+            -41.25316
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "160",
+        "mode": "Bus",
+        "name": "Wainuiomata North - Waterloo - Lower Hutt",
+        "route_id": "8959-8952",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93678,
+          -41.25145
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata High School - Parkway",
+        "sms": "8959"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93170,
+          -41.25316
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Parkway opposite Waiu Street",
+        "sms": "8952"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

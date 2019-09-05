@@ -1,0 +1,128 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.32347,
+            -41.11687
+          ],
+          [
+            175.32347,
+            -41.11688
+          ],
+          [
+            175.32348,
+            -41.11687
+          ],
+          [
+            175.32347,
+            -41.11688
+          ],
+          [
+            175.32410,
+            -41.11700
+          ],
+          [
+            175.32453,
+            -41.11709
+          ],
+          [
+            175.32728,
+            -41.11765
+          ],
+          [
+            175.32806,
+            -41.11781
+          ],
+          [
+            175.32806,
+            -41.11776
+          ],
+          [
+            175.32807,
+            -41.11776
+          ],
+          [
+            175.32806,
+            -41.11781
+          ],
+          [
+            175.32842,
+            -41.11788
+          ],
+          [
+            175.32908,
+            -41.11802
+          ],
+          [
+            175.32959,
+            -41.11812
+          ],
+          [
+            175.32959,
+            -41.11807
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "200",
+        "mode": "Bus",
+        "name": "Masterton - Greytown - Featherston - Martinborough",
+        "route_id": "1811-1813",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.32348,
+          -41.11687
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "11",
+        "marker-size": "small",
+        "name": "Featherston - Fitzherbert Street (opposite 32)",
+        "sms": "1811"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.32807,
+          -41.11776
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "11",
+        "marker-size": "small",
+        "name": "Fitzherbert Street at Birdwood Street",
+        "sms": "1812"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.32960,
+          -41.11807
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "11",
+        "marker-size": "small",
+        "name": "Fitzherbert Street (near 89)",
+        "sms": "1813"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

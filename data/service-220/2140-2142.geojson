@@ -1,0 +1,96 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.87168,
+            -41.12091
+          ],
+          [
+            174.87165,
+            -41.12086
+          ],
+          [
+            174.87150,
+            -41.12094
+          ],
+          [
+            174.87110,
+            -41.12121
+          ],
+          [
+            174.87125,
+            -41.12135
+          ],
+          [
+            174.87147,
+            -41.12161
+          ],
+          [
+            174.87168,
+            -41.12183
+          ],
+          [
+            174.87188,
+            -41.12197
+          ],
+          [
+            174.87219,
+            -41.12209
+          ],
+          [
+            174.87245,
+            -41.12214
+          ],
+          [
+            174.87245,
+            -41.12209
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "220",
+        "mode": "Bus",
+        "name": "Titahi Bay - Porirua - Ascot Park",
+        "route_id": "2140-2142",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.87168,
+          -41.12091
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Desert Gold Street (near 8)",
+        "sms": "2140"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.87246,
+          -41.12209
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Ascot Park - Warspite Avenue",
+        "sms": "2142"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,200 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.98205,
+            -41.17358
+          ],
+          [
+            174.98207,
+            -41.17358
+          ],
+          [
+            174.98210,
+            -41.17346
+          ],
+          [
+            174.98226,
+            -41.17348
+          ],
+          [
+            174.98256,
+            -41.17241
+          ],
+          [
+            174.98263,
+            -41.17216
+          ],
+          [
+            174.98308,
+            -41.17225
+          ],
+          [
+            174.98308,
+            -41.17221
+          ],
+          [
+            174.98308,
+            -41.17221
+          ],
+          [
+            174.98308,
+            -41.17225
+          ],
+          [
+            174.98323,
+            -41.17228
+          ],
+          [
+            174.98338,
+            -41.17229
+          ],
+          [
+            174.98354,
+            -41.17231
+          ],
+          [
+            174.98378,
+            -41.17229
+          ],
+          [
+            174.98442,
+            -41.17226
+          ],
+          [
+            174.98463,
+            -41.17223
+          ],
+          [
+            174.98480,
+            -41.17219
+          ],
+          [
+            174.98493,
+            -41.17213
+          ],
+          [
+            174.98503,
+            -41.17206
+          ],
+          [
+            174.98536,
+            -41.17184
+          ],
+          [
+            174.98583,
+            -41.17152
+          ],
+          [
+            174.98582,
+            -41.17150
+          ],
+          [
+            174.98583,
+            -41.17152
+          ],
+          [
+            174.98610,
+            -41.17134
+          ],
+          [
+            174.98712,
+            -41.17242
+          ],
+          [
+            174.98757,
+            -41.17290
+          ],
+          [
+            174.98758,
+            -41.17292
+          ],
+          [
+            174.98810,
+            -41.17350
+          ],
+          [
+            174.98813,
+            -41.17348
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "121",
+        "mode": "Bus",
+        "name": "Stokes Valley Heights - Naenae - Lower Hutt - Seaview",
+        "route_id": "8366-9323",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98205,
+          -41.17358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Shops - Stokes Valley Road",
+        "sms": "8366"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98308,
+          -41.17221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Hawthorn Crescent at Stokes Valley Road",
+        "sms": "9321"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98582,
+          -41.17150
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Hawthorn Crescent at Glen Road (near 25)",
+        "sms": "9322"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98813,
+          -41.17348
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Tawhai School - Glen Road",
+        "sms": "9323"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

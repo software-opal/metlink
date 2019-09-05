@@ -1,0 +1,164 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.82176,
+            -41.33394
+          ],
+          [
+            174.82181,
+            -41.33394
+          ],
+          [
+            174.82177,
+            -41.33373
+          ],
+          [
+            174.82177,
+            -41.33369
+          ],
+          [
+            174.82181,
+            -41.33342
+          ],
+          [
+            174.82186,
+            -41.33328
+          ],
+          [
+            174.82197,
+            -41.33315
+          ],
+          [
+            174.82208,
+            -41.33307
+          ],
+          [
+            174.82217,
+            -41.33302
+          ],
+          [
+            174.82230,
+            -41.33297
+          ],
+          [
+            174.82237,
+            -41.33295
+          ],
+          [
+            174.82260,
+            -41.33292
+          ],
+          [
+            174.82298,
+            -41.33287
+          ],
+          [
+            174.82317,
+            -41.33278
+          ],
+          [
+            174.82316,
+            -41.33275
+          ],
+          [
+            174.82317,
+            -41.33278
+          ],
+          [
+            174.82332,
+            -41.33271
+          ],
+          [
+            174.82352,
+            -41.33252
+          ],
+          [
+            174.82368,
+            -41.33223
+          ],
+          [
+            174.82376,
+            -41.33196
+          ],
+          [
+            174.82375,
+            -41.33183
+          ],
+          [
+            174.82370,
+            -41.33170
+          ],
+          [
+            174.82350,
+            -41.33156
+          ],
+          [
+            174.82348,
+            -41.33158
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "780",
+        "mode": "School",
+        "name": "Strathmore Park - Kahurangi School",
+        "route_id": "7298-7296",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.82176,
+          -41.33394
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Sidlaw Street at Bowes Crescent",
+        "sms": "7298"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.82316,
+          -41.33275
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Sidlaw Street (near 69)",
+        "sms": "7297"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.82348,
+          -41.33158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Beacon Hill - Sidlaw Street",
+        "sms": "7296"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

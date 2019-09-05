@@ -1,0 +1,124 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.98205,
+            -41.17358
+          ],
+          [
+            174.98207,
+            -41.17358
+          ],
+          [
+            174.98210,
+            -41.17346
+          ],
+          [
+            174.98226,
+            -41.17348
+          ],
+          [
+            174.98256,
+            -41.17241
+          ],
+          [
+            174.98263,
+            -41.17216
+          ],
+          [
+            174.98269,
+            -41.17198
+          ],
+          [
+            174.98260,
+            -41.17195
+          ],
+          [
+            174.98269,
+            -41.17198
+          ],
+          [
+            174.98288,
+            -41.17141
+          ],
+          [
+            174.98322,
+            -41.17016
+          ],
+          [
+            174.98331,
+            -41.16980
+          ],
+          [
+            174.98341,
+            -41.16943
+          ],
+          [
+            174.98336,
+            -41.16941
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "121",
+        "mode": "Bus",
+        "name": "Stokes Valley Heights - Naenae - Lower Hutt - Seaview",
+        "route_id": "8366-8364",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98205,
+          -41.17358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Shops - Stokes Valley Road",
+        "sms": "8366"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98260,
+          -41.17195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Road at St Phillips Anglican Church",
+        "sms": "8365"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98336,
+          -41.16941
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Tui Glen School (near 128)",
+        "sms": "8364"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

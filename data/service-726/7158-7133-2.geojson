@@ -1,0 +1,144 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.77062,
+            -41.34312
+          ],
+          [
+            174.77064,
+            -41.34302
+          ],
+          [
+            174.77046,
+            -41.34298
+          ],
+          [
+            174.77043,
+            -41.34298
+          ],
+          [
+            174.77029,
+            -41.34295
+          ],
+          [
+            174.77034,
+            -41.34287
+          ],
+          [
+            174.77074,
+            -41.34192
+          ],
+          [
+            174.77098,
+            -41.34134
+          ],
+          [
+            174.77126,
+            -41.34063
+          ],
+          [
+            174.77123,
+            -41.34061
+          ],
+          [
+            174.77126,
+            -41.34063
+          ],
+          [
+            174.77131,
+            -41.34052
+          ],
+          [
+            174.77210,
+            -41.33860
+          ],
+          [
+            174.77223,
+            -41.33827
+          ],
+          [
+            174.77238,
+            -41.33789
+          ],
+          [
+            174.77244,
+            -41.33775
+          ],
+          [
+            174.77263,
+            -41.33726
+          ],
+          [
+            174.77280,
+            -41.33686
+          ],
+          [
+            174.77277,
+            -41.33685
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "726",
+        "mode": "School",
+        "name": "Island Bay - Owhiro Bay - Berhampore - Wellington High School",
+        "route_id": "7158-7133-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77062,
+          -41.34312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Island Bay - Reef Street at Shorland Park",
+        "sms": "7158"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77123,
+          -41.34061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "The Parade at Humber Street (near 300)",
+        "sms": "7134"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77277,
+          -41.33685
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "The Parade (near 206)",
+        "sms": "7133"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

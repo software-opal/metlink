@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.76534,
+            -41.30514
+          ],
+          [
+            174.76534,
+            -41.30514
+          ],
+          [
+            174.76534,
+            -41.30514
+          ],
+          [
+            174.76534,
+            -41.30514
+          ],
+          [
+            174.76527,
+            -41.30514
+          ],
+          [
+            174.76528,
+            -41.30498
+          ],
+          [
+            174.76513,
+            -41.30498
+          ],
+          [
+            174.76494,
+            -41.30498
+          ],
+          [
+            174.76475,
+            -41.30500
+          ],
+          [
+            174.76409,
+            -41.30517
+          ],
+          [
+            174.76367,
+            -41.30527
+          ],
+          [
+            174.76362,
+            -41.30528
+          ],
+          [
+            174.76362,
+            -41.30531
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "17e",
+        "mode": "Bus",
+        "name": "Kowhai Park - Brooklyn - Wellington",
+        "route_id": "7720-7719",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76534,
+          -41.30514
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "2",
+        "marker-size": "small",
+        "name": "Brooklyn - Stop B",
+        "sms": "7720"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76362,
+          -41.30531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "2",
+        "marker-size": "small",
+        "name": "Brooklyn Village - Cleveland Street",
+        "sms": "7719"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

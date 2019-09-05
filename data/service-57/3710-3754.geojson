@@ -1,0 +1,136 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.83026,
+            -41.21491
+          ],
+          [
+            174.83027,
+            -41.21488
+          ],
+          [
+            174.83024,
+            -41.21486
+          ],
+          [
+            174.83015,
+            -41.21492
+          ],
+          [
+            174.83000,
+            -41.21515
+          ],
+          [
+            174.82996,
+            -41.21530
+          ],
+          [
+            174.83006,
+            -41.21589
+          ],
+          [
+            174.83007,
+            -41.21629
+          ],
+          [
+            174.83006,
+            -41.21636
+          ],
+          [
+            174.83006,
+            -41.21636
+          ],
+          [
+            174.83006,
+            -41.21636
+          ],
+          [
+            174.83002,
+            -41.21675
+          ],
+          [
+            174.83018,
+            -41.21714
+          ],
+          [
+            174.83040,
+            -41.21742
+          ],
+          [
+            174.83066,
+            -41.21763
+          ],
+          [
+            174.83085,
+            -41.21777
+          ],
+          [
+            174.83105,
+            -41.21788
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "57",
+        "mode": "Bus",
+        "name": "Woodridge - Wellington",
+        "route_id": "3710-3754",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.83026,
+          -41.21491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Woodridge - Kentwood Drive",
+        "sms": "3710"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.83006,
+          -41.21636
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Kentwood Drive (near 32)",
+        "sms": "3752"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.83106,
+          -41.21787
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Kentwood Drive (near 14)",
+        "sms": "3754"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

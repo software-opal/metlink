@@ -1,0 +1,116 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.97613,
+            -40.93643
+          ],
+          [
+            174.97596,
+            -40.93639
+          ],
+          [
+            174.97583,
+            -40.93698
+          ],
+          [
+            174.97624,
+            -40.93705
+          ],
+          [
+            174.97655,
+            -40.93706
+          ],
+          [
+            174.97682,
+            -40.93701
+          ],
+          [
+            174.97691,
+            -40.93691
+          ],
+          [
+            174.97700,
+            -40.93681
+          ],
+          [
+            174.97735,
+            -40.93627
+          ],
+          [
+            174.97747,
+            -40.93621
+          ],
+          [
+            174.97804,
+            -40.93605
+          ],
+          [
+            174.97823,
+            -40.93603
+          ],
+          [
+            174.97854,
+            -40.93607
+          ],
+          [
+            174.97878,
+            -40.93618
+          ],
+          [
+            174.97891,
+            -40.93628
+          ],
+          [
+            174.97898,
+            -40.93620
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "250",
+        "mode": "Bus",
+        "name": "Paraparaumu - Raumati South - Paraparaumu",
+        "route_id": "1465-1477-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.97613,
+          -40.93643
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "9",
+        "marker-size": "small",
+        "name": "Rosetta Road (near 6)",
+        "sms": "1465"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.97898,
+          -40.93620
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "9",
+        "marker-size": "small",
+        "name": "Poplar Avenue (near 43)",
+        "sms": "1477"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

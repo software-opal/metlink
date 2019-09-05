@@ -1,0 +1,128 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.84323,
+            -41.13742
+          ],
+          [
+            174.84319,
+            -41.13742
+          ],
+          [
+            174.84320,
+            -41.13793
+          ],
+          [
+            174.84323,
+            -41.13936
+          ],
+          [
+            174.84321,
+            -41.13940
+          ],
+          [
+            174.84318,
+            -41.13943
+          ],
+          [
+            174.84312,
+            -41.13945
+          ],
+          [
+            174.84308,
+            -41.13945
+          ],
+          [
+            174.84279,
+            -41.13947
+          ],
+          [
+            174.84271,
+            -41.13945
+          ],
+          [
+            174.84264,
+            -41.13942
+          ],
+          [
+            174.84259,
+            -41.13936
+          ],
+          [
+            174.84254,
+            -41.13927
+          ],
+          [
+            174.84258,
+            -41.13921
+          ],
+          [
+            174.84262,
+            -41.13912
+          ],
+          [
+            174.84263,
+            -41.13903
+          ],
+          [
+            174.84260,
+            -41.13855
+          ],
+          [
+            174.84256,
+            -41.13779
+          ],
+          [
+            174.84241,
+            -41.13780
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "226",
+        "mode": "Bus",
+        "name": "Sievers Grove - Elsdon - Sievers Grove",
+        "route_id": "2001-2011",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.84323,
+          -41.13742
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Porirua Station - Stop A",
+        "sms": "2001"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.84241,
+          -41.13780
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Lyttelton Avenue at Walton Leigh Avenue",
+        "sms": "2011"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

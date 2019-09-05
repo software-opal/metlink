@@ -1,0 +1,156 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.32696,
+            -41.11768
+          ],
+          [
+            175.32698,
+            -41.11759
+          ],
+          [
+            175.32453,
+            -41.11709
+          ],
+          [
+            175.32410,
+            -41.11700
+          ],
+          [
+            175.32361,
+            -41.11690
+          ],
+          [
+            175.32360,
+            -41.11693
+          ],
+          [
+            175.32361,
+            -41.11690
+          ],
+          [
+            175.32252,
+            -41.11668
+          ],
+          [
+            175.32179,
+            -41.11654
+          ],
+          [
+            175.32184,
+            -41.11648
+          ],
+          [
+            175.32238,
+            -41.11595
+          ],
+          [
+            175.32264,
+            -41.11570
+          ],
+          [
+            175.32343,
+            -41.11489
+          ],
+          [
+            175.32405,
+            -41.11428
+          ],
+          [
+            175.32502,
+            -41.11332
+          ],
+          [
+            175.32615,
+            -41.11220
+          ],
+          [
+            175.32662,
+            -41.11173
+          ],
+          [
+            175.32752,
+            -41.11226
+          ],
+          [
+            175.32870,
+            -41.11294
+          ],
+          [
+            175.32931,
+            -41.11330
+          ],
+          [
+            175.32950,
+            -41.11335
+          ],
+          [
+            175.32957,
+            -41.11331
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "200",
+        "mode": "Bus",
+        "name": "Masterton - Greytown - Featherston - Martinborough",
+        "route_id": "1912-1810",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.32696,
+          -41.11768
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "11",
+        "marker-size": "small",
+        "name": "Fitzherbert Street",
+        "sms": "1912"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.32360,
+          -41.11693
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "11",
+        "marker-size": "small",
+        "name": "Featherston - Fitzherbert Street",
+        "sms": "1911"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.32957,
+          -41.11331
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "11",
+        "marker-size": "small",
+        "name": "Featherston Station (bus stop)",
+        "sms": "1810"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

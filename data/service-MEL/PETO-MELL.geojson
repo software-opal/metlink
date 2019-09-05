@@ -1,0 +1,92 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.86946,
+            -41.22200
+          ],
+          [
+            174.87361,
+            -41.22000
+          ],
+          [
+            174.88496,
+            -41.21535
+          ],
+          [
+            174.89000,
+            -41.21187
+          ],
+          [
+            174.89162,
+            -41.21070
+          ],
+          [
+            174.90540,
+            -41.20349
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "MEL",
+        "mode": "Train",
+        "name": "Melling Line (Melling - Wellington)",
+        "route_id": "PETO-MELL",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.86949,
+          -41.22201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Petone Station",
+        "sms": "PETO"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.89000,
+          -41.21187
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Western Hutt Station",
+        "sms": "WEST"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90540,
+          -41.20349
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Melling Station",
+        "sms": "MELL"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

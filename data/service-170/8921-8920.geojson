@@ -1,0 +1,100 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.96856,
+            -41.27640
+          ],
+          [
+            174.96856,
+            -41.27634
+          ],
+          [
+            174.96854,
+            -41.27634
+          ],
+          [
+            174.96838,
+            -41.27634
+          ],
+          [
+            174.96737,
+            -41.27609
+          ],
+          [
+            174.96679,
+            -41.27596
+          ],
+          [
+            174.96650,
+            -41.27586
+          ],
+          [
+            174.96620,
+            -41.27573
+          ],
+          [
+            174.96600,
+            -41.27560
+          ],
+          [
+            174.96521,
+            -41.27497
+          ],
+          [
+            174.96484,
+            -41.27479
+          ],
+          [
+            174.96482,
+            -41.27485
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "170",
+        "mode": "Bus",
+        "name": "Lower Hutt - Wainuiomata South - Lower Hutt",
+        "route_id": "8921-8920",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.96856,
+          -41.27640
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wainuiomata South - Hine Road",
+        "sms": "8921"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.96482,
+          -41.27485
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Hine Road (near 106)",
+        "sms": "8920"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

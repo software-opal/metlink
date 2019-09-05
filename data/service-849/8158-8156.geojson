@@ -1,0 +1,116 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.90428,
+            -41.21714
+          ],
+          [
+            174.90427,
+            -41.21720
+          ],
+          [
+            174.90428,
+            -41.21720
+          ],
+          [
+            174.90464,
+            -41.21727
+          ],
+          [
+            174.90550,
+            -41.21732
+          ],
+          [
+            174.90607,
+            -41.21735
+          ],
+          [
+            174.90610,
+            -41.21706
+          ],
+          [
+            174.90612,
+            -41.21672
+          ],
+          [
+            174.90661,
+            -41.21675
+          ],
+          [
+            174.90666,
+            -41.21674
+          ],
+          [
+            174.90673,
+            -41.21671
+          ],
+          [
+            174.90743,
+            -41.21628
+          ],
+          [
+            174.90748,
+            -41.21621
+          ],
+          [
+            174.90764,
+            -41.21533
+          ],
+          [
+            174.90777,
+            -41.21467
+          ],
+          [
+            174.90767,
+            -41.21465
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "849",
+        "mode": "School",
+        "name": "Harbour View - Hutt Central Schools",
+        "route_id": "8158-8156",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90428,
+          -41.21714
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Woburn Road at Hutt Recreation Ground",
+        "sms": "8158"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90767,
+          -41.21465
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Sacred Heart College - Hautana Street (school stop)",
+        "sms": "8156"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

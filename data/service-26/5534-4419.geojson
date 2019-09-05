@@ -1,0 +1,80 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.79195,
+            -41.24911
+          ],
+          [
+            174.79199,
+            -41.24918
+          ],
+          [
+            174.79296,
+            -41.24864
+          ],
+          [
+            174.79145,
+            -41.24714
+          ],
+          [
+            174.79139,
+            -41.24716
+          ],
+          [
+            174.79105,
+            -41.24730
+          ],
+          [
+            174.79106,
+            -41.24733
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "26",
+        "mode": "Bus",
+        "name": "Khandallah - Ngaio - Brandon Street",
+        "route_id": "5534-4419",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.79195,
+          -41.24911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Everest Street at St Benedict's School",
+        "sms": "5534"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.79106,
+          -41.24733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Khandallah Village - Stop A",
+        "sms": "4419"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

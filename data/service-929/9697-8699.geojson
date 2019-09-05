@@ -1,0 +1,120 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.10311,
+            -41.08983
+          ],
+          [
+            175.10309,
+            -41.08992
+          ],
+          [
+            175.10342,
+            -41.09001
+          ],
+          [
+            175.10530,
+            -41.09053
+          ],
+          [
+            175.10528,
+            -41.09060
+          ],
+          [
+            175.10530,
+            -41.09053
+          ],
+          [
+            175.10569,
+            -41.09063
+          ],
+          [
+            175.10583,
+            -41.09069
+          ],
+          [
+            175.10596,
+            -41.09078
+          ],
+          [
+            175.10618,
+            -41.09095
+          ],
+          [
+            175.10634,
+            -41.09108
+          ],
+          [
+            175.10631,
+            -41.09111
+          ],
+          [
+            175.10636,
+            -41.09116
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "929",
+        "mode": "School",
+        "name": "Te Marua - Birchville - Brown Owl - Oxford Crescent, St Joseph\u2019s, Fraser Crescent & Maidstone Intermediate Schools",
+        "route_id": "9697-8699",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.10311,
+          -41.08983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "7",
+        "marker-size": "small",
+        "name": "Gillespies Road (near 47) (school stop)",
+        "sms": "9697"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.10528,
+          -41.09060
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "7",
+        "marker-size": "small",
+        "name": "Gillespies Road (near 70) (school stop)",
+        "sms": "8698"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.10636,
+          -41.09116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "7",
+        "marker-size": "small",
+        "name": "Gillespies Road (Edmund Lomas Grove) (school stop)",
+        "sms": "8699"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

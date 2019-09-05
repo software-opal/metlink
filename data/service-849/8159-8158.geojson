@@ -1,0 +1,92 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.90245,
+            -41.21573
+          ],
+          [
+            174.90238,
+            -41.21579
+          ],
+          [
+            174.90306,
+            -41.21660
+          ],
+          [
+            174.90327,
+            -41.21684
+          ],
+          [
+            174.90348,
+            -41.21697
+          ],
+          [
+            174.90367,
+            -41.21705
+          ],
+          [
+            174.90392,
+            -41.21712
+          ],
+          [
+            174.90400,
+            -41.21714
+          ],
+          [
+            174.90427,
+            -41.21720
+          ],
+          [
+            174.90428,
+            -41.21714
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "849",
+        "mode": "School",
+        "name": "Harbour View - Hutt Central Schools",
+        "route_id": "8159-8158",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90245,
+          -41.21573
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Hutt Valley High School (opposite)",
+        "sms": "8159"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.90428,
+          -41.21714
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Woburn Road at Hutt Recreation Ground",
+        "sms": "8158"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

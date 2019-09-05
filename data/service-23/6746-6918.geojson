@@ -1,0 +1,116 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.77528,
+            -41.30749
+          ],
+          [
+            174.77528,
+            -41.30753
+          ],
+          [
+            174.77535,
+            -41.30754
+          ],
+          [
+            174.77543,
+            -41.30756
+          ],
+          [
+            174.77552,
+            -41.30758
+          ],
+          [
+            174.77558,
+            -41.30757
+          ],
+          [
+            174.77567,
+            -41.30754
+          ],
+          [
+            174.77582,
+            -41.30743
+          ],
+          [
+            174.77599,
+            -41.30726
+          ],
+          [
+            174.77636,
+            -41.30718
+          ],
+          [
+            174.77655,
+            -41.30714
+          ],
+          [
+            174.77668,
+            -41.30712
+          ],
+          [
+            174.77685,
+            -41.30710
+          ],
+          [
+            174.77699,
+            -41.30712
+          ],
+          [
+            174.77751,
+            -41.30720
+          ],
+          [
+            174.77753,
+            -41.30707
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "23",
+        "mode": "Bus",
+        "name": "Houghton Bay - Newtown - Vogeltown - Kingston",
+        "route_id": "6746-6918",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77529,
+          -41.30749
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "2",
+        "marker-size": "small",
+        "name": "Hutchison Terminus - Stop D",
+        "sms": "6746"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.77753,
+          -41.30707
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "2",
+        "marker-size": "small",
+        "name": "John Street at Adelaide Road",
+        "sms": "6918"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

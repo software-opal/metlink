@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.98739,
+            -41.17277
+          ],
+          [
+            174.98742,
+            -41.17274
+          ],
+          [
+            174.98712,
+            -41.17242
+          ],
+          [
+            174.98610,
+            -41.17134
+          ],
+          [
+            174.98584,
+            -41.17101
+          ],
+          [
+            174.98518,
+            -41.17027
+          ],
+          [
+            174.98392,
+            -41.16886
+          ],
+          [
+            174.98373,
+            -41.16877
+          ],
+          [
+            174.98366,
+            -41.16875
+          ],
+          [
+            174.98360,
+            -41.16873
+          ],
+          [
+            174.98356,
+            -41.16888
+          ],
+          [
+            174.98341,
+            -41.16943
+          ],
+          [
+            174.98336,
+            -41.16941
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "121",
+        "mode": "Bus",
+        "name": "Stokes Valley Heights - Naenae - Lower Hutt - Seaview",
+        "route_id": "8323-8364",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98739,
+          -41.17277
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Tawhai School - Glen Road (opposite)",
+        "sms": "8323"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.98336,
+          -41.16941
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Tui Glen School (near 128)",
+        "sms": "8364"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

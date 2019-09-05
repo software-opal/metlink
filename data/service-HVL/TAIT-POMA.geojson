@@ -1,0 +1,60 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.96067,
+            -41.18032
+          ],
+          [
+            174.96972,
+            -41.16946
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "HVL",
+        "mode": "Train",
+        "name": "Hutt Valley Line (Upper Hutt - Wellington)",
+        "route_id": "TAIT-POMA",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.96075,
+          -41.18035
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Taita Station",
+        "sms": "TAIT"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.96972,
+          -41.16946
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Pomare Station",
+        "sms": "POMA"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

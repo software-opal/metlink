@@ -1,0 +1,168 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.93304,
+            -41.24998
+          ],
+          [
+            174.93304,
+            -41.24998
+          ],
+          [
+            174.93304,
+            -41.24998
+          ],
+          [
+            174.93312,
+            -41.24955
+          ],
+          [
+            174.93329,
+            -41.24880
+          ],
+          [
+            174.93349,
+            -41.24800
+          ],
+          [
+            174.93359,
+            -41.24755
+          ],
+          [
+            174.93357,
+            -41.24754
+          ],
+          [
+            174.93359,
+            -41.24755
+          ],
+          [
+            174.93366,
+            -41.24722
+          ],
+          [
+            174.93385,
+            -41.24647
+          ],
+          [
+            174.93392,
+            -41.24612
+          ],
+          [
+            174.93460,
+            -41.24621
+          ],
+          [
+            174.93460,
+            -41.24617
+          ],
+          [
+            174.93460,
+            -41.24617
+          ],
+          [
+            174.93460,
+            -41.24621
+          ],
+          [
+            174.93514,
+            -41.24628
+          ],
+          [
+            174.93611,
+            -41.24640
+          ],
+          [
+            174.93596,
+            -41.24712
+          ],
+          [
+            174.93578,
+            -41.24794
+          ],
+          [
+            174.93585,
+            -41.24796
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "860",
+        "mode": "School",
+        "name": "Wainuiomata North - Hutt Valley High School, Sacred Heart & St Bernard's Colleges",
+        "route_id": "9954-9957",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93304,
+          -41.24998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Mohaka Street (near 17)",
+        "sms": "9954"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93357,
+          -41.24754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Mohaka Street (near 29)",
+        "sms": "9955"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93460,
+          -41.24617
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Manutuke Street",
+        "sms": "9956"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.93585,
+          -41.24796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Meremere Street (near 38)",
+        "sms": "9957"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,288 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.78056,
+            -41.27897
+          ],
+          [
+            174.78321,
+            -41.27588
+          ],
+          [
+            174.78406,
+            -41.27432
+          ],
+          [
+            174.78406,
+            -41.27313
+          ],
+          [
+            174.78329,
+            -41.27133
+          ],
+          [
+            174.78236,
+            -41.26952
+          ],
+          [
+            174.78228,
+            -41.26806
+          ],
+          [
+            174.78272,
+            -41.26690
+          ],
+          [
+            174.78435,
+            -41.26512
+          ],
+          [
+            174.78755,
+            -41.26249
+          ],
+          [
+            174.79051,
+            -41.26092
+          ],
+          [
+            174.79201,
+            -41.25921
+          ],
+          [
+            174.79317,
+            -41.25826
+          ],
+          [
+            174.79621,
+            -41.25657
+          ],
+          [
+            174.79970,
+            -41.25532
+          ],
+          [
+            174.80229,
+            -41.25452
+          ],
+          [
+            174.80440,
+            -41.25263
+          ],
+          [
+            174.81248,
+            -41.24142
+          ],
+          [
+            174.82061,
+            -41.19934
+          ],
+          [
+            174.82653,
+            -41.19397
+          ],
+          [
+            174.82929,
+            -41.19051
+          ],
+          [
+            174.82971,
+            -41.18868
+          ],
+          [
+            174.82826,
+            -41.18530
+          ],
+          [
+            174.82668,
+            -41.18325
+          ],
+          [
+            174.82580,
+            -41.18099
+          ],
+          [
+            174.82692,
+            -41.17661
+          ],
+          [
+            174.82714,
+            -41.17494
+          ],
+          [
+            174.82762,
+            -41.17174
+          ],
+          [
+            174.82835,
+            -41.16910
+          ],
+          [
+            174.82929,
+            -41.16561
+          ],
+          [
+            174.83202,
+            -41.15895
+          ],
+          [
+            174.83405,
+            -41.15260
+          ],
+          [
+            174.83520,
+            -41.15107
+          ],
+          [
+            174.83671,
+            -41.15009
+          ],
+          [
+            174.83811,
+            -41.14963
+          ],
+          [
+            174.84029,
+            -41.14917
+          ],
+          [
+            174.84211,
+            -41.14808
+          ],
+          [
+            174.84329,
+            -41.14646
+          ],
+          [
+            174.84327,
+            -41.13757
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "KPL",
+        "mode": "Train",
+        "name": "Kapiti Line (Waikanae - Wellington)",
+        "route_id": "WELL-PORI",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.78056,
+          -41.27897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Wellington Station",
+        "sms": "WELL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.82828,
+          -41.18529
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Takapu Road Station",
+        "sms": "TAKA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.82705,
+          -41.17565
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Redwood Station",
+        "sms": "REDW"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.82835,
+          -41.16932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Tawa Station",
+        "sms": "TAWA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.83202,
+          -41.15895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Linden Station",
+        "sms": "LIND"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.83811,
+          -41.14963
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Kenepuru Station",
+        "sms": "KENE"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.84338,
+          -41.13757
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Porirua Station",
+        "sms": "PORI"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
