@@ -2,7 +2,7 @@
 name = "metlink-api"
 version = "0.1.0"
 description = ""
-authors = ["Lee Symes <leesdolphin@gmail.com>"]
+authors = ["Opal Symes <code@opal.codes>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
