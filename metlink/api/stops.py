@@ -2,8 +2,8 @@ import datetime as dt
 import decimal
 
 from ..session import get_session
-from . import API_V1_BASE
 from ..utils import save_response
+from . import API_V1_BASE
 from .db import Stop, create_db, db_session, decimal_parse
 
 

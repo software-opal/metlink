@@ -1,7 +1,8 @@
 import decimal
-import pathlib
 import functools
+import pathlib
 import re
+
 import simplejson as json
 from bs4 import BeautifulSoup
 
@@ -16,21 +17,23 @@ _json_load_args = dict(**_json_args)
 
 
 json_dumps = functools.partial(json.dumps, separators=(",", ":"), **_json_dump_args)
+json_dump = functools.partial(json.dump, separators=(",", ":"), **_json_dump_args)
 pretty_json_dumps = functools.partial(json.dumps, indent="  ", **_json_dump_args)
+pretty_json_dump = functools.partial(json.dump, indent="  ", **_json_dump_args)
 json_loads = functools.partial(json.loads, **_json_load_args)
 json_load = functools.partial(json.load, **_json_load_args)
 
 
 @functools.lru_cache(2 ** 10)
 def decimal_parse(str):
-    with decimal.localcontext() as ctx:
+    with decimal.localcontext():
         return decimal.Decimal(str).quantize(
             LAT_LON_EXPONENT, rounding=decimal.ROUND_HALF_EVEN
         )
 
 
 def save_response(resp):
-    file = re.sub("[^\w\-_\. ]", "_", resp.url)
+    file = re.sub(r"[^\w\-_\. ]", "_", resp.url)
     if "json" in resp.headers["content-type"]:
         file += ".json"
     elif "html" in resp.headers["content-type"]:

@@ -1,10 +1,8 @@
 import decimal
 import typing as typ
-from time import sleep
 
-from ..utils import save_response
 from ..session import get_session
-from ..utils import LAT_LON_EXPONENT, decimal_parse, json_dumps
+from ..utils import LAT_LON_EXPONENT, decimal_parse, json_dumps, save_response
 from . import API_V1_BASE
 from .db import Service, ServiceRouteMap, check_or_make, create_db, db_session
 from .services import import_services
@@ -46,7 +44,7 @@ def find_route_stops(
 
 
 # The caps come from the JSON, don't change them <3
-def load_service_routes(
+def load_service_maps(
     service_code,
     *,
     Code,
@@ -96,11 +94,15 @@ def load_service_routes(
                 )
             )
         else:
-            print(f"Unable to find a route with any stops for {service_code}/{i}")
+            print(
+                f"Unable to find a route with any stops for {service_code}/{i}",
+                route_positions,
+                lat_lon_to_stop_id,
+            )
     return svc_routes
 
 
-def import_service_routes():
+def import_service_maps():
     check_or_make(Service, import_services)
 
     with db_session() as db:
@@ -114,21 +116,18 @@ def import_service_routes():
                 resp.raise_for_status()
                 data = resp.json()
             with db_session() as db:
-                i = (
-                    db.query(ServiceRouteMap)
-                    .filter(ServiceRouteMap.code == svc_code)
-                    .delete()
-                )
-                new_route_maps = load_service_routes(svc_code, **data)
+                db.query(ServiceRouteMap).filter(
+                    ServiceRouteMap.code == svc_code
+                ).delete()
+                new_route_maps = load_service_maps(svc_code, **data)
                 for map in new_route_maps:
                     db.add(map)
-            sleep(30)
 
 
 def main():
     create_db()
 
-    import_service_routes()
+    import_service_maps()
 
 
 if __name__ == "__main__":

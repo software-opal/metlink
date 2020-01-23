@@ -8,10 +8,9 @@ authors = ["Opal Symes <code@opal.codes>"]
 python = "^3.6"
 SqlAlchemy = "^1.3"
 requests = "^2.21"
-cachecontrol = {version = "^0.12.5",extras = ["filecache"]}
-geojson = "^2.4"
+cachecontrol = {version = "^0.12.6",extras = ["filecache"]}
 simplejson = "^3.16"
-pytz = "^2019.1"
+pytz = "*"
 beautifulsoup4 = "^4.7"
 
 [tool.poetry.dev-dependencies]

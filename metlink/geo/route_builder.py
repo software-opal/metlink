@@ -9,7 +9,7 @@ from ..api.db import (
     create_db,
     db_session,
 )
-from ..api.service_maps import import_service_routes
+from ..api.service_maps import import_service_maps
 from ..api.services import import_services
 from ..api.stops import import_stops
 from ..utils import decimal_parse, pretty_json_dumps
@@ -52,7 +52,7 @@ def geojson_stop(stop):
     }
 
 
-def output_service(data_dir, service, service_routes, all_stops):
+def output_service(data_dir, service, service_maps, all_stops):
     service_folder = data_dir / f"service-{service.code}/"
     service_folder.mkdir(parents=True, exist_ok=True)
     data = {
@@ -67,7 +67,7 @@ def output_service(data_dir, service, service_routes, all_stops):
     serviced_stops = set()
     service_route_start_end_stops = {}
     service_route_features = []
-    for route in service_routes:
+    for route in service_maps:
         stops = route.stops
         start, end = stops[0], stops[-1]
         base_route_name = f"{start}-{end}"
@@ -127,28 +127,28 @@ def output_service(data_dir, service, service_routes, all_stops):
         f.write(pretty_json_dumps(data))
 
 
-def convert_service_routes():
+def convert_service_maps():
     check_or_make(Service, import_services)
     check_or_make(Stop, import_stops)
-    check_or_make(ServiceRouteMap, import_service_routes)
+    check_or_make(ServiceRouteMap, import_service_maps)
 
     with db_session() as db:
         all_services = {svc.code: svc for svc in db.query(Service).all()}
         all_stops = {stop.sms: stop for stop in db.query(Stop).all()}
-        all_service_routes = {}
+        all_service_maps = {}
         for sr in db.query(ServiceRouteMap).all():
-            all_service_routes.setdefault(sr.code, []).append(sr)
+            all_service_maps.setdefault(sr.code, []).append(sr)
 
     for service in all_services.values():
         output_service(
-            ROOT / "data/", service, all_service_routes[service.code], all_stops
+            ROOT / "data/", service, all_service_maps[service.code], all_stops
         )
 
 
 def main():
     create_db()
 
-    convert_service_routes()
+    convert_service_maps()
 
 
 if __name__ == "__main__":

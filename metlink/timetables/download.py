@@ -1,22 +1,21 @@
 import datetime as dt
-import pprint
-
-import pytz
 import pathlib
 
-from ..utils import decimal_parse, pretty_json_dumps
-from ..api.db import Service, create_db, db_session, check_or_make
-from ..session import get_session
+import pytz
+
+from ..api.db import Service, check_or_make, create_db, db_session
 from ..api.services import import_services
-from ..utils import parse_html
+from ..session import get_session
+from ..utils import parse_html, pretty_json_dumps
 
 WELLINGTON_TZ = pytz.timezone("Pacific/Auckland")
 ROOT = pathlib.Path(__file__).parent / "../.."
 DATA = ROOT / "data/"
 TIMETABLED_DAYS = [
     dt.date.today() + dt.timedelta(days=t)
-    # Today to 14ish days in the future
-    for t in range(0, 14)
+    # Today to 28ish days in the future
+    # The timetables appear to go about 40ish days in the future
+    for t in range(0, 28)
 ]
 
 
@@ -35,7 +34,6 @@ def parse_timetable(page_content):
         times.append(stop_times)
     timetable = []
     for run_times in zip(*times):
-        start = None
         run_stop_times = []
         for stop, time in zip(stops, run_times):
             if time is None:
@@ -43,36 +41,6 @@ def parse_timetable(page_content):
             run_stop_times.append((stop, time))
         timetable.append(run_stop_times)
     return timetable
-
-
-def determine_run_times(timetables):
-    route_start_end = []
-    for route_times in timetables:
-        times = [time for _, time in route_times]
-        route_start_end.append((min(times), max(times)))
-    route_start_end = sorted(route_start_end)
-    ranges = []
-    r_start, r_end = route_start_end[0]
-    for start, end in route_start_end:
-        if r_start <= start <= r_end or r_start <= end <= r_end:
-            r_start = min(r_start, start)
-            r_end = max(r_end, end)
-        else:
-            ranges.append((r_start, r_end))
-            r_start, r_end = start, end
-    ranges.append((r_start, r_end))
-    ranges = sorted(ranges)
-    for (r_start, r_end) in ranges:
-        assert r_start < r_end, f"Incorrect range ({r_start}, {r_end})"
-    for r_start, r_end in ranges:
-        for t_start, t_end in ranges:
-            if t_start == r_start and t_end == t_end:
-                pass  # Same, skip
-            elif r_start <= t_start <= r_end or r_start <= t_end <= r_end:
-                raise ValueError(
-                    f"Time range ({r_start}, {r_end}) overlaps with ({t_start}, {t_end})"
-                )
-    return ranges
 
 
 def output_timetable(data_dir, svc_code, direction, date, timetable):
@@ -100,8 +68,6 @@ def output_timetable(data_dir, svc_code, direction, date, timetable):
 
 def load():
     check_or_make(Service, import_services)
-    with db_session() as db:
-        service_codes = [s.code for s in db.query(Service).all()]
     base_urls = []
     with db_session() as db:
         for svc in db.query(Service).all():
@@ -117,7 +83,6 @@ def load():
                         if "Service not found" in resp.text:
                             continue
                         timetable = parse_timetable(resp.text)
-                        run_times = determine_run_times(timetable)
                         output_timetable(DATA, code, direction, date, timetable)
 
 

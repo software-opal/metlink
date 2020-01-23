@@ -1,8 +1,5 @@
-from geojson import Polygon
 
-METLINK_REGION_COORDS = Polygon(
-    [
-        [
+METLINK_REGION_COORDS =         [
             (175.82717, -40.86575),
             (175.77696, -40.72605),
             (175.51291, -40.43695),
@@ -16,5 +13,3 @@ METLINK_REGION_COORDS = Polygon(
             (175.61723, -41.23812),
             (175.82717, -40.86575),
         ]
-    ]
-)

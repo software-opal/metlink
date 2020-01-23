@@ -1,6 +1,6 @@
-from .utils import BASE, json_load, decimal_parse
-
 import functools
+
+from .utils import BASE, decimal_parse, json_load
 
 responses = BASE / "responses"
 
@@ -93,7 +93,8 @@ def load_service(code):
     for route in routes:
         possible_route_ids = find_possible_routes(route, rps_start_stop_map)
         possible_routes_coords = [
-            build_route_from_ids(poss_route, route_path_segments) for poss_route in possible_route_ids
+            build_route_from_ids(poss_route, route_path_segments)
+            for poss_route in possible_route_ids
         ]
         try:
             ttbld_route_coords = [stops[stop] for stop in route]
@@ -107,10 +108,20 @@ def load_service(code):
         elif len(possible_routes_coords) == 1:
             best_route_idx = 0
         else:
-            print(f"Routing issue. Trying to resolve the bestest route from {len(possible_routes_coords)}")
+            print(
+                f"Routing issue. Trying to resolve the bestest route from {len(possible_routes_coords)}"
+            )
             best_route_idx = min(
-                (sum(min(distance_sq(stop_coord, coord) for coord in poss_route_coords)
-                for stop_coord in ttbld_route_coords ), i)
+                (
+                    sum(
+                        min(
+                            distance_sq(stop_coord, coord)
+                            for coord in poss_route_coords
+                        )
+                        for stop_coord in ttbld_route_coords
+                    ),
+                    i,
+                )
                 for i, poss_route_coords in enumerate(possible_routes_coords)
             )[1]
 
