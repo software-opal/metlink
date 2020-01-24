@@ -1,0 +1,108 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -41.223261,
+            174.804504
+          ],
+          [
+            174.804556,
+            -41.223314
+          ],
+          [
+            174.804687,
+            -41.223186
+          ],
+          [
+            174.804760,
+            -41.223113
+          ],
+          [
+            174.804970,
+            -41.222963
+          ],
+          [
+            174.805057,
+            -41.222897
+          ],
+          [
+            174.806030,
+            -41.222248
+          ],
+          [
+            174.805513,
+            -41.222178
+          ],
+          [
+            174.804642,
+            -41.222059
+          ],
+          [
+            174.803847,
+            -41.221939
+          ],
+          [
+            174.803162,
+            -41.221848
+          ],
+          [
+            174.802014,
+            -41.221689
+          ],
+          [
+            174.801796,
+            -41.222497
+          ],
+          [
+            -41.222513,
+            174.801855
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "52",
+        "mode": "Bus",
+        "name": "Johnsonville - Newlands - Wellington",
+        "route_id": "3250-3008",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.804504,
+          -41.223261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Johnsonville - Stop C",
+        "sms": "3250"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.801855,
+          -41.222513
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "St Brigid's School - Phillip Street (school stop)",
+        "sms": "3008"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

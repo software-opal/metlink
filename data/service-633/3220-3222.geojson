@@ -1,0 +1,84 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -41.201897,
+            174.804732
+          ],
+          [
+            174.804794,
+            -41.201846
+          ],
+          [
+            174.804684,
+            -41.201712
+          ],
+          [
+            174.804286,
+            -41.201260
+          ],
+          [
+            174.803685,
+            -41.200679
+          ],
+          [
+            174.803454,
+            -41.200465
+          ],
+          [
+            174.803162,
+            -41.200183
+          ],
+          [
+            -41.200210,
+            174.803136
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "633",
+        "mode": "School",
+        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Road)",
+        "route_id": "3220-3222",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.804732,
+          -41.201897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Amesbury Drive at Derry Hill",
+        "sms": "3220"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.803136,
+          -41.200210
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Amesbury Drive at Claverton Grove",
+        "sms": "3222"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

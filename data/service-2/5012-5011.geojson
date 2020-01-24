@@ -1,0 +1,112 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -41.282603,
+            174.775670
+          ],
+          [
+            174.775706,
+            -41.282624
+          ],
+          [
+            174.775783,
+            -41.282486
+          ],
+          [
+            174.775974,
+            -41.282106
+          ],
+          [
+            174.775995,
+            -41.282076
+          ],
+          [
+            174.776036,
+            -41.281916
+          ],
+          [
+            174.776035,
+            -41.281865
+          ],
+          [
+            174.776029,
+            -41.281781
+          ],
+          [
+            174.775999,
+            -41.281618
+          ],
+          [
+            174.775937,
+            -41.281330
+          ],
+          [
+            174.775863,
+            -41.280860
+          ],
+          [
+            174.775844,
+            -41.280622
+          ],
+          [
+            174.775863,
+            -41.280426
+          ],
+          [
+            174.775924,
+            -41.280194
+          ],
+          [
+            -41.280111,
+            174.775990
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "2",
+        "mode": "Bus",
+        "name": "Karori - Wellington - Hataitai - Seatoun",
+        "route_id": "5012-5011",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.775670,
+          -41.282603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Lambton Central - Stop A",
+        "sms": "5012"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.776000,
+          -41.280116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1",
+        "marker-size": "small",
+        "name": "Lambton Quay North - Stop C",
+        "sms": "5011"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

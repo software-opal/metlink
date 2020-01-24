@@ -4,24 +4,24 @@
       "geometry": {
         "coordinates": [
           [
-            174.77509,
-            -41.28421
+            -41.284212,
+            174.775091
           ],
           [
-            174.77308,
-            -41.28451
+            174.773077,
+            -41.284514
           ],
           [
-            174.77129,
-            -41.28479
+            174.771285,
+            -41.284793
           ],
           [
-            174.76956,
-            -41.28505
+            174.769562,
+            -41.285054
           ],
           [
-            174.76765,
-            -41.28536
+            -41.285365,
+            174.767650
           ]
         ],
         "type": "LineString"
@@ -38,8 +38,8 @@
     {
       "geometry": {
         "coordinates": [
-          174.77509,
-          -41.28421
+          174.775091,
+          -41.284212
         ],
         "type": "Point"
       },
@@ -54,56 +54,8 @@
     {
       "geometry": {
         "coordinates": [
-          174.77308,
-          -41.28451
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "1",
-        "marker-size": "small",
-        "name": "Clifton - Cable Car Station",
-        "sms": "CLIF"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.77129,
-          -41.28479
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "1",
-        "marker-size": "small",
-        "name": "Talavera - Cable Car Station",
-        "sms": "TALA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.76956,
-          -41.28505
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "1",
-        "marker-size": "small",
-        "name": "Salamanca - Cable Car Station",
-        "sms": "SALA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.76765,
-          -41.28536
+          174.767650,
+          -41.285365
         ],
         "type": "Point"
       },

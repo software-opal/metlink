@@ -4,76 +4,76 @@
       "geometry": {
         "coordinates": [
           [
-            175.07032,
-            -41.12623
+            -41.126232,
+            175.070318
           ],
           [
-            175.05882,
-            -41.13052
+            175.058815,
+            -41.130518
           ],
           [
-            175.03823,
-            -41.13793
+            175.038233,
+            -41.137928
           ],
           [
-            175.02591,
-            -41.14234
+            175.025912,
+            -41.142339
           ],
           [
-            175.01331,
-            -41.14694
+            175.013314,
+            -41.146937
           ],
           [
-            175.01029,
-            -41.14730
+            175.010292,
+            -41.147298
           ],
           [
-            174.99649,
-            -41.14576
+            174.996486,
+            -41.145762
           ],
           [
-            174.99355,
-            -41.14603
+            174.993546,
+            -41.146029
           ],
           [
-            174.98890,
-            -41.14803
+            174.988904,
+            -41.148026
           ],
           [
-            174.98562,
-            -41.15057
+            174.985619,
+            -41.150566
           ],
           [
-            174.98343,
-            -41.15317
+            174.983434,
+            -41.153171
           ],
           [
-            174.97893,
-            -41.15632
+            174.978929,
+            -41.156315
           ],
           [
-            174.97288,
-            -41.16066
+            174.972881,
+            -41.160660
           ],
           [
-            174.97162,
-            -41.16268
+            174.971623,
+            -41.162678
           ],
           [
-            174.97082,
-            -41.16736
+            174.970819,
+            -41.167364
           ],
           [
-            174.96972,
-            -41.16946
+            174.969721,
+            -41.169455
           ],
           [
-            174.96972,
-            -41.16946
+            174.969721,
+            -41.169455
           ],
           [
-            174.96084,
-            -41.18038
+            -41.180383,
+            174.960841
           ]
         ],
         "type": "LineString"
@@ -90,8 +90,8 @@
     {
       "geometry": {
         "coordinates": [
-          175.07032,
-          -41.12623
+          175.070318,
+          -41.126232
         ],
         "type": "Point"
       },
@@ -106,104 +106,8 @@
     {
       "geometry": {
         "coordinates": [
-          175.05882,
-          -41.13052
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "7",
-        "marker-size": "small",
-        "name": "Wallaceville Station",
-        "sms": "WALL"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          175.03823,
-          -41.13793
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "6/7",
-        "marker-size": "small",
-        "name": "Trentham Station",
-        "sms": "TREN"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          175.02591,
-          -41.14234
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "6",
-        "marker-size": "small",
-        "name": "Heretaunga Station",
-        "sms": "HERE"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          175.01029,
-          -41.14730
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "6",
-        "marker-size": "small",
-        "name": "Silverstream Station",
-        "sms": "SILV"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.97893,
-          -41.15632
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "6",
-        "marker-size": "small",
-        "name": "Manor Park Station",
-        "sms": "MANO"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.96972,
-          -41.16946
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "5",
-        "marker-size": "small",
-        "name": "Pomare Station",
-        "sms": "POMA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.96075,
-          -41.18035
+          174.960754,
+          -41.180351
         ],
         "type": "Point"
       },

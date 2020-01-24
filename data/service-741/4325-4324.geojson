@@ -1,0 +1,112 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -41.283615,
+            174.741149
+          ],
+          [
+            174.741166,
+            -41.283674
+          ],
+          [
+            174.741423,
+            -41.283600
+          ],
+          [
+            174.741756,
+            -41.283516
+          ],
+          [
+            174.741990,
+            -41.283452
+          ],
+          [
+            174.744008,
+            -41.282886
+          ],
+          [
+            174.744202,
+            -41.282833
+          ],
+          [
+            174.744809,
+            -41.282670
+          ],
+          [
+            174.744998,
+            -41.282619
+          ],
+          [
+            174.745391,
+            -41.282504
+          ],
+          [
+            174.745528,
+            -41.282464
+          ],
+          [
+            174.745657,
+            -41.282426
+          ],
+          [
+            174.745711,
+            -41.282410
+          ],
+          [
+            174.745823,
+            -41.282377
+          ],
+          [
+            -41.282305,
+            174.746070
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "741",
+        "mode": "School",
+        "name": "Karori - Kelburn - Wellington College",
+        "route_id": "4325-4324",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.741149,
+          -41.283615
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Karori Normal School - Karori Road (opposite)",
+        "sms": "4325"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.746068,
+          -41.282298
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Marsden Village - Karori Road",
+        "sms": "4324"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

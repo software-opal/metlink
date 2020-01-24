@@ -1,0 +1,92 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -41.222513,
+            174.801855
+          ],
+          [
+            174.801796,
+            -41.222497
+          ],
+          [
+            174.801405,
+            -41.223952
+          ],
+          [
+            174.801780,
+            -41.224115
+          ],
+          [
+            174.802376,
+            -41.224191
+          ],
+          [
+            174.803195,
+            -41.224296
+          ],
+          [
+            174.803734,
+            -41.224332
+          ],
+          [
+            174.804386,
+            -41.223479
+          ],
+          [
+            174.804556,
+            -41.223314
+          ],
+          [
+            -41.223261,
+            174.804504
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "52",
+        "mode": "Bus",
+        "name": "Johnsonville - Newlands - Wellington",
+        "route_id": "3008-3250",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.801855,
+          -41.222513
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "St Brigid's School - Phillip Street (school stop)",
+        "sms": "3008"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.804504,
+          -41.223261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Johnsonville - Stop C",
+        "sms": "3250"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

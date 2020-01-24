@@ -1,0 +1,128 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -41.301635,
+            174.779769
+          ],
+          [
+            174.779681,
+            -41.301605
+          ],
+          [
+            174.779663,
+            -41.301659
+          ],
+          [
+            174.779636,
+            -41.301759
+          ],
+          [
+            174.779581,
+            -41.301912
+          ],
+          [
+            174.779492,
+            -41.302255
+          ],
+          [
+            174.779333,
+            -41.302745
+          ],
+          [
+            174.779169,
+            -41.303235
+          ],
+          [
+            174.779070,
+            -41.303545
+          ],
+          [
+            174.778839,
+            -41.304288
+          ],
+          [
+            174.778770,
+            -41.304510
+          ],
+          [
+            174.778686,
+            -41.304781
+          ],
+          [
+            174.778580,
+            -41.305135
+          ],
+          [
+            174.778257,
+            -41.306203
+          ],
+          [
+            174.778079,
+            -41.306713
+          ],
+          [
+            174.778049,
+            -41.306810
+          ],
+          [
+            174.778031,
+            -41.306869
+          ],
+          [
+            174.778120,
+            -41.306885
+          ],
+          [
+            -41.308603,
+            174.778470
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "1",
+        "mode": "Bus",
+        "name": "Johnsonville West/Churton Park/Grenada Village - Island Bay",
+        "route_id": "6014-6055-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.779769,
+          -41.301635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "1/2",
+        "marker-size": "small",
+        "name": "Adelaide Road at Basin Reserve (near 13)",
+        "sms": "6014"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.778470,
+          -41.308603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "2",
+        "marker-size": "small",
+        "name": "Wellington Hospital - Stop A",
+        "sms": "6055"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

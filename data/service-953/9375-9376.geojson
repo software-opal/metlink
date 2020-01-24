@@ -1,0 +1,76 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -41.186880,
+            174.982936
+          ],
+          [
+            174.982828,
+            -41.186880
+          ],
+          [
+            174.982843,
+            -41.187075
+          ],
+          [
+            174.982918,
+            -41.188243
+          ],
+          [
+            174.983084,
+            -41.190500
+          ],
+          [
+            -41.190500,
+            174.983158
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "953",
+        "mode": "School",
+        "name": "Stokes Valley - St Patrick\u2019s College & Fergusson Intermediate School",
+        "route_id": "9375-9376",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.982936,
+          -41.186872
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Road at Kamahi Street",
+        "sms": "9375"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.983158,
+          -41.190494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Road (near 479)",
+        "sms": "9376"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
