@@ -1,5 +1,5 @@
-from ..utils import json_load, pretty_json_dump as  json_dump
-
+from ..utils import json_load
+from ..utils import pretty_json_dump as json_dump
 from .db import Service, ServiceRouteMap, Stop, create_db, db_session
 
 dump_files = [

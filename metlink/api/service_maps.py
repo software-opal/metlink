@@ -10,37 +10,82 @@ from .services import import_services
 Coordinate = typ.Tuple[decimal.Decimal, decimal.Decimal]
 
 
-def find_stop_within_epsilon(lat_lon: Coordinate, stop_positions, epsilon):
-    if epsilon == 0:
-        return stop_positions.get(lat_lon, None)
-    lat, lon = lat_lon
-    for (test_lat, test_lon), stop in stop_positions.items():
-        if abs(test_lat - lat) <= epsilon and abs(test_lon - lon) <= epsilon:
-            return stop
+def distance(lat_lon, coord):
+    return decimal.Decimal(
+        (lat_lon[0] - coord[0]) ** 2 + (lat_lon[0] - coord[0]) ** 2
+    ).sqrt()
+
+
+def sort_stops_by_closest(
+    lat_lon: Coordinate, stop_positions: typ.Dict[Coordinate, str]
+) -> typ.List[typ.Tuple[Coordinate, str, decimal.Decimal]]:
+    with decimal.localcontext() as ctx:
+        ctx.prec = 12  # Work with high precision math for the distance
+        pos_stops_distances = [
+            (coord, stop, distance(lat_lon, coord),)
+            for coord, stop in stop_positions.items()
+        ]
+    # Sorted will put the lowest distance first
+    return sorted(pos_stops_distances, key=lambda item: item[2])
 
 
 def find_route_stops(
     route_positions: typ.List[Coordinate], stop_positions: typ.Dict[Coordinate, str]
-) -> typ.Tuple[typ.List[str], typ.Dict[str, typ.Any]]:
-    # This looks for stops at 1m-10m away.
-    accuracies = range(1, 10)
-    for accuracy in accuracies:
-        epsilon = LAT_LON_EXPONENT * accuracy
-        route_path = []
-        route_stops = []
+) -> typ.Optional[typ.List[str]]:
+    (_, start_stop, start_epsilon) = sort_stops_by_closest(
+        route_positions[0], stop_positions
+    )[0]
+    (_, end_stop, end_epsilon) = sort_stops_by_closest(
+        route_positions[-1], stop_positions
+    )[0]
+    # Assert the stop is less than ~5m from the coordinate given
+    assert start_epsilon < 5e-5
+    # Assert the stop is less than ~5m from the coordinate given
+    assert end_epsilon < 5e-5
+    return [start_stop, end_stop]
 
-        for lat, lon in route_positions:
-            stop_id = find_stop_within_epsilon((lat, lon), stop_positions, epsilon)
-            if stop_id is not None:
-                if len(route_stops) == 0 or route_stops[-1] != stop_id:
-                    route_stops.append(stop_id)
-                route_path.append({"lat": lat, "lon": lon, "stop": stop_id})
-            else:
-                route_path.append({"lat": lat, "lon": lon})
 
-        if len(route_stops) >= 2:
-            return route_path, route_stops
-    return None, None
+def map_coords_to_location_dicts(
+    positions: typ.List[Coordinate],
+) -> typ.List[typ.Dict[str, typ.Any]]:
+    return
+
+
+def map_coord_to_location_dict(
+    position: Coordinate, stop: typ.Optional[str] = None
+) -> typ.Dict[str, typ.Any]:
+    re = {"lat": position[1], "lon": position[0]}
+    if stop is not None:
+        re["stop"] = stop
+    return re
+
+
+def find_route_stop_and_map_locations(
+    route_positions: typ.List[Coordinate], stop_positions: typ.Dict[Coordinate, str]
+) -> typ.Tuple[typ.List[typ.Dict[str, typ.Any]], typ.List[str]]:
+    route_stops = find_route_stops(route_positions, stop_positions)
+    if route_stops is None:
+        return None
+    else:
+        [start_stop, end_stop] = route_stops
+        route_path = (
+            [
+                {
+                    "lat": route_positions[0][1],
+                    "lon": route_positions[0][0],
+                    "stop": start_stop,
+                }
+            ]
+            + [{"lat": lat, "lon": lon} for lat, lon in route_positions[1:-1]]
+            + [
+                {
+                    "lat": route_positions[-1][1],
+                    "lon": route_positions[-1][0],
+                    "stop": end_stop,
+                }
+            ]
+        )
+        return route_path, route_stops
 
 
 # The caps come from the JSON, don't change them <3
@@ -84,7 +129,9 @@ def load_service_maps(
                 for entry in route["Path"]
             ]
         ]
-        route_path, route_stops = find_route_stops(route_positions, lat_lon_to_stop_id)
+        route_path, route_stops = find_route_stop_and_map_locations(
+            route_positions, lat_lon_to_stop_id
+        )
         if route_stops:
             svc_routes.append(
                 ServiceRouteMap(
@@ -99,6 +146,7 @@ def load_service_maps(
                 route_positions,
                 lat_lon_to_stop_id,
             )
+            raise ValueError("AAAAA")
     return svc_routes
 
 

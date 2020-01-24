@@ -8,7 +8,10 @@ from bs4 import BeautifulSoup
 
 BASE = pathlib.Path(__file__).parent / "../"
 
-LAT_LON_PRECISION = 10
+# 5 decimal places is about 1.1m around the equator.
+# 6 decimal places is 11cm
+# Source: https://gis.stackexchange.com/a/8674
+LAT_LON_PRECISION = 6
 LAT_LON_EXPONENT = decimal.Decimal(10) ** -LAT_LON_PRECISION
 
 _json_args = dict(use_decimal=True)

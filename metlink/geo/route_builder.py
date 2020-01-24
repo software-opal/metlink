@@ -1,5 +1,4 @@
 import pathlib
-import pprint
 
 from ..api.db import (
     Service,
@@ -12,7 +11,7 @@ from ..api.db import (
 from ..api.service_maps import import_service_maps
 from ..api.services import import_services
 from ..api.stops import import_stops
-from ..utils import decimal_parse, pretty_json_dumps
+from ..utils import decimal_parse, pretty_json_dump
 
 ROOT = (pathlib.Path(__file__).parent / "../..").resolve()
 
@@ -55,6 +54,13 @@ def geojson_stop(stop):
 def output_service(data_dir, service, service_maps, all_stops):
     service_folder = data_dir / f"service-{service.code}/"
     service_folder.mkdir(parents=True, exist_ok=True)
+
+    for file in service_folder.iterdir():
+        # We remove all the geojson files in the service's folder so we are
+        #  sure we have a clean slate
+        if file.is_file() and file.suffix == ".geojson":
+            file.unlink()
+
     data = {
         "name": service.name,
         "code": service.code,
@@ -67,6 +73,7 @@ def output_service(data_dir, service, service_maps, all_stops):
     serviced_stops = set()
     service_route_start_end_stops = {}
     service_route_features = []
+
     for route in service_maps:
         stops = route.stops
         start, end = stops[0], stops[-1]
@@ -90,14 +97,13 @@ def output_service(data_dir, service, service_maps, all_stops):
         route_feature = geojson_route(service, route_name, route)
         service_route_features.append(route_feature)
         with (service_folder / f"{route_name}.geojson").open("w") as f:
-            f.write(
-                pretty_json_dumps(
-                    {
-                        "type": "FeatureCollection",
-                        "features": [route_feature]
-                        + [geojson_stop(all_stops[stop_id]) for stop_id in stops],
-                    }
-                )
+            pretty_json_dump(
+                {
+                    "type": "FeatureCollection",
+                    "features": [route_feature]
+                    + [geojson_stop(all_stops[stop_id]) for stop_id in stops],
+                },
+                f,
             )
     data["stops"] = [
         {
@@ -111,20 +117,19 @@ def output_service(data_dir, service, service_maps, all_stops):
     ]
 
     with (service_folder / f"service.geojson").open("w") as f:
-        f.write(
-            pretty_json_dumps(
-                {
-                    "type": "FeatureCollection",
-                    "features": service_route_features
-                    + [
-                        geojson_stop(all_stops[stop_id])
-                        for stop_id in sorted(serviced_stops)
-                    ],
-                }
-            )
+        pretty_json_dump(
+            {
+                "type": "FeatureCollection",
+                "features": service_route_features
+                + [
+                    geojson_stop(all_stops[stop_id])
+                    for stop_id in sorted(serviced_stops)
+                ],
+            },
+            f,
         )
     with (service_folder / "service.json").open("w") as f:
-        f.write(pretty_json_dumps(data))
+        pretty_json_dump(data, f)
 
 
 def convert_service_maps():
@@ -138,7 +143,8 @@ def convert_service_maps():
         all_service_maps = {}
         for sr in db.query(ServiceRouteMap).all():
             all_service_maps.setdefault(sr.code, []).append(sr)
-
+    with (ROOT / "data" / "stops.json").open("w") as f:
+        pretty_json_dump(all_stops, f)
     for service in all_services.values():
         output_service(
             ROOT / "data/", service, all_service_maps[service.code], all_stops
