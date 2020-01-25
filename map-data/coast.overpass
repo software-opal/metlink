@@ -1,3 +1,5 @@
+// https://overpass-turbo.eu/
+
 way[natural="coastline"]({{bbox}});
 // Also include all the nodes that make up the relations and ways.
 (._;>;);
