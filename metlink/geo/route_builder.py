@@ -169,7 +169,7 @@ def convert_service_maps():
                     "mode": service.mode,
                     "link": service.link,
                     "last_modified": service.last_modified,
-                    "schools_str": service.schools_str,
+                    "schools": service.schools,
                 }
                 for _, service in sorted(all_services.items())
             ],
