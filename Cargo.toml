@@ -1,2 +1,8 @@
+[package]
+name = "metlink-route-render"
+version = "0.1.0"
+authors = ["Opal Symes <code@opal.codes>"]
+edition = "2018"
+
 [workspace]
-members = ["render", "datatypes"]
+members = ["route-builder", "transport-data"]
