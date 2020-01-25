@@ -1,0 +1,17 @@
+(
+  (
+    way[natural="water"]({{bbox}});
+    way[waterway="riverbank"]({{bbox}});
+    way[waterway="river"]({{bbox}});
+    way[waterway="stream"]({{bbox}});
+  );
+  (
+    relation[natural="water"]({{bbox}});
+    relation[waterway="riverbank"]({{bbox}});
+    relation[waterway="river"]({{bbox}});
+    relation[waterway="stream"]({{bbox}});
+  );
+);
+// Also include all the nodes that make up the relations and ways.
+(._;>;);
+out;
