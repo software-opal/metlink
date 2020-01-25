@@ -100,11 +100,14 @@ def output_service(data_dir, service, service_maps, all_stops):
             pretty_json_dump(
                 {
                     "type": "FeatureCollection",
-                    "features": [route_feature]
-                    + [geojson_stop(all_stops[stop_id]) for stop_id in stops],
+                    "features": (
+                        [route_feature]
+                        + [geojson_stop(all_stops[stop_id]) for stop_id in stops]
+                    ),
                 },
                 f,
             )
+    data["routes"] = sorted(data["routes"], key=lambda r: (r["id"]))
     data["stops"] = [
         {
             "name": all_stops[stop_id].name,
@@ -113,7 +116,7 @@ def output_service(data_dir, service, service_maps, all_stops):
             "lat": decimal_parse(all_stops[stop_id].lat),
             "lon": decimal_parse(all_stops[stop_id].long),
         }
-        for stop_id in serviced_stops
+        for stop_id in sorted(serviced_stops)
     ]
 
     with (service_folder / f"service.geojson").open("w") as f:
@@ -144,7 +147,34 @@ def convert_service_maps():
         for sr in db.query(ServiceRouteMap).all():
             all_service_maps.setdefault(sr.code, []).append(sr)
     with (ROOT / "data" / "stops.json").open("w") as f:
-        pretty_json_dump(all_stops, f)
+        pretty_json_dump(
+            [
+                {
+                    "name": stop.name,
+                    "sms": stop.sms,
+                    "farezone": stop.fare_zone,
+                    "lat": decimal_parse(stop.lat),
+                    "lon": decimal_parse(stop.long),
+                }
+                for _, stop in sorted(all_stops.items())
+            ],
+            f,
+        )
+    with (ROOT / "data" / "services.json").open("w") as f:
+        pretty_json_dump(
+            [
+                {
+                    "name": service.name,
+                    "code": service.code,
+                    "mode": service.mode,
+                    "link": service.link,
+                    "last_modified": service.last_modified,
+                    "schools_str": service.schools_str,
+                }
+                for _, service in sorted(all_services.items())
+            ],
+            f,
+        )
     for service in all_services.values():
         output_service(
             ROOT / "data/", service, all_service_maps[service.code], all_stops
