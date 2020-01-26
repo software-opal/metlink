@@ -1536,27 +1536,8 @@
             -41.305718
           ],
           [
-            -41.305538,
-            174.826035
-          ]
-        ],
-        "type": "LineString"
-      },
-      "properties": {
-        "code": "31x",
-        "mode": "Bus",
-        "name": "Miramar North - Wellington (Express)",
-        "route_id": "6001-6241",
-        "stroke-opacity": 0.3
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            -41.305538,
-            174.826035
+            174.826035,
+            -41.305538
           ],
           [
             174.826035,
@@ -2017,7 +1998,7 @@
         "code": "31x",
         "mode": "Bus",
         "name": "Miramar North - Wellington (Express)",
-        "route_id": "6241-6246",
+        "route_id": "6001-6246",
         "stroke-opacity": 0.3
       },
       "type": "Feature"
@@ -4380,22 +4361,6 @@
         "marker-size": "small",
         "name": "Wellington Station - Stop C",
         "sms": "6001"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.826030,
-          -41.305538
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "3",
-        "marker-size": "small",
-        "name": "Miramar - Darlington Road (near 155)",
-        "sms": "6241"
       },
       "type": "Feature"
     },

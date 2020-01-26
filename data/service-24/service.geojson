@@ -6314,27 +6314,8 @@
             -41.236477
           ],
           [
-            -41.236459,
-            174.797424
-          ]
-        ],
-        "type": "LineString"
-      },
-      "properties": {
-        "code": "24",
-        "mode": "Bus",
-        "name": "Johnsonville - Broadmeadows - Wellington - Miramar Heights",
-        "route_id": "5016-3813",
-        "stroke-opacity": 0.3
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            -41.236459,
-            174.797424
+            174.797424,
+            -41.236459
           ],
           [
             174.797508,
@@ -6359,6 +6340,18 @@
           [
             174.798184,
             -41.235452
+          ],
+          [
+            174.798229,
+            -41.233032
+          ],
+          [
+            174.798100,
+            -41.233030
+          ],
+          [
+            174.798229,
+            -41.233032
           ],
           [
             174.798232,
@@ -6409,27 +6402,8 @@
             -41.229686
           ],
           [
-            -41.229609,
-            174.799963
-          ]
-        ],
-        "type": "LineString"
-      },
-      "properties": {
-        "code": "24",
-        "mode": "Bus",
-        "name": "Johnsonville - Broadmeadows - Wellington - Miramar Heights",
-        "route_id": "3813-3809",
-        "stroke-opacity": 0.3
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            -41.229609,
-            174.799963
+            174.799963,
+            -41.229609
           ],
           [
             174.800008,
@@ -6562,114 +6536,7 @@
         "code": "24",
         "mode": "Bus",
         "name": "Johnsonville - Broadmeadows - Wellington - Miramar Heights",
-        "route_id": "3809-3000",
-        "stroke-opacity": 0.3
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            -41.236459,
-            174.797424
-          ],
-          [
-            174.797508,
-            -41.236477
-          ],
-          [
-            174.797612,
-            -41.235990
-          ],
-          [
-            174.797591,
-            -41.235900
-          ],
-          [
-            174.797676,
-            -41.235906
-          ],
-          [
-            174.798177,
-            -41.235920
-          ],
-          [
-            174.798184,
-            -41.235452
-          ],
-          [
-            174.798229,
-            -41.233032
-          ],
-          [
-            174.798100,
-            -41.233030
-          ],
-          [
-            174.798229,
-            -41.233032
-          ],
-          [
-            174.798232,
-            -41.232849
-          ],
-          [
-            174.798244,
-            -41.232205
-          ],
-          [
-            174.798269,
-            -41.231721
-          ],
-          [
-            174.798272,
-            -41.231691
-          ],
-          [
-            174.798295,
-            -41.231456
-          ],
-          [
-            174.798364,
-            -41.231218
-          ],
-          [
-            174.798467,
-            -41.231005
-          ],
-          [
-            174.798613,
-            -41.230811
-          ],
-          [
-            174.799010,
-            -41.230370
-          ],
-          [
-            174.799282,
-            -41.230139
-          ],
-          [
-            174.799664,
-            -41.229889
-          ],
-          [
-            174.800008,
-            -41.229686
-          ],
-          [
-            -41.229609,
-            174.799963
-          ]
-        ],
-        "type": "LineString"
-      },
-      "properties": {
-        "code": "24",
-        "mode": "Bus",
-        "name": "Johnsonville - Broadmeadows - Wellington - Miramar Heights",
-        "route_id": "3813-3809-2",
+        "route_id": "5016-3000",
         "stroke-opacity": 0.3
       },
       "type": "Feature"
@@ -13291,38 +13158,6 @@
         "marker-size": "small",
         "name": "Johnsonville - Stop B",
         "sms": "3081"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.799963,
-          -41.229609
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "3",
-        "marker-size": "small",
-        "name": "Burma Road near Haumia Street",
-        "sms": "3809"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.797424,
-          -41.236459
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "3",
-        "marker-size": "small",
-        "name": "Rajkot Terrace (near 4)",
-        "sms": "3813"
       },
       "type": "Feature"
     },

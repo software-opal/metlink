@@ -1056,27 +1056,8 @@
             -41.317201
           ],
           [
-            -41.317170,
-            174.795670
-          ]
-        ],
-        "type": "LineString"
-      },
-      "properties": {
-        "code": "36",
-        "mode": "Bus",
-        "name": "Lyall Bay - Kilbirnie - Hataitai - Wellington",
-        "route_id": "6000-6224",
-        "stroke-opacity": 0.3
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            -41.317170,
-            174.795670
+            174.795670,
+            -41.317170
           ],
           [
             174.795656,
@@ -1729,7 +1710,7 @@
         "code": "36",
         "mode": "Bus",
         "name": "Lyall Bay - Kilbirnie - Hataitai - Wellington",
-        "route_id": "6224-7338",
+        "route_id": "6000-7338",
         "stroke-opacity": 0.3
       },
       "type": "Feature"
@@ -2286,27 +2267,8 @@
             -41.317576
           ],
           [
-            -41.317604,
-            174.795938
-          ]
-        ],
-        "type": "LineString"
-      },
-      "properties": {
-        "code": "36",
-        "mode": "Bus",
-        "name": "Lyall Bay - Kilbirnie - Hataitai - Wellington",
-        "route_id": "7338-7224",
-        "stroke-opacity": 0.3
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            -41.317604,
-            174.795938
+            174.795938,
+            -41.317604
           ],
           [
             174.795970,
@@ -3395,7 +3357,7 @@
         "code": "36",
         "mode": "Bus",
         "name": "Lyall Bay - Kilbirnie - Hataitai - Wellington",
-        "route_id": "7224-5016",
+        "route_id": "7338-5016",
         "stroke-opacity": 0.3
       },
       "type": "Feature"
@@ -3429,38 +3391,6 @@
         "marker-size": "small",
         "name": "Wellington Station - Stop B",
         "sms": "6000"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.795670,
-          -41.317170
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "2/3",
-        "marker-size": "small",
-        "name": "Kilbirnie - Stop A",
-        "sms": "6224"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          174.795938,
-          -41.317604
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "farezone": "2/3",
-        "marker-size": "small",
-        "name": "Kilbirnie - Stop B",
-        "sms": "7224"
       },
       "type": "Feature"
     },

@@ -5,7 +5,35 @@
     "link": "/timetables/bus/1",
     "mode": "Bus",
     "name": "Johnsonville West/Churton Park/Grenada Village - Island Bay",
-    "schools": ["Newtown School", "St Anne's Primary School", "South Wellington Intermediate School", "Berhampore School", "Island Bay School", "Saint Francis De Sales School", "St Francis De Sales School", "Wellington High School", "St Mark's Church School", "Wellington College", "Wellington East Girl's College", "Mount Cook School", "Mt Cook School", "Clyde Quay School", "Sacred Heart Cathedral", "St Mary's College", "Thorndon School", "Queen Margaret College", "Wellington Girl's College", "Central Regional Health School", "Te Aho o Te Kura Pounamu", "Saint Catherine's College", "St Cathreine's College", "St Patrick's Primary School", "Saint Patrick's College", "Evans Bay Intermediate School", "Kilbirnie School"]
+    "schools": [
+      "Newtown School",
+      "St Anne's Primary School",
+      "South Wellington Intermediate School",
+      "Berhampore School",
+      "Island Bay School",
+      "Saint Francis De Sales School",
+      "St Francis De Sales School",
+      "Wellington High School",
+      "St Mark's Church School",
+      "Wellington College",
+      "Wellington East Girl's College",
+      "Mount Cook School",
+      "Mt Cook School",
+      "Clyde Quay School",
+      "Sacred Heart Cathedral",
+      "St Mary's College",
+      "Thorndon School",
+      "Queen Margaret College",
+      "Wellington Girl's College",
+      "Central Regional Health School",
+      "Te Aho o Te Kura Pounamu",
+      "Saint Catherine's College",
+      "St Cathreine's College",
+      "St Patrick's Primary School",
+      "Saint Patrick's College",
+      "Evans Bay Intermediate School",
+      "Kilbirnie School"
+    ]
   },
   {
     "code": "110",
@@ -13,7 +41,42 @@
     "link": "/timetables/bus/110",
     "mode": "Bus",
     "name": "Emerald Hill - Upper Hutt - Lower Hutt - Petone",
-    "schools": ["Petone Central School", "Sacred Heart School", "Wilford School", "Te Kura Kaupapa Maori o Te Ara Whanui", "Hutt Central School", "Hutt Valley High School", "Sacred Heart College", "Saints Peter and Paul School", "Eastern Hutt School", "Chilton Saint James School", "St Bernards College", "Saint Orans College", "Boulcott School", "Dyer Street School", "Naenae College", "Naenae Intermediate School", "Avalon School", "Avalon Intermediate School", "Taita Central School", "Saint Michaels School", "Pomare School", "Taita College", "Silverstream School", "St Patricks College", "Saint Brendans School", "Upper Hutt College", "Trentham School", "Fergusson Intermediate", "Hertaunga College", "Maidstone Intermediate School", "Upper Hutt Primary School", "Saint Josephs School", "Maoribank School", "Birchville School"]
+    "schools": [
+      "Petone Central School",
+      "Sacred Heart School",
+      "Wilford School",
+      "Te Kura Kaupapa Maori o Te Ara Whanui",
+      "Hutt Central School",
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "Saints Peter and Paul School",
+      "Eastern Hutt School",
+      "Chilton Saint James School",
+      "St Bernards College",
+      "Saint Orans College",
+      "Boulcott School",
+      "Dyer Street School",
+      "Naenae College",
+      "Naenae Intermediate School",
+      "Avalon School",
+      "Avalon Intermediate School",
+      "Taita Central School",
+      "Saint Michaels School",
+      "Pomare School",
+      "Taita College",
+      "Silverstream School",
+      "St Patricks College",
+      "Saint Brendans School",
+      "Upper Hutt College",
+      "Trentham School",
+      "Fergusson Intermediate",
+      "Hertaunga College",
+      "Maidstone Intermediate School",
+      "Upper Hutt Primary School",
+      "Saint Josephs School",
+      "Maoribank School",
+      "Birchville School"
+    ]
   },
   {
     "code": "111",
@@ -21,7 +84,12 @@
     "link": "/timetables/bus/111",
     "mode": "Bus",
     "name": "Upper Hutt - Totara Park - Upper Hutt",
-    "schools": ["Upper Hutt Primary School", "Saint Josephs School", "Oxford Crescent School", "Totara Park School"]
+    "schools": [
+      "Upper Hutt Primary School",
+      "Saint Josephs School",
+      "Oxford Crescent School",
+      "Totara Park School"
+    ]
   },
   {
     "code": "112",
@@ -29,7 +97,14 @@
     "link": "/timetables/bus/112",
     "mode": "Bus",
     "name": "Te Marua - Timberlea - Maoribank - Upper Hutt",
-    "schools": ["Saint Josephs School", "Upper Hutt Primary School", "Oxford Crescent School", "Totara Park School", "Maoribank School", "Plateau School"]
+    "schools": [
+      "Saint Josephs School",
+      "Upper Hutt Primary School",
+      "Oxford Crescent School",
+      "Totara Park School",
+      "Maoribank School",
+      "Plateau School"
+    ]
   },
   {
     "code": "113",
@@ -37,7 +112,7 @@
     "link": "/timetables/bus/113",
     "mode": "Bus",
     "name": "Riverstone Terraces - Upper Hutt",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "114",
@@ -45,7 +120,13 @@
     "link": "/timetables/bus/114",
     "mode": "Bus",
     "name": "Trentham - Elderslea - Upper Hutt",
-    "schools": ["Fergusson Intermediate", "Upper Hutt College", "Trentham School", "Saint Josephs School", "Upper Hutt Primary School"]
+    "schools": [
+      "Fergusson Intermediate",
+      "Upper Hutt College",
+      "Trentham School",
+      "Saint Josephs School",
+      "Upper Hutt Primary School"
+    ]
   },
   {
     "code": "115",
@@ -53,7 +134,17 @@
     "link": "/timetables/bus/115",
     "mode": "Bus",
     "name": "Upper Hutt - Pinehaven - Upper Hutt",
-    "schools": ["Pinehaven School", "Silverstream Christian School", "Silverstream School", "St Patricks College", "Saint Brendans School", "Hutt International Boys School", "Heretaunga College", "Upper Hutt Primary School", "Saint Josephs School"]
+    "schools": [
+      "Pinehaven School",
+      "Silverstream Christian School",
+      "Silverstream School",
+      "St Patricks College",
+      "Saint Brendans School",
+      "Hutt International Boys School",
+      "Heretaunga College",
+      "Upper Hutt Primary School",
+      "Saint Josephs School"
+    ]
   },
   {
     "code": "12",
@@ -61,7 +152,7 @@
     "link": "/timetables/bus/12",
     "mode": "Bus",
     "name": "Strathmore Park - Kilbirnie",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "120",
@@ -69,7 +160,24 @@
     "link": "/timetables/bus/120",
     "mode": "Bus",
     "name": "Stokes Valley - Taita - Epuni - Lower Hutt",
-    "schools": ["Saints Peter and Paul School", "Eastern Hutt School", "Saint Oranga College", "Boulcott School", "Dyer Street School", "Naenae College", "Naenae Intermediate School", "Avalon School", "Avalon Intermediate School", "Taita Central School", "Saint Michaels School", "Pomare School", "Taita College", "Tui Glen School", "Tawhai School", "Koranui School"]
+    "schools": [
+      "Saints Peter and Paul School",
+      "Eastern Hutt School",
+      "Saint Oranga College",
+      "Boulcott School",
+      "Dyer Street School",
+      "Naenae College",
+      "Naenae Intermediate School",
+      "Avalon School",
+      "Avalon Intermediate School",
+      "Taita Central School",
+      "Saint Michaels School",
+      "Pomare School",
+      "Taita College",
+      "Tui Glen School",
+      "Tawhai School",
+      "Koranui School"
+    ]
   },
   {
     "code": "121",
@@ -77,7 +185,35 @@
     "link": "/timetables/bus/121",
     "mode": "Bus",
     "name": "Stokes Valley Heights - Naenae - Lower Hutt - Seaview",
-    "schools": ["Tui Glen School", "Taita College", "Tawhai School", "Tui Glen School", "Pomare School", "Saint Michaels School", "Taita Central School", "Avalon Intermediate School", "Avalon School", "Rata Street School", "Saint Bernadettes School", "Naenae School", "Naenae College", "Naenae Intermediate", "Avaon School", "Dyer Street School", "Boulcott School", "Saint Orans College", "Eastern Hutt School", "St Peter and Paul School", "Sacred Heart College", "Chilton Saint James School", "St Bernards College", "Hutt Intermediate School", "Waterloo School", "Our Lady of the Rosary School", "Gracefield School"]
+    "schools": [
+      "Tui Glen School",
+      "Taita College",
+      "Tawhai School",
+      "Tui Glen School",
+      "Pomare School",
+      "Saint Michaels School",
+      "Taita Central School",
+      "Avalon Intermediate School",
+      "Avalon School",
+      "Rata Street School",
+      "Saint Bernadettes School",
+      "Naenae School",
+      "Naenae College",
+      "Naenae Intermediate",
+      "Avaon School",
+      "Dyer Street School",
+      "Boulcott School",
+      "Saint Orans College",
+      "Eastern Hutt School",
+      "St Peter and Paul School",
+      "Sacred Heart College",
+      "Chilton Saint James School",
+      "St Bernards College",
+      "Hutt Intermediate School",
+      "Waterloo School",
+      "Our Lady of the Rosary School",
+      "Gracefield School"
+    ]
   },
   {
     "code": "12e",
@@ -85,7 +221,7 @@
     "link": "/timetables/bus/12e",
     "mode": "Bus",
     "name": "Strathmore Park - Kilbirnie - Hataitai - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "13",
@@ -93,7 +229,12 @@
     "link": "/timetables/bus/13",
     "mode": "Bus",
     "name": "Mairangi - Glenmore Street - Brandon Street",
-    "schools": ["Wadestown School", "Cardinal McKeefry School", "Norhlnd School", "Kelburn Normal School"]
+    "schools": [
+      "Wadestown School",
+      "Cardinal McKeefry School",
+      "Norhlnd School",
+      "Kelburn Normal School"
+    ]
   },
   {
     "code": "130",
@@ -101,7 +242,28 @@
     "link": "/timetables/bus/130",
     "mode": "Bus",
     "name": "Naenae - Waterloo - Lower Hutt - Petone",
-    "schools": ["Sacred Heart School", "Petone Central School", "Randwick School", "Hutt Valley High School", "Sacred Heart College", "Saints Peter and Paul School", "Eastern Hutt School", "CHilton Saint James School", "Hutt Intermediate School", "St Bernards College", "Waterloo School", "Epuni School", "Dyer Street School", "Naenae School", "Wa Ora Montessori School", "Rata Street School", "Saint Bernadettes School", "Naenae Intermediate School", "Naenae College", "Avalon School"]
+    "schools": [
+      "Sacred Heart School",
+      "Petone Central School",
+      "Randwick School",
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "Saints Peter and Paul School",
+      "Eastern Hutt School",
+      "CHilton Saint James School",
+      "Hutt Intermediate School",
+      "St Bernards College",
+      "Waterloo School",
+      "Epuni School",
+      "Dyer Street School",
+      "Naenae School",
+      "Wa Ora Montessori School",
+      "Rata Street School",
+      "Saint Bernadettes School",
+      "Naenae Intermediate School",
+      "Naenae College",
+      "Avalon School"
+    ]
   },
   {
     "code": "14",
@@ -109,7 +271,29 @@
     "link": "/timetables/bus/14",
     "mode": "Bus",
     "name": "Wilton - Wellington - Roseneath - Hataitai - Kilbirnie",
-    "schools": ["Cardinal McKeefry School", "Kilbirnie School", "Otari School", "Rongotai College", "St Mark's School", "Wellington East Girls College", "Wellington College", "Wellington Girls College", "Wadestown School", "Queen Margaret College", "Te Aho o Te Kura Pounamu", "Thorndon School", "Sacred Heart Cathedral School", "St Mary's College", "Hataitai School", "Kilbirnie School", "St Patrick's College", "Saint Patrick's Primary School", "Evans Bay Interemediate School", "Saint Catherines College", "Roseneath School"]
+    "schools": [
+      "Cardinal McKeefry School",
+      "Kilbirnie School",
+      "Otari School",
+      "Rongotai College",
+      "St Mark's School",
+      "Wellington East Girls College",
+      "Wellington College",
+      "Wellington Girls College",
+      "Wadestown School",
+      "Queen Margaret College",
+      "Te Aho o Te Kura Pounamu",
+      "Thorndon School",
+      "Sacred Heart Cathedral School",
+      "St Mary's College",
+      "Hataitai School",
+      "Kilbirnie School",
+      "St Patrick's College",
+      "Saint Patrick's Primary School",
+      "Evans Bay Interemediate School",
+      "Saint Catherines College",
+      "Roseneath School"
+    ]
   },
   {
     "code": "145",
@@ -117,7 +301,19 @@
     "link": "/timetables/bus/145",
     "mode": "Bus",
     "name": "Belmont - Melling - Lower Hutt",
-    "schools": ["Hutt Intermediate School", "St Bernards College", "Chilton Saint James School", "Sacred Heart College", "Saints Peter and Paul School", "Eastern Hutt School", "Sacred Heart College", "Boulcott School", "Saint Orans College", "Belmont School", "Martha Christian School"]
+    "schools": [
+      "Hutt Intermediate School",
+      "St Bernards College",
+      "Chilton Saint James School",
+      "Sacred Heart College",
+      "Saints Peter and Paul School",
+      "Eastern Hutt School",
+      "Sacred Heart College",
+      "Boulcott School",
+      "Saint Orans College",
+      "Belmont School",
+      "Martha Christian School"
+    ]
   },
   {
     "code": "150",
@@ -125,7 +321,28 @@
     "link": "/timetables/bus/150",
     "mode": "Bus",
     "name": "Kelson - Lower Hutt - Maungaraki - Petone",
-    "schools": ["Petone Central School", "Sacred Heart School", "Te Kura Kaupapa Maori o Te Ara Whanui", "Normandale School", "Hutt Central School", "Hutt Valley High School", "Sacred Heart College", "Saints Peter and Paul School", "Eastern Hutt School", "Chilton Saint James School", "St Bernards College", "Waterloo School", "Epuni School", "Dyer Street School", "Naenae School", "Naenae Intermediate", "Naenae College", "Avalon School", "Belmont School", "Kelson School"]
+    "schools": [
+      "Petone Central School",
+      "Sacred Heart School",
+      "Te Kura Kaupapa Maori o Te Ara Whanui",
+      "Normandale School",
+      "Hutt Central School",
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "Saints Peter and Paul School",
+      "Eastern Hutt School",
+      "Chilton Saint James School",
+      "St Bernards College",
+      "Waterloo School",
+      "Epuni School",
+      "Dyer Street School",
+      "Naenae School",
+      "Naenae Intermediate",
+      "Naenae College",
+      "Avalon School",
+      "Belmont School",
+      "Kelson School"
+    ]
   },
   {
     "code": "154",
@@ -133,7 +350,22 @@
     "link": "/timetables/bus/154",
     "mode": "Bus",
     "name": "Petone - Korokoro - Petone",
-    "schools": ["Korokoro School", "Sacred Heart School", "Petone Central School", "Wilford School", "Te Kura Kaupapa Maori o Te Ara Whanui", "Hutt Central School", "Eastern Hutt School", "Chilton Saint James School", "St Bernards College", "Waterloo School", "Hutt Intermediate School", "Sacred Heart College", "Hutt Valley High School", "Saints Peter and Paul School"]
+    "schools": [
+      "Korokoro School",
+      "Sacred Heart School",
+      "Petone Central School",
+      "Wilford School",
+      "Te Kura Kaupapa Maori o Te Ara Whanui",
+      "Hutt Central School",
+      "Eastern Hutt School",
+      "Chilton Saint James School",
+      "St Bernards College",
+      "Waterloo School",
+      "Hutt Intermediate School",
+      "Sacred Heart College",
+      "Hutt Valley High School",
+      "Saints Peter and Paul School"
+    ]
   },
   {
     "code": "160",
@@ -141,7 +373,21 @@
     "link": "/timetables/bus/160",
     "mode": "Bus",
     "name": "Wainuiomata North - Waterloo - Lower Hutt",
-    "schools": ["Saints Peter and Paul School", "Easter Hutt School", "Chilton Saint James School", "St Bernards College", "Waterloo School", "Hutt Intermediate School", "Our Lady of The Rosary School", "Gracefield School", "Wainuiomata Intermediate School Konini Primary School", "Wainuiomata High School", "Pukeatua Primary School", "Akura School", "Wainuiomata Primary School"]
+    "schools": [
+      "Saints Peter and Paul School",
+      "Easter Hutt School",
+      "Chilton Saint James School",
+      "St Bernards College",
+      "Waterloo School",
+      "Hutt Intermediate School",
+      "Our Lady of The Rosary School",
+      "Gracefield School",
+      "Wainuiomata Intermediate School Konini Primary School",
+      "Wainuiomata High School",
+      "Pukeatua Primary School",
+      "Akura School",
+      "Wainuiomata Primary School"
+    ]
   },
   {
     "code": "17",
@@ -149,7 +395,18 @@
     "link": "/timetables/bus/17",
     "mode": "Bus",
     "name": "Kowhai Park - Brooklyn",
-    "schools": ["Karori West Normal School", "ST Teresa's School", "Samuel Marsden Collegiate School", "Kelburn Normal School", "Clifton Terrace Model School", "Sacred Heart Cathedral School", "St Mary's College", "Thorndon School", "Te Aho o Te Kura Pounamu", "QUeen Margaret College"]
+    "schools": [
+      "Karori West Normal School",
+      "ST Teresa's School",
+      "Samuel Marsden Collegiate School",
+      "Kelburn Normal School",
+      "Clifton Terrace Model School",
+      "Sacred Heart Cathedral School",
+      "St Mary's College",
+      "Thorndon School",
+      "Te Aho o Te Kura Pounamu",
+      "QUeen Margaret College"
+    ]
   },
   {
     "code": "170",
@@ -157,7 +414,21 @@
     "link": "/timetables/bus/170",
     "mode": "Bus",
     "name": "Lower Hutt - Wainuiomata South - Lower Hutt",
-    "schools": ["Saints Peter and Paul School", "Eastern Hutt School", "Chilton Saint James School", "St Bernards College", "Waterloo School", "Hutt Intermediate School", "Our Lady of the Rosary School", "Wainuiomata Intermediate School", "Konini Primary School", "Wainuiomata High School", "Saint Claudine Thevenet School", "Fenlea School", "Wainuiomata Primary School"]
+    "schools": [
+      "Saints Peter and Paul School",
+      "Eastern Hutt School",
+      "Chilton Saint James School",
+      "St Bernards College",
+      "Waterloo School",
+      "Hutt Intermediate School",
+      "Our Lady of the Rosary School",
+      "Wainuiomata Intermediate School",
+      "Konini Primary School",
+      "Wainuiomata High School",
+      "Saint Claudine Thevenet School",
+      "Fenlea School",
+      "Wainuiomata Primary School"
+    ]
   },
   {
     "code": "17e",
@@ -165,7 +436,7 @@
     "link": "/timetables/bus/17e",
     "mode": "Bus",
     "name": "Kowhai Park - Brooklyn - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "18",
@@ -173,7 +444,25 @@
     "link": "/timetables/bus/18",
     "mode": "Bus",
     "name": "Miramar - Miramar Shops",
-    "schools": ["Karori West Normal School", "St Teresa's School", "Samuel Marsedn Collegiate School", "Mt Cook School", "Mount Cook School", "Wellington High School", "Newtown School", "St Anne's Primary School", "Saint Catherine's College", "Evans Bay Intermediate School", "Saint Patrick's College", "St Patricks Primary School", "Holy Cross School", "Miramar Central School", "Worser Bay School", "Miramar North School", "Miramar Christian School"]
+    "schools": [
+      "Karori West Normal School",
+      "St Teresa's School",
+      "Samuel Marsedn Collegiate School",
+      "Mt Cook School",
+      "Mount Cook School",
+      "Wellington High School",
+      "Newtown School",
+      "St Anne's Primary School",
+      "Saint Catherine's College",
+      "Evans Bay Intermediate School",
+      "Saint Patrick's College",
+      "St Patricks Primary School",
+      "Holy Cross School",
+      "Miramar Central School",
+      "Worser Bay School",
+      "Miramar North School",
+      "Miramar Christian School"
+    ]
   },
   {
     "code": "18e",
@@ -181,7 +470,7 @@
     "link": "/timetables/bus/18e",
     "mode": "Bus",
     "name": "Miramar - Newtown - Kelburn - Karori",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "19",
@@ -189,7 +478,7 @@
     "link": "/timetables/bus/19",
     "mode": "Bus",
     "name": "Johnsonville - Churton Park - Johnsonville",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "19e",
@@ -197,7 +486,7 @@
     "link": "/timetables/bus/19e",
     "mode": "Bus",
     "name": "Johnsonville - Churton Park - Johnsonville (Wellington extension)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "2",
@@ -205,7 +494,7 @@
     "link": "/timetables/bus/2",
     "mode": "Bus",
     "name": "Karori - Wellington - Hataitai - Seatoun",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "20",
@@ -213,7 +502,12 @@
     "link": "/timetables/bus/20",
     "mode": "Bus",
     "name": "Kilbirnie - Mt Victoria - Courtenay Place",
-    "schools": ["Clifton Terrace Model School", "Sacred Heart Cathedral School", "St Mary's College", "Clyde Quay School"]
+    "schools": [
+      "Clifton Terrace Model School",
+      "Sacred Heart Cathedral School",
+      "St Mary's College",
+      "Clyde Quay School"
+    ]
   },
   {
     "code": "200",
@@ -221,7 +515,23 @@
     "link": "/timetables/bus/200",
     "mode": "Bus",
     "name": "Masterton - Greytown - Featherston - Martinborough",
-    "schools": ["Martinborough School", "South Featherston School", "Featherston School", "Saint Teresa's School", "Greytown School", "South End School", "Ponatahi Christian School", "Saint Mary's School", "Carterton School", "Solway Primary School", "Hadlow Preparatory School", "Masterton Intermediate School", "Masterton Primary School", "Saint Patrick's Catholic School", "Solway College"]
+    "schools": [
+      "Martinborough School",
+      "South Featherston School",
+      "Featherston School",
+      "Saint Teresa's School",
+      "Greytown School",
+      "South End School",
+      "Ponatahi Christian School",
+      "Saint Mary's School",
+      "Carterton School",
+      "Solway Primary School",
+      "Hadlow Preparatory School",
+      "Masterton Intermediate School",
+      "Masterton Primary School",
+      "Saint Patrick's Catholic School",
+      "Solway College"
+    ]
   },
   {
     "code": "201",
@@ -229,7 +539,12 @@
     "link": "/timetables/bus/201",
     "mode": "Bus",
     "name": "Masterton - Masterton West - Masterton",
-    "schools": ["Wairarapa College", "Saint Patrick's Catholic School", "Saint Matthew's Collegiate School", "Douglas Park School"]
+    "schools": [
+      "Wairarapa College",
+      "Saint Patrick's Catholic School",
+      "Saint Matthew's Collegiate School",
+      "Douglas Park School"
+    ]
   },
   {
     "code": "202",
@@ -237,7 +552,14 @@
     "link": "/timetables/bus/202",
     "mode": "Bus",
     "name": "Masterton - Masterton South - Masterton",
-    "schools": ["Saint Patrick's Catholic School", "Masterton Intermediate School", "Hadlow Preparatory School", "Solway College", "Masterton Primary School", "Chanel College"]
+    "schools": [
+      "Saint Patrick's Catholic School",
+      "Masterton Intermediate School",
+      "Hadlow Preparatory School",
+      "Solway College",
+      "Masterton Primary School",
+      "Chanel College"
+    ]
   },
   {
     "code": "203",
@@ -245,7 +567,9 @@
     "link": "/timetables/bus/203",
     "mode": "Bus",
     "name": "Masterton - Masterton North - Masterton",
-    "schools": ["Saint Patrick's Catholic School"]
+    "schools": [
+      "Saint Patrick's Catholic School"
+    ]
   },
   {
     "code": "204",
@@ -253,7 +577,9 @@
     "link": "/timetables/bus/204",
     "mode": "Bus",
     "name": "Greytown - Woodside",
-    "schools": ["Greytown School"]
+    "schools": [
+      "Greytown School"
+    ]
   },
   {
     "code": "206",
@@ -261,7 +587,11 @@
     "link": "/timetables/bus/206",
     "mode": "Bus",
     "name": "Masterton - Masterton East - Masterton",
-    "schools": ["Saint Patrick's Catholic School", "Te Kura Kaupapa Maori o Wairarapa", "Makoura College"]
+    "schools": [
+      "Saint Patrick's Catholic School",
+      "Te Kura Kaupapa Maori o Wairarapa",
+      "Makoura College"
+    ]
   },
   {
     "code": "21",
@@ -269,7 +599,15 @@
     "link": "/timetables/bus/21",
     "mode": "Bus",
     "name": "Karori (Wrights Hill) - Kelburn - Courtenay Place",
-    "schools": ["St Teresa's School", "Samuel Marsden Collegiate School", "Mt Cook School", "Wellington Jewish Community Centre", "Wellington High School", "Ridgeway School", "Berhampore School"]
+    "schools": [
+      "St Teresa's School",
+      "Samuel Marsden Collegiate School",
+      "Mt Cook School",
+      "Wellington Jewish Community Centre",
+      "Wellington High School",
+      "Ridgeway School",
+      "Berhampore School"
+    ]
   },
   {
     "code": "210",
@@ -277,7 +615,23 @@
     "link": "/timetables/bus/210",
     "mode": "Bus",
     "name": "Titahi Bay - Porirua",
-    "schools": ["Saint Plus X School", "Titahi Bay School", "Titahi Bay Intermediate School", "Ngati Toa School", "Porirua School", "Bishop Viard College", "Wellington Seventh Day Adventist School", "Tawa College", "Tawa Intermediate School", "Hampton Hill School", "Tawa School", "Saint Francis Xavier School", "Redwood School", "Churton Park School", "Johnsonville School"]
+    "schools": [
+      "Saint Plus X School",
+      "Titahi Bay School",
+      "Titahi Bay Intermediate School",
+      "Ngati Toa School",
+      "Porirua School",
+      "Bishop Viard College",
+      "Wellington Seventh Day Adventist School",
+      "Tawa College",
+      "Tawa Intermediate School",
+      "Hampton Hill School",
+      "Tawa School",
+      "Saint Francis Xavier School",
+      "Redwood School",
+      "Churton Park School",
+      "Johnsonville School"
+    ]
   },
   {
     "code": "22",
@@ -285,7 +639,22 @@
     "link": "/timetables/bus/22",
     "mode": "Bus",
     "name": "Johnsonville - Mairangi - Kelburn - Wellington",
-    "schools": ["Wellington East Girls College", "Wellington College", "St Mark's School", "Wadestown School", "Cardinal McKeefry School", "Northland School", "Clifton Terrace Model School", "Clyde Quay School", "Mt Cook School", "Mount Cook School", "Newtown School", "St Anne's Primary School", "South Wellington Intermediate School", "Island Bay School"]
+    "schools": [
+      "Wellington East Girls College",
+      "Wellington College",
+      "St Mark's School",
+      "Wadestown School",
+      "Cardinal McKeefry School",
+      "Northland School",
+      "Clifton Terrace Model School",
+      "Clyde Quay School",
+      "Mt Cook School",
+      "Mount Cook School",
+      "Newtown School",
+      "St Anne's Primary School",
+      "South Wellington Intermediate School",
+      "Island Bay School"
+    ]
   },
   {
     "code": "220",
@@ -293,7 +662,28 @@
     "link": "/timetables/bus/220",
     "mode": "Bus",
     "name": "Titahi Bay - Porirua - Ascot Park",
-    "schools": ["Titahi Bay North School", "Titahi Bay School", "Saint Plus X School", "Titahi Bay Intermediate School", "Ngati Toa School", "Porirua School", "Bishop Viard College", "Porirua East School", "Holy Family School", "Windley School", "Cannons Creek School", "Brandon Intermediate", "Porirua College", "Maraeroa School", "Russell School", "Corinna School", "Natone Park School", "Tairangi School", "Te Kura Maori o Porirua", "Rangikura School"]
+    "schools": [
+      "Titahi Bay North School",
+      "Titahi Bay School",
+      "Saint Plus X School",
+      "Titahi Bay Intermediate School",
+      "Ngati Toa School",
+      "Porirua School",
+      "Bishop Viard College",
+      "Porirua East School",
+      "Holy Family School",
+      "Windley School",
+      "Cannons Creek School",
+      "Brandon Intermediate",
+      "Porirua College",
+      "Maraeroa School",
+      "Russell School",
+      "Corinna School",
+      "Natone Park School",
+      "Tairangi School",
+      "Te Kura Maori o Porirua",
+      "Rangikura School"
+    ]
   },
   {
     "code": "226",
@@ -301,7 +691,16 @@
     "link": "/timetables/bus/226",
     "mode": "Bus",
     "name": "Sievers Grove - Elsdon - Sievers Grove",
-    "schools": ["Glenview School", "Brandon Intermediate School", "Cannons Creek School", "Holy Family School", "Windley School", "Porirua East School", "Bishop Viard College", "Porirua School"]
+    "schools": [
+      "Glenview School",
+      "Brandon Intermediate School",
+      "Cannons Creek School",
+      "Holy Family School",
+      "Windley School",
+      "Porirua East School",
+      "Bishop Viard College",
+      "Porirua School"
+    ]
   },
   {
     "code": "23",
@@ -309,7 +708,26 @@
     "link": "/timetables/bus/23",
     "mode": "Bus",
     "name": "Houghton Bay - Newtown - Vogeltown - Kingston",
-    "schools": ["Wadestown School", "Cardinal McKeefry School", "Northland School", "Clifton Terrace Model School", "Sacred Heart Cathedral School", "St Marys College", "Clyde Quay School", "Mt Cook School", "Mount Cook School", "St Mark's Church School", "Wellington College", "Wellington East Girls College", "Newtown School", "St Annes Primary School", "South Wellington Intermediate School", "Houghton Valley School", "Island Bay School", "Saint Francis De Sales School"]
+    "schools": [
+      "Wadestown School",
+      "Cardinal McKeefry School",
+      "Northland School",
+      "Clifton Terrace Model School",
+      "Sacred Heart Cathedral School",
+      "St Marys College",
+      "Clyde Quay School",
+      "Mt Cook School",
+      "Mount Cook School",
+      "St Mark's Church School",
+      "Wellington College",
+      "Wellington East Girls College",
+      "Newtown School",
+      "St Annes Primary School",
+      "South Wellington Intermediate School",
+      "Houghton Valley School",
+      "Island Bay School",
+      "Saint Francis De Sales School"
+    ]
   },
   {
     "code": "230",
@@ -317,7 +735,14 @@
     "link": "/timetables/bus/230",
     "mode": "Bus",
     "name": "Whitby (The Crowsnest) - Aotea - Porirua",
-    "schools": ["Bishop Viard College", "Aotea College", "Te Kura Maori o Porirua", "Tairangi School", "Postgate School", "Discovery School"]
+    "schools": [
+      "Bishop Viard College",
+      "Aotea College",
+      "Te Kura Maori o Porirua",
+      "Tairangi School",
+      "Postgate School",
+      "Discovery School"
+    ]
   },
   {
     "code": "236",
@@ -325,7 +750,16 @@
     "link": "/timetables/bus/236",
     "mode": "Bus",
     "name": "Whitby (Navigation Drive) - Paremata - Papakowhai - Porirua",
-    "schools": ["Bishop Viard College", "Aotea College", "Papakowhai School", "Paremata School", "Postgate School", "Discovery School", "Adventure School", "Samuel Marsden Collegiate School Whitby"]
+    "schools": [
+      "Bishop Viard College",
+      "Aotea College",
+      "Papakowhai School",
+      "Paremata School",
+      "Postgate School",
+      "Discovery School",
+      "Adventure School",
+      "Samuel Marsden Collegiate School Whitby"
+    ]
   },
   {
     "code": "23e",
@@ -333,7 +767,7 @@
     "link": "/timetables/bus/23e",
     "mode": "Bus",
     "name": "Houghton Bay - Newtown - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "23z",
@@ -341,7 +775,7 @@
     "link": "/timetables/bus/23z",
     "mode": "Bus",
     "name": "Wellington Zoo - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "24",
@@ -349,7 +783,22 @@
     "link": "/timetables/bus/24",
     "mode": "Bus",
     "name": "Johnsonville - Broadmeadows - Wellington - Miramar Heights",
-    "schools": ["St Mary's College", "Sacred Heart Cathedral School", "Te Aho o Te Kura Pounamu", "Roseneath School", "Saint Patrick's College", "Evans Bay Intermediate School", "Saint Catherine's College", "St Patricks School", "Evans Bay Intermediate School", "Miranar Christian School", "Miramar North School", "Worser Bay School", "Miramar Central School", "Holy Cross School"]
+    "schools": [
+      "St Mary's College",
+      "Sacred Heart Cathedral School",
+      "Te Aho o Te Kura Pounamu",
+      "Roseneath School",
+      "Saint Patrick's College",
+      "Evans Bay Intermediate School",
+      "Saint Catherine's College",
+      "St Patricks School",
+      "Evans Bay Intermediate School",
+      "Miranar Christian School",
+      "Miramar North School",
+      "Worser Bay School",
+      "Miramar Central School",
+      "Holy Cross School"
+    ]
   },
   {
     "code": "25",
@@ -357,7 +806,18 @@
     "link": "/timetables/bus/25",
     "mode": "Bus",
     "name": "Khandallah - Wellington - Aro Valley - Highbury",
-    "schools": ["Scots College", "Evans Bay Intermedaite School", "Saint Patrick's College", "St Patricks School", "Saint Catherine's College", "Kilbirnie School", "Clyde Quay School", "St Mary's College", "Sacred Heart Cathedral School", "Te Aho o Te Kura Pounamu"]
+    "schools": [
+      "Scots College",
+      "Evans Bay Intermedaite School",
+      "Saint Patrick's College",
+      "St Patricks School",
+      "Saint Catherine's College",
+      "Kilbirnie School",
+      "Clyde Quay School",
+      "St Mary's College",
+      "Sacred Heart Cathedral School",
+      "Te Aho o Te Kura Pounamu"
+    ]
   },
   {
     "code": "250",
@@ -365,7 +825,14 @@
     "link": "/timetables/bus/250",
     "mode": "Bus",
     "name": "Paraparaumu - Raumati South - Paraparaumu",
-    "schools": ["Raumati South School", "Te Ra Waldorf School", "Raumati Beach School", "Kapiti School", "Paraparaumu School", "St Patricks School Paraparaumu"]
+    "schools": [
+      "Raumati South School",
+      "Te Ra Waldorf School",
+      "Raumati Beach School",
+      "Kapiti School",
+      "Paraparaumu School",
+      "St Patricks School Paraparaumu"
+    ]
   },
   {
     "code": "251",
@@ -373,7 +840,7 @@
     "link": "/timetables/bus/251",
     "mode": "Bus",
     "name": "Paekakariki - Paraparaumu - Kapiti Health Centre",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "26",
@@ -381,7 +848,7 @@
     "link": "/timetables/bus/26",
     "mode": "Bus",
     "name": "Khandallah - Ngaio - Brandon Street",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "260",
@@ -389,7 +856,12 @@
     "link": "/timetables/bus/260",
     "mode": "Bus",
     "name": "Raumati Beach - Paraparaumu Beach - Paraparaumu",
-    "schools": ["Raumati Beach School", "Kapiti School", "Paraparaumu School", "St Patricks School Paraparaumu"]
+    "schools": [
+      "Raumati Beach School",
+      "Kapiti School",
+      "Paraparaumu School",
+      "St Patricks School Paraparaumu"
+    ]
   },
   {
     "code": "261",
@@ -397,7 +869,14 @@
     "link": "/timetables/bus/261",
     "mode": "Bus",
     "name": "Paraparaumu Beach - Paraparaumu (via Guildford Drive)",
-    "schools": ["Kenakena School", "Paraparaumu Beach School", "Our Lady of Kapiti School", "Kapiti School", "Paraparaumu School", "St Patricks School Paraparaumu"]
+    "schools": [
+      "Kenakena School",
+      "Paraparaumu Beach School",
+      "Our Lady of Kapiti School",
+      "Kapiti School",
+      "Paraparaumu School",
+      "St Patricks School Paraparaumu"
+    ]
   },
   {
     "code": "262",
@@ -405,7 +884,13 @@
     "link": "/timetables/bus/262",
     "mode": "Bus",
     "name": "Paraparaumu Beach - Paraparaumu (via Mazengarb Road)",
-    "schools": ["Kenakena School", "Paraparaumu College", "Kapiti School", "Paraparaumu School", "St Patricks School Paraparaumu"]
+    "schools": [
+      "Kenakena School",
+      "Paraparaumu College",
+      "Kapiti School",
+      "Paraparaumu School",
+      "St Patricks School Paraparaumu"
+    ]
   },
   {
     "code": "264",
@@ -413,7 +898,7 @@
     "link": "/timetables/bus/264",
     "mode": "Bus",
     "name": "Paraparaumu East - Paraparaumu - Kapiti Health Centre",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "27",
@@ -421,7 +906,7 @@
     "link": "/timetables/bus/27",
     "mode": "Bus",
     "name": "Vogeltown - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "28",
@@ -429,7 +914,10 @@
     "link": "/timetables/bus/28",
     "mode": "Bus",
     "name": "Beacon Hill - Strathmore Park Shops",
-    "schools": ["Saint Anthony's School", "Kahurangi School"]
+    "schools": [
+      "Saint Anthony's School",
+      "Kahurangi School"
+    ]
   },
   {
     "code": "280",
@@ -437,7 +925,10 @@
     "link": "/timetables/bus/280",
     "mode": "Bus",
     "name": "Waikanae - Waikanae Beach - Waikanae",
-    "schools": ["Waikanae School", "Kapanui School"]
+    "schools": [
+      "Waikanae School",
+      "Kapanui School"
+    ]
   },
   {
     "code": "281",
@@ -445,7 +936,7 @@
     "link": "/timetables/bus/281",
     "mode": "Bus",
     "name": "Waikanae - Waikanae East - Waikanae",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "29",
@@ -453,7 +944,18 @@
     "link": "/timetables/bus/29",
     "mode": "Bus",
     "name": "Newtown - Southgate - Owhiro Bay - Brooklyn",
-    "schools": ["Newtown School", "St Anne's Primary School", "South Wellington Intermediate School", "Berhampore School", "Ridgeway School", "Brooklyn School", "St Bernard's School", "Owhiro Bay School", "Island Bay School", "Saint Francis De Sales School"]
+    "schools": [
+      "Newtown School",
+      "St Anne's Primary School",
+      "South Wellington Intermediate School",
+      "Berhampore School",
+      "Ridgeway School",
+      "Brooklyn School",
+      "St Bernard's School",
+      "Owhiro Bay School",
+      "Island Bay School",
+      "Saint Francis De Sales School"
+    ]
   },
   {
     "code": "290",
@@ -461,7 +963,15 @@
     "link": "/timetables/bus/290",
     "mode": "Bus",
     "name": "Waikanae - Otaki - Waikanae",
-    "schools": ["Otaki Health Camp and School", "Otaki School", "Otaki College", "Waitohu School", "Waikanae School", "Paraparaumu School", "St Patricks School Paraparaumu"]
+    "schools": [
+      "Otaki Health Camp and School",
+      "Otaki School",
+      "Otaki College",
+      "Waitohu School",
+      "Waikanae School",
+      "Paraparaumu School",
+      "St Patricks School Paraparaumu"
+    ]
   },
   {
     "code": "291",
@@ -469,7 +979,7 @@
     "link": "/timetables/bus/291",
     "mode": "Bus",
     "name": "Waikanae - Levin",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "29e",
@@ -477,7 +987,7 @@
     "link": "/timetables/bus/29e",
     "mode": "Bus",
     "name": "Newtown - Southgate - Owhiro Bay - Brooklyn (Wellington extension)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "3",
@@ -485,7 +995,30 @@
     "link": "/timetables/bus/3",
     "mode": "Bus",
     "name": "Lyall Bay/Rongotai - Kilbirnie - Newtown - Wellington",
-    "schools": ["Karori West Normal School", "St Teresas School", "Samuel Marsden Collegiate School", "Kelburn Normal School", "Northland School", "St Mary's College", "Sacred Heart Cathedral School", "Mt Cook School", "Mount Cook School", "Clyde Quay School", "St Mark's Church School", "Wellington College", "Wellington East Girls College", "Wellington High School", "Newtown School", "St Anne's Primary School", "Saint Patrick's College", "St Patricks Primary School", "Evans Bay Intermediate", "Saint Catherine College", "Lyall By School", "Houghton Valley School"]
+    "schools": [
+      "Karori West Normal School",
+      "St Teresas School",
+      "Samuel Marsden Collegiate School",
+      "Kelburn Normal School",
+      "Northland School",
+      "St Mary's College",
+      "Sacred Heart Cathedral School",
+      "Mt Cook School",
+      "Mount Cook School",
+      "Clyde Quay School",
+      "St Mark's Church School",
+      "Wellington College",
+      "Wellington East Girls College",
+      "Wellington High School",
+      "Newtown School",
+      "St Anne's Primary School",
+      "Saint Patrick's College",
+      "St Patricks Primary School",
+      "Evans Bay Intermediate",
+      "Saint Catherine College",
+      "Lyall By School",
+      "Houghton Valley School"
+    ]
   },
   {
     "code": "300",
@@ -493,7 +1026,29 @@
     "link": "/timetables/bus/300",
     "mode": "Bus",
     "name": "Whenua Tapu Cemetery - Porirua - Titahi Bay",
-    "schools": ["Titahi Bay School", "Saint Plus X School", "Titahi Bay Intermediate School", "Ngati Toa School", "Porirua School", "Bishop Viard College", "Porirua East School", "Holy Family School", "Windley School", "Cannons Creek School", "Brandon Intermediate School", "Porirua College", "Maraeroa School", "Russell School", "Corinna School", "Natone Park School", "Tairangi School", "Te Kura Maori o Porirua", "Rangikura School", "Royal New Zealand Police College", "Aotea College"]
+    "schools": [
+      "Titahi Bay School",
+      "Saint Plus X School",
+      "Titahi Bay Intermediate School",
+      "Ngati Toa School",
+      "Porirua School",
+      "Bishop Viard College",
+      "Porirua East School",
+      "Holy Family School",
+      "Windley School",
+      "Cannons Creek School",
+      "Brandon Intermediate School",
+      "Porirua College",
+      "Maraeroa School",
+      "Russell School",
+      "Corinna School",
+      "Natone Park School",
+      "Tairangi School",
+      "Te Kura Maori o Porirua",
+      "Rangikura School",
+      "Royal New Zealand Police College",
+      "Aotea College"
+    ]
   },
   {
     "code": "309",
@@ -501,7 +1056,11 @@
     "link": "/timetables/school/309",
     "mode": "School",
     "name": "Carterton - Greytown - Chanel & Makoura Colleges",
-    "schools": ["Makoura College", "Chanel College", "Makoura College"]
+    "schools": [
+      "Makoura College",
+      "Chanel College",
+      "Makoura College"
+    ]
   },
   {
     "code": "30x",
@@ -509,7 +1068,7 @@
     "link": "/timetables/bus/30x",
     "mode": "Bus",
     "name": "Scorching Bay/Moa Point - Wellington (Express)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "313",
@@ -517,7 +1076,9 @@
     "link": "/timetables/school/313",
     "mode": "School",
     "name": "Greytown - Carterton - Wairarapa College",
-    "schools": [" Wairarapa College"]
+    "schools": [
+      "Wairarapa College"
+    ]
   },
   {
     "code": "315",
@@ -525,7 +1086,10 @@
     "link": "/timetables/school/315",
     "mode": "School",
     "name": "Masterton Intermediate School - Carterton - Greytown",
-    "schools": ["Masterton Intermediate", "Haadlow School"]
+    "schools": [
+      "Masterton Intermediate",
+      "Haadlow School"
+    ]
   },
   {
     "code": "31x",
@@ -533,7 +1097,7 @@
     "link": "/timetables/bus/31x",
     "mode": "Bus",
     "name": "Miramar North - Wellington (Express)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "32x",
@@ -541,7 +1105,7 @@
     "link": "/timetables/bus/32x",
     "mode": "Bus",
     "name": "Houghton Bay - Island Bay - Berhampore - Wellington (Express)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "33",
@@ -549,7 +1113,7 @@
     "link": "/timetables/bus/33",
     "mode": "Bus",
     "name": "Karori South - Brandon Street",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "34",
@@ -557,7 +1121,7 @@
     "link": "/timetables/bus/34",
     "mode": "Bus",
     "name": "Karori West - Brandon Street",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "35",
@@ -565,7 +1129,7 @@
     "link": "/timetables/bus/35",
     "mode": "Bus",
     "name": "Hataitai - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "36",
@@ -573,7 +1137,7 @@
     "link": "/timetables/bus/36",
     "mode": "Bus",
     "name": "Lyall Bay - Kilbirnie - Hataitai - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "366",
@@ -581,7 +1145,7 @@
     "link": "/timetables/school/366",
     "mode": "School",
     "name": "Martinborough & Ponatahi - Masterton Schools",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "37",
@@ -589,7 +1153,7 @@
     "link": "/timetables/bus/37",
     "mode": "Bus",
     "name": "Karori (Wrights Hill) - Kelburn - Brandon Street",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "402",
@@ -597,7 +1161,7 @@
     "link": "/timetables/school/402",
     "mode": "School",
     "name": "Grenada North - Tawa Schools",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "421",
@@ -605,7 +1169,9 @@
     "link": "/timetables/school/421",
     "mode": "School",
     "name": "Bishop Viard College - Ascot Park",
-    "schools": ["Viard College"]
+    "schools": [
+      "Viard College"
+    ]
   },
   {
     "code": "429",
@@ -613,7 +1179,9 @@
     "link": "/timetables/school/429",
     "mode": "School",
     "name": "Aotea College - Ascot Park",
-    "schools": ["Aotea College"]
+    "schools": [
+      "Aotea College"
+    ]
   },
   {
     "code": "430",
@@ -621,7 +1189,7 @@
     "link": "/timetables/school/430",
     "mode": "School",
     "name": "Porirua - Porirua East - Porirua College & Brandon Intermediate School",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "440",
@@ -629,7 +1197,9 @@
     "link": "/timetables/school/440",
     "mode": "School",
     "name": "Cannons Creek - Aotea College",
-    "schools": ["Aotea College"]
+    "schools": [
+      "Aotea College"
+    ]
   },
   {
     "code": "441",
@@ -637,7 +1207,9 @@
     "link": "/timetables/school/441",
     "mode": "School",
     "name": "Whitby (Navigation Drive) - Aotea College",
-    "schools": ["Aotea College"]
+    "schools": [
+      "Aotea College"
+    ]
   },
   {
     "code": "442",
@@ -645,7 +1217,9 @@
     "link": "/timetables/school/442",
     "mode": "School",
     "name": "Aotea College - Whitby (The Crowsnest)",
-    "schools": ["Aotea College"]
+    "schools": [
+      "Aotea College"
+    ]
   },
   {
     "code": "444",
@@ -653,7 +1227,7 @@
     "link": "/timetables/school/444",
     "mode": "School",
     "name": "Plimmerton - Camborne - Paremata - Aotea College",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "445",
@@ -661,7 +1235,9 @@
     "link": "/timetables/school/445",
     "mode": "School",
     "name": "Aotea College - Ascot Park - Cannons Creek - Porirua",
-    "schools": ["Aotea College"]
+    "schools": [
+      "Aotea College"
+    ]
   },
   {
     "code": "453",
@@ -669,7 +1245,7 @@
     "link": "/timetables/school/453",
     "mode": "School",
     "name": "Pauatahanui, Adventure & Discovery Schools - Whitby (The Crowsnest)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "460",
@@ -677,7 +1253,9 @@
     "link": "/timetables/school/460",
     "mode": "School",
     "name": "Tawa College - Porirua Station",
-    "schools": ["Plimmerton School"]
+    "schools": [
+      "Plimmerton School"
+    ]
   },
   {
     "code": "461",
@@ -685,7 +1263,7 @@
     "link": "/timetables/school/461",
     "mode": "School",
     "name": "Tawa Intermediate - Porirua Station",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "465",
@@ -693,7 +1271,11 @@
     "link": "/timetables/school/465",
     "mode": "School",
     "name": "Whitby - Paremata - Papakowhai - Mana - Camborne - Paremata, St Theresa's & Plimmerton Schools",
-    "schools": ["Paremata School", "St Theresa's Schools", "Postgate School"]
+    "schools": [
+      "Paremata School",
+      "St Theresa's Schools",
+      "Postgate School"
+    ]
   },
   {
     "code": "500",
@@ -701,7 +1283,11 @@
     "link": "/timetables/school/500",
     "mode": "School",
     "name": "Waikanae & Kapanui Schools - Waikanae - Waikanae Beach",
-    "schools": ["Waikanae School", "Kapanui School", "St Patrick's School"]
+    "schools": [
+      "Waikanae School",
+      "Kapanui School",
+      "St Patrick's School"
+    ]
   },
   {
     "code": "501",
@@ -709,7 +1295,11 @@
     "link": "/timetables/school/501",
     "mode": "School",
     "name": "Waikanae Beach South - Waikanae - Kapanui & Waikanae Schools",
-    "schools": ["Waikanae School", "Kapanui School", "St Patrick's School"]
+    "schools": [
+      "Waikanae School",
+      "Kapanui School",
+      "St Patrick's School"
+    ]
   },
   {
     "code": "505",
@@ -717,7 +1307,11 @@
     "link": "/timetables/school/505",
     "mode": "School",
     "name": "Waikanae Beach North - Waikanae - Kapanui, Waikanae & Our Lady of Kapiti Schools",
-    "schools": ["Waikanae School", "Kapanui School", "St Patrick's School"]
+    "schools": [
+      "Waikanae School",
+      "Kapanui School",
+      "St Patrick's School"
+    ]
   },
   {
     "code": "507",
@@ -725,7 +1319,9 @@
     "link": "/timetables/school/507",
     "mode": "School",
     "name": "Paraparaumu College - Waikanae",
-    "schools": [" Paraparaumu College"]
+    "schools": [
+      "Paraparaumu College"
+    ]
   },
   {
     "code": "508",
@@ -733,7 +1329,9 @@
     "link": "/timetables/school/508",
     "mode": "School",
     "name": "Waikanae - Paraparaumu College",
-    "schools": [" Paraparaumu College"]
+    "schools": [
+      "Paraparaumu College"
+    ]
   },
   {
     "code": "510",
@@ -741,7 +1339,9 @@
     "link": "/timetables/school/510",
     "mode": "School",
     "name": "Waikanae Beach - Waikanae - Waikanae School & Paraparaumu College",
-    "schools": [" Paraparaumu College"]
+    "schools": [
+      "Paraparaumu College"
+    ]
   },
   {
     "code": "512",
@@ -749,7 +1349,9 @@
     "link": "/timetables/school/512",
     "mode": "School",
     "name": "Waikanae Beach - Waikanae - Kapiti College",
-    "schools": ["Kapiti College"]
+    "schools": [
+      "Kapiti College"
+    ]
   },
   {
     "code": "52",
@@ -757,7 +1359,18 @@
     "link": "/timetables/bus/52",
     "mode": "Bus",
     "name": "Johnsonville - Newlands - Wellington",
-    "schools": ["West Park School", "Johnsonville School", "Saint Brigids School", "Queen Margaret College", "Thorndon School", "Wellington Girls College", "St Marys College", "Te Aho o Te Kura Pounamu", "Sacred Heart Cathedral", "Clyde Quay School"]
+    "schools": [
+      "West Park School",
+      "Johnsonville School",
+      "Saint Brigids School",
+      "Queen Margaret College",
+      "Thorndon School",
+      "Wellington Girls College",
+      "St Marys College",
+      "Te Aho o Te Kura Pounamu",
+      "Sacred Heart Cathedral",
+      "Clyde Quay School"
+    ]
   },
   {
     "code": "530",
@@ -765,7 +1378,9 @@
     "link": "/timetables/school/530",
     "mode": "School",
     "name": "Paraparaumu East - Paraparaumu - Kapiti College",
-    "schools": [" Kapiti College"]
+    "schools": [
+      "Kapiti College"
+    ]
   },
   {
     "code": "56",
@@ -773,7 +1388,17 @@
     "link": "/timetables/bus/56",
     "mode": "Bus",
     "name": "Johnsonville - Paparangi - Wellington",
-    "schools": ["Bellevue School", "Newlands School", "Queen Margaret College", "Thorndon School", "Wellington Girls College", "St Marys College", "Te Aho o Te Kura Pounamu", "Sacred Heart Cathedral", "Clyde Quay School"]
+    "schools": [
+      "Bellevue School",
+      "Newlands School",
+      "Queen Margaret College",
+      "Thorndon School",
+      "Wellington Girls College",
+      "St Marys College",
+      "Te Aho o Te Kura Pounamu",
+      "Sacred Heart Cathedral",
+      "Clyde Quay School"
+    ]
   },
   {
     "code": "57",
@@ -781,7 +1406,7 @@
     "link": "/timetables/bus/57",
     "mode": "Bus",
     "name": "Woodridge - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "58",
@@ -789,7 +1414,7 @@
     "link": "/timetables/bus/58",
     "mode": "Bus",
     "name": "Newlands - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "60",
@@ -797,7 +1422,7 @@
     "link": "/timetables/bus/60",
     "mode": "Bus",
     "name": "Porirua - Tawa - Johnsonville",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "60e",
@@ -805,7 +1430,7 @@
     "link": "/timetables/bus/60e",
     "mode": "Bus",
     "name": "Porirua - Tawa - Johnsonville - Wellington",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "611",
@@ -813,7 +1438,13 @@
     "link": "/timetables/school/611",
     "mode": "School",
     "name": "Karori (Wrights Hill) - Thorndon Colleges",
-    "schools": ["Queen Margaret's College", "Queen Margarets College", "St Mary's College", "St Marys College", "Wellington Girls College"]
+    "schools": [
+      "Queen Margaret's College",
+      "Queen Margarets College",
+      "St Mary's College",
+      "St Marys College",
+      "Wellington Girls College"
+    ]
   },
   {
     "code": "612",
@@ -821,7 +1452,13 @@
     "link": "/timetables/school/612",
     "mode": "School",
     "name": "Karori - Thorndon Colleges",
-    "schools": ["Queen Margaret's College", "Queen Margarets College", "St Mary's College", "St Marys College", "Wellington Girls College"]
+    "schools": [
+      "Queen Margaret's College",
+      "Queen Margarets College",
+      "St Mary's College",
+      "St Marys College",
+      "Wellington Girls College"
+    ]
   },
   {
     "code": "614",
@@ -829,7 +1466,11 @@
     "link": "/timetables/school/614",
     "mode": "School",
     "name": "Wellington Girls' & St Mary's Colleges - Kelburn - Karori (Wrights Hill)",
-    "schools": ["St Marys College", "Wellington Girls College", "St Mary's College"]
+    "schools": [
+      "St Marys College",
+      "Wellington Girls College",
+      "St Mary's College"
+    ]
   },
   {
     "code": "615",
@@ -837,7 +1478,9 @@
     "link": "/timetables/school/615",
     "mode": "School",
     "name": "Wellington Girls' College - Karori",
-    "schools": ["Wellington Girls College"]
+    "schools": [
+      "Wellington Girls College"
+    ]
   },
   {
     "code": "616",
@@ -845,7 +1488,11 @@
     "link": "/timetables/school/616",
     "mode": "School",
     "name": "Wellington Girls' & St Mary's Colleges - Karori",
-    "schools": ["St Mary's College", "St Marys College", "Wellington Girls College"]
+    "schools": [
+      "St Mary's College",
+      "St Marys College",
+      "Wellington Girls College"
+    ]
   },
   {
     "code": "617",
@@ -853,7 +1500,10 @@
     "link": "/timetables/school/617",
     "mode": "School",
     "name": "Queen Margaret College - Kelburn - Karori",
-    "schools": ["Queen Margaret's College", "Queen Margarets College"]
+    "schools": [
+      "Queen Margaret's College",
+      "Queen Margarets College"
+    ]
   },
   {
     "code": "619",
@@ -861,7 +1511,11 @@
     "link": "/timetables/school/619",
     "mode": "School",
     "name": "Thorndon Colleges - Wilton - Northland",
-    "schools": ["Queen Margarets College", "Wellington Girls College", "St Mary's College"]
+    "schools": [
+      "Queen Margarets College",
+      "Wellington Girls College",
+      "St Mary's College"
+    ]
   },
   {
     "code": "621",
@@ -869,7 +1523,14 @@
     "link": "/timetables/school/621",
     "mode": "School",
     "name": "Miramar - Kilbirnie - Hataitai - Thorndon Colleges",
-    "schools": ["Evans Bay Intermediate", "Rongotai College", "St Mary's College", "St Marys College", "St Patrick's College (town)", "St Patricks College Wellington Girls College"]
+    "schools": [
+      "Evans Bay Intermediate",
+      "Rongotai College",
+      "St Mary's College",
+      "St Marys College",
+      "St Patrick's College (town)",
+      "St Patricks College Wellington Girls College"
+    ]
   },
   {
     "code": "623",
@@ -877,7 +1538,13 @@
     "link": "/timetables/school/623",
     "mode": "School",
     "name": "Thorndon Colleges - Roseneath - Seatoun - Moa Point",
-    "schools": ["Queen Margaret's College", "Queen Margarets College", "St Mary's College", "St Marys College", "Wellington Girls College"]
+    "schools": [
+      "Queen Margaret's College",
+      "Queen Margarets College",
+      "St Mary's College",
+      "St Marys College",
+      "Wellington Girls College"
+    ]
   },
   {
     "code": "625",
@@ -885,7 +1552,7 @@
     "link": "/timetables/school/625",
     "mode": "School",
     "name": "Thorndon Colleges - Brooklyn - Kowhai Park",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "627",
@@ -893,7 +1560,10 @@
     "link": "/timetables/school/627",
     "mode": "School",
     "name": "Johnsonville West - Paparangi - Newlands College & Intermediate School",
-    "schools": ["Newlands College", "Newlands Intermediate"]
+    "schools": [
+      "Newlands College",
+      "Newlands Intermediate"
+    ]
   },
   {
     "code": "631",
@@ -901,7 +1571,10 @@
     "link": "/timetables/school/631",
     "mode": "School",
     "name": "Newlands College & Intermediate School - Paparangi - Johnsonville",
-    "schools": ["Newlands College", "Newlands Intermediate"]
+    "schools": [
+      "Newlands College",
+      "Newlands Intermediate"
+    ]
   },
   {
     "code": "633",
@@ -909,7 +1582,10 @@
     "link": "/timetables/school/633",
     "mode": "School",
     "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Road)",
-    "schools": ["Newlands College", "Newlands Intermediate"]
+    "schools": [
+      "Newlands College",
+      "Newlands Intermediate"
+    ]
   },
   {
     "code": "634",
@@ -917,7 +1593,7 @@
     "link": "/timetables/school/634",
     "mode": "School",
     "name": "Churton Park - Grenada Village - Newlands College & Intermediate School (via Furlong Cres & Mark Ave)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "635",
@@ -925,7 +1601,7 @@
     "link": "/timetables/school/635",
     "mode": "School",
     "name": "Churton Park - Paparangi - Newlands College & Intermediate School (via Melksham Dr & Bassett Rd)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "646",
@@ -933,7 +1609,13 @@
     "link": "/timetables/school/646",
     "mode": "School",
     "name": "St Brigid's School & Onslow College - Johnsonville - Churton Park",
-    "schools": ["Johsonville School", "Onslow College", "St Brigid's School", "St Brigids School", "West Park School"]
+    "schools": [
+      "Johsonville School",
+      "Onslow College",
+      "St Brigid's School",
+      "St Brigids School",
+      "West Park School"
+    ]
   },
   {
     "code": "647",
@@ -941,7 +1623,7 @@
     "link": "/timetables/school/647",
     "mode": "School",
     "name": "Churton Park South - Johnsonville - Onslow College",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "648",
@@ -949,7 +1631,7 @@
     "link": "/timetables/school/648",
     "mode": "School",
     "name": "Raroa Normal Intermediate School - Johnsonville - Churton Park North",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "654",
@@ -957,7 +1639,13 @@
     "link": "/timetables/school/654",
     "mode": "School",
     "name": "St Mark's & South Wellington Intermediate Schools - Island Bay - Owhiro Bay",
-    "schools": ["South Wellington Intermediate", "St Mark's School", "St Marks School", "Wellington College", "Wellington East Girls College"]
+    "schools": [
+      "South Wellington Intermediate",
+      "St Mark's School",
+      "St Marks School",
+      "Wellington College",
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "661",
@@ -965,7 +1653,11 @@
     "link": "/timetables/school/661",
     "mode": "School",
     "name": "Evans Bay Intermediate, Holy Cross & Miramar North Schools - Miramar - Maupuia",
-    "schools": ["Evans Bay Intermediate", "Marist Holy Cross School", "Miramar North School"]
+    "schools": [
+      "Evans Bay Intermediate",
+      "Marist Holy Cross School",
+      "Miramar North School"
+    ]
   },
   {
     "code": "667",
@@ -973,7 +1665,10 @@
     "link": "/timetables/school/667",
     "mode": "School",
     "name": "Karori West - St Teresa's & Karori West Normal Schools",
-    "schools": ["Karori West Normal School", "St Teresa's School"]
+    "schools": [
+      "Karori West Normal School",
+      "St Teresa's School"
+    ]
   },
   {
     "code": "671",
@@ -981,7 +1676,9 @@
     "link": "/timetables/school/671",
     "mode": "School",
     "name": "Marsden School - Wellington",
-    "schools": ["Marsden School"]
+    "schools": [
+      "Marsden School"
+    ]
   },
   {
     "code": "673",
@@ -989,7 +1686,13 @@
     "link": "/timetables/school/673",
     "mode": "School",
     "name": "Churton Park - Broadmeadows - Ngaio - Cardinal McKeefry, Otari, & Marsden Schools",
-    "schools": ["Cardinal McKeefry School", "Karori Normal School", "Marsden School", "St Theresas School", "St Theresa's School"]
+    "schools": [
+      "Cardinal McKeefry School",
+      "Karori Normal School",
+      "Marsden School",
+      "St Theresas School",
+      "St Theresa's School"
+    ]
   },
   {
     "code": "674",
@@ -997,7 +1700,10 @@
     "link": "/timetables/school/674",
     "mode": "School",
     "name": "Khandallah - Ngaio - Wilton - Marsden School",
-    "schools": ["Cardinal McKeefry School", "Marsden School"]
+    "schools": [
+      "Cardinal McKeefry School",
+      "Marsden School"
+    ]
   },
   {
     "code": "677",
@@ -1005,7 +1711,11 @@
     "link": "/timetables/school/677",
     "mode": "School",
     "name": "Island Bay - Kingston - Kelburn - Marsden School",
-    "schools": ["Brooklyn School", "Kelburn Normal School", "Marsden School"]
+    "schools": [
+      "Brooklyn School",
+      "Kelburn Normal School",
+      "Marsden School"
+    ]
   },
   {
     "code": "678",
@@ -1013,7 +1723,12 @@
     "link": "/timetables/school/678",
     "mode": "School",
     "name": "Moa Point - Seatoun - Thorndon Colleges & Marsden School",
-    "schools": ["Marsden School", "Queen Margarets College", "St Mary's College", "Wellington Girls College"]
+    "schools": [
+      "Marsden School",
+      "Queen Margarets College",
+      "St Mary's College",
+      "Wellington Girls College"
+    ]
   },
   {
     "code": "680",
@@ -1021,7 +1736,11 @@
     "link": "/timetables/school/680",
     "mode": "School",
     "name": "Churton Park - Johnsonville - Raroa Normal Intermediate School",
-    "schools": ["Raroa Intermediate School", "St Brigid's School", "St Brigids School"]
+    "schools": [
+      "Raroa Intermediate School",
+      "St Brigid's School",
+      "St Brigids School"
+    ]
   },
   {
     "code": "681",
@@ -1029,7 +1748,13 @@
     "link": "/timetables/school/681",
     "mode": "School",
     "name": "Churton Park North - Johnsonville - Onslow College",
-    "schools": ["Johsonville School", "Onslow College", "Raroa Intermediate", "St Brigids School", "St Brigid's School"]
+    "schools": [
+      "Johsonville School",
+      "Onslow College",
+      "Raroa Intermediate",
+      "St Brigids School",
+      "St Brigid's School"
+    ]
   },
   {
     "code": "682",
@@ -1037,7 +1762,12 @@
     "link": "/timetables/school/682",
     "mode": "School",
     "name": "Raroa Normal Intermediate School & Onslow College - Johnsonville - Churton Park South",
-    "schools": ["Johnsonville School", "Raroa Intermediate", "St Brigid's School", "St Brigids School"]
+    "schools": [
+      "Johnsonville School",
+      "Raroa Intermediate",
+      "St Brigid's School",
+      "St Brigids School"
+    ]
   },
   {
     "code": "685",
@@ -1045,7 +1775,11 @@
     "link": "/timetables/school/685",
     "mode": "School",
     "name": "Karori - Wilton - Crofton Downs - Cardinal McKeefry, Otari Schools & Onslow College",
-    "schools": ["Cardinal McKeefrey School", "Onslow College", "Otari School"]
+    "schools": [
+      "Cardinal McKeefrey School",
+      "Onslow College",
+      "Otari School"
+    ]
   },
   {
     "code": "7",
@@ -1053,7 +1787,14 @@
     "link": "/timetables/bus/7",
     "mode": "Bus",
     "name": "Kingston - Brooklyn - Wellington",
-    "schools": ["Sacred Heart Cathedral School", "St Mary's College", "Te Aro School", "Wellington Jewish Community Centre", "Brooklyn School", "St Bernard's School"]
+    "schools": [
+      "Sacred Heart Cathedral School",
+      "St Mary's College",
+      "Te Aro School",
+      "Wellington Jewish Community Centre",
+      "Brooklyn School",
+      "St Bernard's School"
+    ]
   },
   {
     "code": "700",
@@ -1061,7 +1802,11 @@
     "link": "/timetables/school/700",
     "mode": "School",
     "name": "Wellington - Wellington College & St Mark's School",
-    "schools": ["St Mark's School", "Wellington East Girls College", "Wellington College"]
+    "schools": [
+      "St Mark's School",
+      "Wellington East Girls College",
+      "Wellington College"
+    ]
   },
   {
     "code": "704",
@@ -1069,7 +1814,10 @@
     "link": "/timetables/school/704",
     "mode": "School",
     "name": "Wellington College - Wellington",
-    "schools": ["Wellington College", "St Mark's School"]
+    "schools": [
+      "Wellington College",
+      "St Mark's School"
+    ]
   },
   {
     "code": "711",
@@ -1077,7 +1825,10 @@
     "link": "/timetables/school/711",
     "mode": "School",
     "name": "Moa Point - Seatoun - Kilbirnie - Hataitai - Wellington East Girls' College & St Mark's School",
-    "schools": ["Wellington East Girls College", "St Mark's School"]
+    "schools": [
+      "Wellington East Girls College",
+      "St Mark's School"
+    ]
   },
   {
     "code": "712",
@@ -1085,7 +1836,12 @@
     "link": "/timetables/school/712",
     "mode": "School",
     "name": "Miramar - Kilbirnie - Hataitai - Rongotai, St Patrick's, Wellington East Girls', Wellington Colleges & St Mark's School",
-    "schools": ["Wellington East Girls College", "St Mark's School", "Wellington College", "St Patrick's College"]
+    "schools": [
+      "Wellington East Girls College",
+      "St Mark's School",
+      "Wellington College",
+      "St Patrick's College"
+    ]
   },
   {
     "code": "713",
@@ -1093,7 +1849,11 @@
     "link": "/timetables/school/713",
     "mode": "School",
     "name": "Miramar - Kilbirnie - Newtown \u2013 Basin Schools",
-    "schools": ["Wellington East Girls College", "Wellington College", "St Mark's School"]
+    "schools": [
+      "Wellington East Girls College",
+      "Wellington College",
+      "St Mark's School"
+    ]
   },
   {
     "code": "715",
@@ -1101,7 +1861,12 @@
     "link": "/timetables/school/715",
     "mode": "School",
     "name": "Lyall Bay - Kilbirnie - Hataitai - Basin Schools",
-    "schools": ["St Mark's School", "St Patrick's College", "Wellington East Girls College", "Wellington College"]
+    "schools": [
+      "St Mark's School",
+      "St Patrick's College",
+      "Wellington East Girls College",
+      "Wellington College"
+    ]
   },
   {
     "code": "716",
@@ -1109,7 +1874,10 @@
     "link": "/timetables/school/716",
     "mode": "School",
     "name": "St Mark\u2019s School - Hataitai - Miramar - Seatoun",
-    "schools": ["Kilbirnie School", "St Mark's School"]
+    "schools": [
+      "Kilbirnie School",
+      "St Mark's School"
+    ]
   },
   {
     "code": "717",
@@ -1117,7 +1885,9 @@
     "link": "/timetables/school/717",
     "mode": "School",
     "name": "Wellington College - Miramar - Seatoun",
-    "schools": ["Wellington College"]
+    "schools": [
+      "Wellington College"
+    ]
   },
   {
     "code": "718",
@@ -1125,7 +1895,9 @@
     "link": "/timetables/school/718",
     "mode": "School",
     "name": "Wellington High School - Newtown - Seatoun",
-    "schools": ["Wellington High School"]
+    "schools": [
+      "Wellington High School"
+    ]
   },
   {
     "code": "719",
@@ -1133,7 +1905,10 @@
     "link": "/timetables/school/719",
     "mode": "School",
     "name": "Wellington High School - Kilbirnie - Miramar North",
-    "schools": ["Wellington High School", "Kilbirnie School"]
+    "schools": [
+      "Wellington High School",
+      "Kilbirnie School"
+    ]
   },
   {
     "code": "720",
@@ -1141,7 +1916,9 @@
     "link": "/timetables/school/720",
     "mode": "School",
     "name": "Wellington East Girls' College - Hataitai - Miramar - Seatoun",
-    "schools": ["Wellington East Girls College"]
+    "schools": [
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "721",
@@ -1149,7 +1926,9 @@
     "link": "/timetables/school/721",
     "mode": "School",
     "name": "Wellington East Girls' College - Newtown - Kilbirnie - Lyall Bay",
-    "schools": ["Wellington East Girls College"]
+    "schools": [
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "722",
@@ -1157,7 +1936,9 @@
     "link": "/timetables/school/722",
     "mode": "School",
     "name": "Wellington East Girls' College - Hataitai - Strathmore Park",
-    "schools": ["Wellington East Girls College"]
+    "schools": [
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "723",
@@ -1165,7 +1946,9 @@
     "link": "/timetables/school/723",
     "mode": "School",
     "name": "Wellington East Girls' College - Miramar North",
-    "schools": ["Wellington East Girls College"]
+    "schools": [
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "724",
@@ -1173,7 +1956,9 @@
     "link": "/timetables/school/724",
     "mode": "School",
     "name": "Wellington East Girls' College - Newtown - Kilbirnie - Seatoun",
-    "schools": ["Wellington East Girls College"]
+    "schools": [
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "725",
@@ -1181,7 +1966,12 @@
     "link": "/timetables/school/725",
     "mode": "School",
     "name": "Houghton Bay - Southgate - Island Bay - Basin Schools",
-    "schools": ["St Mark's School", "St Marks School", "Wellington College", "Wellington East Girls College"]
+    "schools": [
+      "St Mark's School",
+      "St Marks School",
+      "Wellington College",
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "726",
@@ -1189,7 +1979,9 @@
     "link": "/timetables/school/726",
     "mode": "School",
     "name": "Island Bay - Owhiro Bay - Berhampore - Wellington High School",
-    "schools": ["Wellington High School"]
+    "schools": [
+      "Wellington High School"
+    ]
   },
   {
     "code": "728",
@@ -1197,7 +1989,12 @@
     "link": "/timetables/school/728",
     "mode": "School",
     "name": "Wellington College - Berhampore - Island Bay - Owhiro Bay",
-    "schools": ["St Mark's School", "St Marks School", "Wellington College", "Wellington East Girls College"]
+    "schools": [
+      "St Mark's School",
+      "St Marks School",
+      "Wellington College",
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "730",
@@ -1205,7 +2002,12 @@
     "link": "/timetables/school/730",
     "mode": "School",
     "name": "Wellington East Girls' College - Island Bay",
-    "schools": ["St Mark's School", "St Marks School", "Wellington College", "Wellington East Girls College"]
+    "schools": [
+      "St Mark's School",
+      "St Marks School",
+      "Wellington College",
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "731",
@@ -1213,7 +2015,9 @@
     "link": "/timetables/school/731",
     "mode": "School",
     "name": "Owhiro Bay - Island Bay - Berhampore - Wellington East Girls' College & St Marks'",
-    "schools": ["Wellington East Girls College"]
+    "schools": [
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "732",
@@ -1221,7 +2025,7 @@
     "link": "/timetables/school/732",
     "mode": "School",
     "name": "Thorndon Colleges - Owhiro Bay - Island Bay",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "734",
@@ -1229,7 +2033,12 @@
     "link": "/timetables/school/734",
     "mode": "School",
     "name": "Brooklyn - Kingston - Vogeltown - Basin Schools",
-    "schools": ["St Mary's College", "Wellington East Girls College", "Wellington College", "Wellington High School"]
+    "schools": [
+      "St Mary's College",
+      "Wellington East Girls College",
+      "Wellington College",
+      "Wellington High School"
+    ]
   },
   {
     "code": "736",
@@ -1237,7 +2046,11 @@
     "link": "/timetables/school/736",
     "mode": "School",
     "name": "Karori (Wrights Hill) - Kelburn - Wellington College, St Mark's & Wellington High Schools",
-    "schools": ["Wellington East Girls College", "Wellington College", "St Mark's School"]
+    "schools": [
+      "Wellington East Girls College",
+      "Wellington College",
+      "St Mark's School"
+    ]
   },
   {
     "code": "737",
@@ -1245,7 +2058,11 @@
     "link": "/timetables/school/737",
     "mode": "School",
     "name": "Karori - Kelburn - Wellington College & Wellington High School",
-    "schools": ["St Mark's School", "Wellington East Girls College", "Wellington College"]
+    "schools": [
+      "St Mark's School",
+      "Wellington East Girls College",
+      "Wellington College"
+    ]
   },
   {
     "code": "738",
@@ -1253,7 +2070,10 @@
     "link": "/timetables/school/738",
     "mode": "School",
     "name": "St Mary's College - Karori",
-    "schools": ["St Mark's School", "St Mary's School"]
+    "schools": [
+      "St Mark's School",
+      "St Mary's School"
+    ]
   },
   {
     "code": "739",
@@ -1261,7 +2081,10 @@
     "link": "/timetables/school/739",
     "mode": "School",
     "name": "Wellington College - Kelburn - Karori (Wrights Hill)",
-    "schools": ["St Mark's School", "Wellington College"]
+    "schools": [
+      "St Mark's School",
+      "Wellington College"
+    ]
   },
   {
     "code": "740",
@@ -1269,7 +2092,9 @@
     "link": "/timetables/school/740",
     "mode": "School",
     "name": "Wellington College - Kelburn - Karori",
-    "schools": ["Wellington College"]
+    "schools": [
+      "Wellington College"
+    ]
   },
   {
     "code": "741",
@@ -1277,7 +2102,10 @@
     "link": "/timetables/school/741",
     "mode": "School",
     "name": "Karori - Kelburn - Wellington College",
-    "schools": ["Wellington College", "Wellington East Girls College"]
+    "schools": [
+      "Wellington College",
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "742",
@@ -1285,7 +2113,11 @@
     "link": "/timetables/school/742",
     "mode": "School",
     "name": "St Mark\u2019s School, Wellington & Wellington East Girls' Colleges - Miramar Heights",
-    "schools": ["Wellington College", "Wellington East Girls College", "St Mark's School"]
+    "schools": [
+      "Wellington College",
+      "Wellington East Girls College",
+      "St Mark's School"
+    ]
   },
   {
     "code": "743",
@@ -1293,7 +2125,14 @@
     "link": "/timetables/school/743",
     "mode": "School",
     "name": "Wilton - Wadestown - Thorndon Colleges & Basin Schools",
-    "schools": ["Queen Margarets College", "St Mark's School", "St Mary's School", "Wellington East Girls College", "Wellington College", "Wellington Girls College"]
+    "schools": [
+      "Queen Margarets College",
+      "St Mark's School",
+      "St Mary's School",
+      "Wellington East Girls College",
+      "Wellington College",
+      "Wellington Girls College"
+    ]
   },
   {
     "code": "744",
@@ -1301,7 +2140,9 @@
     "link": "/timetables/school/744",
     "mode": "School",
     "name": "Wellington College - Wilton - Mairangi - Northland",
-    "schools": ["Wellington College"]
+    "schools": [
+      "Wellington College"
+    ]
   },
   {
     "code": "745",
@@ -1309,7 +2150,11 @@
     "link": "/timetables/school/745",
     "mode": "School",
     "name": "Wellington College - Wellington - Wadestown - Wilton",
-    "schools": ["Wellington East Girls College", "Wellington College", "St Mark's School"]
+    "schools": [
+      "Wellington East Girls College",
+      "Wellington College",
+      "St Mark's School"
+    ]
   },
   {
     "code": "746",
@@ -1317,7 +2162,13 @@
     "link": "/timetables/school/746",
     "mode": "School",
     "name": "Khandallah - Ngaio - Wellington College, St Mark's School & St Patrick's College",
-    "schools": ["St Mark's School", "St Patrick's College", "Wellington East Girls College", "Wellington College", "Wellington Girls College"]
+    "schools": [
+      "St Mark's School",
+      "St Patrick's College",
+      "Wellington East Girls College",
+      "Wellington College",
+      "Wellington Girls College"
+    ]
   },
   {
     "code": "751",
@@ -1325,7 +2176,11 @@
     "link": "/timetables/school/751",
     "mode": "School",
     "name": "Wellington - St Patrick's & Rongotai Colleges",
-    "schools": ["St Patrick's College", "Rongotai College", "Evans Bay Intermediate"]
+    "schools": [
+      "St Patrick's College",
+      "Rongotai College",
+      "Evans Bay Intermediate"
+    ]
   },
   {
     "code": "753",
@@ -1333,7 +2188,9 @@
     "link": "/timetables/school/753",
     "mode": "School",
     "name": "St Patrick's College - Hataitai - Mt Victoria - Wellington",
-    "schools": ["St Patrick's College"]
+    "schools": [
+      "St Patrick's College"
+    ]
   },
   {
     "code": "754",
@@ -1341,7 +2198,9 @@
     "link": "/timetables/school/754",
     "mode": "School",
     "name": "Rongotai College - Kilbirnie - Hataitai - Wellington",
-    "schools": ["Rongotai College"]
+    "schools": [
+      "Rongotai College"
+    ]
   },
   {
     "code": "755",
@@ -1349,7 +2208,9 @@
     "link": "/timetables/school/755",
     "mode": "School",
     "name": "Rongotai College - Kilbirnie - Newtown - Wellington",
-    "schools": ["Rongotai College"]
+    "schools": [
+      "Rongotai College"
+    ]
   },
   {
     "code": "758",
@@ -1357,7 +2218,9 @@
     "link": "/timetables/school/758",
     "mode": "School",
     "name": "Evans Bay Intermediate School - Miramar",
-    "schools": ["Evans Bay Intermediate"]
+    "schools": [
+      "Evans Bay Intermediate"
+    ]
   },
   {
     "code": "759",
@@ -1365,7 +2228,9 @@
     "link": "/timetables/school/759",
     "mode": "School",
     "name": "Evans Bay Intermediate School - Seatoun",
-    "schools": ["Evans Bay Intermediate"]
+    "schools": [
+      "Evans Bay Intermediate"
+    ]
   },
   {
     "code": "760",
@@ -1373,7 +2238,9 @@
     "link": "/timetables/school/760",
     "mode": "School",
     "name": "Evans Bay Intermediate School - Strathmore Park",
-    "schools": ["Evans Bay Intermediate"]
+    "schools": [
+      "Evans Bay Intermediate"
+    ]
   },
   {
     "code": "761",
@@ -1381,7 +2248,9 @@
     "link": "/timetables/school/761",
     "mode": "School",
     "name": "St Patrick's College - Strathmore Park",
-    "schools": ["St Patrick's College"]
+    "schools": [
+      "St Patrick's College"
+    ]
   },
   {
     "code": "762",
@@ -1389,7 +2258,9 @@
     "link": "/timetables/school/762",
     "mode": "School",
     "name": "Rongotai College - Miramar - Seatoun",
-    "schools": ["Rongotai College"]
+    "schools": [
+      "Rongotai College"
+    ]
   },
   {
     "code": "764",
@@ -1397,7 +2268,11 @@
     "link": "/timetables/school/764",
     "mode": "School",
     "name": "Karori - Wellington College",
-    "schools": ["St Mark's School", "Wellington College", "Wellington East Girls College"]
+    "schools": [
+      "St Mark's School",
+      "Wellington College",
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "767",
@@ -1405,7 +2280,9 @@
     "link": "/timetables/school/767",
     "mode": "School",
     "name": "St Patrick's College - Hataitai - Mt Victoria - Karori",
-    "schools": ["St Patrick's College"]
+    "schools": [
+      "St Patrick's College"
+    ]
   },
   {
     "code": "768",
@@ -1413,7 +2290,13 @@
     "link": "/timetables/school/768",
     "mode": "School",
     "name": "Mairangi - Wellington, St Patrick's & Rongotai Colleges",
-    "schools": ["Rongotai College", "St Mark's School", "St Patrick's College", "Wellington College", "Wellington East Girls College"]
+    "schools": [
+      "Rongotai College",
+      "St Mark's School",
+      "St Patrick's College",
+      "Wellington College",
+      "Wellington East Girls College"
+    ]
   },
   {
     "code": "769",
@@ -1421,7 +2304,12 @@
     "link": "/timetables/school/769",
     "mode": "School",
     "name": "St Patrick\u2019s & Wellington Colleges, Wellington High School - Northland - Wilton",
-    "schools": ["Wellington High School", "Wellington College", "St Patrick's College", "St Mark's School"]
+    "schools": [
+      "Wellington High School",
+      "Wellington College",
+      "St Patrick's College",
+      "St Mark's School"
+    ]
   },
   {
     "code": "770",
@@ -1429,7 +2317,14 @@
     "link": "/timetables/school/770",
     "mode": "School",
     "name": "Kowhai Park - Kingston - Vogeltown - Basin Schools, St Patrick's & Rongotai Colleges",
-    "schools": ["Wellington High School", "Wellington East Girls College", "Wellington College", "St Patrick's College", "St Mark's School", "Rongotai College"]
+    "schools": [
+      "Wellington High School",
+      "Wellington East Girls College",
+      "Wellington College",
+      "St Patrick's College",
+      "St Mark's School",
+      "Rongotai College"
+    ]
   },
   {
     "code": "772",
@@ -1437,7 +2332,12 @@
     "link": "/timetables/school/772",
     "mode": "School",
     "name": "Island Bay - Owhiro Bay - St Patrick's & St Catherine's Colleges",
-    "schools": ["St Patrick's College (town)", "St Patricks College (town)", "St Catherine's College", "St Catherines College"]
+    "schools": [
+      "St Patrick's College (town)",
+      "St Patricks College (town)",
+      "St Catherine's College",
+      "St Catherines College"
+    ]
   },
   {
     "code": "774",
@@ -1445,7 +2345,13 @@
     "link": "/timetables/school/774",
     "mode": "School",
     "name": "Houghton Bay - Owhiro Bay - Island Bay - South Wellington Intermediate School & Kilbirnie Colleges",
-    "schools": ["Owhiro Bay School", "Rongotai College", "South Wellington Intermediate School", "St Patrick's College (town)", "St Patricks College (town)"]
+    "schools": [
+      "Owhiro Bay School",
+      "Rongotai College",
+      "South Wellington Intermediate School",
+      "St Patrick's College (town)",
+      "St Patricks College (town)"
+    ]
   },
   {
     "code": "775",
@@ -1453,7 +2359,12 @@
     "link": "/timetables/school/775",
     "mode": "School",
     "name": "St Patrick's & St Catherine's Colleges - Newtown - Berhampore - Island Bay - Owhiro Bay",
-    "schools": ["St Patrick's College", "St Patricks College", "St Catherine's College", "St Catherines College"]
+    "schools": [
+      "St Patrick's College",
+      "St Patricks College",
+      "St Catherine's College",
+      "St Catherines College"
+    ]
   },
   {
     "code": "776",
@@ -1461,7 +2372,9 @@
     "link": "/timetables/school/776",
     "mode": "School",
     "name": "Rongotai College - Berhampore - Island Bay - Owhiro Bay",
-    "schools": ["Rongotai College"]
+    "schools": [
+      "Rongotai College"
+    ]
   },
   {
     "code": "780",
@@ -1469,7 +2382,9 @@
     "link": "/timetables/school/780",
     "mode": "School",
     "name": "Strathmore Park - Kahurangi School",
-    "schools": ["Kahurangi School"]
+    "schools": [
+      "Kahurangi School"
+    ]
   },
   {
     "code": "782",
@@ -1477,7 +2392,10 @@
     "link": "/timetables/school/782",
     "mode": "School",
     "name": "Wellington - Roseneath - Hataitai - St Patrick\u2019s, St Catherine's, Rongotai & Scots Colleges",
-    "schools": ["Marist Holy Cross School", "Scots College"]
+    "schools": [
+      "Marist Holy Cross School",
+      "Scots College"
+    ]
   },
   {
     "code": "784",
@@ -1485,7 +2403,7 @@
     "link": "/timetables/school/784",
     "mode": "School",
     "name": "Wellington - Mt Victoria - Hataitai - Scots College",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "791",
@@ -1493,7 +2411,10 @@
     "link": "/timetables/school/791",
     "mode": "School",
     "name": "Karori - Kelburn - Scots College",
-    "schools": ["Scots College", "Kilbirnie School"]
+    "schools": [
+      "Scots College",
+      "Kilbirnie School"
+    ]
   },
   {
     "code": "81",
@@ -1501,7 +2422,19 @@
     "link": "/timetables/bus/81",
     "mode": "Bus",
     "name": "Eastbourne - Petone - Wellington",
-    "schools": ["Clyde Quay School", "Wellington Girls College", "St Mary's College", "Sacred Heart Cathedral School", "Queen Margaret College", "Thorndon School", "Te Aho o Te Kura Pounamu", "Petone Central School", "Wellesley College", "Muritai School", "San Antonio School"]
+    "schools": [
+      "Clyde Quay School",
+      "Wellington Girls College",
+      "St Mary's College",
+      "Sacred Heart Cathedral School",
+      "Queen Margaret College",
+      "Thorndon School",
+      "Te Aho o Te Kura Pounamu",
+      "Petone Central School",
+      "Wellesley College",
+      "Muritai School",
+      "San Antonio School"
+    ]
   },
   {
     "code": "823",
@@ -1509,7 +2442,7 @@
     "link": "/timetables/school/823",
     "mode": "School",
     "name": "Hutt Intermediate School, St Bernard's College, Chilton St James School & St Oran\u2019s College - Stokes Valley",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "825",
@@ -1517,7 +2450,9 @@
     "link": "/timetables/school/825",
     "mode": "School",
     "name": "Stokes Valley - Avalon Intermediate School",
-    "schools": ["Avalon Intermediate"]
+    "schools": [
+      "Avalon Intermediate"
+    ]
   },
   {
     "code": "828",
@@ -1525,7 +2460,9 @@
     "link": "/timetables/school/828",
     "mode": "School",
     "name": "Stokes Valley - Taita College",
-    "schools": ["Tawhai School"]
+    "schools": [
+      "Tawhai School"
+    ]
   },
   {
     "code": "83",
@@ -1533,7 +2470,26 @@
     "link": "/timetables/bus/83",
     "mode": "Bus",
     "name": "Eastbourne - Lower Hutt - Petone - Wellington",
-    "schools": ["San Antonio School", "Muritai School", "Wellesley College", "Randwick School", "Hutt Valley High School", "Sacred Heart College", "Saints Peter and Paul School", "Hutt Central School", "Te Kura Kaupapa Maori o Te Ara Whanui", "Wilford School", "Petone Central School", "Queen Margaret College", "Thorndon School", "Wellington Girls College", "Te Aho o Te Kura Pounamu", "St Marys College", "Sacred Heart Cathedral School", "Clyde Quay School"]
+    "schools": [
+      "San Antonio School",
+      "Muritai School",
+      "Wellesley College",
+      "Randwick School",
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "Saints Peter and Paul School",
+      "Hutt Central School",
+      "Te Kura Kaupapa Maori o Te Ara Whanui",
+      "Wilford School",
+      "Petone Central School",
+      "Queen Margaret College",
+      "Thorndon School",
+      "Wellington Girls College",
+      "Te Aho o Te Kura Pounamu",
+      "St Marys College",
+      "Sacred Heart Cathedral School",
+      "Clyde Quay School"
+    ]
   },
   {
     "code": "84",
@@ -1541,7 +2497,22 @@
     "link": "/timetables/bus/84",
     "mode": "Bus",
     "name": "Gracefield - Petone - Wellington",
-    "schools": ["San Antonio School", "Muritai School", "Wellesley College", "Gracefield School", "Wilford School", "Petone Central School", "Sacred Heart School", "Queen Margaret College", "Thorndon School", "Wellignton Girls College", "St Marys College", "Sacred Heart Cathedral School", "Te Aho o Te Kura Pounamu", "Clyde Quay School"]
+    "schools": [
+      "San Antonio School",
+      "Muritai School",
+      "Wellesley College",
+      "Gracefield School",
+      "Wilford School",
+      "Petone Central School",
+      "Sacred Heart School",
+      "Queen Margaret College",
+      "Thorndon School",
+      "Wellignton Girls College",
+      "St Marys College",
+      "Sacred Heart Cathedral School",
+      "Te Aho o Te Kura Pounamu",
+      "Clyde Quay School"
+    ]
   },
   {
     "code": "840",
@@ -1549,7 +2520,10 @@
     "link": "/timetables/school/840",
     "mode": "School",
     "name": "Kelson - Naenae College & Intermediate School",
-    "schools": ["Naenae College", "Naenae Intermediate"]
+    "schools": [
+      "Naenae College",
+      "Naenae Intermediate"
+    ]
   },
   {
     "code": "842",
@@ -1557,7 +2531,18 @@
     "link": "/timetables/school/842",
     "mode": "School",
     "name": "Kelson - Hutt Central Schools",
-    "schools": ["Chilton St James", "Eastern Hutt School", "Hutt Intermediate", "Hutt Valley High School", "Naenae College", "Naenae Intermediate", "Sacred Heart College", "St Bernard's College", "St Oran's College", "St Peter and Paul School"]
+    "schools": [
+      "Chilton St James",
+      "Eastern Hutt School",
+      "Hutt Intermediate",
+      "Hutt Valley High School",
+      "Naenae College",
+      "Naenae Intermediate",
+      "Sacred Heart College",
+      "St Bernard's College",
+      "St Oran's College",
+      "St Peter and Paul School"
+    ]
   },
   {
     "code": "843",
@@ -1565,7 +2550,14 @@
     "link": "/timetables/school/843",
     "mode": "School",
     "name": "Hutt Central Schools - Kelson",
-    "schools": ["St Peter and Paul School", "St Bernard's College", "Naenae Intermediate", "Naenae College", "Hutt Intermediate", "Chilton St James"]
+    "schools": [
+      "St Peter and Paul School",
+      "St Bernard's College",
+      "Naenae Intermediate",
+      "Naenae College",
+      "Hutt Intermediate",
+      "Chilton St James"
+    ]
   },
   {
     "code": "846",
@@ -1573,7 +2565,12 @@
     "link": "/timetables/school/846",
     "mode": "School",
     "name": "Hutt Valley High School, Sacred Heart College & Chilton St James School - Kelson",
-    "schools": ["St Bernard's College", "Sacred Heart College", "Hutt Valley High School", "Chilton St James"]
+    "schools": [
+      "St Bernard's College",
+      "Sacred Heart College",
+      "Hutt Valley High School",
+      "Chilton St James"
+    ]
   },
   {
     "code": "848",
@@ -1581,7 +2578,12 @@
     "link": "/timetables/school/848",
     "mode": "School",
     "name": "Ss Peter and Paul, Boulcott, Eastern Hutt & Hutt Intermediate Schools - Harbour View",
-    "schools": ["St Peter and Paul School", "Hutt Intermediate", "Eastern Hutt School", "Chilton St James"]
+    "schools": [
+      "St Peter and Paul School",
+      "Hutt Intermediate",
+      "Eastern Hutt School",
+      "Chilton St James"
+    ]
   },
   {
     "code": "849",
@@ -1589,7 +2591,18 @@
     "link": "/timetables/school/849",
     "mode": "School",
     "name": "Harbour View - Hutt Central Schools",
-    "schools": ["St Peter and Paul School", "Hutt Intermediate", "Eastern Hutt School", "Chilton St James", "Boulcott School", "Hutt Valley High School", "Sacred Heart College", "St Bernard's College", "St Oran's College", "St Peter and Paul School"]
+    "schools": [
+      "St Peter and Paul School",
+      "Hutt Intermediate",
+      "Eastern Hutt School",
+      "Chilton St James",
+      "Boulcott School",
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "St Bernard's College",
+      "St Oran's College",
+      "St Peter and Paul School"
+    ]
   },
   {
     "code": "852",
@@ -1597,7 +2610,15 @@
     "link": "/timetables/school/852",
     "mode": "School",
     "name": "Maungaraki - Hutt Central Schools",
-    "schools": ["Chilton St James", "Hutt Intermediate", "Hutt Valley High School", "Sacred Heart College", "St Bernard's College", "St Oran's College", "St Peter and Paul School"]
+    "schools": [
+      "Chilton St James",
+      "Hutt Intermediate",
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "St Bernard's College",
+      "St Oran's College",
+      "St Peter and Paul School"
+    ]
   },
   {
     "code": "853",
@@ -1605,7 +2626,15 @@
     "link": "/timetables/school/853",
     "mode": "School",
     "name": "Maungaraki - Normandale - Hutt Central Schools",
-    "schools": ["Chilton St James", "Hutt Intermediate", "Hutt Valley High School", "Sacred Heart College", "St Bernard's College", "St Oran's College", "St Peter and Paul School"]
+    "schools": [
+      "Chilton St James",
+      "Hutt Intermediate",
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "St Bernard's College",
+      "St Oran's College",
+      "St Peter and Paul School"
+    ]
   },
   {
     "code": "854",
@@ -1613,7 +2642,14 @@
     "link": "/timetables/school/854",
     "mode": "School",
     "name": "Petone - Hutt Central Schools",
-    "schools": ["Chilton St James", "Hutt Intermediate", "Hutt Valley High School", "Sacred Heart College", "St Bernard's College", "St Peter and Paul School"]
+    "schools": [
+      "Chilton St James",
+      "Hutt Intermediate",
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "St Bernard's College",
+      "St Peter and Paul School"
+    ]
   },
   {
     "code": "855",
@@ -1621,7 +2657,7 @@
     "link": "/timetables/school/855",
     "mode": "School",
     "name": "Ss Peter and Paul & Hutt Intermediate Schools - Petone - Korokoro",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "85x",
@@ -1629,7 +2665,7 @@
     "link": "/timetables/bus/85x",
     "mode": "Bus",
     "name": "Eastbourne - Wellington (Express)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "860",
@@ -1637,7 +2673,12 @@
     "link": "/timetables/school/860",
     "mode": "School",
     "name": "Wainuiomata North - Hutt Valley High School, Sacred Heart & St Bernard's Colleges",
-    "schools": ["Hutt Valley High School", "Sacred Heart College", "St Bernard's College", "Wainuiomata High School"]
+    "schools": [
+      "Hutt Valley High School",
+      "Sacred Heart College",
+      "St Bernard's College",
+      "Wainuiomata High School"
+    ]
   },
   {
     "code": "866",
@@ -1645,7 +2686,12 @@
     "link": "/timetables/school/866",
     "mode": "School",
     "name": "Wainuiomata South - Hutt Valley High School, Sacred Heart & St Bernard's Colleges",
-    "schools": ["St Bernard's College", "Sacred Heart College", "Hutt Valley High School", "Chilton St James"]
+    "schools": [
+      "St Bernard's College",
+      "Sacred Heart College",
+      "Hutt Valley High School",
+      "Chilton St James"
+    ]
   },
   {
     "code": "867",
@@ -1653,7 +2699,12 @@
     "link": "/timetables/school/867",
     "mode": "School",
     "name": "St Bernard's College - Wainuiomata South",
-    "schools": ["Wainuiomata High School", "St Bernard's College", "Sacred Heart College", "Hutt Valley High School"]
+    "schools": [
+      "Wainuiomata High School",
+      "St Bernard's College",
+      "Sacred Heart College",
+      "Hutt Valley High School"
+    ]
   },
   {
     "code": "868",
@@ -1661,7 +2712,10 @@
     "link": "/timetables/school/868",
     "mode": "School",
     "name": "St Bernard's College - Wainuiomata North",
-    "schools": ["St Bernard's College", "Wainuiomata High School"]
+    "schools": [
+      "St Bernard's College",
+      "Wainuiomata High School"
+    ]
   },
   {
     "code": "874",
@@ -1669,7 +2723,10 @@
     "link": "/timetables/school/874",
     "mode": "School",
     "name": "Wainuiomata - Wainuiomata High, Intermediate & St Claudine Thevenet Schools",
-    "schools": ["Wainuiomata High School", "Wainuiomata Intermediate"]
+    "schools": [
+      "Wainuiomata High School",
+      "Wainuiomata Intermediate"
+    ]
   },
   {
     "code": "886",
@@ -1677,7 +2734,10 @@
     "link": "/timetables/school/886",
     "mode": "School",
     "name": "Muritai & San Antonio Schools - Moera",
-    "schools": [" Muritai School", "San Antonio School"]
+    "schools": [
+      "Muritai School",
+      "San Antonio School"
+    ]
   },
   {
     "code": "887",
@@ -1685,7 +2745,12 @@
     "link": "/timetables/school/887",
     "mode": "School",
     "name": "Eastbourne - Hutt Valley High School",
-    "schools": ["Hutt Valley High School", "St Peter and Paul School", "Hutt Intermediate", "Chilton St James"]
+    "schools": [
+      "Hutt Valley High School",
+      "St Peter and Paul School",
+      "Hutt Intermediate",
+      "Chilton St James"
+    ]
   },
   {
     "code": "888",
@@ -1693,7 +2758,13 @@
     "link": "/timetables/school/888",
     "mode": "School",
     "name": "Eastbourne - Hutt Central Schools",
-    "schools": ["Hutt Intermediate", "Chilton St James", "Sacred Heart College", "St Bernard's College", "St Oran's College"]
+    "schools": [
+      "Hutt Intermediate",
+      "Chilton St James",
+      "Sacred Heart College",
+      "St Bernard's College",
+      "St Oran's College"
+    ]
   },
   {
     "code": "901",
@@ -1701,7 +2772,10 @@
     "link": "/timetables/school/901",
     "mode": "School",
     "name": "Emerald Hill - Upper Hutt - St Patrick's College",
-    "schools": ["Trentham School", "St Patrick's College"]
+    "schools": [
+      "Trentham School",
+      "St Patrick's College"
+    ]
   },
   {
     "code": "904",
@@ -1709,7 +2783,11 @@
     "link": "/timetables/school/904",
     "mode": "School",
     "name": "Upper Hutt - Epuni - Chilton St James School",
-    "schools": ["St Patrick's College", "Trentham School", "Chilton St James"]
+    "schools": [
+      "St Patrick's College",
+      "Trentham School",
+      "Chilton St James"
+    ]
   },
   {
     "code": "906",
@@ -1717,7 +2795,10 @@
     "link": "/timetables/school/906",
     "mode": "School",
     "name": "Clouston Park - Brown Owl - Birchville - Birchville & Plateau Schools",
-    "schools": ["Plateau School", "Birchville School"]
+    "schools": [
+      "Plateau School",
+      "Birchville School"
+    ]
   },
   {
     "code": "911",
@@ -1725,7 +2806,11 @@
     "link": "/timetables/school/911",
     "mode": "School",
     "name": "Upper Hutt - St Oran's College",
-    "schools": ["St Patrick's College", "Trentham School", "St Oran's College"]
+    "schools": [
+      "St Patrick's College",
+      "Trentham School",
+      "St Oran's College"
+    ]
   },
   {
     "code": "915",
@@ -1733,7 +2818,11 @@
     "link": "/timetables/school/915",
     "mode": "School",
     "name": "Pinehaven - Silverstream, Fergusson Intermediate & Maidstone Intermediate Schools",
-    "schools": ["Maidstone Intermediate", "Fergusson Intermediate", "Silverstream School"]
+    "schools": [
+      "Maidstone Intermediate",
+      "Fergusson Intermediate",
+      "Silverstream School"
+    ]
   },
   {
     "code": "916",
@@ -1741,7 +2830,9 @@
     "link": "/timetables/school/916",
     "mode": "School",
     "name": "Pinehaven - Silverstream School & Upper Hutt College",
-    "schools": ["Upper Hutt College"]
+    "schools": [
+      "Upper Hutt College"
+    ]
   },
   {
     "code": "919",
@@ -1749,7 +2840,11 @@
     "link": "/timetables/school/919",
     "mode": "School",
     "name": "Silverstream - St Oran's & Sacred Heart Colleges",
-    "schools": ["Trentham School", "St Oran's College", "Sacred Heart Colleges"]
+    "schools": [
+      "Trentham School",
+      "St Oran's College",
+      "Sacred Heart Colleges"
+    ]
   },
   {
     "code": "924",
@@ -1757,7 +2852,10 @@
     "link": "/timetables/school/924",
     "mode": "School",
     "name": "Upper Hutt - Silverstream - Sacred Heart College",
-    "schools": ["Trentham School", "Sacred Heart College"]
+    "schools": [
+      "Trentham School",
+      "Sacred Heart College"
+    ]
   },
   {
     "code": "926",
@@ -1765,7 +2863,11 @@
     "link": "/timetables/school/926",
     "mode": "School",
     "name": "Totara Park - Heretaunga & Upper Hutt Colleges",
-    "schools": ["Trentham School", "Upper Hutt College", "Heretaunga College"]
+    "schools": [
+      "Trentham School",
+      "Upper Hutt College",
+      "Heretaunga College"
+    ]
   },
   {
     "code": "929",
@@ -1773,7 +2875,13 @@
     "link": "/timetables/school/929",
     "mode": "School",
     "name": "Te Marua - Birchville - Brown Owl - Oxford Crescent, St Joseph\u2019s, Fraser Crescent & Maidstone Intermediate Schools",
-    "schools": ["Birchville School", "Fraser Crescent School", "Maidstone Intermediate", "Oxford Crescent School", "St Joseph's School"]
+    "schools": [
+      "Birchville School",
+      "Fraser Crescent School",
+      "Maidstone Intermediate",
+      "Oxford Crescent School",
+      "St Joseph's School"
+    ]
   },
   {
     "code": "930",
@@ -1781,7 +2889,12 @@
     "link": "/timetables/school/930",
     "mode": "School",
     "name": "Te Marua - Birchville - Timberlea \u2013 Heretaunga, Upper Hutt Colleges & Fergusson Intermediate School",
-    "schools": ["Upper Hutt College", "Heretaunga College", "Fergusson Intermediate", "Birchville School"]
+    "schools": [
+      "Upper Hutt College",
+      "Heretaunga College",
+      "Fergusson Intermediate",
+      "Birchville School"
+    ]
   },
   {
     "code": "931",
@@ -1789,7 +2902,11 @@
     "link": "/timetables/school/931",
     "mode": "School",
     "name": "Upper Hutt - Sacred Heart College",
-    "schools": ["Birchville School", "Trentham School", "Sacred Heart College"]
+    "schools": [
+      "Birchville School",
+      "Trentham School",
+      "Sacred Heart College"
+    ]
   },
   {
     "code": "935",
@@ -1797,7 +2914,11 @@
     "link": "/timetables/school/935",
     "mode": "School",
     "name": "Totara Park - Oxford Crescent, St Joseph\u2019s & Maidstone Intermediate Schools",
-    "schools": [" Maidstone Intermediate", "Oxford Crescent Sch", "St Joseph's School"]
+    "schools": [
+      "Maidstone Intermediate",
+      "Oxford Crescent Sch",
+      "St Joseph's School"
+    ]
   },
   {
     "code": "951",
@@ -1805,7 +2926,10 @@
     "link": "/timetables/school/951",
     "mode": "School",
     "name": "Avalon - St Patrick\u2019s College & Hutt International Boys\u2019 School",
-    "schools": ["St Patrick's College", "Hutt International Boys School"]
+    "schools": [
+      "St Patrick's College",
+      "Hutt International Boys School"
+    ]
   },
   {
     "code": "953",
@@ -1813,7 +2937,10 @@
     "link": "/timetables/school/953",
     "mode": "School",
     "name": "Stokes Valley - St Patrick\u2019s College & Fergusson Intermediate School",
-    "schools": ["St Patrick's College", "Fergusson Intermediate"]
+    "schools": [
+      "St Patrick's College",
+      "Fergusson Intermediate"
+    ]
   },
   {
     "code": "955",
@@ -1821,7 +2948,10 @@
     "link": "/timetables/school/955",
     "mode": "School",
     "name": "Stokes Valley - Upper Hutt College",
-    "schools": ["St Patrick's College", "Upper Hutt College"]
+    "schools": [
+      "St Patrick's College",
+      "Upper Hutt College"
+    ]
   },
   {
     "code": "CCL",
@@ -1829,7 +2959,7 @@
     "link": "/timetables/other/CCL",
     "mode": "Cable Car",
     "name": "Cable Car (Kelburn - Wellington)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "HVL",
@@ -1837,7 +2967,7 @@
     "link": "/timetables/train/HVL",
     "mode": "Train",
     "name": "Hutt Valley Line (Upper Hutt - Wellington)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "JVL",
@@ -1845,7 +2975,7 @@
     "link": "/timetables/train/JVL",
     "mode": "Train",
     "name": "Johnsonville Line (Johnsonville - Wellington)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "KPL",
@@ -1853,7 +2983,7 @@
     "link": "/timetables/train/KPL",
     "mode": "Train",
     "name": "Kapiti Line (Waikanae - Wellington)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "MEL",
@@ -1861,7 +2991,7 @@
     "link": "/timetables/train/MEL",
     "mode": "Train",
     "name": "Melling Line (Melling - Wellington)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N1",
@@ -1869,7 +2999,7 @@
     "link": "/timetables/bus/N1",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Island Bay - Houghton Bay - Lyall Bay)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N2",
@@ -1877,7 +3007,7 @@
     "link": "/timetables/bus/N2",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Miramar - Strathmore Park - Seatoun)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N22",
@@ -1885,7 +3015,7 @@
     "link": "/timetables/bus/N22",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Naenae - Stokes Valley - Upper Hutt)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N3",
@@ -1893,7 +3023,7 @@
     "link": "/timetables/bus/N3",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Kelburn - Karori - Northland)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N4",
@@ -1901,7 +3031,7 @@
     "link": "/timetables/bus/N4",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Wadestown - Ngaio - Khandallah)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N5",
@@ -1909,7 +3039,7 @@
     "link": "/timetables/bus/N5",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Newlands - Churton Park - Johnsonville)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N6",
@@ -1917,7 +3047,7 @@
     "link": "/timetables/bus/N6",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Porirua - Whitby - Plimmerton)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N66",
@@ -1925,7 +3055,7 @@
     "link": "/timetables/bus/N66",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Lower Hutt - Waterloo - Wainuiomata)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N8",
@@ -1933,7 +3063,7 @@
     "link": "/timetables/bus/N8",
     "mode": "Bus",
     "name": "After Midnight (Lower Hutt - Petone - Wellington)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "N88",
@@ -1941,7 +3071,7 @@
     "link": "/timetables/bus/N88",
     "mode": "Bus",
     "name": "After Midnight (Wellington - Petone - Lower Hutt - Eastbourne)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "WHF",
@@ -1949,7 +3079,7 @@
     "link": "/timetables/other/WHF",
     "mode": "Ferry",
     "name": "Wellington Harbour Ferry (Days Bay - Queens Wharf)",
-    "schools_str": null
+    "schools": []
   },
   {
     "code": "WRL",
@@ -1957,6 +3087,6 @@
     "link": "/timetables/train/WRL",
     "mode": "Train",
     "name": "Wairarapa Line (Masterton - Wellington)",
-    "schools_str": null
+    "schools": []
   }
 ]
