@@ -6,11 +6,10 @@ import pytz
 from ..api.db import Service, check_or_make, create_db, db_session
 from ..api.services import import_services
 from ..session import get_session
-from ..utils import parse_html, pretty_json_dumps
+from ..utils import BASE, parse_html, pretty_json_dumps
 
 WELLINGTON_TZ = pytz.timezone("Pacific/Auckland")
-ROOT = pathlib.Path(__file__).parent / "../.."
-DATA = ROOT / "data/"
+DATA = BASE / "data/"
 TIMETABLED_DAYS = [
     dt.date.today() + dt.timedelta(days=t)
     # Today to 28ish days in the future

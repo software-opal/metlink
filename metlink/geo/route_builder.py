@@ -11,9 +11,7 @@ from ..api.db import (
 from ..api.service_maps import import_service_maps
 from ..api.services import import_services
 from ..api.stops import import_stops
-from ..utils import decimal_parse, pretty_json_dump
-
-ROOT = (pathlib.Path(__file__).parent / "../..").resolve()
+from ..utils import BASE, decimal_parse, pretty_json_dump
 
 
 def geojson_route(service, route_name, route):
@@ -146,7 +144,7 @@ def convert_service_maps():
         all_service_maps = {}
         for sr in db.query(ServiceRouteMap).all():
             all_service_maps.setdefault(sr.code, []).append(sr)
-    with (ROOT / "data" / "stops.json").open("w") as f:
+    with (BASE / "data" / "stops.json").open("w") as f:
         pretty_json_dump(
             [
                 {
@@ -160,7 +158,7 @@ def convert_service_maps():
             ],
             f,
         )
-    with (ROOT / "data" / "services.json").open("w") as f:
+    with (BASE / "data" / "services.json").open("w") as f:
         pretty_json_dump(
             [
                 {
@@ -177,7 +175,7 @@ def convert_service_maps():
         )
     for service in all_services.values():
         output_service(
-            ROOT / "data/", service, all_service_maps[service.code], all_stops
+            BASE / "data/", service, all_service_maps[service.code], all_stops
         )
 
 

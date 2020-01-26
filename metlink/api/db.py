@@ -5,10 +5,9 @@ from sqlalchemy import Column, ForeignKey, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-from ..utils import decimal_parse, json_dumps, json_loads
+from ..utils import BASE, decimal_parse, json_dumps, json_loads
 
-ROOT = (pathlib.Path(__file__).parent / "../..").resolve()
-DB = ROOT / "db.sqlite3"
+DB = BASE / "db.sqlite3"
 Base = declarative_base()
 Session = sessionmaker()
 
