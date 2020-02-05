@@ -1,16 +1,32 @@
 use chrono::{DateTime, FixedOffset, NaiveDate};
 use serde::{Deserialize, Serialize};
 use serde_json::from_reader;
-use std::{error::Error, fs::File, path::Path};
+use std::{ fs::File, path::Path};
+use anyhow::{Context, Error, Result};
 
-pub fn load_timetable(
+use crate::data::files::{timetable_json, timetables_json};
+
+pub fn load_timetable<S: Into<String>>(
     data_folder: &Path,
-    service_code: String,
+    service_code: S,
     date: NaiveDate,
     direction: RouteDirection,
-) -> Result<Vec<Timetable>, Box<dyn Error>> {
-    let services = from_reader(File::open(data_folder.join("stops.json"))?)?;
+) -> Result<Vec<Timetable>> {
+    let services = from_reader(File::open(timetable_json(
+        data_folder,
+        service_code,
+        date,
+        direction,
+    ))?)?;
     Ok(services)
+}
+
+pub fn load_timetables<S: Into<String>>(
+    data_folder: &Path,
+    service_code: S,
+) -> Result<$1> {
+    let timetables = from_reader(File::open(timetables_json(data_folder, service_code))?)?;
+    Ok(timetables)
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
@@ -27,10 +43,27 @@ pub struct TimetabledRoute {
     times: Vec<DateTime<FixedOffset>>,
 }
 
-#[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
+#[derive(Serialize, Deserialize, Debug, Clone, Copy, PartialEq)]
 pub enum RouteDirection {
+    #[serde(rename = "inbound")]
     Inbound,
+    #[serde(rename = "outbound")]
     Outbound,
+}
+impl RouteDirection {
+    pub fn name(&self) -> String {
+        match self {
+            Self::Inbound => "inbound".to_string(),
+            Self::Outbound => "outbound".to_string(),
+        }
+    }
+    pub fn from_name(name: &dyn ToString) -> Option<Self> {
+        match name.to_string().to_lowercase().trim() {
+            "inbound" => Some(Self::Inbound),
+            "outbound" => Some(Self::Outbound),
+            _ => None,
+        }
+    }
 }
 
 #[cfg(test)]

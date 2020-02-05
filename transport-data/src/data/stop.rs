@@ -2,35 +2,21 @@ use crate::shared::FareZone;
 use bigdecimal::BigDecimal;
 use serde::{Deserialize, Serialize};
 use serde_json::from_reader;
-use std::{collections::BTreeMap, error::Error, fs::File, path::Path};
+use std::{ fs::File, path::Path};
+use anyhow::{Context, Error, Result};
 
-pub fn load_stops(data_folder: &Path) -> Result<StopList, Box<dyn Error>> {
-    let stops = from_reader(File::open(data_folder.join("stops.json"))?)?;
-    Ok(StopList::new(stops))
-}
-
-pub struct StopList {
-    pub stop_by_sms: BTreeMap<String, Stop>,
-}
-
-impl StopList {
-    pub fn new(stops: Vec<Stop>) -> Self {
-        Self {
-            stop_by_sms: stops
-                .into_iter()
-                .map(|stop| (stop.sms.clone(), stop))
-                .collect(),
-        }
-    }
+pub fn load_stops(data_folder: &Path) -> Result<StopList> {
+    let stops = from_reader(File::open(data_folder.join("stops.json")).context()?)?;
+    Ok(stops)
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
 pub struct Stop {
-    name: String,
-    sms: String,
-    farezone: FareZone,
-    lat: BigDecimal,
-    lon: BigDecimal,
+    pub name: String,
+    pub sms: String,
+    pub farezone: FareZone,
+    pub lat: BigDecimal,
+    pub lon: BigDecimal,
 }
 
 #[cfg(test)]
