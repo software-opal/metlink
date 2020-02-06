@@ -2,10 +2,10 @@ use crate::data::timetable::RouteDirection;
 use chrono::NaiveDate;
 use std::path::{Path, PathBuf};
 
-pub fn services_json<S: Into<String>>(data_folder: &Path) -> PathBuf {
+pub fn services_json(data_folder: &Path) -> PathBuf {
     data_folder.join("services.json")
 }
-pub fn stops_json<S: Into<String>>(data_folder: &Path) -> PathBuf {
+pub fn stops_json(data_folder: &Path) -> PathBuf {
     data_folder.join("stops.json")
 }
 

@@ -1,12 +1,14 @@
-use crate::shared::FareZone;
+use crate::{data::files::stops_json, shared::FareZone};
+use anyhow::{Context, Error, Result};
 use bigdecimal::BigDecimal;
 use serde::{Deserialize, Serialize};
 use serde_json::from_reader;
-use std::{ fs::File, path::Path};
-use anyhow::{Context, Error, Result};
+use std::{fs::File, path::Path};
 
-pub fn load_stops(data_folder: &Path) -> Result<StopList> {
-    let stops = from_reader(File::open(data_folder.join("stops.json")).context()?)?;
+pub fn load_stops(data_folder: &Path) -> Result<Vec<Stop>> {
+    let stops =
+        from_reader(File::open(stops_json(data_folder)).context("Failed to open stops file")?)
+            .context("Failed to read stops file")?;
     Ok(stops)
 }
 

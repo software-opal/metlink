@@ -1,8 +1,8 @@
+use anyhow::{Context, Result};
 use chrono::{DateTime, FixedOffset, NaiveDate};
 use serde::{Deserialize, Serialize};
 use serde_json::from_reader;
-use std::{ fs::File, path::Path};
-use anyhow::{Context, Error, Result};
+use std::{fs::File, path::Path};
 
 use crate::data::files::{timetable_json, timetables_json};
 
@@ -12,20 +12,36 @@ pub fn load_timetable<S: Into<String>>(
     date: NaiveDate,
     direction: RouteDirection,
 ) -> Result<Vec<Timetable>> {
-    let services = from_reader(File::open(timetable_json(
-        data_folder,
-        service_code,
-        date,
-        direction,
-    ))?)?;
+    let service_code = service_code.into();
+    let services = from_reader(
+        File::open(timetable_json(data_folder, &service_code, date, direction)).with_context(
+            || {
+                format!(
+                    "Failed to open service file for {}, {:?}, {:?}",
+                    &service_code, &date, &direction
+                )
+            },
+        )?,
+    )
+    .with_context(|| {
+        format!(
+            "Failed to read service file for {}, {:?}, {:?}",
+            &service_code, &date, &direction
+        )
+    })?;
     Ok(services)
 }
 
 pub fn load_timetables<S: Into<String>>(
     data_folder: &Path,
     service_code: S,
-) -> Result<$1> {
-    let timetables = from_reader(File::open(timetables_json(data_folder, service_code))?)?;
+) -> Result<Vec<Timetable>> {
+    let service_code = service_code.into();
+    let timetables = from_reader(
+        File::open(timetables_json(data_folder, &service_code))
+            .with_context(|| format!("Failed to open service file for {}", &service_code))?,
+    )
+    .with_context(|| format!("Failed to read service file for {}", &service_code))?;
     Ok(timetables)
 }
 
