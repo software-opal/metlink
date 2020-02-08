@@ -49,4 +49,4 @@ def save_response(resp):
 
 
 def parse_html(content):
-    return BeautifulSoup(content, "html.parser")
+    return BeautifulSoup(content, "lxml")

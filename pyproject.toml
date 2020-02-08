@@ -12,6 +12,7 @@ cachecontrol = {version = "^0.12.6",extras = ["filecache"]}
 simplejson = "^3.16"
 pytz = "*"
 beautifulsoup4 = "^4.7"
+lxml = "^4.5.0"
 
 [tool.poetry.dev-dependencies]
 

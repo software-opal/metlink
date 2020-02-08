@@ -1,5 +1,6 @@
 import datetime as dt
-import pathlib
+from multiprocessing import Pool
+import time
 
 import pytz
 
@@ -14,7 +15,7 @@ TIMETABLED_DAYS = [
     dt.date.today() + dt.timedelta(days=t)
     # Today to 28ish days in the future
     # The timetables appear to go about 40ish days in the future
-    for t in range(0, 28)
+    for t in range(12, 35)
 ]
 
 
@@ -65,24 +66,38 @@ def output_timetable(data_dir, svc_code, direction, date, timetable):
         )
 
 
+def parse_and_save_timetable(url, code, date):
+
+    print(f"Timetable for {code} on {date}")
+    start = time.monotonic()
+
+    with get_session() as sess:
+        for direction in ["inbound", "outbound"]:
+            with sess.get(f"{url}/{direction}?date={date:%Y-%m-%d}") as resp:
+                if (
+                    "service does not have a timetable" not in resp.text
+                    and "Service not found" not in resp.text
+                ):
+                    timetable = parse_timetable(resp.text)
+                    output_timetable(DATA, code, direction, date, timetable)
+    print(
+        f"Timetable for {code} on {date}:"
+        + ("%02d:%02d" % divmod(time.monotonic() - start, 60))
+    )
+
+
 def load():
     check_or_make(Service, import_services)
     base_urls = []
     with db_session() as db:
         for svc in db.query(Service).all():
             base_urls.append((svc.code, f"https://www.metlink.org.nz{svc.link}"))
-    with get_session() as sess:
-        for date in TIMETABLED_DAYS:
-            for code, url in base_urls:
-                print(code, date)
-                for direction in ["inbound", "outbound"]:
-                    with sess.get(f"{url}/{direction}?date={date:%Y-%m-%d}") as resp:
-                        if "service does not have a timetable" in resp.text:
-                            continue
-                        if "Service not found" in resp.text:
-                            continue
-                        timetable = parse_timetable(resp.text)
-                        output_timetable(DATA, code, direction, date, timetable)
+    with Pool(32) as p:
+        p.starmap(parse_and_save_timetable, (
+            (url, code, date)
+            for date in TIMETABLED_DAYS
+            for code, url in base_urls
+        ))
 
 
 def main():

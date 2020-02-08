@@ -12,8 +12,8 @@ adapter = CacheControlAdapter(heuristic=ExpiresAfter(days=1))
 current_time = time.time
 
 CACHE_FOLDER = BASE / ".web_cache"
-RATE_LIMIT_SECONDS = 30
-RATE_LIMIT_REQUESTS = 12
+RATE_LIMIT_SECONDS = 1
+RATE_LIMIT_REQUESTS = 9999
 METLINK_API_URL_PREFIX = "https://www.metlink.org.nz/api/v1/"
 
 
@@ -82,7 +82,8 @@ class RateLimitingSession(requests.Session):
             oldest = self.request_times[0]
             now = current_time()
             print(
-                f"Oldest request sent at {oldest}, Next request can be sent at { oldest + RATE_LIMIT_SECONDS}; it is now {now}"
+                f"Oldest request sent at {oldest}, Next request can be sent at "
+                f"{oldest + RATE_LIMIT_SECONDS}; it is now {now}"
             )
             while oldest + RATE_LIMIT_SECONDS > now:
                 time.sleep(min(5, oldest + RATE_LIMIT_SECONDS - now))
@@ -92,7 +93,6 @@ class RateLimitingSession(requests.Session):
 
 
 def get_session():
-    print("AAAA")
     CACHE_FOLDER.mkdir(exist_ok=True)
     cache = FileCache(str(CACHE_FOLDER), forever=True)
     cache.set("foo", b"bar")

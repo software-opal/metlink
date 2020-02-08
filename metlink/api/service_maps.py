@@ -71,16 +71,16 @@ def find_route_stop_and_map_locations(
         route_path = (
             [
                 {
-                    "lat": route_positions[0][1],
-                    "lon": route_positions[0][0],
+                    "lat": route_positions[0][0],
+                    "lon": route_positions[0][1],
                     "stop": start_stop,
                 }
             ]
             + [{"lat": lat, "lon": lon} for lat, lon in route_positions[1:-1]]
             + [
                 {
-                    "lat": route_positions[-1][1],
-                    "lon": route_positions[-1][0],
+                    "lat": route_positions[-1][0],
+                    "lon": route_positions[-1][1],
                     "stop": end_stop,
                 }
             ]
@@ -156,14 +156,14 @@ def import_service_maps():
     with db_session() as db:
         service_codes = [s.code for s in db.query(Service).all()]
     with get_session() as req:
-        for svc_code in service_codes:
-            print(f"Service: {svc_code}")
-            url = f"{API_V1_BASE}/ServiceMap/{svc_code.upper()}"
-            with req.get(url) as resp:
-                save_response(resp)
-                resp.raise_for_status()
-                data = resp.json()
-            with db_session() as db:
+        with db_session() as db:
+            for svc_code in service_codes:
+                print(f"Service: {svc_code}")
+                url = f"{API_V1_BASE}/ServiceMap/{svc_code.upper()}"
+                with req.get(url) as resp:
+                    save_response(resp)
+                    resp.raise_for_status()
+                    data = resp.json()
                 db.query(ServiceRouteMap).filter(
                     ServiceRouteMap.code == svc_code
                 ).delete()

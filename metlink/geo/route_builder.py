@@ -106,16 +106,6 @@ def output_service(data_dir, service, service_maps, all_stops):
                 f,
             )
     data["routes"] = sorted(data["routes"], key=lambda r: (r["id"]))
-    data["stops"] = [
-        {
-            "name": all_stops[stop_id].name,
-            "sms": all_stops[stop_id].sms,
-            "farezone": all_stops[stop_id].fare_zone,
-            "lat": decimal_parse(all_stops[stop_id].lat),
-            "lon": decimal_parse(all_stops[stop_id].long),
-        }
-        for stop_id in sorted(serviced_stops)
-    ]
 
     with (service_folder / f"service.geojson").open("w") as f:
         pretty_json_dump(
