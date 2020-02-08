@@ -1,8 +1,9 @@
 use crate::{data::files::stops_json, shared::FareZone};
 use anyhow::{Context, Result};
-use bigdecimal::BigDecimal;
+use bigdecimal::{BigDecimal, ToPrimitive};
+use geojson::{feature, Feature, Geometry, Position, Value};
 use serde::{Deserialize, Serialize};
-use serde_json::from_reader;
+use serde_json::{from_reader, Map};
 use std::{fs::File, io::BufReader, path::Path};
 
 pub fn load_stops(data_folder: &Path) -> Result<Vec<Stop>> {
@@ -20,6 +21,30 @@ pub struct Stop {
     pub farezone: FareZone,
     pub lat: BigDecimal,
     pub lon: BigDecimal,
+}
+
+impl Into<Feature> for &Stop {
+    fn into(self) -> Feature {
+        let mut props = Map::new();
+        props.insert("name".to_string(), self.name.clone().into());
+        props.insert("sms".to_string(), self.sms.clone().into());
+        props.insert(
+            "farezone".to_string(),
+            self.farezone.clone().to_string().into(),
+        );
+        Feature {
+            bbox: None,
+            geometry: Some(Geometry::new(Value::Point(self.into()))),
+            id: Some(feature::Id::String(self.sms.clone())),
+            properties: Some(props),
+            foreign_members: None,
+        }
+    }
+}
+impl Into<Position> for &Stop {
+    fn into(self) -> Position {
+        vec![self.lon.to_f64().unwrap(), self.lat.to_f64().unwrap()]
+    }
 }
 
 #[cfg(test)]

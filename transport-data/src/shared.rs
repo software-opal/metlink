@@ -50,6 +50,18 @@ impl FareZone {
     }
 }
 
+impl ToString for FareZone {
+    fn to_string(&self) -> std::string::String {
+        match self {
+            FareZone::NotZoned => "".to_string(),
+            FareZone::Zone(zone) => zone.to_string(),
+            FareZone::ZoneBoundry(inner_zone, outer_zone) => {
+                format!("{}/{}", inner_zone, outer_zone)
+            }
+        }
+    }
+}
+
 impl Serialize for FareZone {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
     where

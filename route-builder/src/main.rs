@@ -1,9 +1,9 @@
 use crate::{builder::*, data_utils::*, utils::*};
 use anyhow::{Context, Result};
 use chrono::Local;
-use metlink_transport_data::data::save_routes;
+use metlink_transport_data::data::{save_routes, save_routes_geojson};
 use rayon::prelude::*;
-use std::path::Path;
+use std::{collections::HashSet, path::Path};
 
 mod builder;
 mod data_utils;
@@ -68,7 +68,24 @@ fn main() -> Result<()> {
             })?;
             // Sort it by the ID so the order is consistent, making smaller diffs
             mapped_routes.sort_unstable();
+            let mut route_stops = mapped_routes
+                .iter()
+                .map(|r| r.stops.clone())
+                .flatten()
+                .collect::<Vec<_>>();
+            route_stops.sort_unstable();
+            route_stops.dedup();
+
             save_routes(folder, &service.code, &mapped_routes)?;
+            save_routes_geojson(
+                folder,
+                &service.code,
+                &mapped_routes,
+                route_stops
+                    .iter()
+                    .map(|s| stops.get(s).unwrap().into())
+                    .collect::<Vec<geojson::Feature>>(),
+            )?;
             Ok(())
         })?;
 

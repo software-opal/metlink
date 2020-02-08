@@ -38,3 +38,7 @@ pub fn timetable_json<S: Into<String>>(
 pub fn routes_json<S: Into<String>>(data_folder: &Path, service_code: S) -> PathBuf {
     service_folder(data_folder, service_code).join("routes.json")
 }
+
+pub fn routes_geojson<S: Into<String>>(data_folder: &Path, service_code: S) -> PathBuf {
+    service_folder(data_folder, service_code).join("routes.geojson")
+}
