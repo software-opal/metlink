@@ -8,20 +8,20 @@ sl = json_load(
     (responses / "https___www.metlink.org.nz_api_v1_ServiceList_.json").open("r")
 )
 
+TEN_METERS_ISH = (6e-5) ** 2
+
 
 def distance_sq(a, b):
     return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2
 
 
-def find_closest_stop(position, stops):
-    closest_stop = None
-    closest_stop_dist_sq = distance_sq((0, 0), position)
+def find_closest_stops(position, stops):
     for stop, stop_pos in stops.items():
         stop_dist_sq = distance_sq(position, stop_pos)
-        if closest_stop_dist_sq > stop_dist_sq:
-            closest_stop_dist_sq = stop_dist_sq
-            closest_stop = stop
-    return closest_stop
+        if stop_dist_sq < TEN_METERS_ISH:
+            # We need to handle the 5-letter stations gracefully; so we'll point
+            # both of them at the same rps id.
+            yield from set((stop, stop[:4]))
 
 
 def find_possible_routes(route_stops, rps_start_stop_map):
@@ -72,16 +72,14 @@ def load_service(code):
         for r in sm["RouteMaps"]
     ]
     route_path_segment_start_end_stops = [
-        (find_closest_stop(rps[0], stops), find_closest_stop(rps[-1], stops))
-        for rps in route_path_segments
+        (start_stop, end_stop, i)
+        for i, rps in enumerate(route_path_segments)
+        for start_stop in find_closest_stops(rps[0], stops)
+        for end_stop in find_closest_stops(rps[-1], stops)
     ]
     rps_start_stop_map = {}
-    for i, (start_, end_) in enumerate(route_path_segment_start_end_stops):
-        # We need to handle the 5-letter stations gracefully; so we'll point
-        # both of them at the same rps id.
-        for start in set((start_, start_[:4])):
-            for end in set((end_, end_[:4])):
-                rps_start_stop_map.setdefault(start, {}).setdefault(end, []).append(i)
+    for (start, end, i) in enumerate(route_path_segment_start_end_stops):
+        rps_start_stop_map.setdefault(start, {}).setdefault(end, []).append(i)
 
     routes = set()
     for file in (BASE / f"data/service-{code}/timetables").iterdir():

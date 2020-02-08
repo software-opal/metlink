@@ -69,7 +69,8 @@ pub fn organise_timetables(ttbls: Vec<Timetable>, after: Option<NaiveDate>) -> T
     timetables
 }
 
-pub type RoutesByStartEnd = BTreeMap<StopId, BTreeMap<StopId, Vec<Route>>>;
+pub type RoutesByEnd = BTreeMap<StopId, Vec<Route>>;
+pub type RoutesByStartEnd = BTreeMap<StopId, RoutesByEnd>;
 pub fn organise_routes(service: ExtendedService) -> RoutesByStartEnd {
     let mut routes: RoutesByStartEnd = BTreeMap::new();
     for route in service.routes {

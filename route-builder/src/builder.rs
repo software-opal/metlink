@@ -1,14 +1,8 @@
 use crate::data_utils::*;
 use anyhow::{Context, Result};
 use bigdecimal::{BigDecimal, ToPrimitive};
-use metlink_transport_data::data::{
-    Route,
-    RouteSegment,
-};
-use std::{
-    collections::{HashSet},
-    ops::Add,
-};
+use metlink_transport_data::data::{Route, RouteSegment};
+use std::{collections::HashSet, ops::Add};
 
 fn order_route_idxs_by_closest(
     location: (&BigDecimal, &BigDecimal),
@@ -71,29 +65,12 @@ fn find_route_stops(
     }
 }
 
-fn do_find_route(
+fn find_next_checks<'a>(
     timetabled_route: &[StopId],
-    possible_routes: &RoutesByStartEnd,
+    possible_ends: &'a RoutesByEnd,
     stops: &StopList,
-    visited_route_ids: HashSet<String>,
-) -> Result<(f64, Vec<Route>, Vec<Vec<usize>>)> {
-    if timetabled_route.len() <= 1 {
-        return Ok((0.0, Vec::new(), Vec::new()));
-    }
-    let mut msgs = vec![format!("Investigating route: {:?}", timetabled_route)];
-    let start_id = &timetabled_route[0];
-    let possible_ends = match possible_routes.get(start_id) {
-        None => anyhow::bail!(
-            "Cannot find start_id({:?}) in possible routes\n{}",
-            start_id,
-            msgs.join("\n")
-        ),
-        Some(map) => map,
-    };
-    msgs.push(format!(
-        "  Possible ends: {:?}",
-        possible_ends.keys().collect::<Vec<_>>()
-    ));
+    visited_route_ids: &HashSet<String>,
+) -> Result<Vec<(usize, (&'a StopId, usize), f64, std::vec::Vec<usize>)>> {
     let mut new_to_check = Vec::new();
     for (end, routes) in possible_ends {
         let end_pos = match timetabled_route[1..].iter().position(|v| v == end) {
@@ -103,10 +80,6 @@ fn do_find_route(
         let route_segment = &timetabled_route[1..end_pos];
         for (idx, route) in routes.iter().enumerate() {
             if !visited_route_ids.contains(&route.id) {
-                msgs.push(format!(
-                    "  Finding route stops for {:?}.",
-                    (start_id, end, idx)
-                ));
                 match find_route_stops(route_segment, stops, route) {
                     Some((closest_approach, stop_indexes)) => {
                         new_to_check.push((end_pos, (end, idx), closest_approach, stop_indexes))
@@ -117,17 +90,38 @@ fn do_find_route(
         }
     }
     if new_to_check.is_empty() {
-        anyhow::bail!("Failed to find any routes.\n{}", msgs.join("\n"));
+        anyhow::bail!("Failed to find any routes.");
     }
-    msgs.push(format!(
-        "Found the following routes: [\n{}\n]",
-        new_to_check
-            .iter()
-            .map(|v| format!("    {:?}", v))
-            .collect::<Vec<_>>()
-            .join(",\n")
-    ));
+    Ok(new_to_check)
+}
 
+fn do_find_route(
+    indent: String,
+    timetabled_route: &[StopId],
+    possible_routes: &RoutesByStartEnd,
+    stops: &StopList,
+    visited_route_ids: HashSet<String>,
+) -> Result<(f64, Vec<Route>, Vec<Vec<usize>>)> {
+    if timetabled_route.len() <= 1 {
+        return Ok((0.0, Vec::new(), Vec::new()));
+    }
+    let start_id = &timetabled_route[0];
+    let possible_ends = match possible_routes.get(start_id) {
+        None => anyhow::bail!(
+            "Cannot find start_id({:?}) in possible routes: {:?}",
+            start_id,
+            possible_routes.keys().collect::<Vec<_>>()
+        ),
+        Some(map) => map,
+    };
+    println!(
+        "{}Finding route for {:?}; possible ends: {:?}",
+        indent,
+        timetabled_route,
+        possible_ends.keys().collect::<Vec<_>>()
+    );
+    let new_to_check = find_next_checks(timetabled_route, possible_ends, stops, &visited_route_ids)?;
+    println!("{}Found suitable routes: {:?}", indent, new_to_check);
     let mut best_closest = std::f64::INFINITY;
     let mut best_route = None;
 
@@ -135,18 +129,20 @@ fn do_find_route(
         let route = &possible_ends.get(end_stop).unwrap()[route_idx];
         let mut new_visited_routes = visited_route_ids.clone();
         new_visited_routes.insert(route.id.clone());
+        println!(
+            "{}Checking route: {:?}",
+            indent,
+            (new_start, end_stop, route_idx)
+        );
         let (sub_closest, mut sub_best_route, mut sub_stop_idxs) = match do_find_route(
+            ("  ".to_owned() + &indent).to_string(),
             &timetabled_route[new_start..],
             possible_routes,
             stops,
             new_visited_routes,
         ) {
-            Err(err) => {
-                msgs.push(format!(
-                    "  Failed to find suitable route {:?}: Error: {}",
-                    (new_start, end_stop, route_idx),
-                    err,
-                ));
+            Err(e) => {
+                println!("{}Failed to find route starting at {}: {}", indent, new_start, e);
                 continue;
             }
             Ok(value) => value,
@@ -159,7 +155,7 @@ fn do_find_route(
         }
     }
     match best_route {
-        None => anyhow::bail!("Failed to find suitable route:\n {}", msgs.join("\n")),
+        None => anyhow::bail!("Failed to find suitable route"),
         Some((route_list, stop_idxs)) => Ok((best_closest, route_list, stop_idxs)),
     }
 }
@@ -169,15 +165,19 @@ pub fn find_route(
     possible_routes: &RoutesByStartEnd,
     stops: &StopList,
 ) -> Result<(Vec<Route>, Route)> {
-    let (_, mut route_list, mut stop_idxs) =
-        do_find_route(timetabled_route, &possible_routes, stops, HashSet::new()).with_context(
-            || {
-                format!(
-                    "Cannot determine best route for timetabled_route: {:?}",
-                    timetabled_route
-                )
-            },
-        )?;
+    let (_, mut route_list, mut stop_idxs) = do_find_route(
+        "".to_string(),
+        timetabled_route,
+        &possible_routes,
+        stops,
+        HashSet::new(),
+    )
+    .with_context(|| {
+        format!(
+            "Cannot determine best route for timetabled_route: {:?}",
+            timetabled_route
+        )
+    })?;
     let end_id = timetabled_route[timetabled_route.len() - 1].to_string();
     let start_id = timetabled_route[0].to_string();
     anyhow::ensure!(
@@ -225,7 +225,6 @@ pub fn find_route(
         },
     ))
 }
-
 
 #[cfg(test)]
 mod tests;

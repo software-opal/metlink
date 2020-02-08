@@ -92,12 +92,11 @@ def load():
     with db_session() as db:
         for svc in db.query(Service).all():
             base_urls.append((svc.code, f"https://www.metlink.org.nz{svc.link}"))
-    with Pool(32) as p:
-        p.starmap(parse_and_save_timetable, (
-            (url, code, date)
-            for date in TIMETABLED_DAYS
-            for code, url in base_urls
-        ))
+    with Pool(2) as p:
+        p.starmap(
+            parse_and_save_timetable,
+            ((url, code, date) for date in TIMETABLED_DAYS for code, url in base_urls),
+        )
 
 
 def main():

@@ -31,18 +31,18 @@ def sort_stops_by_closest(
 
 def find_route_stops(
     route_positions: typ.List[Coordinate], stop_positions: typ.Dict[Coordinate, str]
-) -> typ.Optional[typ.List[str]]:
-    (_, start_stop, start_epsilon) = sort_stops_by_closest(
-        route_positions[0], stop_positions
-    )[0]
-    (_, end_stop, end_epsilon) = sort_stops_by_closest(
-        route_positions[-1], stop_positions
-    )[0]
-    # Assert the stop is less than ~5m from the coordinate given
-    assert start_epsilon < 5e-5
-    # Assert the stop is less than ~5m from the coordinate given
-    assert end_epsilon < 5e-5
-    return [start_stop, end_stop]
+) -> typ.Iterator[typ.List[str]]:
+    start_stops = sort_stops_by_closest(route_positions[0], stop_positions)
+    end_stops = sort_stops_by_closest(route_positions[-1], stop_positions)
+    # Stop presenting options when the stop is more than ~10m from the coordinate given
+    epsilon = 7e-5
+    for (_, start_stop, start_epsilon) in start_stops:
+        if start_epsilon > epsilon:
+            break
+        for (_, end_stop, end_epsilon) in end_stops:
+            if end_epsilon > epsilon:
+                break
+            yield [start_stop, end_stop]
 
 
 def map_coords_to_location_dicts(
@@ -62,33 +62,33 @@ def map_coord_to_location_dict(
 
 def find_route_stop_and_map_locations(
     route_positions: typ.List[Coordinate], stop_positions: typ.Dict[Coordinate, str]
-) -> typ.Tuple[typ.List[typ.Dict[str, typ.Any]], typ.List[str]]:
-    route_stops = find_route_stops(route_positions, stop_positions)
-    if route_stops is None:
-        return None
-    else:
-        [start_stop, end_stop] = route_stops
-        route_path = (
-            [
-                {
-                    "lat": route_positions[0][0],
-                    "lon": route_positions[0][1],
-                    "stop": start_stop,
-                }
-            ]
-            + [{"lat": lat, "lon": lon} for lat, lon in route_positions[1:-1]]
-            + [
-                {
-                    "lat": route_positions[-1][0],
-                    "lon": route_positions[-1][1],
-                    "stop": end_stop,
-                }
-            ]
+) -> typ.Iterator[typ.Tuple[typ.List[typ.Dict[str, typ.Any]], typ.List[str]]]:
+    for route_stops in find_route_stops(route_positions, stop_positions):
+        yield (
+            (
+                [
+                    {
+                        "lat": route_positions[0][0],
+                        "lon": route_positions[0][1],
+                        "stop": route_stops[0],
+                    }
+                ]
+                + [{"lat": lat, "lon": lon} for lat, lon in route_positions[1:-1]]
+                + [
+                    {
+                        "lat": route_positions[-1][0],
+                        "lon": route_positions[-1][1],
+                        "stop": route_stops[-1],
+                    }
+                ]
+            ),
+            route_stops,
         )
-        return route_path, route_stops
 
 
 # The caps come from the JSON, don't change them <3
+
+
 def load_service_maps(
     service_code,
     *,
@@ -129,17 +129,18 @@ def load_service_maps(
                 for entry in route["Path"]
             ]
         ]
-        route_path, route_stops = find_route_stop_and_map_locations(
+        stops_and_locs = find_route_stop_and_map_locations(
             route_positions, lat_lon_to_stop_id
         )
-        if route_stops:
-            svc_routes.append(
-                ServiceRouteMap(
-                    code=service_code,
-                    stops_str=json_dumps(route_stops),
-                    route_str=json_dumps(route_path),
+        if stops_and_locs:
+            for route_path, route_stops in stops_and_locs:
+                svc_routes.append(
+                    ServiceRouteMap(
+                        code=service_code,
+                        stops_str=json_dumps(route_stops),
+                        route_str=json_dumps(route_path),
+                    )
                 )
-            )
         else:
             print(
                 f"Unable to find a route with any stops for {service_code}/{i}",
