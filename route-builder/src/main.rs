@@ -47,7 +47,7 @@ fn main() -> Result<()> {
                     })
                 },
             );
-            let mapped_routes = timeit(format!("find_route({:?})", service.code), || {
+            let mut mapped_routes = timeit(format!("find_route({:?})", service.code), || {
                 collect_results(
                     timetables
                         .iter()
@@ -66,6 +66,8 @@ fn main() -> Result<()> {
                         .collect::<Vec<_>>(),
                 )
             })?;
+            // Sort it by the ID so the order is consistent, making smaller diffs
+            mapped_routes.sort_unstable();
             save_routes(folder, &service.code, &mapped_routes)?;
             Ok(())
         })?;
