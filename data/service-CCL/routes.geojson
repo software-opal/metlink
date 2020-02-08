@@ -28,7 +28,7 @@
       },
       "id": "KELB-LAMB",
       "properties": {
-        "end": "KELB",
+        "end": "LAMB",
         "start": "KELB",
         "stops": [
           "KELB",
@@ -68,7 +68,7 @@
       },
       "id": "LAMB-KELB",
       "properties": {
-        "end": "LAMB",
+        "end": "KELB",
         "start": "LAMB",
         "stops": [
           "LAMB",

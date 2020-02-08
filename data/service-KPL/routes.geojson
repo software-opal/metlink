@@ -216,7 +216,7 @@
       },
       "id": "PLIM-MANA,MANA-PORI,PORI-KENE,KENE-WELL",
       "properties": {
-        "end": "PLIM",
+        "end": "WELL",
         "start": "PLIM",
         "stops": [
           "PLIM",
@@ -393,7 +393,7 @@
       },
       "id": "PORI-KENE,KENE-WELL",
       "properties": {
-        "end": "PORI",
+        "end": "WELL",
         "start": "PORI",
         "stops": [
           "PORI",
@@ -807,7 +807,7 @@
       },
       "id": "WAIK-MANA,MANA-PORI,PORI-KENE,KENE-WELL",
       "properties": {
-        "end": "WAIK",
+        "end": "WELL",
         "start": "WAIK",
         "stops": [
           "WAIK",
@@ -1228,7 +1228,7 @@
       },
       "id": "WAIK-MANA,MANA-PORI,PORI-WELL",
       "properties": {
-        "end": "WAIK",
+        "end": "WELL",
         "start": "WAIK",
         "stops": [
           "WAIK",
@@ -1408,7 +1408,7 @@
       },
       "id": "WELL-PORI-4",
       "properties": {
-        "end": "WELL",
+        "end": "PORI",
         "start": "WELL",
         "stops": [
           "WELL",
@@ -1826,7 +1826,7 @@
       },
       "id": "WELL-PORI,PORI-WAIK",
       "properties": {
-        "end": "WELL",
+        "end": "WAIK",
         "start": "WELL",
         "stops": [
           "WELL",
@@ -2246,7 +2246,7 @@
       },
       "id": "WELL-PORI-4,PORI-WAIK",
       "properties": {
-        "end": "WELL",
+        "end": "WAIK",
         "start": "WELL",
         "stops": [
           "WELL",

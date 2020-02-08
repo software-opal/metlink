@@ -160,7 +160,7 @@
       },
       "id": "MELL-WELL",
       "properties": {
-        "end": "MELL",
+        "end": "WELL",
         "start": "MELL",
         "stops": [
           "MELL",
@@ -332,7 +332,7 @@
       },
       "id": "WELL-PETO,PETO-MELL",
       "properties": {
-        "end": "WELL",
+        "end": "MELL",
         "start": "WELL",
         "stops": [
           "WELL",
@@ -503,7 +503,7 @@
       },
       "id": "WELL-PETO-4,PETO-MELL",
       "properties": {
-        "end": "WELL",
+        "end": "MELL",
         "start": "WELL",
         "stops": [
           "WELL",

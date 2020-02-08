@@ -40,7 +40,7 @@ impl Into<Feature> for &Route {
     fn into(self) -> Feature {
         let mut props = Map::new();
         props.insert("start".to_string(), self.start_id.clone().into());
-        props.insert("end".to_string(), self.start_id.clone().into());
+        props.insert("end".to_string(), self.end_id.clone().into());
         props.insert("stops".to_string(), self.stops.clone().into());
         Feature {
             bbox: None,

@@ -452,7 +452,7 @@
       },
       "id": "MAST-WELL",
       "properties": {
-        "end": "MAST",
+        "end": "WELL",
         "start": "MAST",
         "stops": [
           "MAST",
@@ -955,7 +955,7 @@
       },
       "id": "WELL-MAST",
       "properties": {
-        "end": "WELL",
+        "end": "MAST",
         "start": "WELL",
         "stops": [
           "WELL",

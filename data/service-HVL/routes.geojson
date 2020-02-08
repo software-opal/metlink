@@ -208,7 +208,7 @@
       },
       "id": "TAIT-WING,WING-PETO,PETO-WELL",
       "properties": {
-        "end": "TAIT",
+        "end": "WELL",
         "start": "TAIT",
         "stops": [
           "TAIT",
@@ -484,7 +484,7 @@
       },
       "id": "UPPE-TAIT,TAIT-WELL",
       "properties": {
-        "end": "UPPE",
+        "end": "WELL",
         "start": "UPPE",
         "stops": [
           "UPPE",
@@ -777,7 +777,7 @@
       },
       "id": "UPPE-TAIT,TAIT-WING,WING-PETO,PETO-WELL",
       "properties": {
-        "end": "UPPE",
+        "end": "WELL",
         "start": "UPPE",
         "stops": [
           "UPPE",
@@ -1009,7 +1009,7 @@
       },
       "id": "WELL-PETO,PETO-TAIT",
       "properties": {
-        "end": "WELL",
+        "end": "TAIT",
         "start": "WELL",
         "stops": [
           "WELL",
@@ -1297,7 +1297,7 @@
       },
       "id": "WELL-PETO,PETO-TAIT,TAIT-POMA,POMA-UPPE",
       "properties": {
-        "end": "WELL",
+        "end": "UPPE",
         "start": "WELL",
         "stops": [
           "WELL",
@@ -1589,7 +1589,7 @@
       },
       "id": "WELL-POMA,POMA-UPPE",
       "properties": {
-        "end": "WELL",
+        "end": "UPPE",
         "start": "WELL",
         "stops": [
           "WELL",

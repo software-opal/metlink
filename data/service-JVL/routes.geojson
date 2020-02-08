@@ -312,7 +312,7 @@
       },
       "id": "JOHN-WELL",
       "properties": {
-        "end": "JOHN",
+        "end": "WELL",
         "start": "JOHN",
         "stops": [
           "JOHN",
@@ -640,7 +640,7 @@
       },
       "id": "WELL-JOHN",
       "properties": {
-        "end": "WELL",
+        "end": "JOHN",
         "start": "WELL",
         "stops": [
           "WELL",
