@@ -1,0 +1,165 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.76765,
+            -41.285365
+          ],
+          [
+            174.769562,
+            -41.285054
+          ],
+          [
+            174.771285,
+            -41.284793
+          ],
+          [
+            174.773077,
+            -41.284514
+          ],
+          [
+            174.775091,
+            -41.284212
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "KELB-LAMB",
+      "properties": {
+        "end": "KELB",
+        "start": "KELB",
+        "stops": [
+          "KELB",
+          "SALA",
+          "TALA",
+          "CLIF",
+          "LAMB"
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.775091,
+            -41.284212
+          ],
+          [
+            174.773077,
+            -41.284514
+          ],
+          [
+            174.771285,
+            -41.284793
+          ],
+          [
+            174.769562,
+            -41.285054
+          ],
+          [
+            174.76765,
+            -41.285365
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "LAMB-KELB",
+      "properties": {
+        "end": "LAMB",
+        "start": "LAMB",
+        "stops": [
+          "LAMB",
+          "CLIF",
+          "TALA",
+          "SALA",
+          "KELB"
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.773077,
+          -41.284514
+        ],
+        "type": "Point"
+      },
+      "id": "CLIF",
+      "properties": {
+        "farezone": "1",
+        "name": "Clifton - Cable Car Station",
+        "sms": "CLIF"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.76765,
+          -41.285365
+        ],
+        "type": "Point"
+      },
+      "id": "KELB",
+      "properties": {
+        "farezone": "1/2",
+        "name": "Kelburn - Cable Car Station",
+        "sms": "KELB"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.775091,
+          -41.284212
+        ],
+        "type": "Point"
+      },
+      "id": "LAMB",
+      "properties": {
+        "farezone": "1",
+        "name": "Lambton Quay - Cable Car Station",
+        "sms": "LAMB"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.769562,
+          -41.285054
+        ],
+        "type": "Point"
+      },
+      "id": "SALA",
+      "properties": {
+        "farezone": "1",
+        "name": "Salamanca - Cable Car Station",
+        "sms": "SALA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.771285,
+          -41.284793
+        ],
+        "type": "Point"
+      },
+      "id": "TALA",
+      "properties": {
+        "farezone": "1",
+        "name": "Talavera - Cable Car Station",
+        "sms": "TALA"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
