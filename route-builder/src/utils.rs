@@ -36,3 +36,15 @@ where
     );
     a
 }
+
+pub fn catch_unwind_result<A, RA>(oper: A) -> Result<RA>
+where
+    A: FnOnce() -> Result<RA> + std::panic::UnwindSafe,
+{
+    oper()
+    // match      std::panic::catch_unwind(oper) {
+    //     Ok(Ok(v)) => Ok(v),
+    //     Ok(Err(e)) => Err(e),
+    //     Err(e) => anyhow::bail!("Panicked. Error: {:?}", e.downcast_mut::<&str>()),
+    // }
+}

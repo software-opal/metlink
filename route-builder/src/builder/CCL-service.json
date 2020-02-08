@@ -1,0 +1,76 @@
+{
+  "code": "CCL",
+  "last_modified": "2016-06-10T17:33:11+12:00",
+  "mode": "Cable Car",
+  "name": "Cable Car (Kelburn - Wellington)",
+  "routes": [
+    {
+      "end_id": "LAMB",
+      "id": "KELB-LAMB",
+      "route": [
+        {
+          "lat": -41.285365,
+          "lon": 174.767650,
+          "stop": "KELB"
+        },
+        {
+          "lat": -41.285054,
+          "lon": 174.769562
+        },
+        {
+          "lat": -41.284793,
+          "lon": 174.771285
+        },
+        {
+          "lat": -41.284514,
+          "lon": 174.773077
+        },
+        {
+          "lat": -41.284212,
+          "lon": 174.775091,
+          "stop": "LAMB"
+        }
+      ],
+      "start_id": "KELB",
+      "stops": [
+        "KELB",
+        "LAMB"
+      ]
+    },
+    {
+      "end_id": "KELB",
+      "id": "LAMB-KELB",
+      "route": [
+        {
+          "lat": -41.284212,
+          "lon": 174.775091,
+          "stop": "LAMB"
+        },
+        {
+          "lat": -41.284514,
+          "lon": 174.773077
+        },
+        {
+          "lat": -41.284793,
+          "lon": 174.771285
+        },
+        {
+          "lat": -41.285054,
+          "lon": 174.769562
+        },
+        {
+          "lat": -41.285365,
+          "lon": 174.767650,
+          "stop": "KELB"
+        }
+      ],
+      "start_id": "LAMB",
+      "stops": [
+        "LAMB",
+        "KELB"
+      ]
+    }
+  ],
+  "schools": [],
+  "stops": []
+}

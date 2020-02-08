@@ -1,5 +1,5 @@
-use anyhow::{Result};
-use chrono::{DateTime, FixedOffset,  NaiveDate};
+use anyhow::Result;
+use chrono::{DateTime, FixedOffset, NaiveDate};
 use metlink_transport_data::data::{
     load_extended_service,
     load_timetables,
@@ -12,7 +12,6 @@ use metlink_transport_data::data::{
 };
 use std::{
     collections::{BTreeMap, HashMap},
-
     path::Path,
 };
 pub type StopId = String;

@@ -2,6 +2,7 @@ use crate::{builder::*, data_utils::*, utils::*};
 use anyhow::{Context, Result};
 use chrono::Local;
 use metlink_transport_data::data::save_routes;
+use rayon::prelude::*;
 use std::path::Path;
 
 mod builder;
@@ -13,15 +14,14 @@ fn main() -> Result<()> {
     let today = Local::now().date().naive_local();
     let folder = Path::new("./data/");
     let (stops, services) = timeit("Load Time", || {
-        join_results(
-            || load_stops(folder),
-            || load_services(folder),
-        )
+        join_results(|| load_stops(folder), || load_services(folder))
     })?;
     services
-        .iter()
-        .skip(40)
+        .par_iter()
         .try_for_each::<_, Result<()>>(|(_, service)| {
+            // if service.code != "854" {
+            //     return Ok(());
+            // }
             let (ext_service, timetables) = join_results(
                 || {
                     timeit(format!("load_ext_service({:?})", &service.code), || {
@@ -53,12 +53,14 @@ fn main() -> Result<()> {
                         .iter()
                         .map(|(timetable, times)| {
                             let (_, route) =
-                                find_route(&timetable, &routes, &stops).with_context(|| {
-                                    format!(
-                                        "Failed to find route. This route exists on: {:?}",
+                                catch_unwind_result(|| find_route(&timetable, &routes, &stops))
+                                    .with_context(|| {
+                                        format!(
+                                        "Failed to find route for {:?}. This route exists on: {:?}",
+                                        service.code,
                                         &times[..5]
                                     )
-                                })?;
+                                    })?;
                             Ok(route)
                         })
                         .collect::<Vec<_>>(),
