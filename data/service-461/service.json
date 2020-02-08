@@ -9,8 +9,8 @@
       "id": "3925-2001",
       "route": [
         {
-          "lat": 174.830914,
-          "lon": -41.163879,
+          "lat": -41.163879,
+          "lon": 174.830914,
           "stop": "3925"
         },
         {
@@ -630,8 +630,8 @@
           "lon": 174.843193
         },
         {
-          "lat": 174.843234,
-          "lon": -41.137425,
+          "lat": -41.137425,
+          "lon": 174.843234,
           "stop": "2001"
         }
       ],
@@ -643,20 +643,5 @@
     }
   ],
   "schools": [],
-  "stops": [
-    {
-      "farezone": "5",
-      "lat": -41.137424,
-      "lon": 174.843234,
-      "name": "Porirua Station - Stop A",
-      "sms": "2001"
-    },
-    {
-      "farezone": "4",
-      "lat": -41.163879,
-      "lon": 174.830914,
-      "name": "Duncan Street opposite Tawa College (school stop)",
-      "sms": "3925"
-    }
-  ]
+  "stops": []
 }

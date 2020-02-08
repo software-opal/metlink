@@ -1,6 +1,6 @@
 {
   "code": "56",
-  "last_modified": "2019-12-17T10:02:36+13:00",
+  "last_modified": "2020-01-27T16:24:34+13:00",
   "mode": "Bus",
   "name": "Johnsonville - Paparangi - Wellington",
   "routes": [
@@ -9,8 +9,8 @@
       "id": "3250-5516",
       "route": [
         {
-          "lat": 174.804504,
-          "lon": -41.223261,
+          "lat": -41.223261,
+          "lon": 174.804504,
           "stop": "3250"
         },
         {
@@ -2486,8 +2486,8 @@
           "lon": 174.782768
         },
         {
-          "lat": 174.782780,
-          "lon": -41.293752,
+          "lat": -41.293752,
+          "lon": 174.782780,
           "stop": "5516"
         }
       ],
@@ -2502,8 +2502,8 @@
       "id": "5000-3250",
       "route": [
         {
-          "lat": 174.782327,
-          "lon": -41.293794,
+          "lat": -41.293794,
+          "lon": 174.782327,
           "stop": "5000"
         },
         {
@@ -5067,8 +5067,8 @@
           "lon": 174.804556
         },
         {
-          "lat": 174.804504,
-          "lon": -41.223261,
+          "lat": -41.223261,
+          "lon": 174.804504,
           "stop": "3250"
         }
       ],
@@ -5090,27 +5090,5 @@
     "Sacred Heart Cathedral",
     "Clyde Quay School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.223261,
-      "lon": 174.804504,
-      "name": "Johnsonville - Stop C",
-      "sms": "3250"
-    },
-    {
-      "farezone": "1",
-      "lat": -41.293794,
-      "lon": 174.782327,
-      "name": "Courtenay Place - Stop A",
-      "sms": "5000"
-    },
-    {
-      "farezone": "1",
-      "lat": -41.293752,
-      "lon": 174.782780,
-      "name": "Courtenay Place - Stop C",
-      "sms": "5516"
-    }
-  ]
+  "stops": []
 }

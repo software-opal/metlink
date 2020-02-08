@@ -9,8 +9,8 @@
       "id": "8156-9607",
       "route": [
         {
-          "lat": 174.907666,
-          "lon": -41.214648,
+          "lat": -41.214648,
+          "lon": 174.907666,
           "stop": "8156"
         },
         {
@@ -2874,8 +2874,8 @@
           "lon": 175.111293
         },
         {
-          "lat": 175.111291,
-          "lon": -41.096162,
+          "lat": -41.096162,
+          "lon": 175.111291,
           "stop": "9607"
         }
       ],
@@ -2890,8 +2890,8 @@
       "id": "9580-9197",
       "route": [
         {
-          "lat": 175.071373,
-          "lon": -41.125685,
+          "lat": -41.125685,
+          "lon": 175.071373,
           "stop": "9580"
         },
         {
@@ -4787,8 +4787,8 @@
           "lon": 174.906216
         },
         {
-          "lat": 174.906363,
-          "lon": -41.214940,
+          "lat": -41.214940,
+          "lon": 174.906363,
           "stop": "9197"
         }
       ],
@@ -4804,34 +4804,5 @@
     "Trentham School",
     "Sacred Heart College"
   ],
-  "stops": [
-    {
-      "farezone": "4",
-      "lat": -41.214648,
-      "lon": 174.907666,
-      "name": "Sacred Heart College - Hautana Street (school stop)",
-      "sms": "8156"
-    },
-    {
-      "farezone": "4",
-      "lat": -41.214940,
-      "lon": 174.906363,
-      "name": "Sacred Heart College - Laings Road (school stop)",
-      "sms": "9197"
-    },
-    {
-      "farezone": "7",
-      "lat": -41.125685,
-      "lon": 175.071373,
-      "name": "Upper Hutt Station - Stop C",
-      "sms": "9580"
-    },
-    {
-      "farezone": "7",
-      "lat": -41.096162,
-      "lon": 175.111291,
-      "name": "Topaz Street opposite Pearl Grove",
-      "sms": "9607"
-    }
-  ]
+  "stops": []
 }

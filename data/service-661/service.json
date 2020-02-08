@@ -9,8 +9,8 @@
       "id": "6020-7251",
       "route": [
         {
-          "lat": 174.796461,
-          "lon": -41.315476,
+          "lat": -41.315476,
+          "lon": 174.796461,
           "stop": "6020"
         },
         {
@@ -3310,8 +3310,8 @@
           "lon": 174.812870
         },
         {
-          "lat": 174.812943,
-          "lon": -41.314496,
+          "lat": -41.314496,
+          "lon": 174.812943,
           "stop": "7251"
         }
       ],
@@ -3327,20 +3327,5 @@
     "Marist Holy Cross School",
     "Miramar North School"
   ],
-  "stops": [
-    {
-      "farezone": "2/3",
-      "lat": -41.315476,
-      "lon": 174.796462,
-      "name": "Evans Bay Intermediate School (school stop)",
-      "sms": "6020"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.314496,
-      "lon": 174.812943,
-      "name": "Maupuia Road at Miramar Avenue",
-      "sms": "7251"
-    }
-  ]
+  "stops": []
 }

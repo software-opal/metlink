@@ -9,8 +9,8 @@
       "id": "7919-7236",
       "route": [
         {
-          "lat": 174.774068,
-          "lon": -41.301600,
+          "lat": -41.301600,
+          "lon": 174.774068,
           "stop": "7919"
         },
         {
@@ -2234,8 +2234,8 @@
           "lon": 174.819629
         },
         {
-          "lat": 174.819647,
-          "lon": -41.311978,
+          "lat": -41.311978,
+          "lon": 174.819647,
           "stop": "7236"
         }
       ],
@@ -2250,20 +2250,5 @@
     "Wellington High School",
     "Kilbirnie School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.311978,
-      "lon": 174.819647,
-      "name": "Park Road at Rotherham Terrace (near 86)",
-      "sms": "7236"
-    },
-    {
-      "farezone": "1/2",
-      "lat": -41.301600,
-      "lon": 174.774068,
-      "name": "Wellington High School (school stop)",
-      "sms": "7919"
-    }
-  ]
+  "stops": []
 }

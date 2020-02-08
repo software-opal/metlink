@@ -9,8 +9,8 @@
       "id": "6018-5016",
       "route": [
         {
-          "lat": 174.801372,
-          "lon": -41.322199,
+          "lat": -41.322199,
+          "lon": 174.801372,
           "stop": "6018"
         },
         {
@@ -1350,8 +1350,8 @@
           "lon": 174.778925
         },
         {
-          "lat": 174.778899,
-          "lon": -41.278410,
+          "lat": -41.278410,
+          "lon": 174.778899,
           "stop": "5016"
         }
       ],
@@ -1365,20 +1365,5 @@
   "schools": [
     "Rongotai College"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.278410,
-      "lon": 174.778899,
-      "name": "Wellington Station - Stop D",
-      "sms": "5016"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.322199,
-      "lon": 174.801372,
-      "name": "Rongotai College (school grounds)",
-      "sms": "6018"
-    }
-  ]
+  "stops": []
 }

@@ -9,8 +9,8 @@
       "id": "3210-3839",
       "route": [
         {
-          "lat": 174.811214,
-          "lon": -41.207740,
+          "lat": -41.207740,
+          "lon": 174.811214,
           "stop": "3210"
         },
         {
@@ -1302,8 +1302,8 @@
           "lon": 174.797621
         },
         {
-          "lat": 174.797620,
-          "lon": -41.230110,
+          "lat": -41.230110,
+          "lon": 174.797620,
           "stop": "3839"
         }
       ],
@@ -1321,20 +1321,5 @@
     "St Brigids School",
     "St Brigid's School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.207740,
-      "lon": 174.811214,
-      "name": "Halswater Drive at Dormar Place",
-      "sms": "3210"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.230110,
-      "lon": 174.797620,
-      "name": "Onslow College (school grounds)",
-      "sms": "3839"
-    }
-  ]
+  "stops": []
 }

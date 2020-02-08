@@ -9,8 +9,8 @@
       "id": "1535-1203",
       "route": [
         {
-          "lat": 175.027808,
-          "lon": -40.864427,
+          "lat": -40.864427,
+          "lon": 175.027808,
           "stop": "1535"
         },
         {
@@ -1578,8 +1578,8 @@
           "lon": 174.996604
         },
         {
-          "lat": 174.996571,
-          "lon": -40.907065,
+          "lat": -40.907065,
+          "lon": 174.996571,
           "stop": "1203"
         }
       ],
@@ -1595,20 +1595,5 @@
     "Kapanui School",
     "St Patrick's School"
   ],
-  "stops": [
-    {
-      "farezone": "9",
-      "lat": -40.907065,
-      "lon": 174.996571,
-      "name": "Our Lady of Kapiti School (school grounds)",
-      "sms": "1203"
-    },
-    {
-      "farezone": "10",
-      "lat": -40.864427,
-      "lon": 175.027808,
-      "name": "Huiawa Street at Hemara Street (school stop)",
-      "sms": "1535"
-    }
-  ]
+  "stops": []
 }

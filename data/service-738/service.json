@@ -9,8 +9,8 @@
       "id": "5311-5332",
       "route": [
         {
-          "lat": 174.775450,
-          "lon": -41.274902,
+          "lat": -41.274902,
+          "lon": 174.775450,
           "stop": "5311"
         },
         {
@@ -1218,8 +1218,8 @@
           "lon": 174.723831
         },
         {
-          "lat": 174.723900,
-          "lon": -41.288321,
+          "lat": -41.288321,
+          "lon": 174.723900,
           "stop": "5332"
         }
       ],
@@ -1234,20 +1234,5 @@
     "St Mark's School",
     "St Mary's School"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.274902,
-      "lon": 174.775450,
-      "name": "St Mary's College - Hawkestone Street (school stop)",
-      "sms": "5311"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.288321,
-      "lon": 174.723900,
-      "name": "Karori - Karori Road",
-      "sms": "5332"
-    }
-  ]
+  "stops": []
 }

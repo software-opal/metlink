@@ -9,8 +9,8 @@
       "id": "1177-1500",
       "route": [
         {
-          "lat": 175.004571,
-          "lon": -40.889356,
+          "lat": -40.889356,
+          "lon": 175.004571,
           "stop": "1177"
         },
         {
@@ -538,8 +538,8 @@
           "lon": 175.065251
         },
         {
-          "lat": 175.065233,
-          "lon": -40.875955,
+          "lat": -40.875955,
+          "lon": 175.065233,
           "stop": "1500"
         }
       ],
@@ -553,20 +553,5 @@
   "schools": [
     "Paraparaumu College"
   ],
-  "stops": [
-    {
-      "farezone": "9",
-      "lat": -40.889356,
-      "lon": 175.004571,
-      "name": "Paraparaumu College (School Stop)",
-      "sms": "1177"
-    },
-    {
-      "farezone": "10",
-      "lat": -40.875955,
-      "lon": 175.065233,
-      "name": "Waikanae - Ngaio Road at Main Road",
-      "sms": "1500"
-    }
-  ]
+  "stops": []
 }

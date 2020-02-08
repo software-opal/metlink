@@ -1,16 +1,16 @@
 {
   "code": "791",
-  "last_modified": "2020-01-05T00:00:10+13:00",
+  "last_modified": "2020-01-26T00:00:08+13:00",
   "mode": "School",
-  "name": "Karori - Kelburn - Scots College",
+  "name": "Karori - Kelburn - St Patrick's & Scots Colleges",
   "routes": [
     {
       "end_id": "6090",
       "id": "4332-6090",
       "route": [
         {
-          "lat": 174.723311,
-          "lon": -41.288977,
+          "lat": -41.288977,
+          "lon": 174.723311,
           "stop": "4332"
         },
         {
@@ -2950,8 +2950,8 @@
           "lon": 174.818434
         },
         {
-          "lat": 174.818430,
-          "lon": -41.327480,
+          "lat": -41.327480,
+          "lon": 174.818430,
           "stop": "6090"
         }
       ],
@@ -2966,8 +2966,8 @@
       "id": "6090-5332",
       "route": [
         {
-          "lat": 174.818430,
-          "lon": -41.327480,
+          "lat": -41.327480,
+          "lon": 174.818430,
           "stop": "6090"
         },
         {
@@ -5679,8 +5679,8 @@
           "lon": 174.723831
         },
         {
-          "lat": 174.723900,
-          "lon": -41.288321,
+          "lat": -41.288321,
+          "lon": 174.723900,
           "stop": "5332"
         }
       ],
@@ -5695,27 +5695,5 @@
     "Scots College",
     "Kilbirnie School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.288977,
-      "lon": 174.723311,
-      "name": "Karori - Allington Road",
-      "sms": "4332"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.288321,
-      "lon": 174.723900,
-      "name": "Karori - Karori Road",
-      "sms": "5332"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.327480,
-      "lon": 174.818430,
-      "name": "Scots College (school grounds)",
-      "sms": "6090"
-    }
-  ]
+  "stops": []
 }

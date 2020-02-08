@@ -4,8 +4,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.327480,
-            174.818430
+            174.818430,
+            -41.327480
           ],
           [
             174.818434,
@@ -2716,8 +2716,8 @@
             -41.288273
           ],
           [
-            -41.288321,
-            174.723900
+            174.723900,
+            -41.288321
           ]
         ],
         "type": "LineString"
@@ -2725,7 +2725,7 @@
       "properties": {
         "code": "791",
         "mode": "School",
-        "name": "Karori - Kelburn - Scots College",
+        "name": "Karori - Kelburn - St Patrick's & Scots Colleges",
         "route_id": "6090-5332",
         "stroke-opacity": 0.3
       },

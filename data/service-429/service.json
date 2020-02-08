@@ -9,8 +9,8 @@
       "id": "2031-2530",
       "route": [
         {
-          "lat": 174.854336,
-          "lon": -41.126356,
+          "lat": -41.126356,
+          "lon": 174.854336,
           "stop": "2031"
         },
         {
@@ -1138,8 +1138,8 @@
           "lon": 174.883813
         },
         {
-          "lat": 174.883784,
-          "lon": -41.113890,
+          "lat": -41.113890,
+          "lon": 174.883784,
           "stop": "2530"
         }
       ],
@@ -1153,20 +1153,5 @@
   "schools": [
     "Aotea College"
   ],
-  "stops": [
-    {
-      "farezone": "5",
-      "lat": -41.126356,
-      "lon": 174.854336,
-      "name": "Aotea College - Stop A (school stop)",
-      "sms": "2031"
-    },
-    {
-      "farezone": "6",
-      "lat": -41.113890,
-      "lon": 174.883784,
-      "name": "Spinnaker Drive at Hicks Close",
-      "sms": "2530"
-    }
-  ]
+  "stops": []
 }

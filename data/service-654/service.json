@@ -9,8 +9,8 @@
       "id": "6010-6158",
       "route": [
         {
-          "lat": 174.781401,
-          "lon": -41.301228,
+          "lat": -41.301228,
+          "lon": 174.781401,
           "stop": "6010"
         },
         {
@@ -1958,8 +1958,8 @@
           "lon": 174.770714
         },
         {
-          "lat": 174.770735,
-          "lon": -41.342938,
+          "lat": -41.342938,
+          "lon": 174.770735,
           "stop": "6158"
         }
       ],
@@ -1977,20 +1977,5 @@
     "Wellington College",
     "Wellington East Girls College"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.301228,
-      "lon": 174.781401,
-      "name": "Basin Reserve (school stop)",
-      "sms": "6010"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.342938,
-      "lon": 174.770735,
-      "name": "Island Bay - Reef Street opposite Shorland Park",
-      "sms": "6158"
-    }
-  ]
+  "stops": []
 }

@@ -9,8 +9,8 @@
       "id": "8219-9200",
       "route": [
         {
-          "lat": 174.939447,
-          "lon": -41.171964,
+          "lat": -41.171964,
+          "lon": 174.939447,
           "stop": "8219"
         },
         {
@@ -734,8 +734,8 @@
           "lon": 174.941675
         },
         {
-          "lat": 174.941666,
-          "lon": -41.196110,
+          "lat": -41.196110,
+          "lon": 174.941666,
           "stop": "9200"
         }
       ],
@@ -750,20 +750,5 @@
     "Naenae College",
     "Naenae Intermediate"
   ],
-  "stops": [
-    {
-      "farezone": "5",
-      "lat": -41.171964,
-      "lon": 174.939447,
-      "name": "Kelson - Major Drive at Kaitangata Crescent",
-      "sms": "8219"
-    },
-    {
-      "farezone": "5",
-      "lat": -41.196110,
-      "lon": 174.941666,
-      "name": "Naenae Intermediate School - Walters Street (school stop)",
-      "sms": "9200"
-    }
-  ]
+  "stops": []
 }

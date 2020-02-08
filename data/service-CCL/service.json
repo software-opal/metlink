@@ -9,8 +9,8 @@
       "id": "KELB-LAMB",
       "route": [
         {
-          "lat": 174.767650,
-          "lon": -41.285365,
+          "lat": -41.285365,
+          "lon": 174.767650,
           "stop": "KELB"
         },
         {
@@ -26,8 +26,8 @@
           "lon": 174.773077
         },
         {
-          "lat": 174.775091,
-          "lon": -41.284212,
+          "lat": -41.284212,
+          "lon": 174.775091,
           "stop": "LAMB"
         }
       ],
@@ -42,8 +42,8 @@
       "id": "LAMB-KELB",
       "route": [
         {
-          "lat": 174.775091,
-          "lon": -41.284212,
+          "lat": -41.284212,
+          "lon": 174.775091,
           "stop": "LAMB"
         },
         {
@@ -59,8 +59,8 @@
           "lon": 174.769562
         },
         {
-          "lat": 174.767650,
-          "lon": -41.285365,
+          "lat": -41.285365,
+          "lon": 174.767650,
           "stop": "KELB"
         }
       ],
@@ -72,20 +72,5 @@
     }
   ],
   "schools": [],
-  "stops": [
-    {
-      "farezone": "1/2",
-      "lat": -41.285365,
-      "lon": 174.767650,
-      "name": "Kelburn - Cable Car Station",
-      "sms": "KELB"
-    },
-    {
-      "farezone": "1",
-      "lat": -41.284212,
-      "lon": 174.775091,
-      "name": "Lambton Quay - Cable Car Station",
-      "sms": "LAMB"
-    }
-  ]
+  "stops": []
 }

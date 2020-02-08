@@ -9,8 +9,8 @@
       "id": "3200-3837",
       "route": [
         {
-          "lat": 174.808546,
-          "lon": -41.219131,
+          "lat": -41.219131,
+          "lon": 174.808546,
           "stop": "3200"
         },
         {
@@ -1646,8 +1646,8 @@
           "lon": 174.801086
         },
         {
-          "lat": 174.801133,
-          "lon": -41.229616,
+          "lat": -41.229616,
+          "lon": 174.801133,
           "stop": "3837"
         }
       ],
@@ -1663,20 +1663,5 @@
     "St Brigid's School",
     "St Brigids School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.219131,
-      "lon": 174.808546,
-      "name": "Middleton Road (near 25)",
-      "sms": "3200"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.229616,
-      "lon": 174.801133,
-      "name": "Raroa Intermediate - Haumia Street (school stop)",
-      "sms": "3837"
-    }
-  ]
+  "stops": []
 }

@@ -9,8 +9,8 @@
       "id": "6010-7083",
       "route": [
         {
-          "lat": 174.781401,
-          "lon": -41.301228,
+          "lat": -41.301228,
+          "lon": 174.781401,
           "stop": "6010"
         },
         {
@@ -3246,8 +3246,8 @@
           "lon": 174.814978
         },
         {
-          "lat": 174.814952,
-          "lon": -41.315824,
+          "lat": -41.315824,
+          "lon": 174.814952,
           "stop": "7083"
         }
       ],
@@ -3263,20 +3263,5 @@
     "Wellington East Girls College",
     "St Mark's School"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.301228,
-      "lon": 174.781401,
-      "name": "Basin Reserve (school stop)",
-      "sms": "6010"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.315824,
-      "lon": 174.814952,
-      "name": "Miramar Shops - Stop A",
-      "sms": "7083"
-    }
-  ]
+  "stops": []
 }

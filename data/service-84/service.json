@@ -1,16 +1,16 @@
 {
   "code": "84",
-  "last_modified": "2018-07-13T15:25:51+12:00",
+  "last_modified": "2020-01-27T16:06:03+13:00",
   "mode": "Bus",
-  "name": "Gracefield - Petone - Wellington",
+  "name": "Eastbourne - Gracefield - Petone - Wellington",
   "routes": [
     {
       "end_id": "9858",
       "id": "5000-9858",
       "route": [
         {
-          "lat": 174.782327,
-          "lon": -41.293794,
+          "lat": -41.293794,
+          "lon": 174.782327,
           "stop": "5000"
         },
         {
@@ -3714,8 +3714,8 @@
           "lon": 174.884728
         },
         {
-          "lat": 174.884851,
-          "lon": -41.307648,
+          "lat": -41.307648,
+          "lon": 174.884851,
           "stop": "9858"
         }
       ],
@@ -3730,8 +3730,8 @@
       "id": "8858-5516",
       "route": [
         {
-          "lat": 174.884682,
-          "lon": -41.307261,
+          "lat": -41.307261,
+          "lon": 174.884682,
           "stop": "8858"
         },
         {
@@ -7103,8 +7103,8 @@
           "lon": 174.782768
         },
         {
-          "lat": 174.782780,
-          "lon": -41.293752,
+          "lat": -41.293752,
+          "lon": 174.782780,
           "stop": "5516"
         }
       ],
@@ -7131,34 +7131,5 @@
     "Te Aho o Te Kura Pounamu",
     "Clyde Quay School"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.293794,
-      "lon": 174.782327,
-      "name": "Courtenay Place - Stop A",
-      "sms": "5000"
-    },
-    {
-      "farezone": "1",
-      "lat": -41.293752,
-      "lon": 174.782780,
-      "name": "Courtenay Place - Stop C",
-      "sms": "5516"
-    },
-    {
-      "farezone": "6",
-      "lat": -41.307261,
-      "lon": 174.884682,
-      "name": "Eastbourne Terminus",
-      "sms": "8858"
-    },
-    {
-      "farezone": "6",
-      "lat": -41.307642,
-      "lon": 174.884851,
-      "name": "Eastbourne Terminus (near 497)",
-      "sms": "9858"
-    }
-  ]
+  "stops": []
 }

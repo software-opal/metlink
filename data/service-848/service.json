@@ -9,8 +9,8 @@
       "id": "8161-9141",
       "route": [
         {
-          "lat": 174.906486,
-          "lon": -41.210975,
+          "lat": -41.210975,
+          "lon": 174.906486,
           "stop": "8161"
         },
         {
@@ -1962,8 +1962,8 @@
           "lon": 174.908201
         },
         {
-          "lat": 174.908201,
-          "lon": -41.199907,
+          "lat": -41.199907,
+          "lon": 174.908201,
           "stop": "9141"
         }
       ],
@@ -1980,20 +1980,5 @@
     "Eastern Hutt School",
     "Chilton St James"
   ],
-  "stops": [
-    {
-      "farezone": "4",
-      "lat": -41.210975,
-      "lon": 174.906486,
-      "name": "Knights Road at Ss Peter and Paul School",
-      "sms": "8161"
-    },
-    {
-      "farezone": "4",
-      "lat": -41.199907,
-      "lon": 174.908208,
-      "name": "Tirohanga Road near Onehuka Road (hail and ride) (school stop)",
-      "sms": "9141"
-    }
-  ]
+  "stops": []
 }

@@ -9,8 +9,8 @@
       "id": "6011-4136",
       "route": [
         {
-          "lat": 174.782552,
-          "lon": -41.303073,
+          "lat": -41.303073,
+          "lon": 174.782552,
           "stop": "6011"
         },
         {
@@ -2114,8 +2114,8 @@
           "lon": 174.754860
         },
         {
-          "lat": 174.754951,
-          "lon": -41.271392,
+          "lat": -41.271392,
+          "lon": 174.754951,
           "stop": "4136"
         }
       ],
@@ -2131,20 +2131,5 @@
     "Wellington College",
     "St Mark's School"
   ],
-  "stops": [
-    {
-      "farezone": "2",
-      "lat": -41.271392,
-      "lon": 174.754951,
-      "name": "Wilton - Surrey Street",
-      "sms": "4136"
-    },
-    {
-      "farezone": "1/2",
-      "lat": -41.303073,
-      "lon": 174.782552,
-      "name": "Wellington College (school grounds)",
-      "sms": "6011"
-    }
-  ]
+  "stops": []
 }

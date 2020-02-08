@@ -9,8 +9,8 @@
       "id": "7247-6010",
       "route": [
         {
-          "lat": 174.820048,
-          "lon": -41.311183,
+          "lat": -41.311183,
+          "lon": 174.820048,
           "stop": "7247"
         },
         {
@@ -2898,8 +2898,8 @@
           "lon": 174.781382
         },
         {
-          "lat": 174.781401,
-          "lon": -41.301228,
+          "lat": -41.301228,
+          "lon": 174.781401,
           "stop": "6010"
         }
       ],
@@ -2915,20 +2915,5 @@
     "Wellington College",
     "St Mark's School"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.301228,
-      "lon": 174.781401,
-      "name": "Basin Reserve (school stop)",
-      "sms": "6010"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.311183,
-      "lon": 174.820048,
-      "name": "Park Road (near 99) (school stop)",
-      "sms": "7247"
-    }
-  ]
+  "stops": []
 }

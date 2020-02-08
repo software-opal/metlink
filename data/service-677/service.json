@@ -9,8 +9,8 @@
       "id": "4333-6158",
       "route": [
         {
-          "lat": 174.745962,
-          "lon": -41.285701,
+          "lat": -41.285701,
+          "lon": 174.745962,
           "stop": "4333"
         },
         {
@@ -3610,8 +3610,8 @@
           "lon": 174.770714
         },
         {
-          "lat": 174.770735,
-          "lon": -41.342938,
+          "lat": -41.342938,
+          "lon": 174.770735,
           "stop": "6158"
         }
       ],
@@ -3626,8 +3626,8 @@
       "id": "7158-4333",
       "route": [
         {
-          "lat": 174.770620,
-          "lon": -41.343119,
+          "lat": -41.343119,
+          "lon": 174.770620,
           "stop": "7158"
         },
         {
@@ -7291,8 +7291,8 @@
           "lon": 174.745975
         },
         {
-          "lat": 174.745962,
-          "lon": -41.285701,
+          "lat": -41.285701,
+          "lon": 174.745962,
           "stop": "4333"
         }
       ],
@@ -7308,27 +7308,5 @@
     "Kelburn Normal School",
     "Marsden School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.285701,
-      "lon": 174.745962,
-      "name": "Marsden School - Vera Street (school stop)",
-      "sms": "4333"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.342938,
-      "lon": 174.770735,
-      "name": "Island Bay - Reef Street opposite Shorland Park",
-      "sms": "6158"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.343119,
-      "lon": 174.770620,
-      "name": "Island Bay - Reef Street at Shorland Park",
-      "sms": "7158"
-    }
-  ]
+  "stops": []
 }

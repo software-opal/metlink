@@ -9,8 +9,8 @@
       "id": "6553-5332",
       "route": [
         {
-          "lat": 174.795610,
-          "lon": -41.314007,
+          "lat": -41.314007,
+          "lon": 174.795610,
           "stop": "6553"
         },
         {
@@ -2210,8 +2210,8 @@
           "lon": 174.723831
         },
         {
-          "lat": 174.723900,
-          "lon": -41.288321,
+          "lat": -41.288321,
+          "lon": 174.723900,
           "stop": "5332"
         }
       ],
@@ -2225,20 +2225,5 @@
   "schools": [
     "St Patrick's College"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.288321,
-      "lon": 174.723900,
-      "name": "Karori - Karori Road",
-      "sms": "5332"
-    },
-    {
-      "farezone": "2/3",
-      "lat": -41.314010,
-      "lon": 174.795610,
-      "name": "St Patrick's College - Evans Bay Parade",
-      "sms": "6553"
-    }
-  ]
+  "stops": []
 }

@@ -9,8 +9,8 @@
       "id": "6937-6018",
       "route": [
         {
-          "lat": 174.785390,
-          "lon": -41.341270,
+          "lat": -41.341270,
+          "lon": 174.785390,
           "stop": "6937"
         },
         {
@@ -2810,8 +2810,8 @@
           "lon": 174.801482
         },
         {
-          "lat": 174.801372,
-          "lon": -41.322199,
+          "lat": -41.322199,
+          "lon": 174.801372,
           "stop": "6018"
         }
       ],
@@ -2829,20 +2829,5 @@
     "St Patrick's College (town)",
     "St Patricks College (town)"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.322199,
-      "lon": 174.801372,
-      "name": "Rongotai College (school grounds)",
-      "sms": "6018"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.341270,
-      "lon": 174.785390,
-      "name": "Houghton Bay - Houghton Bay Road",
-      "sms": "6937"
-    }
-  ]
+  "stops": []
 }

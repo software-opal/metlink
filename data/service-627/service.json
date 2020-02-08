@@ -9,8 +9,8 @@
       "id": "3050-3466",
       "route": [
         {
-          "lat": 174.792072,
-          "lon": -41.223091,
+          "lat": -41.223091,
+          "lon": 174.792072,
           "stop": "3050"
         },
         {
@@ -1462,8 +1462,8 @@
           "lon": 174.822622
         },
         {
-          "lat": 174.822733,
-          "lon": -41.218817,
+          "lat": -41.218817,
+          "lon": 174.822733,
           "stop": "3466"
         }
       ],
@@ -1478,8 +1478,8 @@
       "id": "3466-3040",
       "route": [
         {
-          "lat": 174.822733,
-          "lon": -41.218817,
+          "lat": -41.218817,
+          "lon": 174.822733,
           "stop": "3466"
         },
         {
@@ -2727,8 +2727,8 @@
           "lon": 174.792054
         },
         {
-          "lat": 174.792000,
-          "lon": -41.222726,
+          "lat": -41.222726,
+          "lon": 174.792000,
           "stop": "3040"
         }
       ],
@@ -2743,27 +2743,5 @@
     "Newlands College",
     "Newlands Intermediate"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.222726,
-      "lon": 174.792000,
-      "name": "Johnsonville West - McLintock Street (near 81)",
-      "sms": "3040"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.223081,
-      "lon": 174.792072,
-      "name": "Johnsonville West - McLintock Street (near 74)",
-      "sms": "3050"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.218817,
-      "lon": 174.822733,
-      "name": "Newlands College - Bracken Road",
-      "sms": "3466"
-    }
-  ]
+  "stops": []
 }

@@ -9,8 +9,8 @@
       "id": "4333-5016",
       "route": [
         {
-          "lat": 174.745962,
-          "lon": -41.285701,
+          "lat": -41.285701,
+          "lon": 174.745962,
           "stop": "4333"
         },
         {
@@ -970,8 +970,8 @@
           "lon": 174.778925
         },
         {
-          "lat": 174.778899,
-          "lon": -41.278410,
+          "lat": -41.278410,
+          "lon": 174.778899,
           "stop": "5016"
         }
       ],
@@ -985,20 +985,5 @@
   "schools": [
     "Marsden School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.285701,
-      "lon": 174.745962,
-      "name": "Marsden School - Vera Street (school stop)",
-      "sms": "4333"
-    },
-    {
-      "farezone": "1",
-      "lat": -41.278410,
-      "lon": 174.778899,
-      "name": "Wellington Station - Stop D",
-      "sms": "5016"
-    }
-  ]
+  "stops": []
 }

@@ -1,6 +1,6 @@
 {
   "code": "37",
-  "last_modified": "2019-03-29T15:13:57+13:00",
+  "last_modified": "2020-01-27T15:55:43+13:00",
   "mode": "Bus",
   "name": "Karori (Wrights Hill) - Kelburn - Brandon Street",
   "routes": [
@@ -9,8 +9,8 @@
       "id": "4396-5520",
       "route": [
         {
-          "lat": 174.737243,
-          "lon": -41.285300,
+          "lat": -41.285300,
+          "lon": 174.737243,
           "stop": "4396"
         },
         {
@@ -2094,8 +2094,8 @@
           "lon": 174.775916
         },
         {
-          "lat": 174.775896,
-          "lon": -41.283255,
+          "lat": -41.283255,
+          "lon": 174.775896,
           "stop": "5520"
         }
       ],
@@ -2110,8 +2110,8 @@
       "id": "5520-5327",
       "route": [
         {
-          "lat": 174.775896,
-          "lon": -41.283255,
+          "lat": -41.283255,
+          "lon": 174.775896,
           "stop": "5520"
         },
         {
@@ -4355,8 +4355,8 @@
           "lon": 174.737140
         },
         {
-          "lat": 174.737162,
-          "lon": -41.284902,
+          "lat": -41.284902,
+          "lon": 174.737162,
           "stop": "5327"
         }
       ],
@@ -4368,27 +4368,5 @@
     }
   ],
   "schools": [],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.285300,
-      "lon": 174.737243,
-      "name": "Karori Mall - Beauchamp Street (Recreation Centre)",
-      "sms": "4396"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.284902,
-      "lon": 174.737162,
-      "name": "Karori Mall - Karori Road (opposite)",
-      "sms": "5327"
-    },
-    {
-      "farezone": "1",
-      "lat": -41.283255,
-      "lon": 174.775896,
-      "name": "Lambton Central (Brandon Street) - Stop C",
-      "sms": "5520"
-    }
-  ]
+  "stops": []
 }

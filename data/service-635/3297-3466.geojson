@@ -4,8 +4,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.193194,
-            174.808353
+            174.808353,
+            -41.193194
           ],
           [
             174.808407,
@@ -1572,8 +1572,8 @@
             -41.218899
           ],
           [
-            -41.218817,
-            174.822733
+            174.822733,
+            -41.218817
           ]
         ],
         "type": "LineString"
@@ -1581,7 +1581,7 @@
       "properties": {
         "code": "635",
         "mode": "School",
-        "name": "Churton Park - Paparangi - Newlands College & Intermediate School (via Melksham Dr & Bassett Rd)",
+        "name": "Churton Park - Newlands College & Intermediate School (via Melksham Dr & Bassett Rd)",
         "route_id": "3297-3466",
         "stroke-opacity": 0.3
       },

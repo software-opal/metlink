@@ -9,8 +9,8 @@
       "id": "7157-7025",
       "route": [
         {
-          "lat": 174.769460,
-          "lon": -41.346230,
+          "lat": -41.346230,
+          "lon": 174.769460,
           "stop": "7157"
         },
         {
@@ -1982,8 +1982,8 @@
           "lon": 174.793782
         },
         {
-          "lat": 174.793773,
-          "lon": -41.317735,
+          "lat": -41.317735,
+          "lon": 174.793773,
           "stop": "7025"
         }
       ],
@@ -2000,20 +2000,5 @@
     "St Catherine's College",
     "St Catherines College"
   ],
-  "stops": [
-    {
-      "farezone": "2",
-      "lat": -41.317735,
-      "lon": 174.793773,
-      "name": "Rongotai Road at Childers Terrace",
-      "sms": "7025"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.346230,
-      "lon": 174.769460,
-      "name": "The Esplanade opposite Beach Street",
-      "sms": "7157"
-    }
-  ]
+  "stops": []
 }

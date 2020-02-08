@@ -9,8 +9,8 @@
       "id": "6008-6158",
       "route": [
         {
-          "lat": 174.784838,
-          "lon": -41.301056,
+          "lat": -41.301056,
+          "lon": 174.784838,
           "stop": "6008"
         },
         {
@@ -894,8 +894,8 @@
           "lon": 174.770714
         },
         {
-          "lat": 174.770735,
-          "lon": -41.342938,
+          "lat": -41.342938,
+          "lon": 174.770735,
           "stop": "6158"
         }
       ],
@@ -912,20 +912,5 @@
     "Wellington College",
     "Wellington East Girls College"
   ],
-  "stops": [
-    {
-      "farezone": "1/2",
-      "lat": -41.301056,
-      "lon": 174.784838,
-      "name": "Wellington East Girls' College - Ellice Street (school stop)",
-      "sms": "6008"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.342938,
-      "lon": 174.770735,
-      "name": "Island Bay - Reef Street opposite Shorland Park",
-      "sms": "6158"
-    }
-  ]
+  "stops": []
 }

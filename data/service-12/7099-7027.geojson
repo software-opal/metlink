@@ -4,8 +4,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.336205,
-            174.813857
+            174.813857,
+            -41.336205
           ],
           [
             174.813910,
@@ -1716,8 +1716,8 @@
             -41.318538
           ],
           [
-            -41.318596,
-            174.798204
+            174.798204,
+            -41.318596
           ]
         ],
         "type": "LineString"
@@ -1725,7 +1725,7 @@
       "properties": {
         "code": "12",
         "mode": "Bus",
-        "name": "Strathmore Park - Kilbirnie",
+        "name": "Strathmore Park - Kilbirnie - Newtown",
         "route_id": "7099-7027",
         "stroke-opacity": 0.3
       },

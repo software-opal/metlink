@@ -9,8 +9,8 @@
       "id": "8219-9136",
       "route": [
         {
-          "lat": 174.939447,
-          "lon": -41.171964,
+          "lat": -41.171964,
+          "lon": 174.939447,
           "stop": "8219"
         },
         {
@@ -1846,8 +1846,8 @@
           "lon": 174.917679
         },
         {
-          "lat": 174.917690,
-          "lon": -41.210699,
+          "lat": -41.210699,
+          "lon": 174.917690,
           "stop": "9136"
         }
       ],
@@ -1870,20 +1870,5 @@
     "St Oran's College",
     "St Peter and Paul School"
   ],
-  "stops": [
-    {
-      "farezone": "5",
-      "lat": -41.171964,
-      "lon": 174.939447,
-      "name": "Kelson - Major Drive at Kaitangata Crescent",
-      "sms": "8219"
-    },
-    {
-      "farezone": "4",
-      "lat": -41.210699,
-      "lon": 174.917690,
-      "name": "Waterloo Road at St Bernard's College",
-      "sms": "9136"
-    }
-  ]
+  "stops": []
 }

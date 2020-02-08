@@ -9,8 +9,8 @@
       "id": "1855-1855",
       "route": [
         {
-          "lat": 175.662132,
-          "lon": -40.950004,
+          "lat": -40.950004,
+          "lon": 175.662132,
           "stop": "1855"
         },
         {
@@ -1494,8 +1494,8 @@
           "lon": 175.662061
         },
         {
-          "lat": 175.662132,
-          "lon": -40.950004,
+          "lat": -40.950004,
+          "lon": 175.662132,
           "stop": "1855"
         }
       ],
@@ -1511,13 +1511,5 @@
     "Saint Matthew's Collegiate School",
     "Douglas Park School"
   ],
-  "stops": [
-    {
-      "farezone": "14",
-      "lat": -40.950004,
-      "lon": 175.662132,
-      "name": "Masterton - Church Street",
-      "sms": "1855"
-    }
-  ]
+  "stops": []
 }

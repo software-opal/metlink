@@ -1,16 +1,16 @@
 {
   "code": "635",
-  "last_modified": "2020-01-05T00:00:08+13:00",
+  "last_modified": "2020-01-26T00:00:08+13:00",
   "mode": "School",
-  "name": "Churton Park - Paparangi - Newlands College & Intermediate School (via Melksham Dr & Bassett Rd)",
+  "name": "Churton Park - Newlands College & Intermediate School (via Melksham Dr & Bassett Rd)",
   "routes": [
     {
       "end_id": "3466",
       "id": "3297-3466",
       "route": [
         {
-          "lat": 174.808353,
-          "lon": -41.193194,
+          "lat": -41.193194,
+          "lon": 174.808353,
           "stop": "3297"
         },
         {
@@ -1578,8 +1578,8 @@
           "lon": 174.822622
         },
         {
-          "lat": 174.822733,
-          "lon": -41.218817,
+          "lat": -41.218817,
+          "lon": 174.822733,
           "stop": "3466"
         }
       ],
@@ -1594,8 +1594,8 @@
       "id": "3466-3279",
       "route": [
         {
-          "lat": 174.822733,
-          "lon": -41.218817,
+          "lat": -41.218817,
+          "lon": 174.822733,
           "stop": "3466"
         },
         {
@@ -2927,8 +2927,8 @@
           "lon": 174.808323
         },
         {
-          "lat": 174.808260,
-          "lon": -41.193162,
+          "lat": -41.193162,
+          "lon": 174.808260,
           "stop": "3279"
         }
       ],
@@ -2940,27 +2940,5 @@
     }
   ],
   "schools": [],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.193162,
-      "lon": 174.808260,
-      "name": "Churton Park - Melksham Drive (near 95)",
-      "sms": "3279"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.193190,
-      "lon": 174.808361,
-      "name": "Churton Park - Melksham Drive (near 92)",
-      "sms": "3297"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.218817,
-      "lon": 174.822733,
-      "name": "Newlands College - Bracken Road",
-      "sms": "3466"
-    }
-  ]
+  "stops": []
 }

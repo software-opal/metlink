@@ -9,8 +9,8 @@
       "id": "3927-2001",
       "route": [
         {
-          "lat": 174.831432,
-          "lon": -41.162469,
+          "lat": -41.162469,
+          "lon": 174.831432,
           "stop": "3927"
         },
         {
@@ -618,8 +618,8 @@
           "lon": 174.843193
         },
         {
-          "lat": 174.843234,
-          "lon": -41.137425,
+          "lat": -41.137425,
+          "lon": 174.843234,
           "stop": "2001"
         }
       ],
@@ -633,20 +633,5 @@
   "schools": [
     "Plimmerton School"
   ],
-  "stops": [
-    {
-      "farezone": "5",
-      "lat": -41.137424,
-      "lon": 174.843234,
-      "name": "Porirua Station - Stop A",
-      "sms": "2001"
-    },
-    {
-      "farezone": "4",
-      "lat": -41.162469,
-      "lon": 174.831432,
-      "name": "Hinau Street (near 3) (school stop)",
-      "sms": "3927"
-    }
-  ]
+  "stops": []
 }

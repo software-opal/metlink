@@ -9,8 +9,8 @@
       "id": "4113-5332",
       "route": [
         {
-          "lat": 174.779771,
-          "lon": -41.275334,
+          "lat": -41.275334,
+          "lon": 174.779771,
           "stop": "4113"
         },
         {
@@ -1258,8 +1258,8 @@
           "lon": 174.723831
         },
         {
-          "lat": 174.723900,
-          "lon": -41.288321,
+          "lat": -41.288321,
+          "lon": 174.723900,
           "stop": "5332"
         }
       ],
@@ -1275,20 +1275,5 @@
     "St Marys College",
     "Wellington Girls College"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.275334,
-      "lon": 174.779771,
-      "name": "Murphy Street - Wellington Girls' College",
-      "sms": "4113"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.288321,
-      "lon": 174.723900,
-      "name": "Karori - Karori Road",
-      "sms": "5332"
-    }
-  ]
+  "stops": []
 }

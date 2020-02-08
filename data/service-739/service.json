@@ -9,8 +9,8 @@
       "id": "6011-5396",
       "route": [
         {
-          "lat": 174.782552,
-          "lon": -41.303073,
+          "lat": -41.303073,
+          "lon": 174.782552,
           "stop": "6011"
         },
         {
@@ -2398,8 +2398,8 @@
           "lon": 174.737057
         },
         {
-          "lat": 174.736986,
-          "lon": -41.285077,
+          "lat": -41.285077,
+          "lon": 174.736986,
           "stop": "5396"
         }
       ],
@@ -2414,20 +2414,5 @@
     "St Mark's School",
     "Wellington College"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.285077,
-      "lon": 174.736986,
-      "name": "Karori Mall - Beauchamp Street (school stop)",
-      "sms": "5396"
-    },
-    {
-      "farezone": "1/2",
-      "lat": -41.303073,
-      "lon": 174.782552,
-      "name": "Wellington College (school grounds)",
-      "sms": "6011"
-    }
-  ]
+  "stops": []
 }

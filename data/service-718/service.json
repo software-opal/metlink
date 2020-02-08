@@ -9,8 +9,8 @@
       "id": "6913-7042",
       "route": [
         {
-          "lat": 174.775279,
-          "lon": -41.299002,
+          "lat": -41.299002,
+          "lon": 174.775279,
           "stop": "6913"
         },
         {
@@ -1898,8 +1898,8 @@
           "lon": 174.834792
         },
         {
-          "lat": 174.834662,
-          "lon": -41.325363,
+          "lat": -41.325363,
+          "lon": 174.834662,
           "stop": "7042"
         }
       ],
@@ -1913,20 +1913,5 @@
   "schools": [
     "Wellington High School"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.299002,
-      "lon": 174.775279,
-      "name": "Taranaki Street (near 217)",
-      "sms": "6913"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.325363,
-      "lon": 174.834662,
-      "name": "Seatoun Park - Hector Street",
-      "sms": "7042"
-    }
-  ]
+  "stops": []
 }

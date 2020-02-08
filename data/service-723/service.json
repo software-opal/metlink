@@ -9,8 +9,8 @@
       "id": "6008-7236",
       "route": [
         {
-          "lat": 174.784838,
-          "lon": -41.301056,
+          "lat": -41.301056,
+          "lon": 174.784838,
           "stop": "6008"
         },
         {
@@ -1678,8 +1678,8 @@
           "lon": 174.819629
         },
         {
-          "lat": 174.819647,
-          "lon": -41.311978,
+          "lat": -41.311978,
+          "lon": 174.819647,
           "stop": "7236"
         }
       ],
@@ -1693,20 +1693,5 @@
   "schools": [
     "Wellington East Girls College"
   ],
-  "stops": [
-    {
-      "farezone": "1/2",
-      "lat": -41.301056,
-      "lon": 174.784838,
-      "name": "Wellington East Girls' College - Ellice Street (school stop)",
-      "sms": "6008"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.311978,
-      "lon": 174.819647,
-      "name": "Park Road at Rotherham Terrace (near 86)",
-      "sms": "7236"
-    }
-  ]
+  "stops": []
 }

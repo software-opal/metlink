@@ -9,8 +9,8 @@
       "id": "6553-7099",
       "route": [
         {
-          "lat": 174.795610,
-          "lon": -41.314007,
+          "lat": -41.314007,
+          "lon": 174.795610,
           "stop": "6553"
         },
         {
@@ -1546,8 +1546,8 @@
           "lon": 174.813910
         },
         {
-          "lat": 174.813857,
-          "lon": -41.336205,
+          "lat": -41.336205,
+          "lon": 174.813857,
           "stop": "7099"
         }
       ],
@@ -1561,20 +1561,5 @@
   "schools": [
     "St Patrick's College"
   ],
-  "stops": [
-    {
-      "farezone": "2/3",
-      "lat": -41.314010,
-      "lon": 174.795610,
-      "name": "St Patrick's College - Evans Bay Parade",
-      "sms": "6553"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.336205,
-      "lon": 174.813857,
-      "name": "Strathmore Park Terminus",
-      "sms": "7099"
-    }
-  ]
+  "stops": []
 }

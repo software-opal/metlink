@@ -9,8 +9,8 @@
       "id": "8159-9219",
       "route": [
         {
-          "lat": 174.902449,
-          "lon": -41.215726,
+          "lat": -41.215726,
+          "lon": 174.902449,
           "stop": "8159"
         },
         {
@@ -1618,8 +1618,8 @@
           "lon": 174.939491
         },
         {
-          "lat": 174.939442,
-          "lon": -41.171784,
+          "lat": -41.171784,
+          "lon": 174.939442,
           "stop": "9219"
         }
       ],
@@ -1636,20 +1636,5 @@
     "Hutt Valley High School",
     "Chilton St James"
   ],
-  "stops": [
-    {
-      "farezone": "4",
-      "lat": -41.215726,
-      "lon": 174.902449,
-      "name": "Hutt Valley High School (opposite)",
-      "sms": "8159"
-    },
-    {
-      "farezone": "5",
-      "lat": -41.171784,
-      "lon": 174.939442,
-      "name": "Kelson - Major Drive",
-      "sms": "9219"
-    }
-  ]
+  "stops": []
 }

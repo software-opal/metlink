@@ -9,8 +9,8 @@
       "id": "5503-6018",
       "route": [
         {
-          "lat": 174.777806,
-          "lon": -41.279253,
+          "lat": -41.279253,
+          "lon": 174.777806,
           "stop": "5503"
         },
         {
@@ -1218,8 +1218,8 @@
           "lon": 174.801482
         },
         {
-          "lat": 174.801372,
-          "lon": -41.322199,
+          "lat": -41.322199,
+          "lon": 174.801372,
           "stop": "6018"
         }
       ],
@@ -1235,20 +1235,5 @@
     "Rongotai College",
     "Evans Bay Intermediate"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.279253,
-      "lon": 174.777806,
-      "name": "Lambton Quay - Old Govt Buildings (school stop)",
-      "sms": "5503"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.322199,
-      "lon": 174.801372,
-      "name": "Rongotai College (school grounds)",
-      "sms": "6018"
-    }
-  ]
+  "stops": []
 }

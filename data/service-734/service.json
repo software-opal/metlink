@@ -9,8 +9,8 @@
       "id": "6008-7700",
       "route": [
         {
-          "lat": 174.784838,
-          "lon": -41.301056,
+          "lat": -41.301056,
+          "lon": 174.784838,
           "stop": "6008"
         },
         {
@@ -1854,8 +1854,8 @@
           "lon": 174.765405
         },
         {
-          "lat": 174.765401,
-          "lon": -41.305033,
+          "lat": -41.305033,
+          "lon": 174.765401,
           "stop": "7700"
         }
       ],
@@ -1870,8 +1870,8 @@
       "id": "6718-6008",
       "route": [
         {
-          "lat": 174.763674,
-          "lon": -41.304057,
+          "lat": -41.304057,
+          "lon": 174.763674,
           "stop": "6718"
         },
         {
@@ -3867,8 +3867,8 @@
           "lon": 174.784893
         },
         {
-          "lat": 174.784838,
-          "lon": -41.301056,
+          "lat": -41.301056,
+          "lon": 174.784838,
           "stop": "6008"
         }
       ],
@@ -3885,27 +3885,5 @@
     "Wellington College",
     "Wellington High School"
   ],
-  "stops": [
-    {
-      "farezone": "1/2",
-      "lat": -41.301056,
-      "lon": 174.784838,
-      "name": "Wellington East Girls' College - Ellice Street (school stop)",
-      "sms": "6008"
-    },
-    {
-      "farezone": "2",
-      "lat": -41.304057,
-      "lon": 174.763674,
-      "name": "Ohiro Road at Bretby Crescent",
-      "sms": "6718"
-    },
-    {
-      "farezone": "2",
-      "lat": -41.305033,
-      "lon": 174.765401,
-      "name": "Brooklyn - Stop A",
-      "sms": "7700"
-    }
-  ]
+  "stops": []
 }

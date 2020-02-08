@@ -9,8 +9,8 @@
       "id": "3008-3080",
       "route": [
         {
-          "lat": 174.801855,
-          "lon": -41.222513,
+          "lat": -41.222513,
+          "lon": 174.801855,
           "stop": "3008"
         },
         {
@@ -1814,8 +1814,8 @@
           "lon": 174.807497
         },
         {
-          "lat": 174.807470,
-          "lon": -41.219058,
+          "lat": -41.219058,
+          "lon": 174.807470,
           "stop": "3080"
         }
       ],
@@ -1833,20 +1833,5 @@
     "St Brigids School",
     "West Park School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.222513,
-      "lon": 174.801855,
-      "name": "St Brigid's School - Phillip Street (school stop)",
-      "sms": "3008"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.219058,
-      "lon": 174.807470,
-      "name": "Bassett Road at Angell Street",
-      "sms": "3080"
-    }
-  ]
+  "stops": []
 }

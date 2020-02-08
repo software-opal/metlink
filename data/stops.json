@@ -12706,13 +12706,6 @@
   },
   {
     "farezone": "3",
-    "lat": -41.321412,
-    "lon": 174.816868,
-    "name": "Devonshire Road (near 42) (school stop)",
-    "sms": "7082"
-  },
-  {
-    "farezone": "3",
     "lat": -41.315824,
     "lon": 174.814952,
     "name": "Miramar Shops - Stop A",
@@ -20060,13 +20053,6 @@
     "lon": 175.068140,
     "name": "Wilson Street at Bradley Lane",
     "sms": "9576"
-  },
-  {
-    "farezone": "7",
-    "lat": -41.125562,
-    "lon": 175.069588,
-    "name": "Upper Hutt - Senior Citizens Club",
-    "sms": "9577"
   },
   {
     "farezone": "7",

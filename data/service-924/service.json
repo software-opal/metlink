@@ -9,8 +9,8 @@
       "id": "8156-8580",
       "route": [
         {
-          "lat": 174.907666,
-          "lon": -41.214648,
+          "lat": -41.214648,
+          "lon": 174.907666,
           "stop": "8156"
         },
         {
@@ -1766,8 +1766,8 @@
           "lon": 175.070966
         },
         {
-          "lat": 175.070987,
-          "lon": -41.125840,
+          "lat": -41.125840,
+          "lon": 175.070987,
           "stop": "8580"
         }
       ],
@@ -1782,8 +1782,8 @@
       "id": "9580-9197",
       "route": [
         {
-          "lat": 175.071373,
-          "lon": -41.125685,
+          "lat": -41.125685,
+          "lon": 175.071373,
           "stop": "9580"
         },
         {
@@ -3679,8 +3679,8 @@
           "lon": 174.906216
         },
         {
-          "lat": 174.906363,
-          "lon": -41.214940,
+          "lat": -41.214940,
+          "lon": 174.906363,
           "stop": "9197"
         }
       ],
@@ -3695,34 +3695,5 @@
     "Trentham School",
     "Sacred Heart College"
   ],
-  "stops": [
-    {
-      "farezone": "4",
-      "lat": -41.214648,
-      "lon": 174.907666,
-      "name": "Sacred Heart College - Hautana Street (school stop)",
-      "sms": "8156"
-    },
-    {
-      "farezone": "7",
-      "lat": -41.125840,
-      "lon": 175.070987,
-      "name": "Upper Hutt Station - Stop B",
-      "sms": "8580"
-    },
-    {
-      "farezone": "4",
-      "lat": -41.214940,
-      "lon": 174.906363,
-      "name": "Sacred Heart College - Laings Road (school stop)",
-      "sms": "9197"
-    },
-    {
-      "farezone": "7",
-      "lat": -41.125685,
-      "lon": 175.071373,
-      "name": "Upper Hutt Station - Stop C",
-      "sms": "9580"
-    }
-  ]
+  "stops": []
 }

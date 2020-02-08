@@ -9,8 +9,8 @@
       "id": "5102-5332",
       "route": [
         {
-          "lat": 174.780265,
-          "lon": -41.271550,
+          "lat": -41.271550,
+          "lon": 174.780265,
           "stop": "5102"
         },
         {
@@ -1962,8 +1962,8 @@
           "lon": 174.723831
         },
         {
-          "lat": 174.723900,
-          "lon": -41.288321,
+          "lat": -41.288321,
+          "lon": 174.723900,
           "stop": "5332"
         }
       ],
@@ -1978,20 +1978,5 @@
     "Queen Margaret's College",
     "Queen Margarets College"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.271544,
-      "lon": 174.780265,
-      "name": "Queen Margaret College (school stop)",
-      "sms": "5102"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.288321,
-      "lon": 174.723900,
-      "name": "Karori - Karori Road",
-      "sms": "5332"
-    }
-  ]
+  "stops": []
 }

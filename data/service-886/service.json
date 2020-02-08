@@ -9,8 +9,8 @@
       "id": "9850-9159",
       "route": [
         {
-          "lat": 174.896406,
-          "lon": -41.291396,
+          "lat": -41.291396,
+          "lon": 174.896406,
           "stop": "9850"
         },
         {
@@ -1754,8 +1754,8 @@
           "lon": 174.902282
         },
         {
-          "lat": 174.902211,
-          "lon": -41.215730,
+          "lat": -41.215730,
+          "lon": 174.902211,
           "stop": "9159"
         }
       ],
@@ -1770,20 +1770,5 @@
     "Muritai School",
     "San Antonio School"
   ],
-  "stops": [
-    {
-      "farezone": "4",
-      "lat": -41.215730,
-      "lon": 174.902211,
-      "name": "Hutt Valley High School - Woburn Road",
-      "sms": "9159"
-    },
-    {
-      "farezone": "6",
-      "lat": -41.291396,
-      "lon": 174.896406,
-      "name": "Muritai School - Oroua Street",
-      "sms": "9850"
-    }
-  ]
+  "stops": []
 }

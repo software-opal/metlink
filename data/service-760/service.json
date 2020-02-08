@@ -9,8 +9,8 @@
       "id": "6020-7036",
       "route": [
         {
-          "lat": 174.796461,
-          "lon": -41.315476,
+          "lat": -41.315476,
+          "lon": 174.796461,
           "stop": "6020"
         },
         {
@@ -2974,8 +2974,8 @@
           "lon": 174.820645
         },
         {
-          "lat": 174.820660,
-          "lon": -41.324594,
+          "lat": -41.324594,
+          "lon": 174.820660,
           "stop": "7036"
         }
       ],
@@ -2989,20 +2989,5 @@
   "schools": [
     "Evans Bay Intermediate"
   ],
-  "stops": [
-    {
-      "farezone": "2/3",
-      "lat": -41.315476,
-      "lon": 174.796462,
-      "name": "Evans Bay Intermediate School (school stop)",
-      "sms": "6020"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.324594,
-      "lon": 174.820660,
-      "name": "Strathmore Park Shops - Broadway",
-      "sms": "7036"
-    }
-  ]
+  "stops": []
 }

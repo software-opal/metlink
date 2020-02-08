@@ -9,8 +9,8 @@
       "id": "5112-6158",
       "route": [
         {
-          "lat": 174.777754,
-          "lon": -41.275816,
+          "lat": -41.275816,
+          "lon": 174.777754,
           "stop": "5112"
         },
         {
@@ -2806,8 +2806,8 @@
           "lon": 174.770714
         },
         {
-          "lat": 174.770735,
-          "lon": -41.342938,
+          "lat": -41.342938,
+          "lon": 174.770735,
           "stop": "6158"
         }
       ],
@@ -2819,20 +2819,5 @@
     }
   ],
   "schools": [],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.275816,
-      "lon": 174.777754,
-      "name": "Molesworth Street - Cathedral",
-      "sms": "5112"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.342938,
-      "lon": 174.770735,
-      "name": "Island Bay - Reef Street opposite Shorland Park",
-      "sms": "6158"
-    }
-  ]
+  "stops": []
 }

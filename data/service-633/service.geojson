@@ -4,8 +4,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.218817,
-            174.822733
+            174.822733,
+            -41.218817
           ],
           [
             174.822622,
@@ -1104,8 +1104,8 @@
             -41.200183
           ],
           [
-            -41.200210,
-            174.803136
+            174.803136,
+            -41.200210
           ]
         ],
         "type": "LineString"
@@ -1113,7 +1113,7 @@
       "properties": {
         "code": "633",
         "mode": "School",
-        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Road)",
+        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Rd)",
         "route_id": "3466-3222",
         "stroke-opacity": 0.3
       },
@@ -1123,8 +1123,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.200210,
-            174.803136
+            174.803136,
+            -41.200210
           ],
           [
             174.803162,
@@ -1291,8 +1291,8 @@
             -41.204857
           ],
           [
-            -41.204813,
-            174.802546
+            174.802546,
+            -41.204813
           ]
         ],
         "type": "LineString"
@@ -1300,7 +1300,7 @@
       "properties": {
         "code": "633",
         "mode": "School",
-        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Road)",
+        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Rd)",
         "route_id": "3222-3232",
         "stroke-opacity": 0.3
       },
@@ -1310,8 +1310,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.201897,
-            174.804732
+            174.804732,
+            -41.201897
           ],
           [
             174.804794,
@@ -1338,8 +1338,8 @@
             -41.200183
           ],
           [
-            -41.200210,
-            174.803136
+            174.803136,
+            -41.200210
           ]
         ],
         "type": "LineString"
@@ -1347,7 +1347,7 @@
       "properties": {
         "code": "633",
         "mode": "School",
-        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Road)",
+        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Rd)",
         "route_id": "3220-3222",
         "stroke-opacity": 0.3
       },
@@ -1357,8 +1357,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.204813,
-            174.802546
+            174.802546,
+            -41.204813
           ],
           [
             174.802478,
@@ -2573,8 +2573,8 @@
             -41.218899
           ],
           [
-            -41.218817,
-            174.822733
+            174.822733,
+            -41.218817
           ]
         ],
         "type": "LineString"
@@ -2582,7 +2582,7 @@
       "properties": {
         "code": "633",
         "mode": "School",
-        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Road)",
+        "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Rd)",
         "route_id": "3232-3466",
         "stroke-opacity": 0.3
       },

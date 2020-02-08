@@ -9,8 +9,8 @@
       "id": "3466-3081",
       "route": [
         {
-          "lat": 174.822733,
-          "lon": -41.218817,
+          "lat": -41.218817,
+          "lon": 174.822733,
           "stop": "3466"
         },
         {
@@ -1110,8 +1110,8 @@
           "lon": 174.805200
         },
         {
-          "lat": 174.805260,
-          "lon": -41.222892,
+          "lat": -41.222892,
+          "lon": 174.805260,
           "stop": "3081"
         }
       ],
@@ -1126,20 +1126,5 @@
     "Newlands College",
     "Newlands Intermediate"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.222892,
-      "lon": 174.805260,
-      "name": "Johnsonville - Stop B",
-      "sms": "3081"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.218817,
-      "lon": 174.822733,
-      "name": "Newlands College - Bracken Road",
-      "sms": "3466"
-    }
-  ]
+  "stops": []
 }

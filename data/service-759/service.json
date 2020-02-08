@@ -9,8 +9,8 @@
       "id": "6020-7042",
       "route": [
         {
-          "lat": 174.796461,
-          "lon": -41.315476,
+          "lat": -41.315476,
+          "lon": 174.796461,
           "stop": "6020"
         },
         {
@@ -1006,8 +1006,8 @@
           "lon": 174.834792
         },
         {
-          "lat": 174.834662,
-          "lon": -41.325363,
+          "lat": -41.325363,
+          "lon": 174.834662,
           "stop": "7042"
         }
       ],
@@ -1021,20 +1021,5 @@
   "schools": [
     "Evans Bay Intermediate"
   ],
-  "stops": [
-    {
-      "farezone": "2/3",
-      "lat": -41.315476,
-      "lon": 174.796462,
-      "name": "Evans Bay Intermediate School (school stop)",
-      "sms": "6020"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.325363,
-      "lon": 174.834662,
-      "name": "Seatoun Park - Hector Street",
-      "sms": "7042"
-    }
-  ]
+  "stops": []
 }

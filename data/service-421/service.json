@@ -9,8 +9,8 @@
       "id": "3938-2140",
       "route": [
         {
-          "lat": 174.839868,
-          "lon": -41.140681,
+          "lat": -41.140681,
+          "lon": 174.839868,
           "stop": "3938"
         },
         {
@@ -2034,8 +2034,8 @@
           "lon": 174.871648
         },
         {
-          "lat": 174.871680,
-          "lon": -41.120914,
+          "lat": -41.120914,
+          "lon": 174.871680,
           "stop": "2140"
         }
       ],
@@ -2049,20 +2049,5 @@
   "schools": [
     "Viard College"
   ],
-  "stops": [
-    {
-      "farezone": "5",
-      "lat": -41.120914,
-      "lon": 174.871680,
-      "name": "Desert Gold Street (near 8)",
-      "sms": "2140"
-    },
-    {
-      "farezone": "5",
-      "lat": -41.140681,
-      "lon": 174.839868,
-      "name": "Bishop Viard College (school grounds)",
-      "sms": "3938"
-    }
-  ]
+  "stops": []
 }

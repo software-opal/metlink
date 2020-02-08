@@ -4,8 +4,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.293794,
-            174.782327
+            174.782327,
+            -41.293794
           ],
           [
             174.782331,
@@ -3708,8 +3708,8 @@
             -41.307648
           ],
           [
-            -41.307648,
-            174.884851
+            174.884851,
+            -41.307648
           ]
         ],
         "type": "LineString"
@@ -3717,7 +3717,7 @@
       "properties": {
         "code": "84",
         "mode": "Bus",
-        "name": "Gracefield - Petone - Wellington",
+        "name": "Eastbourne - Gracefield - Petone - Wellington",
         "route_id": "5000-9858",
         "stroke-opacity": 0.3
       },
@@ -3727,8 +3727,8 @@
       "geometry": {
         "coordinates": [
           [
-            -41.307261,
-            174.884682
+            174.884682,
+            -41.307261
           ],
           [
             174.884713,
@@ -7099,8 +7099,8 @@
             -41.293807
           ],
           [
-            -41.293752,
-            174.782780
+            174.782780,
+            -41.293752
           ]
         ],
         "type": "LineString"
@@ -7108,7 +7108,7 @@
       "properties": {
         "code": "84",
         "mode": "Bus",
-        "name": "Gracefield - Petone - Wellington",
+        "name": "Eastbourne - Gracefield - Petone - Wellington",
         "route_id": "8858-5516",
         "stroke-opacity": 0.3
       },

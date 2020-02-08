@@ -148,10 +148,10 @@
   },
   {
     "code": "12",
-    "last_modified": "2020-01-10T15:47:48+13:00",
+    "last_modified": "2020-01-27T15:34:52+13:00",
     "link": "/timetables/bus/12",
     "mode": "Bus",
-    "name": "Strathmore Park - Kilbirnie",
+    "name": "Strathmore Park - Kilbirnie - Newtown",
     "schools": []
   },
   {
@@ -217,7 +217,7 @@
   },
   {
     "code": "12e",
-    "last_modified": "2019-02-04T10:02:50+13:00",
+    "last_modified": "2020-01-27T15:35:49+13:00",
     "link": "/timetables/bus/12e",
     "mode": "Bus",
     "name": "Strathmore Park - Kilbirnie - Hataitai - Wellington",
@@ -225,7 +225,7 @@
   },
   {
     "code": "13",
-    "last_modified": "2019-12-17T09:57:53+13:00",
+    "last_modified": "2020-01-27T15:37:08+13:00",
     "link": "/timetables/bus/13",
     "mode": "Bus",
     "name": "Mairangi - Glenmore Street - Brandon Street",
@@ -267,7 +267,7 @@
   },
   {
     "code": "14",
-    "last_modified": "2020-01-10T15:48:11+13:00",
+    "last_modified": "2020-01-27T15:38:33+13:00",
     "link": "/timetables/bus/14",
     "mode": "Bus",
     "name": "Wilton - Wellington - Roseneath - Hataitai - Kilbirnie",
@@ -440,10 +440,10 @@
   },
   {
     "code": "18",
-    "last_modified": "2020-01-10T15:48:47+13:00",
+    "last_modified": "2020-01-27T15:39:11+13:00",
     "link": "/timetables/bus/18",
     "mode": "Bus",
-    "name": "Miramar - Miramar Shops",
+    "name": "Miramar - Kilbirnie",
     "schools": [
       "Karori West Normal School",
       "St Teresa's School",
@@ -466,7 +466,7 @@
   },
   {
     "code": "18e",
-    "last_modified": "2020-01-10T15:49:10+13:00",
+    "last_modified": "2020-01-27T15:39:48+13:00",
     "link": "/timetables/bus/18e",
     "mode": "Bus",
     "name": "Miramar - Newtown - Kelburn - Karori",
@@ -490,7 +490,7 @@
   },
   {
     "code": "2",
-    "last_modified": "2020-01-16T12:18:03+13:00",
+    "last_modified": "2020-01-27T14:59:54+13:00",
     "link": "/timetables/bus/2",
     "mode": "Bus",
     "name": "Karori - Wellington - Hataitai - Seatoun",
@@ -498,7 +498,7 @@
   },
   {
     "code": "20",
-    "last_modified": "2020-01-10T15:49:53+13:00",
+    "last_modified": "2020-01-27T15:44:11+13:00",
     "link": "/timetables/bus/20",
     "mode": "Bus",
     "name": "Kilbirnie - Mt Victoria - Courtenay Place",
@@ -595,7 +595,7 @@
   },
   {
     "code": "21",
-    "last_modified": "2020-01-10T15:54:10+13:00",
+    "last_modified": "2020-01-27T15:45:39+13:00",
     "link": "/timetables/bus/21",
     "mode": "Bus",
     "name": "Karori (Wrights Hill) - Kelburn - Courtenay Place",
@@ -635,7 +635,7 @@
   },
   {
     "code": "22",
-    "last_modified": "2020-01-10T15:55:14+13:00",
+    "last_modified": "2020-01-27T15:46:16+13:00",
     "link": "/timetables/bus/22",
     "mode": "Bus",
     "name": "Johnsonville - Mairangi - Kelburn - Wellington",
@@ -910,7 +910,7 @@
   },
   {
     "code": "28",
-    "last_modified": "2020-01-10T15:56:21+13:00",
+    "last_modified": "2020-01-27T15:47:34+13:00",
     "link": "/timetables/bus/28",
     "mode": "Bus",
     "name": "Beacon Hill - Strathmore Park Shops",
@@ -991,7 +991,7 @@
   },
   {
     "code": "3",
-    "last_modified": "2019-02-04T09:59:39+13:00",
+    "last_modified": "2020-01-27T15:33:29+13:00",
     "link": "/timetables/bus/3",
     "mode": "Bus",
     "name": "Lyall Bay/Rongotai - Kilbirnie - Newtown - Wellington",
@@ -1064,7 +1064,7 @@
   },
   {
     "code": "30x",
-    "last_modified": "2020-01-16T12:18:43+13:00",
+    "last_modified": "2020-01-27T15:48:35+13:00",
     "link": "/timetables/bus/30x",
     "mode": "Bus",
     "name": "Scorching Bay/Moa Point - Wellington (Express)",
@@ -1093,7 +1093,7 @@
   },
   {
     "code": "31x",
-    "last_modified": "2019-03-01T09:55:53+13:00",
+    "last_modified": "2020-01-27T15:50:03+13:00",
     "link": "/timetables/bus/31x",
     "mode": "Bus",
     "name": "Miramar North - Wellington (Express)",
@@ -1109,7 +1109,7 @@
   },
   {
     "code": "33",
-    "last_modified": "2020-01-16T12:19:34+13:00",
+    "last_modified": "2020-01-27T15:51:48+13:00",
     "link": "/timetables/bus/33",
     "mode": "Bus",
     "name": "Karori South - Brandon Street",
@@ -1117,7 +1117,7 @@
   },
   {
     "code": "34",
-    "last_modified": "2020-01-16T12:22:10+13:00",
+    "last_modified": "2020-01-27T15:52:43+13:00",
     "link": "/timetables/bus/34",
     "mode": "Bus",
     "name": "Karori West - Brandon Street",
@@ -1125,7 +1125,7 @@
   },
   {
     "code": "35",
-    "last_modified": "2019-06-10T08:55:44+12:00",
+    "last_modified": "2020-01-27T15:54:05+13:00",
     "link": "/timetables/bus/35",
     "mode": "Bus",
     "name": "Hataitai - Wellington",
@@ -1133,7 +1133,7 @@
   },
   {
     "code": "36",
-    "last_modified": "2019-02-08T13:47:21+13:00",
+    "last_modified": "2020-01-27T15:54:49+13:00",
     "link": "/timetables/bus/36",
     "mode": "Bus",
     "name": "Lyall Bay - Kilbirnie - Hataitai - Wellington",
@@ -1149,7 +1149,7 @@
   },
   {
     "code": "37",
-    "last_modified": "2019-03-29T15:13:57+13:00",
+    "last_modified": "2020-01-27T15:55:43+13:00",
     "link": "/timetables/bus/37",
     "mode": "Bus",
     "name": "Karori (Wrights Hill) - Kelburn - Brandon Street",
@@ -1355,7 +1355,7 @@
   },
   {
     "code": "52",
-    "last_modified": "2019-12-17T10:01:04+13:00",
+    "last_modified": "2020-01-27T16:23:53+13:00",
     "link": "/timetables/bus/52",
     "mode": "Bus",
     "name": "Johnsonville - Newlands - Wellington",
@@ -1384,7 +1384,7 @@
   },
   {
     "code": "56",
-    "last_modified": "2019-12-17T10:02:36+13:00",
+    "last_modified": "2020-01-27T16:24:34+13:00",
     "link": "/timetables/bus/56",
     "mode": "Bus",
     "name": "Johnsonville - Paparangi - Wellington",
@@ -1402,7 +1402,7 @@
   },
   {
     "code": "57",
-    "last_modified": "2019-12-17T10:04:17+13:00",
+    "last_modified": "2020-01-27T16:25:14+13:00",
     "link": "/timetables/bus/57",
     "mode": "Bus",
     "name": "Woodridge - Wellington",
@@ -1410,7 +1410,7 @@
   },
   {
     "code": "58",
-    "last_modified": "2019-12-17T10:05:05+13:00",
+    "last_modified": "2020-01-27T16:25:48+13:00",
     "link": "/timetables/bus/58",
     "mode": "Bus",
     "name": "Newlands - Wellington",
@@ -1578,10 +1578,10 @@
   },
   {
     "code": "633",
-    "last_modified": "2020-01-05T00:00:08+13:00",
+    "last_modified": "2020-01-26T00:00:08+13:00",
     "link": "/timetables/school/633",
     "mode": "School",
-    "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Road)",
+    "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Rd)",
     "schools": [
       "Newlands College",
       "Newlands Intermediate"
@@ -1597,10 +1597,10 @@
   },
   {
     "code": "635",
-    "last_modified": "2020-01-05T00:00:08+13:00",
+    "last_modified": "2020-01-26T00:00:08+13:00",
     "link": "/timetables/school/635",
     "mode": "School",
-    "name": "Churton Park - Paparangi - Newlands College & Intermediate School (via Melksham Dr & Bassett Rd)",
+    "name": "Churton Park - Newlands College & Intermediate School (via Melksham Dr & Bassett Rd)",
     "schools": []
   },
   {
@@ -2407,10 +2407,10 @@
   },
   {
     "code": "791",
-    "last_modified": "2020-01-05T00:00:10+13:00",
+    "last_modified": "2020-01-26T00:00:08+13:00",
     "link": "/timetables/school/791",
     "mode": "School",
-    "name": "Karori - Kelburn - Scots College",
+    "name": "Karori - Kelburn - St Patrick's & Scots Colleges",
     "schools": [
       "Scots College",
       "Kilbirnie School"
@@ -2418,7 +2418,7 @@
   },
   {
     "code": "81",
-    "last_modified": "2018-07-13T15:24:38+12:00",
+    "last_modified": "2020-01-27T15:57:20+13:00",
     "link": "/timetables/bus/81",
     "mode": "Bus",
     "name": "Eastbourne - Petone - Wellington",
@@ -2466,7 +2466,7 @@
   },
   {
     "code": "83",
-    "last_modified": "2018-07-13T15:25:15+12:00",
+    "last_modified": "2020-01-27T16:05:25+13:00",
     "link": "/timetables/bus/83",
     "mode": "Bus",
     "name": "Eastbourne - Lower Hutt - Petone - Wellington",
@@ -2493,10 +2493,10 @@
   },
   {
     "code": "84",
-    "last_modified": "2018-07-13T15:25:51+12:00",
+    "last_modified": "2020-01-27T16:06:03+13:00",
     "link": "/timetables/bus/84",
     "mode": "Bus",
-    "name": "Gracefield - Petone - Wellington",
+    "name": "Eastbourne - Gracefield - Petone - Wellington",
     "schools": [
       "San Antonio School",
       "Muritai School",
@@ -2661,7 +2661,7 @@
   },
   {
     "code": "85x",
-    "last_modified": "2018-06-20T09:36:13+12:00",
+    "last_modified": "2020-01-27T16:07:07+13:00",
     "link": "/timetables/bus/85x",
     "mode": "Bus",
     "name": "Eastbourne - Wellington (Express)",

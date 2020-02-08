@@ -1,16 +1,16 @@
 {
   "code": "633",
-  "last_modified": "2020-01-05T00:00:08+13:00",
+  "last_modified": "2020-01-26T00:00:08+13:00",
   "mode": "School",
-  "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Road)",
+  "name": "Churton Park - Newlands College & Intermediate School (via Erlestoke Cres & Middleton Rd)",
   "routes": [
     {
       "end_id": "3222",
       "id": "3220-3222",
       "route": [
         {
-          "lat": 174.804732,
-          "lon": -41.201897,
+          "lat": -41.201897,
+          "lon": 174.804732,
           "stop": "3220"
         },
         {
@@ -38,8 +38,8 @@
           "lon": 174.803162
         },
         {
-          "lat": 174.803136,
-          "lon": -41.200210,
+          "lat": -41.200210,
+          "lon": 174.803136,
           "stop": "3222"
         }
       ],
@@ -54,8 +54,8 @@
       "id": "3222-3232",
       "route": [
         {
-          "lat": 174.803136,
-          "lon": -41.200210,
+          "lat": -41.200210,
+          "lon": 174.803136,
           "stop": "3222"
         },
         {
@@ -223,8 +223,8 @@
           "lon": 174.802478
         },
         {
-          "lat": 174.802546,
-          "lon": -41.204813,
+          "lat": -41.204813,
+          "lon": 174.802546,
           "stop": "3232"
         }
       ],
@@ -239,8 +239,8 @@
       "id": "3232-3466",
       "route": [
         {
-          "lat": 174.802546,
-          "lon": -41.204813,
+          "lat": -41.204813,
+          "lon": 174.802546,
           "stop": "3232"
         },
         {
@@ -1456,8 +1456,8 @@
           "lon": 174.822622
         },
         {
-          "lat": 174.822733,
-          "lon": -41.218817,
+          "lat": -41.218817,
+          "lon": 174.822733,
           "stop": "3466"
         }
       ],
@@ -1472,8 +1472,8 @@
       "id": "3466-3222",
       "route": [
         {
-          "lat": 174.822733,
-          "lon": -41.218817,
+          "lat": -41.218817,
+          "lon": 174.822733,
           "stop": "3466"
         },
         {
@@ -2573,8 +2573,8 @@
           "lon": 174.803162
         },
         {
-          "lat": 174.803136,
-          "lon": -41.200210,
+          "lat": -41.200210,
+          "lon": 174.803136,
           "stop": "3222"
         }
       ],
@@ -2589,34 +2589,5 @@
     "Newlands College",
     "Newlands Intermediate"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.201897,
-      "lon": 174.804732,
-      "name": "Amesbury Drive at Derry Hill",
-      "sms": "3220"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.200210,
-      "lon": 174.803136,
-      "name": "Amesbury Drive at Claverton Grove",
-      "sms": "3222"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.204813,
-      "lon": 174.802546,
-      "name": "Waverton Terrace (near 12)",
-      "sms": "3232"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.218817,
-      "lon": 174.822733,
-      "name": "Newlands College - Bracken Road",
-      "sms": "3466"
-    }
-  ]
+  "stops": []
 }

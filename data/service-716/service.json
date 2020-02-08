@@ -9,8 +9,8 @@
       "id": "6010-7042",
       "route": [
         {
-          "lat": 174.781401,
-          "lon": -41.301228,
+          "lat": -41.301228,
+          "lon": 174.781401,
           "stop": "6010"
         },
         {
@@ -2310,8 +2310,8 @@
           "lon": 174.834792
         },
         {
-          "lat": 174.834662,
-          "lon": -41.325363,
+          "lat": -41.325363,
+          "lon": 174.834662,
           "stop": "7042"
         }
       ],
@@ -2326,20 +2326,5 @@
     "Kilbirnie School",
     "St Mark's School"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.301228,
-      "lon": 174.781401,
-      "name": "Basin Reserve (school stop)",
-      "sms": "6010"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.325363,
-      "lon": 174.834662,
-      "name": "Seatoun Park - Hector Street",
-      "sms": "7042"
-    }
-  ]
+  "stops": []
 }

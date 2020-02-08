@@ -9,8 +9,8 @@
       "id": "3808-3080",
       "route": [
         {
-          "lat": 174.801217,
-          "lon": -41.229874,
+          "lat": -41.229874,
+          "lon": 174.801217,
           "stop": "3808"
         },
         {
@@ -1306,8 +1306,8 @@
           "lon": 174.807497
         },
         {
-          "lat": 174.807470,
-          "lon": -41.219058,
+          "lat": -41.219058,
+          "lon": 174.807470,
           "stop": "3080"
         }
       ],
@@ -1324,20 +1324,5 @@
     "St Brigid's School",
     "St Brigids School"
   ],
-  "stops": [
-    {
-      "farezone": "3",
-      "lat": -41.219058,
-      "lon": 174.807470,
-      "name": "Bassett Road at Angell Street",
-      "sms": "3080"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.229874,
-      "lon": 174.801217,
-      "name": "Raroa Intermediate - Haumia Street",
-      "sms": "3808"
-    }
-  ]
+  "stops": []
 }

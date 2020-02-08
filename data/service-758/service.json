@@ -9,8 +9,8 @@
       "id": "6020-7241",
       "route": [
         {
-          "lat": 174.796461,
-          "lon": -41.315476,
+          "lat": -41.315476,
+          "lon": 174.796461,
           "stop": "6020"
         },
         {
@@ -938,8 +938,8 @@
           "lon": 174.826085
         },
         {
-          "lat": 174.826122,
-          "lon": -41.305715,
+          "lat": -41.305715,
+          "lon": 174.826122,
           "stop": "7241"
         }
       ],
@@ -953,20 +953,5 @@
   "schools": [
     "Evans Bay Intermediate"
   ],
-  "stops": [
-    {
-      "farezone": "2/3",
-      "lat": -41.315476,
-      "lon": 174.796462,
-      "name": "Evans Bay Intermediate School (school stop)",
-      "sms": "6020"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.305712,
-      "lon": 174.826123,
-      "name": "Miramar - Darlington Road (near 124)",
-      "sms": "7241"
-    }
-  ]
+  "stops": []
 }

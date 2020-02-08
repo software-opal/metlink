@@ -9,8 +9,8 @@
       "id": "4113-5396",
       "route": [
         {
-          "lat": 174.779771,
-          "lon": -41.275334,
+          "lat": -41.275334,
+          "lon": 174.779771,
           "stop": "4113"
         },
         {
@@ -2330,8 +2330,8 @@
           "lon": 174.737057
         },
         {
-          "lat": 174.736986,
-          "lon": -41.285077,
+          "lat": -41.285077,
+          "lon": 174.736986,
           "stop": "5396"
         }
       ],
@@ -2347,20 +2347,5 @@
     "Wellington Girls College",
     "St Mary's College"
   ],
-  "stops": [
-    {
-      "farezone": "1",
-      "lat": -41.275334,
-      "lon": 174.779771,
-      "name": "Murphy Street - Wellington Girls' College",
-      "sms": "4113"
-    },
-    {
-      "farezone": "3",
-      "lat": -41.285077,
-      "lon": 174.736986,
-      "name": "Karori Mall - Beauchamp Street (school stop)",
-      "sms": "5396"
-    }
-  ]
+  "stops": []
 }
