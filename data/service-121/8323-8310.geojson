@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.987392,
+            -41.172767
+          ],
+          [
+            174.987418,
+            -41.172743
+          ],
+          [
+            174.987116,
+            -41.172419
+          ],
+          [
+            174.986102,
+            -41.171335
+          ],
+          [
+            174.985837,
+            -41.171007
+          ],
+          [
+            174.985175,
+            -41.170268
+          ],
+          [
+            174.983915,
+            -41.168861
+          ],
+          [
+            174.983728,
+            -41.168772
+          ],
+          [
+            174.983663,
+            -41.168749
+          ],
+          [
+            174.983600,
+            -41.168733
+          ],
+          [
+            174.983560,
+            -41.168882
+          ],
+          [
+            174.983413,
+            -41.169429
+          ],
+          [
+            174.983357,
+            -41.169414
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "121",
+        "mode": "Bus",
+        "name": "Stokes Valley Heights - Naenae - Lower Hutt - Seaview",
+        "route_id": "8323-8310",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.987392,
+          -41.172767
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Tawhai School - Glen Road (opposite)",
+        "sms": "8323"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.975253,
+          -41.169463
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Holborn Drive (near 172)",
+        "sms": "8310"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

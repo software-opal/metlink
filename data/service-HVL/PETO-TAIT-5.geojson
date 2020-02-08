@@ -1,0 +1,124 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.869459,
+            -41.221996
+          ],
+          [
+            174.873608,
+            -41.220004
+          ],
+          [
+            174.877973,
+            -41.218369
+          ],
+          [
+            174.881470,
+            -41.217731
+          ],
+          [
+            174.884914,
+            -41.218042
+          ],
+          [
+            174.892006,
+            -41.219554
+          ],
+          [
+            174.903372,
+            -41.223533
+          ],
+          [
+            174.905886,
+            -41.223766
+          ],
+          [
+            174.908537,
+            -41.222860
+          ],
+          [
+            174.911193,
+            -41.220833
+          ],
+          [
+            174.921100,
+            -41.213898
+          ],
+          [
+            174.930312,
+            -41.207506
+          ],
+          [
+            174.932436,
+            -41.206049
+          ],
+          [
+            174.946162,
+            -41.197832
+          ],
+          [
+            174.948277,
+            -41.196568
+          ],
+          [
+            174.950824,
+            -41.194470
+          ],
+          [
+            174.954697,
+            -41.188782
+          ],
+          [
+            174.960668,
+            -41.180319
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "HVL",
+        "mode": "Train",
+        "name": "Hutt Valley Line (Upper Hutt - Wellington)",
+        "route_id": "PETO-TAIT-5",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.869488,
+          -41.222011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Petone Station",
+        "sms": "PETO"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.960754,
+          -41.180351
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Taita Station",
+        "sms": "TAIT"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

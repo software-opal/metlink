@@ -1,0 +1,124 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.954697,
+            -41.188782
+          ],
+          [
+            174.954697,
+            -41.188782
+          ],
+          [
+            174.950824,
+            -41.194470
+          ],
+          [
+            174.948277,
+            -41.196568
+          ],
+          [
+            174.946162,
+            -41.197832
+          ],
+          [
+            174.932436,
+            -41.206049
+          ],
+          [
+            174.930312,
+            -41.207506
+          ],
+          [
+            174.921164,
+            -41.213946
+          ],
+          [
+            174.911335,
+            -41.220922
+          ],
+          [
+            174.908537,
+            -41.222860
+          ],
+          [
+            174.905886,
+            -41.223766
+          ],
+          [
+            174.903372,
+            -41.223533
+          ],
+          [
+            174.892006,
+            -41.219554
+          ],
+          [
+            174.884914,
+            -41.218042
+          ],
+          [
+            174.881470,
+            -41.217731
+          ],
+          [
+            174.877973,
+            -41.218369
+          ],
+          [
+            174.873608,
+            -41.220004
+          ],
+          [
+            174.869518,
+            -41.222026
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "HVL",
+        "mode": "Train",
+        "name": "Hutt Valley Line (Upper Hutt - Wellington)",
+        "route_id": "WING-PETO-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.954697,
+          -41.188782
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Wingate Station",
+        "sms": "WING"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.869488,
+          -41.222011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Petone Station",
+        "sms": "PETO"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

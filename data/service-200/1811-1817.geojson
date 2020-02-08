@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.323560,
+            -41.116830
+          ],
+          [
+            175.323548,
+            -41.116890
+          ],
+          [
+            175.324104,
+            -41.117000
+          ],
+          [
+            175.324526,
+            -41.117090
+          ],
+          [
+            175.327283,
+            -41.117653
+          ],
+          [
+            175.328059,
+            -41.117809
+          ],
+          [
+            175.328059,
+            -41.117763
+          ],
+          [
+            175.328068,
+            -41.117763
+          ],
+          [
+            175.328059,
+            -41.117809
+          ],
+          [
+            175.328420,
+            -41.117882
+          ],
+          [
+            175.329082,
+            -41.118015
+          ],
+          [
+            175.329588,
+            -41.118117
+          ],
+          [
+            175.329588,
+            -41.118074
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "200",
+        "mode": "Bus",
+        "name": "Masterton - Greytown - Featherston - Martinborough",
+        "route_id": "1811-1817",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.323560,
+          -41.116830
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "11",
+        "marker-size": "small",
+        "name": "Featherston - Fitzherbert Street (opposite 32)",
+        "sms": "1811"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.379024,
+          -41.118054
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "12",
+        "marker-size": "small",
+        "name": "Tauherenikau - SH2 at Moroa Road",
+        "sms": "1817"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

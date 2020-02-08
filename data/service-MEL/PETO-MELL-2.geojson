@@ -1,0 +1,76 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.869459,
+            -41.221996
+          ],
+          [
+            174.873608,
+            -41.220004
+          ],
+          [
+            174.884962,
+            -41.215350
+          ],
+          [
+            174.889995,
+            -41.211870
+          ],
+          [
+            174.891619,
+            -41.210697
+          ],
+          [
+            174.905400,
+            -41.203486
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "MEL",
+        "mode": "Train",
+        "name": "Melling Line (Melling - Wellington)",
+        "route_id": "PETO-MELL-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.869488,
+          -41.222011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Petone Station",
+        "sms": "PETO"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.905400,
+          -41.203486
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "4",
+        "marker-size": "small",
+        "name": "Melling Station",
+        "sms": "MELL"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

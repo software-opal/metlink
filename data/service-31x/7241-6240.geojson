@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.826122,
+            -41.305710
+          ],
+          [
+            174.826085,
+            -41.305715
+          ],
+          [
+            174.826036,
+            -41.305718
+          ],
+          [
+            174.826020,
+            -41.305962
+          ],
+          [
+            174.826016,
+            -41.306114
+          ],
+          [
+            174.826007,
+            -41.306449
+          ],
+          [
+            174.826005,
+            -41.306794
+          ],
+          [
+            174.825999,
+            -41.306859
+          ],
+          [
+            174.825965,
+            -41.306980
+          ],
+          [
+            174.825867,
+            -41.307194
+          ],
+          [
+            174.825804,
+            -41.307319
+          ],
+          [
+            174.825761,
+            -41.307412
+          ],
+          [
+            174.825714,
+            -41.307390
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "31x",
+        "mode": "Bus",
+        "name": "Miramar North - Wellington (Express)",
+        "route_id": "7241-6240",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.826123,
+          -41.305712
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Miramar - Darlington Road (near 124)",
+        "sms": "7241"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.825557,
+          -41.307403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Darlington Road at Camperdown Road",
+        "sms": "6240"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

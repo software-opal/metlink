@@ -1825,6 +1825,49 @@
       "geometry": {
         "coordinates": [
           [
+            175.025662,
+            -40.866389
+          ],
+          [
+            175.025648,
+            -40.866364
+          ],
+          [
+            175.023561,
+            -40.867530
+          ],
+          [
+            175.023418,
+            -40.867566
+          ],
+          [
+            175.023408,
+            -40.868467
+          ],
+          [
+            175.022405,
+            -40.868453
+          ],
+          [
+            175.022404,
+            -40.868518
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "510",
+        "mode": "School",
+        "name": "Waikanae Beach - Waikanae - Waikanae School & Paraparaumu College",
+        "route_id": "1534-1538",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             175.028731,
             -40.865884
           ],
@@ -2849,6 +2892,22 @@
         "marker-size": "small",
         "name": "Paraparaumu College (School Stop)",
         "sms": "1177"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.029697,
+          -40.866408
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "10",
+        "marker-size": "small",
+        "name": "Te Moana Road at Lavinia Grove",
+        "sms": "1534"
       },
       "type": "Feature"
     },

@@ -1,0 +1,124 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.772530,
+            -41.337635
+          ],
+          [
+            174.772489,
+            -41.337619
+          ],
+          [
+            174.772436,
+            -41.337754
+          ],
+          [
+            174.772383,
+            -41.337891
+          ],
+          [
+            174.772231,
+            -41.338267
+          ],
+          [
+            174.772095,
+            -41.338605
+          ],
+          [
+            174.771308,
+            -41.340517
+          ],
+          [
+            174.771234,
+            -41.340701
+          ],
+          [
+            174.771393,
+            -41.340766
+          ],
+          [
+            174.771234,
+            -41.340701
+          ],
+          [
+            174.770978,
+            -41.341336
+          ],
+          [
+            174.770745,
+            -41.341915
+          ],
+          [
+            174.770338,
+            -41.342868
+          ],
+          [
+            174.770286,
+            -41.342947
+          ],
+          [
+            174.770433,
+            -41.342977
+          ],
+          [
+            174.770458,
+            -41.342983
+          ],
+          [
+            174.770714,
+            -41.343036
+          ],
+          [
+            174.770735,
+            -41.342938
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "726",
+        "mode": "School",
+        "name": "Island Bay - Owhiro Bay - Berhampore - Wellington High School",
+        "route_id": "6133-6152-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.772530,
+          -41.337635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "The Parade (near 225)",
+        "sms": "6133"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.760097,
+          -41.342921
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "3",
+        "marker-size": "small",
+        "name": "Happy Valley Road (near 30) (school stop)",
+        "sms": "6152"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

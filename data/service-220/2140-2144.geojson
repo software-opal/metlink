@@ -1,0 +1,96 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.871680,
+            -41.120914
+          ],
+          [
+            174.871648,
+            -41.120856
+          ],
+          [
+            174.871505,
+            -41.120935
+          ],
+          [
+            174.871102,
+            -41.121214
+          ],
+          [
+            174.871250,
+            -41.121353
+          ],
+          [
+            174.871471,
+            -41.121607
+          ],
+          [
+            174.871677,
+            -41.121829
+          ],
+          [
+            174.871883,
+            -41.121971
+          ],
+          [
+            174.872191,
+            -41.122089
+          ],
+          [
+            174.872455,
+            -41.122140
+          ],
+          [
+            174.872455,
+            -41.122091
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "220",
+        "mode": "Bus",
+        "name": "Titahi Bay - Porirua - Ascot Park",
+        "route_id": "2140-2144",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.871680,
+          -41.120914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Desert Gold Street (near 8)",
+        "sms": "2140"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.877706,
+          -41.122096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Warspite Avenue at Conclusion Street",
+        "sms": "2144"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

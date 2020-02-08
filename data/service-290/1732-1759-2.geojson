@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            175.140322,
+            -40.753255
+          ],
+          [
+            175.140319,
+            -40.753253
+          ],
+          [
+            175.140322,
+            -40.753255
+          ],
+          [
+            175.140424,
+            -40.753083
+          ],
+          [
+            175.140396,
+            -40.753066
+          ],
+          [
+            175.140378,
+            -40.753043
+          ],
+          [
+            175.140371,
+            -40.753016
+          ],
+          [
+            175.140377,
+            -40.752990
+          ],
+          [
+            175.139192,
+            -40.752592
+          ],
+          [
+            175.138434,
+            -40.752340
+          ],
+          [
+            175.137144,
+            -40.751928
+          ],
+          [
+            175.136972,
+            -40.752218
+          ],
+          [
+            175.137050,
+            -40.752264
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "290",
+        "mode": "Bus",
+        "name": "Waikanae - Otaki - Waikanae",
+        "route_id": "1732-1759-2",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.140556,
+          -40.753249
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Otaki Town - Aotaki Street at Mill Road",
+        "sms": "1732"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          175.137050,
+          -40.752264
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "13",
+        "marker-size": "small",
+        "name": "Rangiuru Road (near 281)",
+        "sms": "1759"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

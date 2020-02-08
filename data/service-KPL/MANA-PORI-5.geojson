@@ -1,0 +1,92 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.868238,
+            -41.095280
+          ],
+          [
+            174.868980,
+            -41.102157
+          ],
+          [
+            174.868193,
+            -41.104485
+          ],
+          [
+            174.866268,
+            -41.106315
+          ],
+          [
+            174.863463,
+            -41.108114
+          ],
+          [
+            174.861373,
+            -41.110259
+          ],
+          [
+            174.858980,
+            -41.115509
+          ],
+          [
+            174.844979,
+            -41.127787
+          ],
+          [
+            174.843464,
+            -41.130572
+          ],
+          [
+            174.843478,
+            -41.137575
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "KPL",
+        "mode": "Train",
+        "name": "Kapiti Line (Waikanae - Wellington)",
+        "route_id": "MANA-PORI-5",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.868210,
+          -41.095282
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Mana Station",
+        "sms": "MANA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.843376,
+          -41.137572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "5",
+        "marker-size": "small",
+        "name": "Porirua Station",
+        "sms": "PORI"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

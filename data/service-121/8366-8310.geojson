@@ -1,0 +1,108 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            174.982052,
+            -41.173580
+          ],
+          [
+            174.982071,
+            -41.173585
+          ],
+          [
+            174.982105,
+            -41.173460
+          ],
+          [
+            174.982256,
+            -41.173479
+          ],
+          [
+            174.982565,
+            -41.172407
+          ],
+          [
+            174.982628,
+            -41.172164
+          ],
+          [
+            174.982690,
+            -41.171980
+          ],
+          [
+            174.982599,
+            -41.171949
+          ],
+          [
+            174.982690,
+            -41.171980
+          ],
+          [
+            174.982880,
+            -41.171410
+          ],
+          [
+            174.983216,
+            -41.170162
+          ],
+          [
+            174.983313,
+            -41.169801
+          ],
+          [
+            174.983413,
+            -41.169429
+          ],
+          [
+            174.983357,
+            -41.169414
+          ]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "code": "121",
+        "mode": "Bus",
+        "name": "Stokes Valley Heights - Naenae - Lower Hutt - Seaview",
+        "route_id": "8366-8310",
+        "stroke-opacity": 0.3
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.982052,
+          -41.173580
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Stokes Valley Shops - Stokes Valley Road",
+        "sms": "8366"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          174.975253,
+          -41.169463
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "farezone": "6",
+        "marker-size": "small",
+        "name": "Holborn Drive (near 172)",
+        "sms": "8310"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
